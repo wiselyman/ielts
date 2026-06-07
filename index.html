@@ -3,20 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IELTS Video Course Library</title>
+    <title>雅思视频实验室 | IELTS Video Lab</title>
+    <meta
+      name="description"
+      content="雅思视频实验室通过真实英文视频学习 IELTS：每节课围绕视频字幕、核心词汇、中文摘要、难度分级和听力输入展开，适合长期积累词汇、听力、阅读和表达能力。"
+    />
+    <meta name="keywords" content="雅思, IELTS, 英语听力, 英语词汇, 视频学习, IELTS General Training" />
+    <link rel="canonical" href="https://ielts.wisely.top/" />
+    <meta property="og:title" content="雅思视频实验室 | IELTS Video Lab" />
+    <meta
+      property="og:description"
+      content="用真实英文视频学习雅思：按难度筛选课程，结合字幕、词汇、摘要和视频语境长期积累。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ielts.wisely.top/" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "雅思视频实验室",
+        "alternateName": "IELTS Video Lab",
+        "url": "https://ielts.wisely.top/",
+        "description": "通过真实英文视频学习 IELTS，结合字幕、词汇、摘要、难度分级和听力输入进行长期积累。",
+        "inLanguage": "zh-CN"
+      }
+    </script>
     <script>
       if (window.location.protocol === "file:") {
         window.location.replace("http://127.0.0.1:4173/");
       }
     </script>
-    <link rel="stylesheet" href="./styles.css?v=video-lab-ui-37" />
+    <link rel="stylesheet" href="./styles.css?v=video-lab-ui-39" />
   </head>
   <body>
     <main class="app library-home">
       <header class="topbar">
         <div>
           <p class="eyebrow">IELTS Video Lab</p>
-          <h1>视频课程库</h1>
+          <h1>雅思视频实验室</h1>
+          <p class="home-summary">
+            围绕真实英文视频建立 IELTS 输入系统：先听懂内容，再在同一语境里反复遇见关键词、短语、观点和表达。
+            每节课标注难度、主题和核心词汇，适合每天持续学习几分钟。
+          </p>
         </div>
       </header>
 
@@ -36,9 +64,12 @@
       </div>
 
       <section id="home-course-grid" class="home-course-grid" aria-label="视频课程列表"></section>
+      <nav id="home-pagination" class="pagination" aria-label="课程分页"></nav>
       <p id="home-empty" class="empty-state" hidden>这个难度暂时没有课程。</p>
     </main>
-    <script src="./data/lessons.js?v=video-lab-ui-37"></script>
-    <script src="./app-home.js?v=video-lab-ui-37"></script>
+    <script src="./site-config.js?v=video-lab-ui-39"></script>
+    <script src="./analytics.js?v=video-lab-ui-39"></script>
+    <script src="./data/lessons.js?v=video-lab-ui-39"></script>
+    <script src="./app-home.js?v=video-lab-ui-39"></script>
   </body>
 </html>

@@ -1,0 +1,4 @@
+window.siteConfig = {
+  gaMeasurementId: "",
+  cloudflareWebAnalyticsToken: "",
+};

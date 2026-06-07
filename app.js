@@ -380,7 +380,7 @@ function resetSubtitles() {
 function render() {
   const lesson = currentLesson();
   updateCourseUrl();
-  document.title = `${lesson.title} - IELTS Video Lesson`;
+  document.title = `${lesson.title} | 雅思视频实验室`;
   $("#lesson-title").textContent = lesson.title;
   $("#lesson-meta").textContent = `${lesson.source} · ${lesson.duration} · 难度 ${lesson.level} · ${lesson.theme}`;
   renderLessonList();
