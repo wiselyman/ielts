@@ -1,5 +1,6 @@
 const videoLessons = window.videoLessons || [];
 const lessonSummaries = window.lessonSummaries || {};
+const currentLessonData = window.currentLessonData || null;
 
 const state = {
   lessonIndex: initialLessonIndex(),
@@ -15,7 +16,9 @@ const $$ = (selector) => [...document.querySelectorAll(selector)];
 const shouldAutoplay = new URLSearchParams(window.location.search).get("autoplay") === "1";
 
 function currentLesson() {
-  return videoLessons[state.lessonIndex % videoLessons.length];
+  const baseLesson = videoLessons[state.lessonIndex % videoLessons.length] || {};
+  if (currentLessonData?.id === baseLesson.id) return { ...baseLesson, ...currentLessonData };
+  return baseLesson;
 }
 
 function lessonOrder() {
@@ -35,7 +38,7 @@ function autoplayRequested() {
 }
 
 function lessonCues() {
-  return [...currentLesson().cues].sort((a, b) => a.at - b.at);
+  return [...(currentLesson().cues || [])].sort((a, b) => a.at - b.at);
 }
 
 function initialLessonIndex() {
@@ -106,7 +109,7 @@ function escapeRegExp(text) {
 }
 
 function vocabByTerm() {
-  return new Map(currentLesson().vocab.map((item) => [item.term.toLowerCase(), item]));
+  return new Map((currentLesson().vocab || []).map((item) => [item.term.toLowerCase(), item]));
 }
 
 function termForms(term) {
@@ -141,7 +144,7 @@ function renderSubtitleText(cue) {
   const vocab = vocabByTerm();
   const candidates = [];
 
-  [...cue.terms].forEach((term) => {
+  [...(cue.terms || [])].forEach((term) => {
     const item = vocab.get(term.toLowerCase());
     if (!item) return;
     const keepAfter = item?.keepAfter || "";
@@ -223,7 +226,7 @@ function renderVideoSummary() {
 
 function renderVocab() {
   $("#vocab-list").innerHTML = currentLesson()
-    .vocab.map((item) => {
+    .vocab?.map((item) => {
       const cue = firstCueForTerm(item.term);
       const seekTime = cue ? cue.at : "";
       return `
@@ -244,7 +247,7 @@ function renderVocab() {
         </div>
       `;
     })
-    .join("");
+    .join("") || "";
 }
 
 function createOrLoadPlayer() {

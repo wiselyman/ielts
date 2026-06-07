@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">Wisely IELTS Video Lab</title>
+  <desc id="desc">A simple W mark combining an open book and a play symbol.</desc>
+  <rect width="160" height="160" rx="28" fill="#0f766e"/>
+  <path d="M30 45c19-9 36-8 50 4v69c-14-12-31-13-50-4V45Z" fill="#e7f7f4"/>
+  <path d="M80 49c14-12 31-13 50-4v69c-19-9-36-8-50 4V49Z" fill="#c7f6e5"/>
+  <path d="M47 57l16 46 17-36 17 36 16-46" fill="none" stroke="#082f2c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M91 69l32 18-32 18V69Z" fill="#facc15"/>
+</svg>

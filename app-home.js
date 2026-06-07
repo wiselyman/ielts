@@ -1,6 +1,6 @@
 const homeLessons = window.videoLessons || [];
 const homeSummaries = window.lessonSummaries || {};
-const pageSize = 4;
+const pageSize = 8;
 
 let activeLevel = "all";
 let currentPage = 1;

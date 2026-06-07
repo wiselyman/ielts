@@ -52,6 +52,29 @@ button {
   align-items: flex-start;
 }
 
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--accent-dark);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.brand-mark {
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  box-shadow: 0 6px 14px rgba(15, 118, 110, 0.18);
+}
+
+.brand-text {
+  line-height: 1.1;
+}
+
 .home-summary {
   max-width: 760px;
   margin: 10px 0 0;
@@ -67,6 +90,11 @@ button {
   font-size: 12px;
   font-weight: 850;
   text-transform: uppercase;
+}
+
+.brand-link + h1,
+.eyebrow + h1 {
+  margin-top: 6px;
 }
 
 h1,
