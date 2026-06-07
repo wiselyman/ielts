@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IELTS Video Course Library</title>
+    <script>
+      if (window.location.protocol === "file:") {
+        window.location.replace("http://127.0.0.1:4173/");
+      }
+    </script>
+    <link rel="stylesheet" href="./styles.css?v=video-lab-ui-37" />
+  </head>
+  <body>
+    <main class="app library-home">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">IELTS Video Lab</p>
+          <h1>视频课程库</h1>
+        </div>
+      </header>
+
+      <div class="difficulty-filter" aria-label="按难度筛选">
+        <button class="difficulty-chip active" data-filter-level="all" type="button">全部</button>
+        <button class="difficulty-chip" data-filter-level="4" type="button">4</button>
+        <button class="difficulty-chip" data-filter-level="4.5" type="button">4.5</button>
+        <button class="difficulty-chip" data-filter-level="5" type="button">5</button>
+        <button class="difficulty-chip" data-filter-level="5.5" type="button">5.5</button>
+        <button class="difficulty-chip" data-filter-level="6" type="button">6</button>
+        <button class="difficulty-chip" data-filter-level="6.5" type="button">6.5</button>
+        <button class="difficulty-chip" data-filter-level="7" type="button">7</button>
+        <button class="difficulty-chip" data-filter-level="7.5" type="button">7.5</button>
+        <button class="difficulty-chip" data-filter-level="8" type="button">8</button>
+        <button class="difficulty-chip" data-filter-level="8.5" type="button">8.5</button>
+        <button class="difficulty-chip" data-filter-level="9" type="button">9</button>
+      </div>
+
+      <section id="home-course-grid" class="home-course-grid" aria-label="视频课程列表"></section>
+      <p id="home-empty" class="empty-state" hidden>这个难度暂时没有课程。</p>
+    </main>
+    <script src="./data/lessons.js?v=video-lab-ui-37"></script>
+    <script src="./app-home.js?v=video-lab-ui-37"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IELTS Video Lesson</title>
+    <script>
+      if (window.location.protocol === "file:") {
+        window.location.replace("http://127.0.0.1:4173/?v=youtube-only");
+      }
+    </script>
+    <link rel="stylesheet" href="../styles.css?v=video-lab-ui-37" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">IELTS Video Lab</p>
+          <h1 id="lesson-title"></h1>
+        </div>
+        <div class="top-actions">
+          <span id="lesson-meta"></span>
+          <button id="open-course-list" class="library-button" type="button">课程列表</button>
+        </div>
+      </header>
+
+      <section class="lesson-grid">
+        <div class="video-column">
+          <section class="video-panel">
+            <div id="video-frame" class="video-frame"></div>
+          </section>
+
+          <section class="subtitle-panel">
+            <div class="subtitle-top">
+              <span id="subtitle-time">00:00</span>
+            </div>
+            <div id="big-subtitle" class="big-subtitle"></div>
+            <div id="subtitle-vocab" class="subtitle-vocab"></div>
+          </section>
+
+        </div>
+
+        <aside class="study-column">
+          <section class="panel">
+            <div id="vocab-list" class="vocab-list"></div>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <div id="course-overlay" class="course-overlay" hidden></div>
+    <aside id="course-drawer" class="course-drawer" aria-label="视频课程列表" hidden>
+      <div class="drawer-head">
+        <div>
+          <p class="eyebrow">Course Library</p>
+          <h2>选择一个视频课程</h2>
+        </div>
+        <button id="close-course-list" class="icon-button" type="button" aria-label="关闭课程列表">×</button>
+      </div>
+      <div class="difficulty-filter compact" aria-label="按难度筛选">
+        <button class="difficulty-chip active" data-filter-level="all" type="button">全部</button>
+        <button class="difficulty-chip" data-filter-level="4" type="button">4</button>
+        <button class="difficulty-chip" data-filter-level="4.5" type="button">4.5</button>
+        <button class="difficulty-chip" data-filter-level="5" type="button">5</button>
+        <button class="difficulty-chip" data-filter-level="5.5" type="button">5.5</button>
+        <button class="difficulty-chip" data-filter-level="6" type="button">6</button>
+        <button class="difficulty-chip" data-filter-level="6.5" type="button">6.5</button>
+        <button class="difficulty-chip" data-filter-level="7" type="button">7</button>
+        <button class="difficulty-chip" data-filter-level="7.5" type="button">7.5</button>
+        <button class="difficulty-chip" data-filter-level="8" type="button">8</button>
+        <button class="difficulty-chip" data-filter-level="8.5" type="button">8.5</button>
+        <button class="difficulty-chip" data-filter-level="9" type="button">9</button>
+      </div>
+      <div id="lesson-list" class="lesson-list"></div>
+      <p id="drawer-empty" class="empty-state" hidden>这个难度暂时没有课程。</p>
+    </aside>
+
+    <div id="toast" class="toast" role="status"></div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>window.DEFAULT_COURSE = "bbc-adolescence-brain-study";</script>
+    <script src="../data/lessons.js?v=video-lab-ui-37"></script>
+    <script src="../app.js?v=video-lab-ui-37"></script>
+  </body>
+</html>
