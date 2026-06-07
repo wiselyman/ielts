@@ -23,6 +23,19 @@ function courseDescription(lesson) {
   return homeSummaries[lesson.id] || lesson.summary || "";
 }
 
+function escapeHtml(text) {
+  return String(text).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
+}
+
+function renderThemeTags(theme) {
+  return String(theme)
+    .split(",")
+    .map((tag) => tag.trim())
+    .filter(Boolean)
+    .map((tag) => `<span class="theme-tag">${escapeHtml(tag)}</span>`)
+    .join("");
+}
+
 function renderHomeCourses() {
   const grid = document.querySelector("#home-course-grid");
   if (!grid) return;
@@ -38,12 +51,12 @@ function renderHomeCourses() {
         <a class="home-course-card" data-level="${lesson.level}" href="./lessons/${lesson.path}">
           <span class="course-thumb">
             <img src="${thumbnailUrl(lesson)}" alt="${lesson.title} 视频缩略图" loading="lazy" />
-            <span class="course-level">难度 ${lesson.level}</span>
+            <span class="course-level">雅思 ${lesson.level} 分</span>
           </span>
-          <span class="lesson-card-title">${lesson.title}</span>
-          <span class="lesson-card-meta">${lesson.source} · ${lesson.duration}</span>
-          <span class="lesson-card-meta">${lesson.theme}</span>
-          <span class="course-description">${courseDescription(lesson)}</span>
+          <span class="lesson-card-title">${escapeHtml(lesson.title)}</span>
+          <span class="lesson-card-meta">${escapeHtml(lesson.source)} · ${escapeHtml(lesson.duration)}</span>
+          <span class="theme-tags">${renderThemeTags(lesson.theme)}</span>
+          <span class="course-description">${escapeHtml(courseDescription(lesson))}</span>
         </a>
       `;
     })

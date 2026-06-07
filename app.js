@@ -200,7 +200,7 @@ function renderLessonList() {
       return `
         <button class="lesson-card ${index === state.lessonIndex ? "active" : ""}" data-lesson-index="${index}" data-level="${lesson.level}" type="button">
           <span class="lesson-card-title">${lesson.title}</span>
-          <span class="lesson-card-meta">${lesson.source} · ${lesson.duration} · 难度 ${lesson.level}</span>
+          <span class="lesson-card-meta">${lesson.source} · ${lesson.duration} · 雅思 ${lesson.level} 分</span>
           <span class="lesson-card-meta">${lesson.theme}</span>
         </button>
       `;
@@ -385,7 +385,7 @@ function render() {
   updateCourseUrl();
   document.title = `${lesson.title} | 雅思视频实验室`;
   $("#lesson-title").textContent = lesson.title;
-  $("#lesson-meta").textContent = `${lesson.source} · ${lesson.duration} · 难度 ${lesson.level} · ${lesson.theme}`;
+  $("#lesson-meta").textContent = `${lesson.source} · ${lesson.duration} · 雅思 ${lesson.level} 分 · ${lesson.theme}`;
   renderLessonList();
   createOrLoadPlayer();
   renderVocab();
