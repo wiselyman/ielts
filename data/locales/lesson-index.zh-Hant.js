@@ -6,7 +6,8 @@ window.lessonIndexLocale = {
     "bc-email-formality": "這節課講正式和非正式電郵的區別，適合工作、求職和 IELTS General Training 寫作場景。影片解釋如何根據讀者關係選擇正式（formal）或非正式（informal）語言，以及如何在求職申請（apply for）中留下第一印象（first impression）。重點包括專業表達（professional）、合適的表達（appropriate）、慣例寫法（conventional）、俚語（slang）、大寫字母（capitals）和常見結尾（Yours sincerely / Yours faithfully）。",
     "bbc-adolescence-brain-study": "這節 BBC News 訪談介紹一項關於大腦發育的研究，適合 6.5 分左右學習者訓練科學新聞聽力。研究認為大腦會經歷明顯不同的階段（distinct phases），青春期（adolescent stage）可能持續到 30 多歲，期間大腦會重新連接（rewire）。影片還涉及非線性變化（nonlinear change）、發展過程（progression）、波動（fluctuation）、效率（efficiency）、生命全程（lifespan）、心理健康疾病（mental health disorder）和易感性（vulnerable），很適合累積學術類解釋表達。",
     "bbc-ai-deepfakes-politics": "這節 BBC News 影片討論人工智慧生成的深度偽造（deepfake）如何影響政治傳播，適合 7 分左右學習者訓練較新的科技與社會議題。影片從明星、政客和選舉案例出發，說明 AI 驅動工具（AI-powered tools）如何讓虛假內容迅速傳播（spread like wildfire），並製造不信任（mistrust）。核心表達包括惡意內容（malicious fiction）、危險先例（precedent）、濫用（abuse）、真實可信（authentic）、揭露（disclose）、AI 生成（AI-generated）、利害關係（stakes）和削弱公眾信任（undermine trust）。",
-    "bbc-easy-daily-routine": "這節 BBC Learning English 課程用非常短的句子練習日常作息（daily routine），適合雅思 4 分左右學習者。影片反覆出現每天（every day）、醒來（wake up）、吃早餐（breakfast）、搭公車（get the bus）、讀書（read a book）、洗淋浴（have a shower）、睡覺（go to sleep）等高頻生活表達，適合建立基礎聽力節奏。"
+    "bbc-easy-daily-routine": "這節 BBC Learning English 課程用非常短的句子練習日常作息（daily routine），適合雅思 4 分左右學習者。影片反覆出現每天（every day）、醒來（wake up）、吃早餐（breakfast）、搭公車（get the bus）、讀書（read a book）、洗淋浴（have a shower）、睡覺（go to sleep）等高頻生活表達，適合建立基礎聽力節奏。",
+    "bbc-easy-likes-dislikes": "這節 BBC Learning English 課程用輕鬆的食物和愛好話題練習喜歡和不喜歡（likes and dislikes），適合雅思 4.5 分左右學習者。影片反覆出現我喜歡（I like）、我不喜歡（I don’t like）、她喜歡（She likes）、他喜歡（He likes）等基礎但很重要的表達，也包含食物（food）、水果（fruit）、跳舞（dancing）、徒步（hiking）、游泳（swimming）等生活詞彙。"
   },
   "themes": {
     "school day": "上學日",
@@ -26,6 +27,9 @@ window.lessonIndexLocale = {
     "adolescence": "青春期",
     "mental health": "心理健康",
     "beginner conversation": "初級對話",
-    "everyday life": "日常生活"
+    "everyday life": "日常生活",
+    "likes and dislikes": "喜歡與不喜歡",
+    "food": "食物",
+    "hobbies": "愛好"
   }
 };
