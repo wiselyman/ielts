@@ -99,6 +99,10 @@ const i18nData = {
 
 const i18nScriptUrl = document.currentScript.src;
 const loadedLocaleScripts = new Set();
+const localeCache = {
+  index: {},
+  lessons: {},
+};
 
 function detectLanguage() {
   const saved = localStorage.getItem("ieltsVideoLabLanguage");
@@ -160,16 +164,22 @@ function loadScript(src) {
   });
 }
 
-function localeScripts(language) {
-  const scripts = [localeScriptUrl(`locales/lesson-index.${language}.js`)];
-  const lessonId = window.currentLessonData?.id || window.DEFAULT_COURSE;
-  if (lessonId) scripts.push(localeScriptUrl(`locales/lessons/${lessonId}.${language}.js`));
-  return scripts;
-}
-
 async function loadLocale(language) {
   if (!i18nData[language]) return;
-  await Promise.all(localeScripts(language).map(loadScript));
+  if (!localeCache.index[language]) {
+    await loadScript(localeScriptUrl(`locales/lesson-index.${language}.js`));
+    localeCache.index[language] = window.lessonIndexLocale;
+  }
+  window.lessonIndexLocale = localeCache.index[language];
+
+  const lessonId = window.currentLessonData?.id || window.DEFAULT_COURSE;
+  if (!lessonId) return;
+  localeCache.lessons[language] ||= {};
+  if (!localeCache.lessons[language][lessonId]) {
+    await loadScript(localeScriptUrl(`locales/lessons/${lessonId}.${language}.js`));
+    localeCache.lessons[language][lessonId] = window.lessonLocale;
+  }
+  window.lessonLocale = localeCache.lessons[language][lessonId];
 }
 
 async function setLanguage(language) {
