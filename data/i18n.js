@@ -144,7 +144,9 @@ function setLanguage(language) {
 }
 
 function localeScriptUrl(relativePath) {
-  return new URL(relativePath, document.currentScript.src).href;
+  const url = new URL(relativePath, document.currentScript.src);
+  url.search = new URL(document.currentScript.src).search;
+  return url.href;
 }
 
 function writeLocaleScripts() {
