@@ -7,7 +7,8 @@ window.lessonIndexLocale = {
     "bbc-adolescence-brain-study": "BBC News のインタビューで、脳の発達に関する研究を扱います。IELTS 6.5 前後の学習者が科学ニュースの聞き取りを鍛えるのに向いています。脳の明確な段階（distinct phases）、青春期（adolescent stage）、神経回路の再編（rewire）、非線形変化（nonlinear change）、効率（efficiency）、ライフスパン（lifespan）、メンタルヘルス障害（mental health disorder）などが出てきます。",
     "bbc-ai-deepfakes-politics": "BBC News の動画で、AI 生成のディープフェイク（deepfake）が政治コミュニケーションに与える影響を扱います。IELTS 7 前後の学習者が新しいテクノロジーと社会問題を聞く練習に向いています。AI-powered tools、spread like wildfire、mistrust、malicious fiction、precedent、abuse、authentic、disclose、AI-generated、stakes、undermine trust などが重要です。",
     "bbc-easy-daily-routine": "この BBC Learning English のレッスンでは、とても短い文で日常生活（daily routine）を練習します。IELTS 4 前後の学習者に向いています。every day、wake up、breakfast、get the bus、read a book、have a shower、go to sleep など、生活でよく使う表現が何度も出てくるので、基礎リスニングのリズムを作れます。",
-    "bbc-easy-likes-dislikes": "この BBC Learning English のレッスンでは、食べ物と趣味を使って likes and dislikes を練習します。IELTS 4.5 前後の学習者に向いています。I like、I don’t like、She likes、He likes など、基本だけれど大切な表現が何度も出てきます。food、fruit、dancing、hiking、swimming などの生活語彙も学べます。"
+    "bbc-easy-likes-dislikes": "この BBC Learning English のレッスンでは、食べ物と趣味を使って likes and dislikes を練習します。IELTS 4 前後の学習者に向いています。I like、I don’t like、She likes、He likes など、基本だけれど大切な表現が何度も出てきます。food、fruit、dancing、hiking、swimming などの生活語彙も学べます。",
+    "english-panda-supermarket-shopping": "この English Panda のレッスンは、バーベキューパーティーの買い物をするスーパーでの会話です。IELTS 4.5 前後の学習者に向いています。4 のレッスンより情報量が多く、grocery list、shopping cart、produce section、expiry date、on sale、self-checkout、cashier、reusable bags など、買い物の流れに沿った語彙が出てきます。"
   },
   "themes": {
     "school day": "学校生活",
@@ -30,6 +31,9 @@ window.lessonIndexLocale = {
     "everyday life": "日常生活",
     "likes and dislikes": "好き嫌い",
     "food": "食べ物",
-    "hobbies": "趣味"
+    "hobbies": "趣味",
+    "grocery shopping": "食料品の買い物",
+    "supermarket": "スーパー",
+    "everyday conversation": "日常会話"
   }
 };
