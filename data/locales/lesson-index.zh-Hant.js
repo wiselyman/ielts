@@ -1,0 +1,28 @@
+// Lightweight homepage/list translations for zh-Hant.
+window.lessonIndexLocale = {
+  "summaries": {
+    "this-is-britain-school": "這節課跟著 Jamie 度過一個輕鬆的英國上學日，適合 4 分左右學習者建立基礎聽力節奏。影片內容涵蓋上學日（school day）、過馬路（cross the road）、穿校服（uniform）、點名（registration）、集會（assembly）、課間休息（break time）、操場（playground）和食堂（canteen）。學習重點不是背孤立單字，而是在真實兒童日常場景中反覆聽到學校生活表達。",
+    "bbc-6min-reading": "這節課討論讀寫能力（literacy）如何改變成年人生活，適合教育、就業和社會流動類 IELTS 話題。影片透過孟加拉和英國的成人學習項目說明：不會閱讀會影響通勤（commute）、購買食品雜貨（groceries）、簽名（signature）、基本計算能力（numeracy）和自我尊嚴。重點表達包括不識字（illiterate）、欺騙（cheat）以及把能力視為理所當然（take for granted）。",
+    "bc-email-formality": "這節課講正式和非正式電郵的區別，適合工作、求職和 IELTS General Training 寫作場景。影片解釋如何根據讀者關係選擇正式（formal）或非正式（informal）語言，以及如何在求職申請（apply for）中留下第一印象（first impression）。重點包括專業表達（professional）、合適的表達（appropriate）、慣例寫法（conventional）、俚語（slang）、大寫字母（capitals）和常見結尾（Yours sincerely / Yours faithfully）。",
+    "bbc-adolescence-brain-study": "這節 BBC News 訪談介紹一項關於大腦發育的研究，適合 6.5 分左右學習者訓練科學新聞聽力。研究認為大腦會經歷明顯不同的階段（distinct phases），青春期（adolescent stage）可能持續到 30 多歲，期間大腦會重新連接（rewire）。影片還涉及非線性變化（nonlinear change）、發展過程（progression）、波動（fluctuation）、效率（efficiency）、生命全程（lifespan）、心理健康疾病（mental health disorder）和易感性（vulnerable），很適合累積學術類解釋表達。",
+    "bbc-ai-deepfakes-politics": "這節 BBC News 影片討論人工智慧生成的深度偽造（deepfake）如何影響政治傳播，適合 7 分左右學習者訓練較新的科技與社會議題。影片從明星、政客和選舉案例出發，說明 AI 驅動工具（AI-powered tools）如何讓虛假內容迅速傳播（spread like wildfire），並製造不信任（mistrust）。核心表達包括惡意內容（malicious fiction）、危險先例（precedent）、濫用（abuse）、真實可信（authentic）、揭露（disclose）、AI 生成（AI-generated）、利害關係（stakes）和削弱公眾信任（undermine trust）。"
+  },
+  "themes": {
+    "school day": "上學日",
+    "children": "兒童",
+    "daily routine": "日常作息",
+    "literacy": "讀寫能力",
+    "education": "教育",
+    "social mobility": "社會流動",
+    "email writing": "電郵寫作",
+    "formal language": "正式語言",
+    "workplace English": "職場英語",
+    "AI": "人工智慧",
+    "deepfakes": "深度偽造",
+    "politics": "政治",
+    "media trust": "媒體信任",
+    "brain development": "大腦發育",
+    "adolescence": "青春期",
+    "mental health": "心理健康"
+  }
+};

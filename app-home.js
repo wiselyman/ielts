@@ -1,5 +1,6 @@
 const homeLessons = window.videoLessons || [];
 const homeSummaries = window.lessonSummaries || {};
+const i18n = window.i18n;
 const pageSize = 8;
 
 let activeLevel = "all";
@@ -20,7 +21,7 @@ function thumbnailUrl(lesson) {
 }
 
 function courseDescription(lesson) {
-  return homeSummaries[lesson.id] || lesson.summary || "";
+  return i18n?.localizeSummary(lesson) || homeSummaries[lesson.id] || lesson.summary || "";
 }
 
 function escapeHtml(text) {
@@ -32,7 +33,7 @@ function renderThemeTags(theme) {
     .split(",")
     .map((tag) => tag.trim())
     .filter(Boolean)
-    .map((tag) => `<span class="theme-tag">${escapeHtml(tag)}</span>`)
+    .map((tag) => `<span class="theme-tag">${escapeHtml(i18n?.localizeTheme(tag) || tag)}</span>`)
     .join("");
 }
 
@@ -50,8 +51,8 @@ function renderHomeCourses() {
       return `
         <a class="home-course-card" data-level="${lesson.level}" href="./lessons/${lesson.path}">
           <span class="course-thumb">
-            <img src="${thumbnailUrl(lesson)}" alt="${lesson.title} 视频缩略图" loading="lazy" />
-            <span class="course-level">雅思 ${lesson.level} 分</span>
+            <img src="${thumbnailUrl(lesson)}" alt="${escapeHtml(lesson.title)}" loading="lazy" />
+            <span class="course-level">${escapeHtml(i18n?.t("ieltsBand", { level: lesson.level }) || `雅思 ${lesson.level} 分`)}</span>
           </span>
           <span class="lesson-card-title">${escapeHtml(lesson.title)}</span>
           <span class="lesson-card-meta">${escapeHtml(lesson.source)} · ${escapeHtml(lesson.duration)}</span>
@@ -69,7 +70,7 @@ function renderPagination(pageCount, totalCount) {
   const pagination = document.querySelector("#home-pagination");
   if (!pagination) return;
   if (pageCount <= 1) {
-    pagination.innerHTML = totalCount ? `<span class="pagination-count">共 ${totalCount} 节课</span>` : "";
+    pagination.innerHTML = totalCount ? `<span class="pagination-count">${escapeHtml(i18n?.t("courseCount", { count: totalCount }) || `共 ${totalCount} 节课`)}</span>` : "";
     return;
   }
   const buttons = Array.from({ length: pageCount }, (_, index) => {
@@ -77,10 +78,10 @@ function renderPagination(pageCount, totalCount) {
     return `<button class="page-button ${page === currentPage ? "active" : ""}" data-page="${page}" type="button">${page}</button>`;
   }).join("");
   pagination.innerHTML = `
-    <button class="page-button" data-page="${Math.max(1, currentPage - 1)}" ${currentPage === 1 ? "disabled" : ""} type="button">上一页</button>
+    <button class="page-button" data-page="${Math.max(1, currentPage - 1)}" ${currentPage === 1 ? "disabled" : ""} type="button">${escapeHtml(i18n?.t("previous") || "上一页")}</button>
     ${buttons}
-    <button class="page-button" data-page="${Math.min(pageCount, currentPage + 1)}" ${currentPage === pageCount ? "disabled" : ""} type="button">下一页</button>
-    <span class="pagination-count">共 ${totalCount} 节课</span>
+    <button class="page-button" data-page="${Math.min(pageCount, currentPage + 1)}" ${currentPage === pageCount ? "disabled" : ""} type="button">${escapeHtml(i18n?.t("next") || "下一页")}</button>
+    <span class="pagination-count">${escapeHtml(i18n?.t("courseCount", { count: totalCount }) || `共 ${totalCount} 节课`)}</span>
   `;
 }
 
@@ -102,4 +103,6 @@ document.addEventListener("click", (event) => {
   }
 });
 
+i18n?.applyStaticText();
+i18n?.renderLanguageSwitcher();
 renderHomeCourses();

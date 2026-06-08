@@ -1,6 +1,7 @@
 const videoLessons = window.videoLessons || [];
 const lessonSummaries = window.lessonSummaries || {};
 const currentLessonData = window.currentLessonData || null;
+const i18n = window.i18n;
 
 const state = {
   lessonIndex: initialLessonIndex(),
@@ -77,7 +78,7 @@ function closeCourseDrawer() {
 
 function speakTerm(term) {
   if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) {
-    toast("当前浏览器不支持发音");
+    toast(i18n?.t("pronunciationNotSupported") || "当前浏览器不支持发音");
     return;
   }
   window.speechSynthesis.cancel();
@@ -101,7 +102,7 @@ function firstCueForTerm(term) {
 }
 
 function escapeHtml(text) {
-  return text.replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
+  return String(text).replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[char]);
 }
 
 function escapeRegExp(text) {
@@ -137,6 +138,19 @@ function shortPos(pos = "") {
     "phrasal verb": "phr v",
   };
   return map[normalized] || normalized.replace(/\badjective\b/g, "adj").replace(/\bnoun\b/g, "n").replace(/\bverb\b/g, "v");
+}
+
+function vocabMeaning(item) {
+  return i18n?.localizeVocab(item.term, item.zh) || item.zh;
+}
+
+function renderThemeTags(theme) {
+  return String(theme)
+    .split(",")
+    .map((tag) => tag.trim())
+    .filter(Boolean)
+    .map((tag) => `<span class="theme-tag">${escapeHtml(i18n?.localizeTheme(tag) || tag)}</span>`)
+    .join("");
 }
 
 function renderSubtitleText(cue) {
@@ -185,7 +199,7 @@ function renderSubtitleText(cue) {
     const tail = text.slice(match.wordEnd, match.end);
     html += `<span class="term-pack">`;
     if (head) html += `<span class="inline-tail">${escapeHtml(head)}</span>`;
-    html += `<span class="inline-term">${escapeHtml(word)}</span><span class="inline-zh">${escapeHtml(match.item.zh)}</span>`;
+    html += `<span class="inline-term">${escapeHtml(word)}</span><span class="inline-zh">${escapeHtml(vocabMeaning(match.item))}</span>`;
     if (tail) html += `<span class="inline-tail">${escapeHtml(tail)}</span>`;
     html += `</span>`;
     cursor = match.end;
@@ -200,8 +214,8 @@ function renderLessonList() {
       return `
         <button class="lesson-card ${index === state.lessonIndex ? "active" : ""}" data-lesson-index="${index}" data-level="${lesson.level}" type="button">
           <span class="lesson-card-title">${lesson.title}</span>
-          <span class="lesson-card-meta">${lesson.source} · ${lesson.duration} · 雅思 ${lesson.level} 分</span>
-          <span class="lesson-card-meta">${lesson.theme}</span>
+          <span class="lesson-card-meta">${lesson.source} · ${lesson.duration} · ${i18n?.t("ieltsBand", { level: lesson.level }) || `雅思 ${lesson.level} 分`}</span>
+          <span class="theme-tags">${renderThemeTags(lesson.theme)}</span>
         </button>
       `;
     })
@@ -221,7 +235,7 @@ function ensureSummaryPanel() {
 
 function renderVideoSummary() {
   const panel = ensureSummaryPanel();
-  panel.innerHTML = `<p>${escapeHtml(lessonSummaries[currentLesson().id] || currentLesson().summary)}</p>`;
+  panel.innerHTML = `<p>${escapeHtml(i18n?.localizeSummary(currentLesson()) || lessonSummaries[currentLesson().id] || currentLesson().summary)}</p>`;
 }
 
 function renderVocab() {
@@ -233,7 +247,7 @@ function renderVocab() {
         <div class="vocab-card" data-term="${item.term.toLowerCase()}" data-seek-time="${seekTime}" role="button" tabindex="0">
           <span class="vocab-main">
             <strong>${item.term}</strong>
-            <button class="sound-button" data-speak-term="${item.term}" type="button" aria-label="播放 ${item.term} 的发音">
+            <button class="sound-button" data-speak-term="${item.term}" type="button" aria-label="${escapeHtml(i18n?.t("playPronunciation", { term: item.term }) || `播放 ${item.term} 的发音`)}">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M4 9v6h4l5 4V5L8 9H4z"></path>
                 <path d="M16 8.5a5 5 0 0 1 0 7"></path>
@@ -242,7 +256,7 @@ function renderVocab() {
             </button>
             ${vocabMeta(item)}
           </span>
-          <span>${item.zh}</span>
+          <span>${escapeHtml(vocabMeaning(item))}</span>
           <small>${item.definition}</small>
         </div>
       `;
@@ -253,7 +267,7 @@ function renderVocab() {
 function createOrLoadPlayer() {
   const lesson = currentLesson();
   if (!window.YT?.Player) {
-    $("#video-frame").innerHTML = `<div class="player-loading">YouTube player is loading...</div>`;
+    $("#video-frame").innerHTML = `<div class="player-loading">${escapeHtml(i18n?.t("youtubeLoading") || "YouTube player is loading...")}</div>`;
     return;
   }
   $("#video-frame").innerHTML = `<div id="youtube-player"></div>`;
@@ -382,10 +396,12 @@ function resetSubtitles() {
 
 function render() {
   const lesson = currentLesson();
+  i18n?.applyStaticText();
+  i18n?.renderLanguageSwitcher();
   updateCourseUrl();
-  document.title = `${lesson.title} | 雅思视频实验室`;
+  document.title = `${lesson.title} | ${i18n?.t("siteTitle") || "雅思视频实验室"}`;
   $("#lesson-title").textContent = lesson.title;
-  $("#lesson-meta").textContent = `${lesson.source} · ${lesson.duration} · 雅思 ${lesson.level} 分 · ${lesson.theme}`;
+  $("#lesson-meta").textContent = `${lesson.source} · ${lesson.duration} · ${i18n?.t("ieltsBand", { level: lesson.level }) || `雅思 ${lesson.level} 分`}`;
   renderLessonList();
   createOrLoadPlayer();
   renderVocab();
@@ -451,7 +467,7 @@ document.addEventListener("click", (event) => {
       syncVideoClock(seekTime);
       startSubtitleSync();
       setTimeout(renderSubtitle, 120);
-      toast(`跳到 ${formatTime(seekTime)}`);
+      toast(i18n?.t("jumpTo", { time: formatTime(seekTime) }) || `跳到 ${formatTime(seekTime)}`);
     }
     return;
   }

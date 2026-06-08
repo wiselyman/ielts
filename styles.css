@@ -120,6 +120,29 @@ h2 {
   justify-content: flex-end;
 }
 
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--muted);
+  padding: 0 8px 0 12px;
+  font-size: 12px;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.language-switcher select {
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  outline: 0;
+}
+
 .library-button {
   min-height: 42px;
   border-radius: 8px;
@@ -253,6 +276,10 @@ h2 {
   text-align: left;
   text-decoration: none;
   box-shadow: inset 0 -1px 0 rgba(30, 41, 59, 0.04);
+}
+
+.lesson-card .theme-tags {
+  margin-inline: 0;
 }
 
 .home-course-card {
