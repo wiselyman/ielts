@@ -12,6 +12,7 @@ const i18nData = {
       courseCount: "共 {count} 节课",
       previous: "上一页",
       next: "下一页",
+      language: "语言",
       empty: "这个分数暂时没有课程。",
       courseLibrary: "Course Library",
       chooseCourse: "选择一个视频课程",
@@ -36,6 +37,7 @@ const i18nData = {
       courseCount: "共 {count} 節課",
       previous: "上一頁",
       next: "下一頁",
+      language: "語言",
       empty: "這個分數暫時沒有課程。",
       courseLibrary: "Course Library",
       chooseCourse: "選擇一個影片課程",
@@ -60,6 +62,7 @@ const i18nData = {
       courseCount: "全 {count} レッスン",
       previous: "前へ",
       next: "次へ",
+      language: "言語",
       empty: "このスコアのレッスンはまだありません。",
       courseLibrary: "Course Library",
       chooseCourse: "動画レッスンを選ぶ",
@@ -84,6 +87,7 @@ const i18nData = {
       courseCount: "총 {count}개 수업",
       previous: "이전",
       next: "다음",
+      language: "언어",
       empty: "이 점수대의 수업은 아직 없습니다.",
       courseLibrary: "Course Library",
       chooseCourse: "비디오 수업 선택",
@@ -198,7 +202,7 @@ function renderLanguageSwitcher() {
   const wrap = document.createElement("label");
   wrap.className = "language-switcher";
   wrap.innerHTML = `
-    <span>${activeLanguage === "ja" ? "言語" : activeLanguage === "ko" ? "언어" : "语言"}</span>
+    <span>${t("language")}</span>
     <select aria-label="Language">
       ${Object.entries(i18nData)
         .map(([code, data]) => `<option value="${code}" ${code === activeLanguage ? "selected" : ""}>${data.label}</option>`)
@@ -217,6 +221,8 @@ function applyStaticText() {
   if (summary) summary.textContent = t("homeSummary");
   const filter = document.querySelector(".difficulty-filter");
   if (filter) filter.setAttribute("aria-label", t("filterLabel"));
+  const languageLabel = document.querySelector(".language-switcher span");
+  if (languageLabel) languageLabel.textContent = t("language");
   document.querySelectorAll('[data-filter-level="all"]').forEach((item) => (item.textContent = t("all")));
   document.querySelectorAll(".empty-state").forEach((item) => (item.textContent = t("empty")));
   document.querySelectorAll("#open-course-list").forEach((item) => (item.textContent = t("courseList")));
