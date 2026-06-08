@@ -103,6 +103,16 @@ document.addEventListener("click", (event) => {
   }
 });
 
-i18n?.applyStaticText();
-i18n?.renderLanguageSwitcher();
-renderHomeCourses();
+async function initHome() {
+  await i18n?.ready;
+  i18n?.applyStaticText();
+  i18n?.renderLanguageSwitcher();
+  renderHomeCourses();
+}
+
+window.addEventListener("i18n:languagechange", () => {
+  i18n?.applyStaticText();
+  renderHomeCourses();
+});
+
+initHome();

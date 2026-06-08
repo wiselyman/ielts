@@ -399,14 +399,19 @@ function render() {
   i18n?.applyStaticText();
   i18n?.renderLanguageSwitcher();
   updateCourseUrl();
-  document.title = `${lesson.title} | ${i18n?.t("siteTitle") || "雅思视频实验室"}`;
-  $("#lesson-title").textContent = lesson.title;
-  $("#lesson-meta").textContent = `${lesson.source} · ${lesson.duration} · ${i18n?.t("ieltsBand", { level: lesson.level }) || `雅思 ${lesson.level} 分`}`;
+  renderLocalizedLesson();
   renderLessonList();
   createOrLoadPlayer();
   renderVocab();
   renderVideoSummary();
   renderSubtitle();
+}
+
+function renderLocalizedLesson() {
+  const lesson = currentLesson();
+  document.title = `${lesson.title} | ${i18n?.t("siteTitle") || "雅思视频实验室"}`;
+  $("#lesson-title").textContent = lesson.title;
+  $("#lesson-meta").textContent = `${lesson.source} · ${lesson.duration} · ${i18n?.t("ieltsBand", { level: lesson.level }) || `雅思 ${lesson.level} 分`}`;
 }
 
 function playNextLesson() {
@@ -514,10 +519,24 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
-render();
+async function initLesson() {
+  await i18n?.ready;
+  render();
+}
+
+window.addEventListener("i18n:languagechange", () => {
+  i18n?.applyStaticText();
+  renderLocalizedLesson();
+  renderLessonList();
+  renderVocab();
+  renderVideoSummary();
+  renderSubtitle();
+});
+
+initLesson();
 
 window.onYouTubeIframeAPIReady = () => {
-  render();
+  initLesson();
 };
 
 window.addEventListener("resize", resizeYouTubeFrame);

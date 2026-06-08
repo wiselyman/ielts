@@ -97,6 +97,9 @@ const i18nData = {
   },
 };
 
+const i18nScriptUrl = document.currentScript.src;
+const loadedLocaleScripts = new Set();
+
 function detectLanguage() {
   const saved = localStorage.getItem("ieltsVideoLabLanguage");
   if (saved && i18nData[saved]) return saved;
@@ -137,23 +140,45 @@ function localizeSummary(lesson) {
   return window.lessonLocale?.summary || window.lessonIndexLocale?.summaries?.[lesson.id] || lesson.summary || "";
 }
 
-function setLanguage(language) {
-  if (!i18nData[language]) return;
-  localStorage.setItem("ieltsVideoLabLanguage", language);
-  window.location.reload();
-}
-
 function localeScriptUrl(relativePath) {
-  const url = new URL(relativePath, document.currentScript.src);
-  url.search = new URL(document.currentScript.src).search;
+  const url = new URL(relativePath, i18nScriptUrl);
+  url.search = new URL(i18nScriptUrl).search;
   return url.href;
 }
 
-function writeLocaleScripts() {
-  const scripts = [`<script src="${localeScriptUrl(`locales/lesson-index.${activeLanguage}.js`)}"></script>`];
+function loadScript(src) {
+  if (loadedLocaleScripts.has(src)) return Promise.resolve();
+  return new Promise((resolve, reject) => {
+    const script = document.createElement("script");
+    script.src = src;
+    script.onload = () => {
+      loadedLocaleScripts.add(src);
+      resolve();
+    };
+    script.onerror = () => reject(new Error(`Failed to load ${src}`));
+    document.head.appendChild(script);
+  });
+}
+
+function localeScripts(language) {
+  const scripts = [localeScriptUrl(`locales/lesson-index.${language}.js`)];
   const lessonId = window.currentLessonData?.id || window.DEFAULT_COURSE;
-  if (lessonId) scripts.push(`<script src="${localeScriptUrl(`locales/lessons/${lessonId}.${activeLanguage}.js`)}"></script>`);
-  document.write(scripts.join(""));
+  if (lessonId) scripts.push(localeScriptUrl(`locales/lessons/${lessonId}.${language}.js`));
+  return scripts;
+}
+
+async function loadLocale(language) {
+  if (!i18nData[language]) return;
+  await Promise.all(localeScripts(language).map(loadScript));
+}
+
+async function setLanguage(language) {
+  if (!i18nData[language]) return;
+  activeLanguage = language;
+  localStorage.setItem("ieltsVideoLabLanguage", language);
+  await loadLocale(language);
+  applyStaticText();
+  window.dispatchEvent(new CustomEvent("i18n:languagechange", { detail: { language } }));
 }
 
 function renderLanguageSwitcher() {
@@ -193,11 +218,10 @@ function applyStaticText() {
   if (document.querySelector(".library-home")) document.title = `${t("siteTitle")} | IELTS Video Lab`;
 }
 
-writeLocaleScripts();
-
 window.i18n = {
   data: i18nData,
   language: () => activeLanguage,
+  ready: loadLocale(activeLanguage),
   t,
   localizeTheme,
   localizeVocab,
