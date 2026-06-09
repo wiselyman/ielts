@@ -10,7 +10,8 @@ window.lessonIndexLocale = {
     "bbc-easy-likes-dislikes": "この BBC Learning English のレッスンでは、食べ物と趣味を使って likes and dislikes を練習します。IELTS 4 前後の学習者に向いています。I like、I don’t like、She likes、He likes など、基本だけれど大切な表現が何度も出てきます。food、fruit、dancing、hiking、swimming などの生活語彙も学べます。",
     "english-panda-supermarket-shopping": "この English Panda のレッスンは、バーベキューパーティーの買い物をするスーパーでの会話です。IELTS 4.5 前後の学習者に向いています。4 のレッスンより情報量が多く、grocery list、shopping cart、produce section、expiry date、on sale、self-checkout、cashier、reusable bags など、買い物の流れに沿った語彙が出てきます。",
     "bbc-real-easy-restaurants": "この BBC Real Easy English のレッスンは、レストランと注文の会話です。IELTS 4.5 前後の学習者に向いています。レストランに行く頻度、atmosphere、eat out、special occasion、celebration を話し、I'll have... / Can I have... / Can I get... という注文表現も練習します。4 のレッスンより理由説明と自然な会話のつながりが増えますが、語彙とスピードはまだやさしいです。",
-    "workplace-communication-skills": "このレッスンは職場での effective communication を扱い、IELTS 5 前後の学習者に向いています。日常会話だけでなく、workplace での listening、clarifying questions、rephrase、open-mindedness、feedback、nonverbal communication を説明します。仕事、チームワーク、コミュニケーションの IELTS トピックに使える表現です。"
+    "workplace-communication-skills": "このレッスンは職場での effective communication を扱い、IELTS 5 前後の学習者に向いています。日常会話だけでなく、workplace での listening、clarifying questions、rephrase、open-mindedness、feedback、nonverbal communication を説明します。仕事、チームワーク、コミュニケーションの IELTS トピックに使える表現です。",
+    "british-council-talk-about-job": "この British Council のレッスンでは、自分の仕事を英語で説明する表現を学びます。IELTS 5.5 前後の学習者に向いています。単に I have a job と言うのではなく、role、company、be responsible for、manage、content producer、social media、marketing などを使って、職務や担当を具体的に話す練習ができます。仕事、職業、チーム、自分紹介の IELTS トピックに役立ちます。"
   },
   "themes": {
     "school day": "学校生活",
@@ -40,6 +41,9 @@ window.lessonIndexLocale = {
     "restaurants": "レストラン",
     "ordering food": "料理の注文",
     "communication skills": "コミュニケーション力",
-    "feedback": "フィードバック"
+    "feedback": "フィードバック",
+    "job roles": "職務・役割",
+    "responsibilities": "責任・担当",
+    "workplace conversation": "職場での会話"
   }
 };

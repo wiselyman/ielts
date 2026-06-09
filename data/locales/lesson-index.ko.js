@@ -10,7 +10,8 @@ window.lessonIndexLocale = {
     "bbc-easy-likes-dislikes": "이 BBC Learning English 수업은 음식과 취미를 주제로 좋아하는 것과 싫어하는 것（likes and dislikes）을 연습합니다. IELTS 4점 전후 학습자에게 적합합니다. I like, I don’t like, She likes, He likes 같은 기본이지만 중요한 표현이 반복됩니다. food, fruit, dancing, hiking, swimming 같은 생활 어휘도 함께 익힐 수 있습니다.",
     "english-panda-supermarket-shopping": "이 English Panda 수업은 바비큐 파티 음식을 사기 위해 슈퍼마켓에서 대화하는 내용입니다. IELTS 4.5점 전후 학습자에게 적합합니다. 4점 수업보다 정보량이 많고 grocery list, shopping cart, produce section, expiry date, on sale, self-checkout, cashier, reusable bags 같은 쇼핑 흐름의 어휘가 나옵니다.",
     "bbc-real-easy-restaurants": "이 BBC Real Easy English 수업은 레스토랑과 주문 표현을 다룹니다. IELTS 4.5점 전후 학습자에게 적합합니다. 레스토랑에 얼마나 자주 가는지, atmosphere, eat out, special occasion, celebration 을 이야기하고 I'll have... / Can I have... / Can I get... 같은 주문 문장도 연습합니다. 4점 수업보다 이유 설명과 자연스러운 대화 연결이 더 많지만 속도와 어휘는 여전히 부담이 적습니다.",
-    "workplace-communication-skills": "이 수업은 직장에서의 effective communication 을 다루며 IELTS 5점 전후 학습자에게 적합합니다. 단순한 일상 대화가 아니라 workplace 에서 listening, clarifying questions, rephrase, open-mindedness, feedback, nonverbal communication 을 설명합니다. 일, 팀워크, 의사소통 IELTS 주제에 활용할 수 있는 표현입니다."
+    "workplace-communication-skills": "이 수업은 직장에서의 effective communication 을 다루며 IELTS 5점 전후 학습자에게 적합합니다. 단순한 일상 대화가 아니라 workplace 에서 listening, clarifying questions, rephrase, open-mindedness, feedback, nonverbal communication 을 설명합니다. 일, 팀워크, 의사소통 IELTS 주제에 활용할 수 있는 표현입니다.",
+    "british-council-talk-about-job": "이 British Council 수업은 자신의 일을 영어로 설명하는 방법을 다루며 IELTS 5.5점 전후 학습자에게 적합합니다. 단순히 I have a job 이라고 말하는 것이 아니라 role, company, be responsible for, manage, content producer, social media, marketing 등을 사용해 직무와 책임을 더 구체적으로 말하는 연습을 합니다. 일, 직업, 팀워크, 자기소개 IELTS 주제에 활용하기 좋습니다."
   },
   "themes": {
     "school day": "학교생활",
@@ -40,6 +41,9 @@ window.lessonIndexLocale = {
     "restaurants": "레스토랑",
     "ordering food": "음식 주문",
     "communication skills": "의사소통 능력",
-    "feedback": "피드백"
+    "feedback": "피드백",
+    "job roles": "직무 역할",
+    "responsibilities": "책임",
+    "workplace conversation": "직장 대화"
   }
 };
