@@ -18,21 +18,25 @@ window.currentLessonData = {
       "definition": "showing the skill and careful behaviour expected at work"
     },
     {
-      "term": "apply for",
+      "term": "apply",
       "aliases": [
+        "apply for",
         "applying for"
       ],
-      "phonetic": "",
-      "pos": "phrase",
+      "phonetic": "/əˈplaɪ/",
+      "pos": "verb",
       "zh": "申请",
       "definition": "to make a formal request for a job, place or opportunity"
     },
     {
-      "term": "first impression",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "第一印象",
-      "definition": "the opinion someone forms when they first see or hear about you"
+      "term": "impression",
+      "aliases": [
+        "first impression"
+      ],
+      "phonetic": "/ɪmˈpreʃn/",
+      "pos": "noun",
+      "zh": "印象",
+      "definition": "an opinion or feeling about someone or something"
     },
     {
       "term": "formal",
@@ -49,21 +53,25 @@ window.currentLessonData = {
       "definition": "relaxed and friendly, not official"
     },
     {
-      "term": "business context",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "商务语境",
-      "definition": "a situation connected with work or business"
+      "term": "context",
+      "aliases": [
+        "business context"
+      ],
+      "phonetic": "/ˈkɑːntekst/",
+      "pos": "noun",
+      "zh": "语境；背景",
+      "definition": "the situation in which something happens or is used"
     },
     {
-      "term": "job application",
+      "term": "application",
       "aliases": [
+        "job application",
         "job applications"
       ],
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "求职申请",
-      "definition": "a formal request to be considered for a job"
+      "phonetic": "/ˌæplɪˈkeɪʃn/",
+      "pos": "noun",
+      "zh": "申请；申请书",
+      "definition": "a formal request for a job or place"
     },
     {
       "term": "appropriate",
@@ -73,28 +81,24 @@ window.currentLessonData = {
       "definition": "suitable or right for a particular situation"
     },
     {
-      "term": "Yours sincerely",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "谨启；您诚挚的",
-      "definition": "a formal phrase used at the end of a letter when you know the reader"
-    },
-    {
-      "term": "Yours faithfully",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "谨启；您忠实的",
-      "definition": "a formal phrase used at the end of a letter when you do not know the reader"
-    },
-    {
-      "term": "opening and closing phrases",
+      "term": "sincerely",
       "aliases": [
-        "opening and closing phrases"
+        "Yours sincerely"
       ],
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "开头和结尾用语",
-      "definition": "set phrases used to begin and end messages"
+      "phonetic": "/sɪnˈsɪrli/",
+      "pos": "adverb",
+      "zh": "真诚地；谨启",
+      "definition": "used in a formal ending when you know the reader"
+    },
+    {
+      "term": "faithfully",
+      "aliases": [
+        "Yours faithfully"
+      ],
+      "phonetic": "/ˈfeɪθfəli/",
+      "pos": "adverb",
+      "zh": "忠实地；谨启",
+      "definition": "used in a formal ending when you do not know the reader"
     },
     {
       "term": "conventional",
@@ -111,14 +115,24 @@ window.currentLessonData = {
       "definition": "very informal words or phrases used in speech"
     },
     {
-      "term": "all capitals",
+      "term": "capitals",
       "aliases": [
-        "capitals"
+        "all capitals"
+      ],
+      "phonetic": "/ˈkæpɪtlz/",
+      "pos": "noun",
+      "zh": "大写字母",
+      "definition": "letters written in their large form"
+    },
+    {
+      "term": "opening phrase",
+      "aliases": [
+        "opening and closing phrases"
       ],
       "phonetic": "",
       "pos": "phrase",
-      "zh": "全大写字母",
-      "definition": "text written with capital letters only"
+      "zh": "开头用语",
+      "definition": "a set phrase used to begin a message"
     }
   ],
   "cues": [
@@ -133,8 +147,8 @@ window.currentLessonData = {
       "at": 5.66,
       "text": "It's especially important when applying for jobs online, as you want to make a good first impression.",
       "terms": [
-        "apply for",
-        "first impression"
+        "apply",
+        "impression"
       ]
     },
     {
@@ -161,7 +175,7 @@ window.currentLessonData = {
       "at": 32.55,
       "text": "for example, business emails, job applications, and emails to big companies.",
       "terms": [
-        "job application"
+        "application"
       ]
     },
     {
@@ -170,7 +184,7 @@ window.currentLessonData = {
       "terms": [
         "formal",
         "informal",
-        "business context"
+        "context"
       ]
     },
     {
@@ -214,14 +228,14 @@ window.currentLessonData = {
       "terms": [
         "formal",
         "appropriate",
-        "Yours sincerely"
+        "sincerely"
       ]
     },
     {
       "at": 91.41,
       "text": "when you know the reader, or 'Yours faithfully' when you don't.",
       "terms": [
-        "Yours faithfully"
+        "faithfully"
       ]
     },
     {
@@ -246,8 +260,8 @@ window.currentLessonData = {
       "at": 113.8,
       "text": "It is conventional to use a comma and start a new line after any opening and closing phrases.",
       "terms": [
-        "opening and closing phrases",
-        "conventional"
+        "conventional",
+        "opening phrase"
       ]
     },
     {
@@ -271,14 +285,14 @@ window.currentLessonData = {
       "at": 133.98,
       "text": "For example, you should never use a smiley face in a job application.",
       "terms": [
-        "job application"
+        "application"
       ]
     },
     {
       "at": 146.05,
       "text": "You should also avoid typing in all capitals, as it looks like you are shouting.",
       "terms": [
-        "all capitals"
+        "capitals"
       ]
     },
     {

@@ -161,22 +161,18 @@ function renderSubtitleText(cue) {
   [...(cue.terms || [])].forEach((term) => {
     const item = vocab.get(term.toLowerCase());
     if (!item) return;
-    const keepAfter = item?.keepAfter || "";
-    const tailPattern = keepAfter ? escapeRegExp(keepAfter) : "[,;:]?\\s+[A-Za-z]+";
     const formPattern = termForms(term).map(escapeRegExp).join("|");
-    const pattern = new RegExp(`(^|\\s)([A-Za-z']+\\s+)?(["'“‘])?(\\b(?:${formPattern})\\b)(["'”’])?(${tailPattern})?`, "gi");
+    const pattern = new RegExp(`(^|\\s)(["'“‘])?(\\b(?:${formPattern})\\b)(["'”’])?`, "gi");
     [...text.matchAll(pattern)].forEach((match) => {
       const leading = match[1] || "";
-      const prefix = match[2] || "";
-      const openQuote = match[3] || "";
-      const word = match[4] || "";
-      const closeQuote = match[5] || "";
-      const suffix = match[6] || "";
+      const openQuote = match[2] || "";
+      const word = match[3] || "";
+      const closeQuote = match[4] || "";
       const start = match.index + leading.length;
       const prefixStart = start;
-      const wordStart = prefixStart + prefix.length + openQuote.length;
+      const wordStart = prefixStart + openQuote.length;
       const wordEnd = wordStart + word.length;
-      const end = wordEnd + closeQuote.length + suffix.length;
+      const end = wordEnd + closeQuote.length;
       candidates.push({ start, end, prefixStart, wordStart, wordEnd, item });
     });
   });

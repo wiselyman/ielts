@@ -11,11 +11,15 @@ window.currentLessonData = {
   "summary": "A lively supermarket conversation about buying food for a barbecue, checking sections, prices, bags and checkout.",
   "vocab": [
     {
-      "term": "grocery list",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "购物清单",
-      "definition": "a list of food and household items that you need to buy"
+      "term": "grocery",
+      "aliases": [
+        "grocery list",
+        "groceries"
+      ],
+      "phonetic": "/ˈɡroʊsəri/",
+      "pos": "noun",
+      "zh": "食品杂货",
+      "definition": "food and household items bought regularly"
     },
     {
       "term": "shopping cart",
@@ -25,11 +29,14 @@ window.currentLessonData = {
       "definition": "a large basket on wheels used in a supermarket"
     },
     {
-      "term": "produce section",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "农产品区",
-      "definition": "the part of a shop where fresh fruit and vegetables are sold"
+      "term": "produce",
+      "aliases": [
+        "produce section"
+      ],
+      "phonetic": "/ˈproʊduːs/",
+      "pos": "noun",
+      "zh": "农产品",
+      "definition": "fresh fruit and vegetables"
     },
     {
       "term": "vegetarian",
@@ -43,7 +50,7 @@ window.currentLessonData = {
       "phonetic": "/ˈviːɡən/",
       "pos": "noun",
       "zh": "纯素食者",
-      "definition": "a person who does not eat or use any animal products"
+      "definition": "a person who does not eat or use animal products"
     },
     {
       "term": "pre-packed",
@@ -68,6 +75,20 @@ window.currentLessonData = {
       "pos": "phrase",
       "zh": "有效期；保质期",
       "definition": "the date after which food or medicine should not be used"
+    },
+    {
+      "term": "aisle",
+      "phonetic": "/aɪl/",
+      "pos": "noun",
+      "zh": "过道；货架通道",
+      "definition": "a passage between rows of shelves in a shop"
+    },
+    {
+      "term": "deli section",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "熟食区",
+      "definition": "the part of a shop that sells prepared meats, cheese or salads"
     },
     {
       "term": "on sale",
@@ -98,18 +119,28 @@ window.currentLessonData = {
       "definition": "a machine where customers scan and pay for goods themselves"
     },
     {
-      "term": "reusable bags",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "可重复使用的购物袋",
-      "definition": "bags that can be used many times instead of being thrown away"
+      "term": "cashier",
+      "phonetic": "/kæˈʃɪr/",
+      "pos": "noun",
+      "zh": "收银员",
+      "definition": "a person who takes payment in a shop"
+    },
+    {
+      "term": "reusable",
+      "aliases": [
+        "reusable bags"
+      ],
+      "phonetic": "/ˌriːˈjuːzəbl/",
+      "pos": "adjective",
+      "zh": "可重复使用的",
+      "definition": "able to be used many times"
     },
     {
       "term": "receipt",
       "phonetic": "/rɪˈsiːt/",
       "pos": "noun",
       "zh": "收据",
-      "definition": "a piece of paper or message showing what you bought and paid"
+      "definition": "a record showing what you bought and paid"
     }
   ],
   "cues": [
@@ -127,7 +158,7 @@ window.currentLessonData = {
       "at": 14.45,
       "text": "Have you got the grocery list?",
       "terms": [
-        "grocery list"
+        "grocery"
       ]
     },
     {
@@ -150,13 +181,15 @@ window.currentLessonData = {
     {
       "at": 25.02,
       "text": "Sure, a basket would be too small for the amount of groceries we need.",
-      "terms": []
+      "terms": [
+        "grocery"
+      ]
     },
     {
       "at": 31.79,
       "text": "Why don't we start with the items in the produce section?",
       "terms": [
-        "produce section"
+        "produce"
       ]
     },
     {
@@ -240,7 +273,9 @@ window.currentLessonData = {
     {
       "at": 84.22,
       "text": "In aisle three, we can find dairy items.",
-      "terms": []
+      "terms": [
+        "aisle"
+      ]
     },
     {
       "at": 87.24,
@@ -287,7 +322,10 @@ window.currentLessonData = {
     {
       "at": 108.94,
       "text": "Now we're in aisle four. Do we need anything from the deli section?",
-      "terms": []
+      "terms": [
+        "aisle",
+        "deli section"
+      ]
     },
     {
       "at": 114.98,
@@ -350,7 +388,9 @@ window.currentLessonData = {
     {
       "at": 153.79,
       "text": "Great. Do we need anything in the household items aisle?",
-      "terms": []
+      "terms": [
+        "aisle"
+      ]
     },
     {
       "at": 158.06,
@@ -432,12 +472,16 @@ window.currentLessonData = {
     {
       "at": 211.02,
       "text": "No... we have a lot of groceries.",
-      "terms": []
+      "terms": [
+        "grocery"
+      ]
     },
     {
       "at": 213.93,
       "text": "With this much stuff, I prefer paying at the cashier.",
-      "terms": []
+      "terms": [
+        "cashier"
+      ]
     },
     {
       "at": 217.39,
@@ -448,7 +492,7 @@ window.currentLessonData = {
       "at": 218.63,
       "text": "Oh no! I just realized that we forgot our reusable bags.",
       "terms": [
-        "reusable bags"
+        "reusable"
       ]
     },
     {

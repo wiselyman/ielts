@@ -11,11 +11,31 @@ window.currentLessonData = {
   "summary": "A short workplace skills video about listening, friendliness, open-mindedness, feedback and nonverbal communication.",
   "vocab": [
     {
-      "term": "effective communication",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "有效沟通",
-      "definition": "communication that helps people understand each other clearly"
+      "term": "effective",
+      "aliases": [
+        "effective communication"
+      ],
+      "phonetic": "/ɪˈfektɪv/",
+      "pos": "adjective",
+      "zh": "有效的",
+      "definition": "successful in producing the result you want"
+    },
+    {
+      "term": "workplace",
+      "phonetic": "/ˈwɜːrkpleɪs/",
+      "pos": "noun",
+      "zh": "工作场所",
+      "definition": "the place where people work"
+    },
+    {
+      "term": "professional",
+      "aliases": [
+        "professionals"
+      ],
+      "phonetic": "/prəˈfeʃənl/",
+      "pos": "noun",
+      "zh": "专业人士；职场人士",
+      "definition": "a person who does a skilled job"
     },
     {
       "term": "lacking",
@@ -25,11 +45,14 @@ window.currentLessonData = {
       "definition": "not having enough of something"
     },
     {
-      "term": "retain awareness",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "保持意识",
-      "definition": "to continue noticing and thinking about something"
+      "term": "awareness",
+      "aliases": [
+        "retain awareness"
+      ],
+      "phonetic": "/əˈwernəs/",
+      "pos": "noun",
+      "zh": "意识",
+      "definition": "knowledge or understanding of something"
     },
     {
       "term": "active listening",
@@ -39,11 +62,14 @@ window.currentLessonData = {
       "definition": "listening carefully and showing that you understand"
     },
     {
-      "term": "clarifying questions",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "澄清性问题",
-      "definition": "questions that help make something clearer"
+      "term": "clarify",
+      "aliases": [
+        "clarifying questions"
+      ],
+      "phonetic": "/ˈklærəfaɪ/",
+      "pos": "verb",
+      "zh": "澄清",
+      "definition": "to make something easier to understand"
     },
     {
       "term": "rephrase",
@@ -60,11 +86,14 @@ window.currentLessonData = {
       "definition": "friendly and easy to talk to"
     },
     {
-      "term": "open-mindedness",
-      "phonetic": "/ˌoʊpən ˈmaɪndɪdnəs/",
-      "pos": "noun",
-      "zh": "开放心态",
-      "definition": "the quality of being willing to consider new ideas"
+      "term": "open-minded",
+      "aliases": [
+        "open-mindedness"
+      ],
+      "phonetic": "/ˌoʊpən ˈmaɪndɪd/",
+      "pos": "adjective",
+      "zh": "思想开放的",
+      "definition": "willing to consider new or different ideas"
     },
     {
       "term": "point of view",
@@ -81,18 +110,24 @@ window.currentLessonData = {
       "definition": "advice or comments about how well someone is doing"
     },
     {
-      "term": "compliment sandwich",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "夹心式反馈",
-      "definition": "feedback that puts criticism between positive comments"
+      "term": "compliment",
+      "aliases": [
+        "compliment sandwich"
+      ],
+      "phonetic": "/ˈkɑːmplɪmənt/",
+      "pos": "noun",
+      "zh": "称赞",
+      "definition": "a polite expression of praise"
     },
     {
-      "term": "nonverbal communication",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "非语言沟通",
-      "definition": "communication without words, such as face, body or eye contact"
+      "term": "nonverbal",
+      "aliases": [
+        "nonverbal communication"
+      ],
+      "phonetic": "/ˌnɑːnˈvɜːrbl/",
+      "pos": "adjective",
+      "zh": "非语言的",
+      "definition": "not using words"
     },
     {
       "term": "eye contact",
@@ -107,6 +142,13 @@ window.currentLessonData = {
       "pos": "verb",
       "zh": "充分利用",
       "definition": "to use something effectively to get a better result"
+    },
+    {
+      "term": "participant",
+      "phonetic": "/pɑːrˈtɪsɪpənt/",
+      "pos": "noun",
+      "zh": "参与者",
+      "definition": "a person who takes part in an activity or conversation"
     }
   ],
   "cues": [
@@ -114,18 +156,22 @@ window.currentLessonData = {
       "at": 0.88,
       "text": "Effective communication skills in the workplace.",
       "terms": [
-        "effective communication"
+        "effective",
+        "workplace"
       ]
     },
     {
       "at": 4.72,
       "text": "While schooling prepares us for some things, there usually isn't enough of a focus on how to communicate effectively.",
-      "terms": []
+      "terms": [
+        "effective"
+      ]
     },
     {
       "at": 12,
       "text": "This can leave professionals with no idea what to focus on to improve their skills or where they may be lacking.",
       "terms": [
+        "professional",
         "lacking"
       ]
     },
@@ -133,7 +179,7 @@ window.currentLessonData = {
       "at": 19.12,
       "text": "Luckily, communication skills are easy to build as long as we retain awareness of them.",
       "terms": [
-        "retain awareness"
+        "awareness"
       ]
     },
     {
@@ -162,7 +208,7 @@ window.currentLessonData = {
       "at": 49.6,
       "text": "One, pay attention. Two, ask clarifying questions. Three, rephrase what they said to ensure understanding.",
       "terms": [
-        "clarifying questions",
+        "clarify",
         "rephrase"
       ]
     },
@@ -179,7 +225,9 @@ window.currentLessonData = {
     {
       "at": 63.12,
       "text": "Being friendly and creating an open environment go a long way in workplace communications.",
-      "terms": []
+      "terms": [
+        "workplace"
+      ]
     },
     {
       "at": 69.36,
@@ -212,18 +260,22 @@ window.currentLessonData = {
       "at": 98.8,
       "text": "Open-mindedness.",
       "terms": [
-        "open-mindedness"
+        "open-minded"
       ]
     },
     {
       "at": 101.36,
       "text": "Being open-minded is the ability to consider other points of view without staunchly sticking to your own.",
-      "terms": []
+      "terms": [
+        "open-minded"
+      ]
     },
     {
       "at": 107.84,
       "text": "Open-minded workers are not married to their own ideas, opening communication channels and idea workshopping.",
-      "terms": []
+      "terms": [
+        "open-minded"
+      ]
     },
     {
       "at": 115.68,
@@ -234,7 +286,7 @@ window.currentLessonData = {
       "at": 119.76,
       "text": "Tip to improve open-mindedness: adopt a policy of listening to reasoning before every decision is made.",
       "terms": [
-        "open-mindedness"
+        "open-minded"
       ]
     },
     {
@@ -260,6 +312,7 @@ window.currentLessonData = {
       "at": 141.12,
       "text": "Giving and receiving feedback is a critical skill in every workplace.",
       "terms": [
+        "workplace",
         "feedback"
       ]
     },
@@ -267,6 +320,7 @@ window.currentLessonData = {
       "at": 145.44,
       "text": "Without feedback, workers cannot know whether their methods are effective or need improvement.",
       "terms": [
+        "effective",
         "feedback"
       ]
     },
@@ -288,7 +342,8 @@ window.currentLessonData = {
       "at": 162.88,
       "text": "We often hear people start feedback with a compliment that is immediately erased by a but.",
       "terms": [
-        "feedback"
+        "feedback",
+        "compliment"
       ]
     },
     {
@@ -300,7 +355,7 @@ window.currentLessonData = {
       "at": 173.2,
       "text": "Instead, use the compliment sandwich.",
       "terms": [
-        "compliment sandwich"
+        "compliment"
       ]
     },
     {
@@ -322,14 +377,14 @@ window.currentLessonData = {
       "at": 198.64,
       "text": "Nonverbal communication.",
       "terms": [
-        "nonverbal communication"
+        "nonverbal"
       ]
     },
     {
       "at": 201.36,
       "text": "Nonverbal communication accounts for 70 to 93 percent of communication.",
       "terms": [
-        "nonverbal communication"
+        "nonverbal"
       ]
     },
     {
@@ -341,7 +396,7 @@ window.currentLessonData = {
       "at": 214.32,
       "text": "By learning how to leverage nonverbal communication properly, we can ensure we're sending the right message.",
       "terms": [
-        "nonverbal communication",
+        "nonverbal",
         "leverage"
       ]
     },
@@ -349,7 +404,7 @@ window.currentLessonData = {
       "at": 221.52,
       "text": "Tips to improve nonverbal communication: make and maintain eye contact to show you're paying attention.",
       "terms": [
-        "nonverbal communication",
+        "nonverbal",
         "eye contact"
       ]
     },
@@ -366,13 +421,16 @@ window.currentLessonData = {
     {
       "at": 243.2,
       "text": "Communicate effectively.",
-      "terms": []
+      "terms": [
+        "effective"
+      ]
     },
     {
       "at": 245.6,
       "text": "Effective communication often boils down to remembering that you are not the only participant in conversations or communication.",
       "terms": [
-        "effective communication"
+        "effective",
+        "participant"
       ]
     },
     {

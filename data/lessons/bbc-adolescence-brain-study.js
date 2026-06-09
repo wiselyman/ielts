@@ -11,15 +11,25 @@ window.currentLessonData = {
   "summary": "A recent BBC News interview about research suggesting the brain moves through five stages and adolescence may last into the early 30s.",
   "vocab": [
     {
-      "term": "distinct phases",
+      "term": "distinct",
       "aliases": [
-        "distinct phase",
+        "distinct phases",
         "distinct stages"
       ],
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "明显不同的阶段",
-      "definition": "clearly separate stages in a process"
+      "phonetic": "/dɪˈstɪŋkt/",
+      "pos": "adjective",
+      "zh": "明显不同的",
+      "definition": "clearly different or separate"
+    },
+    {
+      "term": "phase",
+      "aliases": [
+        "phases"
+      ],
+      "phonetic": "/feɪz/",
+      "pos": "noun",
+      "zh": "阶段",
+      "definition": "a stage in a process of change or development"
     },
     {
       "term": "neuroscientist",
@@ -32,14 +42,14 @@ window.currentLessonData = {
       "definition": "a scientist who studies the brain and nervous system"
     },
     {
-      "term": "adolescent stage",
+      "term": "adolescent",
       "aliases": [
-        "adolescent"
+        "adolescent stage"
       ],
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "青春期阶段",
-      "definition": "the period between childhood and adulthood"
+      "phonetic": "/ˌædəˈlesnt/",
+      "pos": "adjective",
+      "zh": "青春期的",
+      "definition": "relating to the period between childhood and adulthood"
     },
     {
       "term": "rewire",
@@ -59,39 +69,49 @@ window.currentLessonData = {
       "definition": "the early period of a child’s life"
     },
     {
-      "term": "nonlinear progression",
-      "aliases": [
-        "nonlinear",
-        "progression"
-      ],
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "非线性发展",
-      "definition": "development that does not move in a simple straight or steady way"
+      "term": "nonlinear",
+      "phonetic": "/ˌnɑːnˈlɪniər/",
+      "pos": "adjective",
+      "zh": "非线性的",
+      "definition": "not developing in a simple straight or steady way"
     },
     {
-      "term": "fluctuations",
+      "term": "progression",
+      "phonetic": "/prəˈɡreʃn/",
+      "pos": "noun",
+      "zh": "发展；推进",
+      "definition": "the process of developing or moving gradually"
+    },
+    {
+      "term": "fluctuation",
       "aliases": [
-        "fluctuation"
+        "fluctuations"
       ],
-      "phonetic": "/ˌflʌktʃuˈeɪʃnz/",
+      "phonetic": "/ˌflʌktʃuˈeɪʃn/",
       "pos": "noun",
       "zh": "波动",
-      "definition": "changes up and down in level, amount or strength"
+      "definition": "a change up and down in level, amount or strength"
     },
     {
       "term": "quantify",
+      "aliases": [
+        "quantifying"
+      ],
       "phonetic": "/ˈkwɑːntɪfaɪ/",
       "pos": "verb",
       "zh": "量化",
       "definition": "to measure something and express it as a number"
     },
     {
-      "term": "organizational metrics",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "组织性指标",
-      "definition": "measurements used to describe how a system is organized"
+      "term": "metric",
+      "aliases": [
+        "metrics",
+        "organizational metrics"
+      ],
+      "phonetic": "/ˈmetrɪk/",
+      "pos": "noun",
+      "zh": "指标",
+      "definition": "a standard or measurement used to judge something"
     },
     {
       "term": "efficiency",
@@ -115,16 +135,27 @@ window.currentLessonData = {
       "definition": "easily hurt, affected or influenced by something harmful"
     },
     {
-      "term": "mental health disorder",
+      "term": "disorder",
       "aliases": [
+        "mental disorder",
         "mental disorders",
-        "mental health disorders",
-        "disorder"
+        "mental health disorder",
+        "mental health disorders"
       ],
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "心理健康疾病",
-      "definition": "an illness or condition that affects mental health"
+      "phonetic": "/dɪsˈɔːrdər/",
+      "pos": "noun",
+      "zh": "疾病；失调",
+      "definition": "an illness or condition that affects normal physical or mental health"
+    },
+    {
+      "term": "reorganize",
+      "aliases": [
+        "reorganizing"
+      ],
+      "phonetic": "/riˈɔːrɡənaɪz/",
+      "pos": "verb",
+      "zh": "重新组织",
+      "definition": "to arrange or structure something in a new way"
     }
   ],
   "cues": [
@@ -147,7 +178,7 @@ window.currentLessonData = {
       "at": 6.48,
       "text": "brain ages through five distinct stages",
       "terms": [
-        "distinct phases"
+        "distinct"
       ]
     },
     {
@@ -169,7 +200,8 @@ window.currentLessonData = {
       "at": 15.44,
       "text": "with five distinct phases identified in",
       "terms": [
-        "distinct phases"
+        "distinct",
+        "phase"
       ]
     },
     {
@@ -188,7 +220,7 @@ window.currentLessonData = {
       "at": 22.56,
       "text": "adolescent stage lasts until our early",
       "terms": [
-        "adolescent stage"
+        "adolescent"
       ]
     },
     {
@@ -222,7 +254,7 @@ window.currentLessonData = {
       "at": 37.28,
       "text": "distinct stages. Tell me a little more",
       "terms": [
-        "distinct phases"
+        "distinct"
       ]
     },
     {
@@ -278,7 +310,7 @@ window.currentLessonData = {
       "at": 60.64,
       "text": "showing here. Um there's a nonlinear",
       "terms": [
-        "nonlinear progression"
+        "nonlinear"
       ]
     },
     {
@@ -295,14 +327,14 @@ window.currentLessonData = {
       "at": 67.36,
       "text": "progression throughout life. There's",
       "terms": [
-        "nonlinear progression"
+        "progression"
       ]
     },
     {
       "at": 68.88,
       "text": "actually fluctuations that are",
       "terms": [
-        "fluctuations"
+        "fluctuation"
       ]
     },
     {
@@ -331,7 +363,7 @@ window.currentLessonData = {
       "at": 81.76,
       "text": "fascinated with the adolescent stage",
       "terms": [
-        "adolescent stage"
+        "adolescent"
       ]
     },
     {
@@ -358,7 +390,7 @@ window.currentLessonData = {
       "at": 94.08,
       "text": ">> Yes. Um there are amazing adolescent",
       "terms": [
-        "adolescent stage"
+        "adolescent"
       ]
     },
     {
@@ -414,7 +446,7 @@ window.currentLessonData = {
       "at": 114.8,
       "text": "have these distinct stages. What is",
       "terms": [
-        "distinct phases"
+        "distinct"
       ]
     },
     {
@@ -430,7 +462,9 @@ window.currentLessonData = {
     {
       "at": 122.88,
       "text": "different in each one of the phases. But",
-      "terms": []
+      "terms": [
+        "phase"
+      ]
     },
     {
       "at": 125.44,
@@ -485,7 +519,7 @@ window.currentLessonData = {
       "at": 143.04,
       "text": "organizational metrics like efficiency.",
       "terms": [
-        "organizational metrics",
+        "metric",
         "efficiency"
       ]
     },
@@ -517,7 +551,7 @@ window.currentLessonData = {
       "at": 155.2,
       "text": "progression of increasing efficiency",
       "terms": [
-        "nonlinear progression",
+        "progression",
         "efficiency"
       ]
     },
@@ -545,7 +579,7 @@ window.currentLessonData = {
       "at": 167.28,
       "text": "in mental disorders that uh that people",
       "terms": [
-        "mental health disorder"
+        "disorder"
       ]
     },
     {
@@ -588,7 +622,9 @@ window.currentLessonData = {
     {
       "at": 187.2,
       "text": "these different phases and that will",
-      "terms": []
+      "terms": [
+        "phase"
+      ]
     },
     {
       "at": 189.12,
@@ -626,7 +662,7 @@ window.currentLessonData = {
       "at": 201.6,
       "text": "will develop a mental health disorder do",
       "terms": [
-        "mental health disorder"
+        "disorder"
       ]
     },
     {
@@ -637,7 +673,9 @@ window.currentLessonData = {
     {
       "at": 206.4,
       "text": "show is that the brain is reorganizing",
-      "terms": []
+      "terms": [
+        "reorganize"
+      ]
     },
     {
       "at": 208.72,
@@ -675,7 +713,7 @@ window.currentLessonData = {
       "at": 223.6,
       "text": "health disorders during this period of",
       "terms": [
-        "mental health disorder"
+        "disorder"
       ]
     },
     {

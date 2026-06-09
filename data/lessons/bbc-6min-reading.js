@@ -11,11 +11,14 @@ window.currentLessonData = {
   "summary": "This video is about adult literacy and why learning to read can change a person's daily life. It connects education, work, confidence, commuting, poverty and opportunity. For IELTS General Training, it is useful for topics about lifelong learning, education, employment and social change.",
   "vocab": [
     {
-      "term": "adult literacy",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "成人读写能力",
-      "definition": "the ability of adults to read and write"
+      "term": "literacy",
+      "aliases": [
+        "adult literacy"
+      ],
+      "phonetic": "/ˈlɪtərəsi/",
+      "pos": "noun",
+      "zh": "读写能力",
+      "definition": "the ability to read and write"
     },
     {
       "term": "illiterate",
@@ -32,18 +35,14 @@ window.currentLessonData = {
       "definition": "the condition of being unable to read or write"
     },
     {
-      "term": "literacy",
-      "phonetic": "/ˈlɪtərəsi/",
-      "pos": "noun",
-      "zh": "读写能力",
-      "definition": "the ability to read and write"
-    },
-    {
-      "term": "International Literacy Day",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "国际扫盲日",
-      "definition": "a UN day that highlights the importance of reading and writing"
+      "term": "highlight",
+      "aliases": [
+        "highlighting"
+      ],
+      "phonetic": "/ˈhaɪlaɪt/",
+      "pos": "verb",
+      "zh": "强调；突出",
+      "definition": "to show that something is important"
     },
     {
       "term": "numeracy",
@@ -61,17 +60,30 @@ window.currentLessonData = {
     },
     {
       "term": "embarrassed",
+      "aliases": [
+        "embarrassment"
+      ],
       "phonetic": "/ɪmˈbærəst/",
       "pos": "adjective",
       "zh": "尴尬的；难堪的",
       "definition": "feeling ashamed or uncomfortable"
     },
     {
-      "term": "use my fingerprint as a signature",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "用指纹代替签名",
-      "definition": "to use a fingerprint because you cannot write your name"
+      "term": "signature",
+      "aliases": [
+        "use my fingerprint as a signature"
+      ],
+      "phonetic": "/ˈsɪɡnətʃər/",
+      "pos": "noun",
+      "zh": "签名",
+      "definition": "your name written by yourself to show agreement or identity"
+    },
+    {
+      "term": "fingerprint",
+      "phonetic": "/ˈfɪŋɡərprɪnt/",
+      "pos": "noun",
+      "zh": "指纹",
+      "definition": "the mark made by the pattern on the end of a finger"
     },
     {
       "term": "cheat",
@@ -81,6 +93,13 @@ window.currentLessonData = {
       "definition": "to trick someone or behave dishonestly to get an advantage"
     },
     {
+      "term": "swindle",
+      "phonetic": "/ˈswɪndl/",
+      "pos": "verb",
+      "zh": "诈骗",
+      "definition": "to get money from someone by deceiving them"
+    },
+    {
       "term": "developing countries",
       "phonetic": "",
       "pos": "phrase",
@@ -88,18 +107,34 @@ window.currentLessonData = {
       "definition": "countries with less industrial and economic development"
     },
     {
-      "term": "adult learners",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "成人学习者",
-      "definition": "adults who are learning new skills or subjects"
+      "term": "struggle",
+      "aliases": [
+        "struggle with"
+      ],
+      "phonetic": "/ˈstrʌɡl/",
+      "pos": "verb",
+      "zh": "艰难应对",
+      "definition": "to find something difficult to do"
     },
     {
-      "term": "one-to-one lessons",
+      "term": "volunteer",
+      "aliases": [
+        "volunteers"
+      ],
+      "phonetic": "/ˌvɑːlənˈtɪr/",
+      "pos": "noun",
+      "zh": "志愿者",
+      "definition": "someone who works without being paid"
+    },
+    {
+      "term": "one-to-one",
+      "aliases": [
+        "one-to-one lessons"
+      ],
       "phonetic": "",
       "pos": "phrase",
-      "zh": "一对一课程",
-      "definition": "lessons with one teacher or volunteer and one learner"
+      "zh": "一对一的",
+      "definition": "involving one person teaching or helping one other person"
     },
     {
       "term": "take for granted",
@@ -107,6 +142,13 @@ window.currentLessonData = {
       "pos": "phrase",
       "zh": "想当然",
       "definition": "to believe something is true or will always happen without checking or appreciating it"
+    },
+    {
+      "term": "literate",
+      "phonetic": "/ˈlɪtərət/",
+      "pos": "adjective",
+      "zh": "有读写能力的",
+      "definition": "able to read and write"
     }
   ],
   "cues": [
@@ -164,7 +206,8 @@ window.currentLessonData = {
       "at": 40.08,
       "text": "around the world over 700 million adults are illiterate,",
       "terms": [
-        "illiterate"
+        "illiterate",
+        "literate"
       ]
     },
     {
@@ -226,23 +269,23 @@ window.currentLessonData = {
       "at": 77.84,
       "text": "but illiteracy is not a new problem. Since 1967, the UN",
       "terms": [
-        "illiteracy",
-        "literacy"
+        "literacy",
+        "illiteracy"
       ]
     },
     {
       "at": 84.08,
       "text": "has been highlighting the importance of literacy, being able to read",
       "terms": [
-        "literacy"
+        "literacy",
+        "highlight"
       ]
     },
     {
       "at": 87.92,
       "text": "and write with a day of celebration called International Literacy Day.",
       "terms": [
-        "literacy",
-        "International Literacy Day"
+        "literacy"
       ]
     },
     {
@@ -264,8 +307,7 @@ window.currentLessonData = {
       "at": 103.84,
       "text": "I think International Literacy Day is on the 8th of September.",
       "terms": [
-        "literacy",
-        "International Literacy Day"
+        "literacy"
       ]
     },
     {
@@ -282,7 +324,8 @@ window.currentLessonData = {
       "at": 113.8,
       "text": "The biggest reason people grow up illiterate",
       "terms": [
-        "illiterate"
+        "illiterate",
+        "literate"
       ]
     },
     {
@@ -354,7 +397,8 @@ window.currentLessonData = {
       "text": "to read and write. My children were embarrassed that I was illiterate.",
       "terms": [
         "illiterate",
-        "embarrassed"
+        "embarrassed",
+        "literate"
       ]
     },
     {
@@ -367,7 +411,9 @@ window.currentLessonData = {
       "text": "I've had to use my fingerprint as a signature as I was illiterate,",
       "terms": [
         "illiterate",
-        "use my fingerprint as a signature"
+        "signature",
+        "fingerprint",
+        "literate"
       ]
     },
     {
@@ -395,7 +441,9 @@ window.currentLessonData = {
     {
       "at": 180.76,
       "text": "couldn't write her signature -",
-      "terms": []
+      "terms": [
+        "signature"
+      ]
     },
     {
       "at": 182.84,
@@ -405,7 +453,9 @@ window.currentLessonData = {
     {
       "at": 186.16,
       "text": "Instead, she had to use her fingerprint. Now, Rashida",
-      "terms": []
+      "terms": [
+        "fingerprint"
+      ]
     },
     {
       "at": 191.12,
@@ -426,7 +476,8 @@ window.currentLessonData = {
       "at": 198.8,
       "text": "she has left. This means no one can cheat her, can trick or swindle her",
       "terms": [
-        "cheat"
+        "cheat",
+        "swindle"
       ]
     },
     {
@@ -449,7 +500,8 @@ window.currentLessonData = {
       "text": "But it's not just developing countries that struggle with literacy.",
       "terms": [
         "literacy",
-        "developing countries"
+        "developing countries",
+        "struggle"
       ]
     },
     {
@@ -471,14 +523,16 @@ window.currentLessonData = {
       "at": 223.32,
       "text": "adult learners with trained volunteers for one-to-one lessons.",
       "terms": [
-        "adult learners",
-        "one-to-one lessons"
+        "volunteer",
+        "one-to-one"
       ]
     },
     {
       "at": 228,
       "text": "In the UK, one in six adults struggle with reading and writing,",
-      "terms": []
+      "terms": [
+        "struggle"
+      ]
     },
     {
       "at": 232.72,
@@ -533,7 +587,9 @@ window.currentLessonData = {
     {
       "at": 257.44,
       "text": "Can you imagine the embarrassment? I've tried college - twice.",
-      "terms": []
+      "terms": [
+        "embarrassed"
+      ]
     },
     {
       "at": 261.72,
@@ -583,7 +639,9 @@ window.currentLessonData = {
     {
       "at": 291.92,
       "text": "Now, Peter says learning with Readeasy has changed his life. He's literate",
-      "terms": []
+      "terms": [
+        "literate"
+      ]
     },
     {
       "at": 297.6,
@@ -594,8 +652,7 @@ window.currentLessonData = {
       "at": 301.16,
       "text": "And he always celebrates International Literacy Day.",
       "terms": [
-        "literacy",
-        "International Literacy Day"
+        "literacy"
       ]
     },
     {
@@ -607,8 +664,7 @@ window.currentLessonData = {
       "at": 306.76,
       "text": "Beth. When does the UN's International Literacy Day take place?",
       "terms": [
-        "literacy",
-        "International Literacy Day"
+        "literacy"
       ]
     },
     {
@@ -630,7 +686,8 @@ window.currentLessonData = {
       "at": 319.6,
       "text": "we've learnt from this programme, starting with 'illiterate',",
       "terms": [
-        "illiterate"
+        "illiterate",
+        "literate"
       ]
     },
     {
@@ -648,7 +705,9 @@ window.currentLessonData = {
     {
       "at": 330.68,
       "text": "Your signature is your name written in your own handwriting style.",
-      "terms": []
+      "terms": [
+        "signature"
+      ]
     },
     {
       "at": 335.08,

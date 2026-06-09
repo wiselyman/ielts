@@ -11,11 +11,11 @@ window.currentLessonData = {
   "summary": "A short BBC Learning English conversation lesson about simple daily routines, transport, meals and evening activities.",
   "vocab": [
     {
-      "term": "every day",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "每天",
-      "definition": "on each day"
+      "term": "routine",
+      "phonetic": "/ruːˈtiːn/",
+      "pos": "noun",
+      "zh": "日常安排",
+      "definition": "the usual order in which you do things"
     },
     {
       "term": "wake up",
@@ -25,59 +25,69 @@ window.currentLessonData = {
       "definition": "to stop sleeping"
     },
     {
-      "term": "eat breakfast",
+      "term": "breakfast",
+      "phonetic": "/ˈbrekfəst/",
+      "pos": "noun",
+      "zh": "早餐",
+      "definition": "the first meal of the day"
+    },
+    {
+      "term": "jogging",
       "aliases": [
-        "breakfast"
+        "go jogging"
       ],
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "吃早餐",
-      "definition": "to have the first meal of the day"
+      "phonetic": "/ˈdʒɑːɡɪŋ/",
+      "pos": "noun",
+      "zh": "慢跑",
+      "definition": "running slowly for exercise"
     },
     {
-      "term": "go jogging",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "去慢跑",
-      "definition": "to run slowly for exercise"
-    },
-    {
-      "term": "get the bus to work",
+      "term": "bus",
       "aliases": [
         "get the bus"
       ],
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "乘公交车上班",
-      "definition": "to travel to work by bus"
+      "phonetic": "/bʌs/",
+      "pos": "noun",
+      "zh": "公交车",
+      "definition": "a large road vehicle that carries passengers"
     },
     {
-      "term": "drive to work",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "开车上班",
-      "definition": "to travel to work by car"
+      "term": "work",
+      "aliases": [
+        "finish work",
+        "drive to work"
+      ],
+      "phonetic": "/wɜːrk/",
+      "pos": "noun",
+      "zh": "工作",
+      "definition": "a job or activity that you do regularly"
     },
     {
-      "term": "read a book",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "读书",
-      "definition": "to look at and understand the words in a book"
+      "term": "podcast",
+      "phonetic": "/ˈpɑːdkæst/",
+      "pos": "noun",
+      "zh": "播客",
+      "definition": "an audio programme that you can listen to online"
     },
     {
-      "term": "finish work",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "下班；完成工作",
-      "definition": "to stop working at the end of the work day"
+      "term": "shower",
+      "aliases": [
+        "have a shower"
+      ],
+      "phonetic": "/ˈʃaʊər/",
+      "pos": "noun",
+      "zh": "淋浴",
+      "definition": "a way of washing under running water"
     },
     {
-      "term": "have a shower",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "洗淋浴",
-      "definition": "to wash your body under running water"
+      "term": "exercise",
+      "aliases": [
+        "do some exercise"
+      ],
+      "phonetic": "/ˈeksərsaɪz/",
+      "pos": "noun",
+      "zh": "运动；锻炼",
+      "definition": "physical activity that keeps you healthy"
     },
     {
       "term": "go to sleep",
@@ -87,24 +97,11 @@ window.currentLessonData = {
       "definition": "to start sleeping"
     },
     {
-      "term": "listen to a podcast",
-      "aliases": [
-        "podcast"
-      ],
+      "term": "What do you do every day",
       "phonetic": "",
       "pos": "phrase",
-      "zh": "听播客",
-      "definition": "to listen to an online audio programme"
-    },
-    {
-      "term": "do some exercise",
-      "aliases": [
-        "exercise"
-      ],
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "做些运动",
-      "definition": "to do physical activity to stay healthy"
+      "zh": "你每天做什么",
+      "definition": "a basic question about daily routines"
     }
   ],
   "cues": [
@@ -117,7 +114,7 @@ window.currentLessonData = {
       "at": 6.68,
       "text": "What do you do every day?",
       "terms": [
-        "every day"
+        "What do you do every day"
       ]
     },
     {
@@ -144,7 +141,7 @@ window.currentLessonData = {
       "at": 18.96,
       "text": "What do you do every day?",
       "terms": [
-        "every day"
+        "What do you do every day"
       ]
     },
     {
@@ -158,28 +155,29 @@ window.currentLessonData = {
       "at": 24.16,
       "text": "I eat breakfast.",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
       "at": 27.36,
       "text": "I go jogging.",
       "terms": [
-        "go jogging"
+        "jogging"
       ]
     },
     {
       "at": 30.84,
       "text": "I get the bus to work.",
       "terms": [
-        "get the bus to work"
+        "bus",
+        "work"
       ]
     },
     {
       "at": 35.32,
       "text": "I read a book on the bus.",
       "terms": [
-        "read a book"
+        "bus"
       ]
     },
     {
@@ -191,7 +189,7 @@ window.currentLessonData = {
       "at": 43.92,
       "text": "After I finish work, I swim in the sea.",
       "terms": [
-        "finish work"
+        "work"
       ]
     },
     {
@@ -203,7 +201,7 @@ window.currentLessonData = {
       "at": 52.56,
       "text": "I have a shower.",
       "terms": [
-        "have a shower"
+        "shower"
       ]
     },
     {
@@ -222,7 +220,7 @@ window.currentLessonData = {
       "at": 61.36,
       "text": "What do you do every day?",
       "terms": [
-        "every day"
+        "What do you do every day"
       ]
     },
     {
@@ -236,28 +234,28 @@ window.currentLessonData = {
       "at": 66.64,
       "text": "I have a shower.",
       "terms": [
-        "have a shower"
+        "shower"
       ]
     },
     {
       "at": 69.56,
       "text": "I eat breakfast.",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
       "at": 73.16,
       "text": "I drive to work.",
       "terms": [
-        "drive to work"
+        "work"
       ]
     },
     {
       "at": 76.4,
       "text": "I listen to a podcast.",
       "terms": [
-        "listen to a podcast"
+        "podcast"
       ]
     },
     {
@@ -278,7 +276,9 @@ window.currentLessonData = {
     {
       "at": 85.88,
       "text": "After work, I go to the park.",
-      "terms": []
+      "terms": [
+        "work"
+      ]
     },
     {
       "at": 90.16,
@@ -326,7 +326,7 @@ window.currentLessonData = {
       "at": 118.6,
       "text": "What do you do every day?",
       "terms": [
-        "every day"
+        "What do you do every day"
       ]
     },
     {
@@ -340,20 +340,22 @@ window.currentLessonData = {
       "at": 125.12,
       "text": "I eat breakfast.",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
       "at": 129.48,
       "text": "I have a shower.",
       "terms": [
-        "have a shower"
+        "shower"
       ]
     },
     {
       "at": 134.2,
       "text": "I walk to work.",
-      "terms": []
+      "terms": [
+        "work"
+      ]
     },
     {
       "at": 138.56,
@@ -379,7 +381,6 @@ window.currentLessonData = {
       "at": 158.28,
       "text": "Then, I read a book and go to sleep.",
       "terms": [
-        "read a book",
         "go to sleep"
       ]
     },
@@ -397,7 +398,7 @@ window.currentLessonData = {
       "at": 170.32,
       "text": "What do you do every day?",
       "terms": [
-        "every day"
+        "What do you do every day"
       ]
     },
     {
@@ -411,20 +412,22 @@ window.currentLessonData = {
       "at": 176.08,
       "text": "I have a shower.",
       "terms": [
-        "have a shower"
+        "shower"
       ]
     },
     {
       "at": 179.6,
       "text": "I eat breakfast.",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
       "at": 183.6,
       "text": "I get the train to work.",
-      "terms": []
+      "terms": [
+        "work"
+      ]
     },
     {
       "at": 187.68,
@@ -440,8 +443,8 @@ window.currentLessonData = {
       "at": 195.84,
       "text": "After I finish work, I do some exercise.",
       "terms": [
-        "finish work",
-        "do some exercise"
+        "work",
+        "exercise"
       ]
     },
     {
@@ -460,7 +463,7 @@ window.currentLessonData = {
       "at": 207.96,
       "text": "What about you? What do you do every day?",
       "terms": [
-        "every day"
+        "What do you do every day"
       ]
     },
     {
@@ -474,7 +477,7 @@ window.currentLessonData = {
       "at": 221.72,
       "text": "I eat breakfast.",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
@@ -498,14 +501,14 @@ window.currentLessonData = {
       "at": 245.28,
       "text": "What do you eat for breakfast, Tim?",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
       "at": 248.36,
       "text": "I eat toast for breakfast.",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
@@ -517,56 +520,56 @@ window.currentLessonData = {
       "at": 254.36,
       "text": "What do you eat for breakfast?",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
       "at": 256.72,
       "text": "I eat cereal for breakfast.",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
       "at": 259.92,
       "text": "What do you eat for breakfast, Sian?",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
       "at": 262,
       "text": "I eat fruit and yoghurt for breakfast.",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
       "at": 265.44,
       "text": "What do you eat for breakfast, Buli?",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
       "at": 267.72,
       "text": "I eat porridge for breakfast.",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
       "at": 270.76,
       "text": "What do you eat for breakfast?",
       "terms": [
-        "eat breakfast"
+        "breakfast"
       ]
     },
     {
       "at": 280.8,
       "text": "What do you do every day?",
       "terms": [
-        "every day"
+        "What do you do every day"
       ]
     },
     {

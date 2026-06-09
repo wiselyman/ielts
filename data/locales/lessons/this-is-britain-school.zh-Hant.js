@@ -4,13 +4,14 @@ window.lessonLocale = {
   "vocab": {
     "school day": "上學日",
     "lollipop lady": "護送兒童過馬路的女交通員",
-    "cross the road": "過馬路",
-    "school uniform": "校服",
-    "class registration": "課堂點名",
+    "cross": "穿過；橫過",
+    "uniform": "校服；制服",
+    "registration": "點名；登記",
     "assembly": "集會",
     "tidy up": "收拾整齊",
     "break time": "課間休息",
     "playground": "操場；遊樂場",
-    "canteen": "食堂"
+    "canteen": "食堂",
+    "crisps": "薯片"
   }
 };
