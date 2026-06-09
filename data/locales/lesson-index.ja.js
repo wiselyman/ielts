@@ -8,7 +8,8 @@ window.lessonIndexLocale = {
     "bbc-ai-deepfakes-politics": "BBC News の動画で、AI 生成のディープフェイク（deepfake）が政治コミュニケーションに与える影響を扱います。IELTS 7 前後の学習者が新しいテクノロジーと社会問題を聞く練習に向いています。AI-powered tools、spread like wildfire、mistrust、malicious fiction、precedent、abuse、authentic、disclose、AI-generated、stakes、undermine trust などが重要です。",
     "bbc-easy-daily-routine": "この BBC Learning English のレッスンでは、とても短い文で日常生活（daily routine）を練習します。IELTS 4 前後の学習者に向いています。every day、wake up、breakfast、get the bus、read a book、have a shower、go to sleep など、生活でよく使う表現が何度も出てくるので、基礎リスニングのリズムを作れます。",
     "bbc-easy-likes-dislikes": "この BBC Learning English のレッスンでは、食べ物と趣味を使って likes and dislikes を練習します。IELTS 4 前後の学習者に向いています。I like、I don’t like、She likes、He likes など、基本だけれど大切な表現が何度も出てきます。food、fruit、dancing、hiking、swimming などの生活語彙も学べます。",
-    "english-panda-supermarket-shopping": "この English Panda のレッスンは、バーベキューパーティーの買い物をするスーパーでの会話です。IELTS 4.5 前後の学習者に向いています。4 のレッスンより情報量が多く、grocery list、shopping cart、produce section、expiry date、on sale、self-checkout、cashier、reusable bags など、買い物の流れに沿った語彙が出てきます。"
+    "english-panda-supermarket-shopping": "この English Panda のレッスンは、バーベキューパーティーの買い物をするスーパーでの会話です。IELTS 4.5 前後の学習者に向いています。4 のレッスンより情報量が多く、grocery list、shopping cart、produce section、expiry date、on sale、self-checkout、cashier、reusable bags など、買い物の流れに沿った語彙が出てきます。",
+    "bbc-real-easy-restaurants": "この BBC Real Easy English のレッスンは、レストランと注文の会話です。IELTS 4.5 前後の学習者に向いています。レストランに行く頻度、atmosphere、eat out、special occasion、celebration を話し、I'll have... / Can I have... / Can I get... という注文表現も練習します。4 のレッスンより理由説明と自然な会話のつながりが増えますが、語彙とスピードはまだやさしいです。"
   },
   "themes": {
     "school day": "学校生活",
@@ -34,6 +35,8 @@ window.lessonIndexLocale = {
     "hobbies": "趣味",
     "grocery shopping": "食料品の買い物",
     "supermarket": "スーパー",
-    "everyday conversation": "日常会話"
+    "everyday conversation": "日常会話",
+    "restaurants": "レストラン",
+    "ordering food": "料理の注文"
   }
 };
