@@ -67,6 +67,17 @@ window.videoLessons = [
     "summary": "This short British Council lesson explains when to use formal and informal language in emails."
   },
   {
+    "id": "workplace-communication-skills",
+    "path": "workplace-communication-skills.html",
+    "title": "Effective Communication Skills in the Workplace",
+    "source": "YouTube · Self-Improvement Vault",
+    "duration": "4:39",
+    "level": "5",
+    "theme": "communication skills, workplace, feedback",
+    "youtubeId": "QGHBq5OEsBM",
+    "summary": "A short workplace skills video about listening, friendliness, open-mindedness, feedback and nonverbal communication."
+  },
+  {
     "id": "bbc-6min-reading",
     "path": "bbc-6min-reading.html",
     "title": "How learning to read changes lives",
@@ -110,5 +121,6 @@ window.lessonSummaries = {
   "bbc-easy-daily-routine": "这节 BBC Learning English 课程用非常短的句子练习日常作息（daily routine），适合雅思 4 分左右学习者。视频反复出现每天（every day）、醒来（wake up）、吃早餐（breakfast）、乘公交车（get the bus）、读书（read a book）、洗淋浴（have a shower）、睡觉（go to sleep）等高频生活表达，适合建立基础听力节奏。",
   "bbc-easy-likes-dislikes": "这节 BBC Learning English 课程用轻松的食物和爱好话题练习喜欢和不喜欢（likes and dislikes），适合雅思 4 分左右学习者。视频反复出现我喜欢（I like）、我不喜欢（I don’t like）、她喜欢（She likes）、他喜欢（He likes）等基础但很重要的表达，也包含食物（food）、水果（fruit）、跳舞（dancing）、徒步（hiking）、游泳（swimming）等生活词汇。",
   "english-panda-supermarket-shopping": "这节 English Panda 课程围绕一次为烧烤聚会采购食物的超市对话，适合雅思 4.5 分左右学习者。它比 4 分课程的信息量更大：说话人要看购物清单（grocery list）、推购物车（shopping cart）、逛农产品区（produce section）、确认保质期（expiry date）、比较特价（on sale）、选择自助结账（self-checkout）或收银员（cashier），也会谈到可重复使用的袋子（reusable bags）。",
-  "bbc-real-easy-restaurants": "这节 BBC Real Easy English 课程围绕餐厅和点餐展开，适合雅思 4.5 分左右学习者。视频讨论多久去餐厅（go to restaurants often）、餐厅氛围（atmosphere）、外出吃饭（eat out）、特殊场合（special occasion）和庆祝（celebration），还示范了点餐句型：I'll have... / Can I have... / Can I get...。它比 4 分课程多了原因解释和自然对话衔接，但语速和词汇仍然友好。"
+  "bbc-real-easy-restaurants": "这节 BBC Real Easy English 课程围绕餐厅和点餐展开，适合雅思 4.5 分左右学习者。视频讨论多久去餐厅（go to restaurants often）、餐厅氛围（atmosphere）、外出吃饭（eat out）、特殊场合（special occasion）和庆祝（celebration），还示范了点餐句型：I'll have... / Can I have... / Can I get...。它比 4 分课程多了原因解释和自然对话衔接，但语速和词汇仍然友好。",
+  "workplace-communication-skills": "这节课程讲职场有效沟通（effective communication），适合雅思 5 分左右学习者。视频不再只是日常场景对话，而是解释工作场所（workplace）里如何倾听（listening）、提出澄清问题（clarifying questions）、复述（rephrase）、保持开放心态（open-mindedness）、给反馈（feedback）以及使用非语言沟通（nonverbal communication）。这些表达可用于 IELTS 工作、团队合作和沟通类话题。"
 };

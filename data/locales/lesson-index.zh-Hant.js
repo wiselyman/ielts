@@ -9,7 +9,8 @@ window.lessonIndexLocale = {
     "bbc-easy-daily-routine": "這節 BBC Learning English 課程用非常短的句子練習日常作息（daily routine），適合雅思 4 分左右學習者。影片反覆出現每天（every day）、醒來（wake up）、吃早餐（breakfast）、搭公車（get the bus）、讀書（read a book）、洗淋浴（have a shower）、睡覺（go to sleep）等高頻生活表達，適合建立基礎聽力節奏。",
     "bbc-easy-likes-dislikes": "這節 BBC Learning English 課程用輕鬆的食物和愛好話題練習喜歡和不喜歡（likes and dislikes），適合雅思 4 分左右學習者。影片反覆出現我喜歡（I like）、我不喜歡（I don’t like）、她喜歡（She likes）、他喜歡（He likes）等基礎但很重要的表達，也包含食物（food）、水果（fruit）、跳舞（dancing）、徒步（hiking）、游泳（swimming）等生活詞彙。",
     "english-panda-supermarket-shopping": "這節 English Panda 課程圍繞一次為烤肉聚會採買食物的超市對話，適合雅思 4.5 分左右學習者。它比 4 分課程的資訊量更大：說話人要看購物清單（grocery list）、推購物車（shopping cart）、逛農產品區（produce section）、確認保存期限（expiry date）、比較特價（on sale）、選擇自助結帳（self-checkout）或收銀員（cashier），也會談到可重複使用的袋子（reusable bags）。",
-    "bbc-real-easy-restaurants": "這節 BBC Real Easy English 課程圍繞餐廳和點餐展開，適合雅思 4.5 分左右學習者。影片討論多久去餐廳（go to restaurants often）、餐廳氛圍（atmosphere）、外出吃飯（eat out）、特殊場合（special occasion）和慶祝（celebration），還示範了點餐句型：I'll have... / Can I have... / Can I get...。它比 4 分課程多了原因解釋和自然對話銜接，但語速和詞彙仍然友好。"
+    "bbc-real-easy-restaurants": "這節 BBC Real Easy English 課程圍繞餐廳和點餐展開，適合雅思 4.5 分左右學習者。影片討論多久去餐廳（go to restaurants often）、餐廳氛圍（atmosphere）、外出吃飯（eat out）、特殊場合（special occasion）和慶祝（celebration），還示範了點餐句型：I'll have... / Can I have... / Can I get...。它比 4 分課程多了原因解釋和自然對話銜接，但語速和詞彙仍然友好。",
+    "workplace-communication-skills": "這節課程講職場有效溝通（effective communication），適合雅思 5 分左右學習者。影片不再只是日常場景對話，而是解釋工作場所（workplace）裡如何傾聽（listening）、提出澄清問題（clarifying questions）、重新表述（rephrase）、保持開放心態（open-mindedness）、給回饋（feedback）以及使用非語言溝通（nonverbal communication）。這些表達可用於 IELTS 工作、團隊合作和溝通類話題。"
   },
   "themes": {
     "school day": "上學日",
@@ -37,6 +38,8 @@ window.lessonIndexLocale = {
     "supermarket": "超市",
     "everyday conversation": "日常對話",
     "restaurants": "餐廳",
-    "ordering food": "點餐"
+    "ordering food": "點餐",
+    "communication skills": "溝通技能",
+    "feedback": "回饋"
   }
 };
