@@ -8,112 +8,80 @@ window.currentLessonData = {
   "level": "4",
   "theme": "daily routine, beginner conversation, everyday life",
   "youtubeId": "bq6GBbh3uhU",
-  "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, focused on daily routine chunks such as transport, work, exercise and evening habits rather than isolated beginner nouns.",
+  "summary": "A short BBC Learning English lesson for IELTS Band 4 learners. The vocabulary list now focuses on useful topic words from the video, not isolated beginner words or sentence fragments.",
   "vocab": [
     {
-      "phonetic": "",
-      "term": "every day",
-      "pos": "phrase",
-      "zh": "每天",
-      "definition": "on each day; daily"
+      "term": "jogging",
+      "aliases": [
+        "go jogging"
+      ],
+      "phonetic": "/ˈdʒɑːɡɪŋ/",
+      "pos": "noun",
+      "zh": "慢跑",
+      "definition": "running slowly for exercise"
     },
     {
-      "phonetic": "",
-      "term": "wake up",
-      "pos": "phrasal verb",
-      "zh": "醒来",
-      "definition": "to stop sleeping"
+      "term": "podcast",
+      "phonetic": "/ˈpɑːdkæst/",
+      "pos": "noun",
+      "zh": "播客",
+      "definition": "an audio programme that you listen to online"
     },
     {
-      "phonetic": "",
-      "term": "go jogging",
-      "pos": "phrase",
-      "zh": "去慢跑",
-      "definition": "to run slowly for exercise"
-    },
-    {
-      "phonetic": "",
-      "term": "get the bus",
-      "pos": "phrase",
-      "zh": "乘公交车",
-      "definition": "to travel by bus"
-    },
-    {
-      "phonetic": "",
-      "term": "read a book",
-      "pos": "phrase",
-      "zh": "读书",
-      "definition": "to spend time reading a book"
-    },
-    {
-      "phonetic": "",
       "term": "finish work",
-      "pos": "phrase",
+      "phonetic": "",
+      "pos": "collocation",
       "zh": "下班；完成工作",
       "definition": "to stop working at the end of the work period"
     },
     {
-      "phonetic": "",
-      "term": "swim in the sea",
-      "pos": "phrase",
-      "zh": "在海里游泳",
-      "definition": "to swim in seawater"
+      "term": "exercise",
+      "phonetic": "/ˈeksərsaɪz/",
+      "pos": "noun",
+      "zh": "运动；锻炼",
+      "definition": "physical activity that keeps you healthy"
     },
     {
-      "phonetic": "",
-      "term": "have a shower",
-      "pos": "phrase",
-      "zh": "洗淋浴",
-      "definition": "to wash yourself under running water"
+      "term": "directions",
+      "phonetic": "/dəˈrekʃnz/",
+      "pos": "plural noun",
+      "zh": "方向指示；路线说明",
+      "definition": "instructions that tell you how to get somewhere"
     },
     {
-      "phonetic": "",
-      "term": "drive to work",
-      "pos": "phrase",
-      "zh": "开车上班",
-      "definition": "to travel to work by car"
+      "term": "straight",
+      "phonetic": "/streɪt/",
+      "pos": "adverb",
+      "zh": "直地；一直",
+      "definition": "in one direction without turning"
     },
     {
-      "phonetic": "",
-      "term": "listen to a podcast",
-      "pos": "phrase",
-      "zh": "听播客",
-      "definition": "to hear an online audio programme"
+      "term": "cereal",
+      "phonetic": "/ˈsɪriəl/",
+      "pos": "noun",
+      "zh": "谷物早餐",
+      "definition": "a breakfast food made from grains"
     },
     {
-      "phonetic": "",
-      "term": "go to the park",
-      "pos": "phrase",
-      "zh": "去公园",
-      "definition": "to visit a public outdoor place"
+      "term": "yoghurt",
+      "phonetic": "/ˈjɒɡərt/",
+      "pos": "noun",
+      "zh": "酸奶",
+      "definition": "a thick sour food made from milk"
     },
     {
-      "phonetic": "",
-      "term": "play video games",
-      "pos": "phrase",
-      "zh": "玩电子游戏",
-      "definition": "to play electronic games"
+      "term": "porridge",
+      "phonetic": "/ˈpɔːrɪdʒ/",
+      "pos": "noun",
+      "zh": "燕麦粥",
+      "definition": "a hot breakfast food made by boiling oats"
     },
     {
-      "phonetic": "",
-      "term": "do some exercise",
-      "pos": "phrase",
-      "zh": "做些运动",
-      "definition": "to do physical activity to stay healthy"
-    },
-    {
-      "phonetic": "",
-      "term": "write your answer",
-      "pos": "phrase",
-      "zh": "写下你的回答",
-      "definition": "to put your response in writing"
-    },
-    {
-      "phonetic": "",
-      "term": "in the comments",
-      "pos": "phrase",
-      "zh": "在评论区",
-      "definition": "in the comment area online"
+      "term": "subscribe",
+      "phonetic": "/səbˈskraɪb/",
+      "pos": "verb",
+      "zh": "订阅",
+      "definition": "to arrange to receive updates from a channel or service"
     }
   ],
   "cues": [
@@ -125,9 +93,7 @@ window.currentLessonData = {
     {
       "at": 6.68,
       "text": "What do you do every day?",
-      "terms": [
-        "every day"
-      ]
+      "terms": []
     },
     {
       "at": 9.96,
@@ -152,16 +118,12 @@ window.currentLessonData = {
     {
       "at": 18.96,
       "text": "What do you do every day?",
-      "terms": [
-        "every day"
-      ]
+      "terms": []
     },
     {
       "at": 21.04,
       "text": "I wake up.",
-      "terms": [
-        "wake up"
-      ]
+      "terms": []
     },
     {
       "at": 24.16,
@@ -172,22 +134,18 @@ window.currentLessonData = {
       "at": 27.36,
       "text": "I go jogging.",
       "terms": [
-        "go jogging"
+        "jogging"
       ]
     },
     {
       "at": 30.84,
       "text": "I get the bus to work.",
-      "terms": [
-        "get the bus"
-      ]
+      "terms": []
     },
     {
       "at": 35.32,
       "text": "I read a book on the bus.",
-      "terms": [
-        "read a book"
-      ]
+      "terms": []
     },
     {
       "at": 40.08,
@@ -198,8 +156,7 @@ window.currentLessonData = {
       "at": 43.92,
       "text": "After I finish work, I swim in the sea.",
       "terms": [
-        "finish work",
-        "swim in the sea"
+        "finish work"
       ]
     },
     {
@@ -210,9 +167,7 @@ window.currentLessonData = {
     {
       "at": 52.56,
       "text": "I have a shower.",
-      "terms": [
-        "have a shower"
-      ]
+      "terms": []
     },
     {
       "at": 55.92,
@@ -227,23 +182,17 @@ window.currentLessonData = {
     {
       "at": 61.36,
       "text": "What do you do every day?",
-      "terms": [
-        "every day"
-      ]
+      "terms": []
     },
     {
       "at": 63.48,
       "text": "I wake up.",
-      "terms": [
-        "wake up"
-      ]
+      "terms": []
     },
     {
       "at": 66.64,
       "text": "I have a shower.",
-      "terms": [
-        "have a shower"
-      ]
+      "terms": []
     },
     {
       "at": 69.56,
@@ -253,15 +202,13 @@ window.currentLessonData = {
     {
       "at": 73.16,
       "text": "I drive to work.",
-      "terms": [
-        "drive to work"
-      ]
+      "terms": []
     },
     {
       "at": 76.4,
       "text": "I listen to a podcast.",
       "terms": [
-        "listen to a podcast"
+        "podcast"
       ]
     },
     {
@@ -282,9 +229,7 @@ window.currentLessonData = {
     {
       "at": 85.88,
       "text": "After work, I go to the park.",
-      "terms": [
-        "go to the park"
-      ]
+      "terms": []
     },
     {
       "at": 90.16,
@@ -294,9 +239,7 @@ window.currentLessonData = {
     {
       "at": 94.36,
       "text": "After dinner, I play video games.",
-      "terms": [
-        "play video games"
-      ]
+      "terms": []
     },
     {
       "at": 99.28,
@@ -306,17 +249,23 @@ window.currentLessonData = {
     {
       "at": 105.88,
       "text": "Learn how to give directions in the next video.",
-      "terms": []
+      "terms": [
+        "directions"
+      ]
     },
     {
       "at": 109.48,
       "text": "Go straight.",
-      "terms": []
+      "terms": [
+        "straight"
+      ]
     },
     {
       "at": 111.52,
       "text": "Go straight.",
-      "terms": []
+      "terms": [
+        "straight"
+      ]
     },
     {
       "at": 113.36,
@@ -331,16 +280,12 @@ window.currentLessonData = {
     {
       "at": 118.6,
       "text": "What do you do every day?",
-      "terms": [
-        "every day"
-      ]
+      "terms": []
     },
     {
       "at": 121.12,
       "text": "I wake up.",
-      "terms": [
-        "wake up"
-      ]
+      "terms": []
     },
     {
       "at": 125.12,
@@ -350,9 +295,7 @@ window.currentLessonData = {
     {
       "at": 129.48,
       "text": "I have a shower.",
-      "terms": [
-        "have a shower"
-      ]
+      "terms": []
     },
     {
       "at": 134.2,
@@ -382,9 +325,7 @@ window.currentLessonData = {
     {
       "at": 158.28,
       "text": "Then, I read a book and go to sleep.",
-      "terms": [
-        "read a book"
-      ]
+      "terms": []
     },
     {
       "at": 166.56,
@@ -399,23 +340,17 @@ window.currentLessonData = {
     {
       "at": 170.32,
       "text": "What do you do every day?",
-      "terms": [
-        "every day"
-      ]
+      "terms": []
     },
     {
       "at": 172.88,
       "text": "I wake up.",
-      "terms": [
-        "wake up"
-      ]
+      "terms": []
     },
     {
       "at": 176.08,
       "text": "I have a shower.",
-      "terms": [
-        "have a shower"
-      ]
+      "terms": []
     },
     {
       "at": 179.6,
@@ -442,7 +377,7 @@ window.currentLessonData = {
       "text": "After I finish work, I do some exercise.",
       "terms": [
         "finish work",
-        "do some exercise"
+        "exercise"
       ]
     },
     {
@@ -458,16 +393,12 @@ window.currentLessonData = {
     {
       "at": 207.96,
       "text": "What about you? What do you do every day?",
-      "terms": [
-        "every day"
-      ]
+      "terms": []
     },
     {
       "at": 214.72,
       "text": "I wake up.",
-      "terms": [
-        "wake up"
-      ]
+      "terms": []
     },
     {
       "at": 221.72,
@@ -512,7 +443,9 @@ window.currentLessonData = {
     {
       "at": 256.72,
       "text": "I eat cereal for breakfast.",
-      "terms": []
+      "terms": [
+        "cereal"
+      ]
     },
     {
       "at": 259.92,
@@ -522,7 +455,9 @@ window.currentLessonData = {
     {
       "at": 262,
       "text": "I eat fruit and yoghurt for breakfast.",
-      "terms": []
+      "terms": [
+        "yoghurt"
+      ]
     },
     {
       "at": 265.44,
@@ -532,7 +467,9 @@ window.currentLessonData = {
     {
       "at": 267.72,
       "text": "I eat porridge for breakfast.",
-      "terms": []
+      "terms": [
+        "porridge"
+      ]
     },
     {
       "at": 270.76,
@@ -542,22 +479,19 @@ window.currentLessonData = {
     {
       "at": 280.8,
       "text": "What do you do every day?",
-      "terms": [
-        "every day"
-      ]
+      "terms": []
     },
     {
       "at": 282.8,
       "text": "Write your answer in the comments.",
-      "terms": [
-        "write your answer",
-        "in the comments"
-      ]
+      "terms": []
     },
     {
       "at": 285.36,
       "text": "Click this subscribe button and see you in the next video.",
-      "terms": []
+      "terms": [
+        "subscribe"
+      ]
     },
     {
       "at": 289.32,

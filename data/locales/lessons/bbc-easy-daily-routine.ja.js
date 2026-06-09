@@ -1,21 +1,16 @@
 // ja translations for lesson bbc-easy-daily-routine.
 window.lessonLocale = {
-  "summary": "この BBC Learning English レッスンは IELTS 4 前後向けです。単独の初級語ではなく、daily routine に使える every day、get the bus、finish work、listen to a podcast、do some exercise、in the comments などの表現のかたまりを学びます。",
+  "summary": "このレッスンは IELTS 4 前後の基礎リスニングですが、bus、breakfast、wake up のような単独の初級語や文の断片は語彙に入れません。jogging、podcast、finish work、exercise、directions、cereal、yoghurt、porridge、subscribe など、動画内で比較的学ぶ価値のある語に絞ります。",
   "vocab": {
-    "every day": "毎日",
-    "wake up": "目が覚める",
-    "go jogging": "ジョギングに行く",
-    "get the bus": "バスに乗る",
-    "read a book": "本を読む",
+    "jogging": "ジョギング",
+    "podcast": "ポッドキャスト",
     "finish work": "仕事を終える",
-    "swim in the sea": "海で泳ぐ",
-    "have a shower": "シャワーを浴びる",
-    "drive to work": "車で出勤する",
-    "listen to a podcast": "ポッドキャストを聞く",
-    "go to the park": "公園に行く",
-    "play video games": "ゲームをする",
-    "do some exercise": "運動をする",
-    "write your answer": "答えを書く",
-    "in the comments": "コメント欄で"
+    "exercise": "運動",
+    "directions": "道順；指示",
+    "straight": "まっすぐ",
+    "cereal": "シリアル",
+    "yoghurt": "ヨーグルト",
+    "porridge": "ポリッジ；オートミール粥",
+    "subscribe": "登録する"
   }
 };

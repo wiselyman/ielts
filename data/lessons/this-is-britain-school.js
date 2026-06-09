@@ -8,72 +8,69 @@ window.currentLessonData = {
   "level": "4",
   "theme": "school day, children, daily routine",
   "youtubeId": "yMUJKH1fFF0",
-  "summary": "A light and friendly school-day video about a child going to school, lessons, break time, lunch and going home.",
+  "summary": "A short school-life video for IELTS Band 4 learners, focused on British school vocabulary and useful school collocations rather than isolated beginner words.",
   "vocab": [
-    {
-      "term": "school day",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "上学日",
-      "definition": "a normal day when children go to school"
-    },
     {
       "term": "lollipop lady",
       "phonetic": "",
-      "pos": "phrase",
-      "zh": "护送儿童过马路的女交通员",
-      "definition": "a person who helps children cross the road safely"
+      "pos": "noun",
+      "zh": "交通协管员",
+      "definition": "a person who helps children cross the road near a school"
     },
     {
-      "term": "cross",
+      "term": "cross the road",
       "aliases": [
         "cross the road"
       ],
-      "phonetic": "/krɔːs/",
-      "pos": "verb",
-      "zh": "穿过；横过",
-      "definition": "to go from one side to the other"
+      "phonetic": "",
+      "pos": "collocation",
+      "zh": "过马路",
+      "definition": "to walk from one side of a road to the other"
     },
     {
-      "term": "uniform",
-      "aliases": [
-        "school uniform"
-      ],
-      "phonetic": "/ˈjuːnɪfɔːrm/",
-      "pos": "noun",
-      "zh": "校服；制服",
-      "definition": "special clothes worn by people in the same school or group"
+      "term": "school uniform",
+      "phonetic": "",
+      "pos": "collocation",
+      "zh": "校服",
+      "definition": "special clothes worn by students at a school"
     },
     {
       "term": "registration",
-      "aliases": [
-        "class registration"
-      ],
       "phonetic": "/ˌredʒɪˈstreɪʃn/",
       "pos": "noun",
       "zh": "点名；登记",
-      "definition": "the time when a teacher checks which students are present"
+      "definition": "the official checking or recording of names"
     },
     {
       "term": "assembly",
       "phonetic": "/əˈsembli/",
       "pos": "noun",
       "zh": "集会",
-      "definition": "a meeting of students and teachers at school"
+      "definition": "a meeting of students and teachers in a school"
+    },
+    {
+      "term": "hymn book",
+      "aliases": [
+        "hymn books"
+      ],
+      "phonetic": "",
+      "pos": "collocation",
+      "zh": "赞美诗集",
+      "definition": "a book containing religious songs"
+    },
+    {
+      "term": "quietly",
+      "phonetic": "/ˈkwaɪətli/",
+      "pos": "adverb",
+      "zh": "安静地",
+      "definition": "without making much noise"
     },
     {
       "term": "tidy up",
       "phonetic": "",
-      "pos": "phrase",
-      "zh": "收拾整齐",
-      "definition": "to put things back in the right place"
-    },
-    {
-      "term": "break time",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "课间休息",
-      "definition": "a short rest between lessons at school"
+      "pos": "phrasal verb",
+      "zh": "收拾；整理",
+      "definition": "to make a place clean and organised"
     },
     {
       "term": "playground",
@@ -90,11 +87,18 @@ window.currentLessonData = {
       "definition": "a place in a school or workplace where people buy and eat food"
     },
     {
+      "term": "packed lunch",
+      "phonetic": "",
+      "pos": "collocation",
+      "zh": "自带午餐",
+      "definition": "food prepared at home and taken somewhere to eat later"
+    },
+    {
       "term": "crisps",
       "phonetic": "/krɪsps/",
-      "pos": "noun",
+      "pos": "plural noun",
       "zh": "薯片",
-      "definition": "thin slices of potato cooked until hard and crisp"
+      "definition": "thin dry pieces of fried potato, a British English word"
     }
   ],
   "cues": [
@@ -106,9 +110,7 @@ window.currentLessonData = {
     {
       "at": 12.4,
       "text": "This is my school day.",
-      "terms": [
-        "school day"
-      ]
+      "terms": []
     },
     {
       "at": 15.92,
@@ -131,7 +133,7 @@ window.currentLessonData = {
       "at": 29.76,
       "text": "She helps us cross the road.",
       "terms": [
-        "cross"
+        "cross the road"
       ]
     },
     {
@@ -143,7 +145,7 @@ window.currentLessonData = {
       "at": 50.16,
       "text": "This is my school. We wear a school uniform.",
       "terms": [
-        "uniform"
+        "school uniform"
       ]
     },
     {
@@ -183,12 +185,16 @@ window.currentLessonData = {
     {
       "at": 108.4,
       "text": "Please turn to number 55 in your hymn books.",
-      "terms": []
+      "terms": [
+        "hymn book"
+      ]
     },
     {
       "at": 114.16,
       "text": "And please stand quietly.",
-      "terms": []
+      "terms": [
+        "quietly"
+      ]
     },
     {
       "at": 127.76,
@@ -222,9 +228,7 @@ window.currentLessonData = {
     {
       "at": 193.44,
       "text": "It's 10:30. It's break time.",
-      "terms": [
-        "break time"
-      ]
+      "terms": []
     },
     {
       "at": 196.8,
@@ -312,9 +316,7 @@ window.currentLessonData = {
     {
       "at": 328.64,
       "text": "It's 3:15, the end of the school day.",
-      "terms": [
-        "school day"
-      ]
+      "terms": []
     },
     {
       "at": 332.48,

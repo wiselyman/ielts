@@ -1,17 +1,17 @@
 // Lightweight homepage/list translations for ko.
 window.lessonIndexLocale = {
   "summaries": {
-    "this-is-britain-school": "Jamie 의 영국 학교 하루를 따라가는 밝고 쉬운 수업입니다. IELTS 4점 전후 학습자가 기본 듣기 리듬을 만들기에 좋습니다. 학교 가는 날（school day）, 길 건너기（cross the road）, 교복（uniform）, 출석 확인（registration）, 조회（assembly）, 쉬는 시간（break time）, 운동장（playground）, 구내식당（canteen） 같은 표현을 실제 어린이 일상 장면에서 반복해서 듣습니다.",
-    "bbc-6min-reading": "이 수업은 성인 문해력（adult literacy）이 삶을 어떻게 바꾸는지 다루며 교육, 고용, 사회 이동성 IELTS 주제에 유용합니다. 방글라데시와 영국의 성인 학습 프로젝트를 통해 illiterate / illiteracy 가 존엄성, 독립성, 일상적 판단에 어떤 영향을 주는지 배웁니다. 핵심 표현은 literacy, numeracy, impact, embarrassed, use my fingerprint as a signature, developing countries, adult learners, one-to-one lessons, take for granted 입니다.",
+    "this-is-britain-school": "이 This is Britain 수업은 IELTS 4점 전후 학습자용입니다. school day, cross 같은 너무 쉬운 단어가 아니라 lollipop lady, cross the road, school uniform, registration, assembly, hymn book, tidy up, playground, canteen, packed lunch, crisps 처럼 영국 학교 생활에서 배울 가치가 있는 단어와 collocation 으로 좁혔습니다.",
+    "bbc-6min-reading": "이 BBC 6 Minute English 수업은 IELTS 6.5점 전후 학습자용이며 성인 literacy 와 사회 참여가 주제입니다. daily commute, essential, estimating, illiterate, excluded, day-to-day, literacy, numeracy, impact, embarrassed, signature, fingerprint, swindle, volunteer, one-to-one, take for granted 처럼 6.5에 더 맞는 표현으로 좁혔습니다.",
     "bc-email-formality": "격식 있는 이메일과 비격식 이메일의 차이를 배우는 짧은 수업입니다. 직장, 구직, IELTS General Training Writing 에 활용할 수 있습니다. 독자와의 관계에 따라 formal / informal 을 고르는 방법, 지원（apply for）에서 좋은 첫인상（first impression）을 남기는 방법을 다룹니다.",
     "bbc-adolescence-brain-study": "BBC News 인터뷰로 뇌 발달 연구를 다룹니다. IELTS 6.5점 전후 학습자가 과학 뉴스 듣기를 훈련하기에 좋습니다. 뇌의 뚜렷한 단계（distinct phases）, 청소년기（adolescent stage）, 뇌 연결 재구성（rewire）, 비선형 변화（nonlinear change）, 효율성（efficiency）, 생애 전반（lifespan）, 정신 건강 장애（mental health disorder） 등이 나옵니다.",
     "bbc-ai-deepfakes-politics": "BBC News 영상으로 AI 생성 딥페이크（deepfake）가 정치 커뮤니케이션에 미치는 영향을 다룹니다. IELTS 7점 전후 학습자가 최신 기술과 사회 이슈를 듣는 연습에 적합합니다. AI-powered tools, spread like wildfire, mistrust, malicious fiction, precedent, abuse, authentic, disclose, AI-generated, stakes, undermine trust 등이 핵심입니다.",
-    "bbc-easy-daily-routine": "이 BBC Learning English 수업은 IELTS 4점 전후 학습자용입니다. 단독 초급어가 아니라 daily routine 에서 바로 쓰는 every day, get the bus, finish work, listen to a podcast, do some exercise, in the comments 같은 표현 묶음을 다룹니다.",
-    "bbc-easy-likes-dislikes": "이 BBC Learning English 수업은 IELTS 4점 전후 학습자용입니다. 단독 기초어가 아니라 talk about, don’t like, like doing, playing video games, that’s right, let us know, in the comments 같은 재사용 가능한 표현 묶음을 다룹니다.",
+    "bbc-easy-daily-routine": "이 수업은 IELTS 4점 전후의 기초 듣기지만 bus, breakfast, wake up 같은 단독 초급어와 문장 조각은 어휘로 넣지 않습니다. jogging, podcast, finish work, exercise, directions, cereal, yoghurt, porridge, subscribe 처럼 영상 안에서 상대적으로 배울 가치가 있는 단어만 고릅니다.",
+    "bbc-easy-likes-dislikes": "이 수업은 IELTS 4점 전후의 기초 듣기지만 like, food, fish, grapes, dancing, swimming 이나 What do you... 같은 문장은 어휘로 넣지 않습니다. weather, windy, nuts, steak, jelly, continue, hiking, correct 처럼 영상 안에서 상대적으로 배울 가치가 있는 단어만 고릅니다.",
     "english-panda-supermarket-shopping": "이 English Panda 수업은 바비큐 파티 음식을 사기 위해 슈퍼마켓에서 대화하는 내용입니다. IELTS 4.5점 전후 학습자에게 적합합니다. 4점 수업보다 정보량이 많고 grocery list, shopping cart, produce section, expiry date, on sale, self-checkout, cashier, reusable bags 같은 쇼핑 흐름의 어휘가 나옵니다.",
-    "bbc-real-easy-restaurants": "이 BBC Real Easy English 수업은 IELTS 4.5점 전후 학습자용입니다. not that often, once a month, favourite part, atmosphere, eat out, special occasion, celebration, order, recap 같은 전이 가능한 레스토랑 관련 표현을 다룹니다.",
+    "bbc-real-easy-restaurants": "이 BBC Real Easy English 수업은 IELTS 4.5점 전후 학습자용입니다. 주문 문장 템플릿이 아니라 delicious, atmosphere, serve, eat out, wash up, special occasion, celebration, anniversary, order, spicy, curry, waiter, risotto, recap 처럼 식당 주제에서 배울 가치가 있는 단어와 고정 표현에 집중합니다.",
     "workplace-communication-skills": "이 수업은 직장에서의 effective communication 을 다루며 IELTS 5점 전후 학습자에게 적합합니다. 단순한 일상 대화가 아니라 workplace 에서 listening, clarifying questions, rephrase, open-mindedness, feedback, nonverbal communication 을 설명합니다. 일, 팀워크, 의사소통 IELTS 주제에 활용할 수 있는 표현입니다.",
-    "british-council-talk-about-job": "이 British Council 수업은 IELTS 5.5점 전후 학습자용이며 직무 역할, 책임, 직업적 자기소개에 초점을 둡니다. useful language, role, head of design, manage, graphic designer, content producer, be responsible for, social media, marketing, training, do for a living 이 핵심입니다."
+    "british-council-talk-about-job": "이 British Council 수업은 IELTS 5.5점 전후 학습자용입니다. useful language, practise saying, breathe deeply 같은 불필요한 조각을 빼고 role, head of design, manage, graphic designer, content producer, be responsible for, social media, marketing, training, do for a living 처럼 직업 소개에 전이 가능한 단어와 collocation 만 남깁니다."
   },
   "themes": {
     "school day": "학교생활",

@@ -1,21 +1,16 @@
 // zh-Hant translations for lesson bbc-easy-daily-routine.
 window.lessonLocale = {
-  "summary": "這節 BBC Learning English 課程適合雅思 4 分左右學習者。學習重點不是孤立基礎詞，而是圍繞日常作息（daily routine）整理可遷移的表達塊，例如 every day、get the bus、finish work、listen to a podcast、do some exercise 和 in the comments。",
+  "summary": "這節課仍是雅思 4 分左右的基礎聽力，但詞表不再收 bus、breakfast、wake up 這類裸基礎詞，也不收整句碎片。現在只標影片裡相對值得學的詞和少量搭配，例如 jogging、podcast、finish work、exercise、directions、cereal、yoghurt、porridge 和 subscribe。",
   "vocab": {
-    "every day": "每天",
-    "wake up": "醒來",
-    "go jogging": "去慢跑",
-    "get the bus": "搭公車",
-    "read a book": "讀書",
+    "jogging": "慢跑",
+    "podcast": "播客",
     "finish work": "下班；完成工作",
-    "swim in the sea": "在海裡游泳",
-    "have a shower": "洗淋浴",
-    "drive to work": "開車上班",
-    "listen to a podcast": "聽播客",
-    "go to the park": "去公園",
-    "play video games": "玩電子遊戲",
-    "do some exercise": "做些運動",
-    "write your answer": "寫下你的回答",
-    "in the comments": "在留言區"
+    "exercise": "運動；鍛鍊",
+    "directions": "方向指示；路線說明",
+    "straight": "直地；一直",
+    "cereal": "穀物早餐",
+    "yoghurt": "酸奶",
+    "porridge": "燕麥粥",
+    "subscribe": "訂閱"
   }
 };

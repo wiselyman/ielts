@@ -8,17 +8,38 @@ window.currentLessonData = {
   "level": "6.5",
   "theme": "literacy, education, social mobility",
   "youtubeId": "WunqZ9SF4hU",
-  "summary": "This video is about adult literacy and why learning to read can change a person's daily life. It connects education, work, confidence, commuting, poverty and opportunity. For IELTS General Training, it is useful for topics about lifelong learning, education, employment and social change.",
+  "summary": "A BBC 6 Minute English lesson for IELTS Band 6.5 learners, focused on adult literacy, social participation and development-related vocabulary.",
   "vocab": [
     {
-      "term": "literacy",
+      "term": "daily commute",
       "aliases": [
-        "adult literacy"
+        "commute"
       ],
-      "phonetic": "/ˈlɪtərəsi/",
-      "pos": "noun",
-      "zh": "读写能力",
-      "definition": "the ability to read and write"
+      "phonetic": "/kəˈmjuːt/",
+      "pos": "collocation",
+      "zh": "日常通勤",
+      "definition": "the regular journey between home and work"
+    },
+    {
+      "term": "essential",
+      "phonetic": "/ɪˈsenʃl/",
+      "pos": "adjective",
+      "zh": "必不可少的",
+      "definition": "completely necessary"
+    },
+    {
+      "term": "groceries",
+      "phonetic": "/ˈɡroʊsəriz/",
+      "pos": "plural noun",
+      "zh": "食品杂货",
+      "definition": "food and other goods bought regularly"
+    },
+    {
+      "term": "estimating",
+      "phonetic": "/ˈestɪmeɪtɪŋ/",
+      "pos": "verb",
+      "zh": "估计",
+      "definition": "forming an approximate idea of a number or amount"
     },
     {
       "term": "illiterate",
@@ -28,21 +49,25 @@ window.currentLessonData = {
       "definition": "unable to read or write"
     },
     {
-      "term": "illiteracy",
-      "phonetic": "/ɪˈlɪtərəsi/",
-      "pos": "noun",
-      "zh": "文盲；不识字",
-      "definition": "the condition of being unable to read or write"
+      "term": "excluded",
+      "phonetic": "/ɪkˈskluːdɪd/",
+      "pos": "adjective",
+      "zh": "被排除在外的",
+      "definition": "not allowed to take part in something"
     },
     {
-      "term": "highlight",
-      "aliases": [
-        "highlighting"
-      ],
-      "phonetic": "/ˈhaɪlaɪt/",
-      "pos": "verb",
-      "zh": "强调；突出",
-      "definition": "to show that something is important"
+      "term": "day-to-day",
+      "phonetic": "/ˌdeɪ tə ˈdeɪ/",
+      "pos": "adjective",
+      "zh": "日常的",
+      "definition": "happening as part of ordinary daily life"
+    },
+    {
+      "term": "literacy",
+      "phonetic": "/ˈlɪtərəsi/",
+      "pos": "noun",
+      "zh": "读写能力",
+      "definition": "the ability to read and write"
     },
     {
       "term": "numeracy",
@@ -60,95 +85,55 @@ window.currentLessonData = {
     },
     {
       "term": "embarrassed",
-      "aliases": [
-        "embarrassment"
-      ],
       "phonetic": "/ɪmˈbærəst/",
       "pos": "adjective",
-      "zh": "尴尬的；难堪的",
+      "zh": "尴尬的",
       "definition": "feeling ashamed or uncomfortable"
     },
     {
       "term": "signature",
-      "aliases": [
-        "use my fingerprint as a signature"
-      ],
       "phonetic": "/ˈsɪɡnətʃər/",
       "pos": "noun",
       "zh": "签名",
-      "definition": "your name written by yourself to show agreement or identity"
+      "definition": "your name written by yourself, usually to show agreement or identity"
     },
     {
       "term": "fingerprint",
       "phonetic": "/ˈfɪŋɡərprɪnt/",
       "pos": "noun",
       "zh": "指纹",
-      "definition": "the mark made by the pattern on the end of a finger"
-    },
-    {
-      "term": "cheat",
-      "phonetic": "/tʃiːt/",
-      "pos": "verb",
-      "zh": "欺骗",
-      "definition": "to trick someone or behave dishonestly to get an advantage"
+      "definition": "a mark made by the pattern on the end of a finger"
     },
     {
       "term": "swindle",
+      "aliases": [
+        "swindled"
+      ],
       "phonetic": "/ˈswɪndl/",
       "pos": "verb",
       "zh": "诈骗",
-      "definition": "to get money from someone by deceiving them"
-    },
-    {
-      "term": "developing countries",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "发展中国家",
-      "definition": "countries with less industrial and economic development"
-    },
-    {
-      "term": "struggle",
-      "aliases": [
-        "struggle with"
-      ],
-      "phonetic": "/ˈstrʌɡl/",
-      "pos": "verb",
-      "zh": "艰难应对",
-      "definition": "to find something difficult to do"
+      "definition": "to cheat someone in order to get money from them"
     },
     {
       "term": "volunteer",
-      "aliases": [
-        "volunteers"
-      ],
       "phonetic": "/ˌvɑːlənˈtɪr/",
       "pos": "noun",
       "zh": "志愿者",
-      "definition": "someone who works without being paid"
+      "definition": "someone who does work without being paid"
     },
     {
       "term": "one-to-one",
-      "aliases": [
-        "one-to-one lessons"
-      ],
       "phonetic": "",
-      "pos": "phrase",
+      "pos": "collocation",
       "zh": "一对一的",
-      "definition": "involving one person teaching or helping one other person"
+      "definition": "involving one person working directly with one other person"
     },
     {
       "term": "take for granted",
       "phonetic": "",
-      "pos": "phrase",
-      "zh": "想当然",
-      "definition": "to believe something is true or will always happen without checking or appreciating it"
-    },
-    {
-      "term": "literate",
-      "phonetic": "/ˈlɪtərət/",
-      "pos": "adjective",
-      "zh": "有读写能力的",
-      "definition": "able to read and write"
+      "pos": "collocation",
+      "zh": "想当然；视为理所当然",
+      "definition": "to believe something is true or will always happen without appreciating it"
     }
   ],
   "cues": [
@@ -170,7 +155,9 @@ window.currentLessonData = {
     {
       "at": 16.88,
       "text": "it's also a great way to pass the time on my daily commute to work.",
-      "terms": []
+      "terms": [
+        "daily commute"
+      ]
     },
     {
       "at": 21.48,
@@ -180,7 +167,9 @@ window.currentLessonData = {
     {
       "at": 24.44,
       "text": "it's an essential skill,",
-      "terms": []
+      "terms": [
+        "essential"
+      ]
     },
     {
       "at": 25.8,
@@ -190,7 +179,9 @@ window.currentLessonData = {
     {
       "at": 28.96,
       "text": "whether that is finding out the news by reading a newspaper or buying groceries",
-      "terms": []
+      "terms": [
+        "groceries"
+      ]
     },
     {
       "at": 33.52,
@@ -200,14 +191,15 @@ window.currentLessonData = {
     {
       "at": 35.04,
       "text": "And that's why I was shocked by a recent UN report estimating that",
-      "terms": []
+      "terms": [
+        "estimating"
+      ]
     },
     {
       "at": 40.08,
       "text": "around the world over 700 million adults are illiterate,",
       "terms": [
-        "illiterate",
-        "literate"
+        "illiterate"
       ]
     },
     {
@@ -218,12 +210,16 @@ window.currentLessonData = {
     {
       "at": 48,
       "text": "Wow! That's a huge number of people excluded",
-      "terms": []
+      "terms": [
+        "excluded"
+      ]
     },
     {
       "at": 50.96,
       "text": "from doing basic day-to-day things.",
-      "terms": []
+      "terms": [
+        "day-to-day"
+      ]
     },
     {
       "at": 53.72,
@@ -269,16 +265,14 @@ window.currentLessonData = {
       "at": 77.84,
       "text": "but illiteracy is not a new problem. Since 1967, the UN",
       "terms": [
-        "literacy",
-        "illiteracy"
+        "literacy"
       ]
     },
     {
       "at": 84.08,
       "text": "has been highlighting the importance of literacy, being able to read",
       "terms": [
-        "literacy",
-        "highlight"
+        "literacy"
       ]
     },
     {
@@ -324,8 +318,7 @@ window.currentLessonData = {
       "at": 113.8,
       "text": "The biggest reason people grow up illiterate",
       "terms": [
-        "illiterate",
-        "literate"
+        "illiterate"
       ]
     },
     {
@@ -397,8 +390,7 @@ window.currentLessonData = {
       "text": "to read and write. My children were embarrassed that I was illiterate.",
       "terms": [
         "illiterate",
-        "embarrassed",
-        "literate"
+        "embarrassed"
       ]
     },
     {
@@ -412,8 +404,7 @@ window.currentLessonData = {
       "terms": [
         "illiterate",
         "signature",
-        "fingerprint",
-        "literate"
+        "fingerprint"
       ]
     },
     {
@@ -429,9 +420,7 @@ window.currentLessonData = {
     {
       "at": 174.28,
       "text": "No one can cheat me anymore.",
-      "terms": [
-        "cheat"
-      ]
+      "terms": []
     },
     {
       "at": 178.32,
@@ -476,7 +465,6 @@ window.currentLessonData = {
       "at": 198.8,
       "text": "she has left. This means no one can cheat her, can trick or swindle her",
       "terms": [
-        "cheat",
         "swindle"
       ]
     },
@@ -499,9 +487,7 @@ window.currentLessonData = {
       "at": 212.56,
       "text": "But it's not just developing countries that struggle with literacy.",
       "terms": [
-        "literacy",
-        "developing countries",
-        "struggle"
+        "literacy"
       ]
     },
     {
@@ -530,9 +516,7 @@ window.currentLessonData = {
     {
       "at": 228,
       "text": "In the UK, one in six adults struggle with reading and writing,",
-      "terms": [
-        "struggle"
-      ]
+      "terms": []
     },
     {
       "at": 232.72,
@@ -587,9 +571,7 @@ window.currentLessonData = {
     {
       "at": 257.44,
       "text": "Can you imagine the embarrassment? I've tried college - twice.",
-      "terms": [
-        "embarrassed"
-      ]
+      "terms": []
     },
     {
       "at": 261.72,
@@ -639,9 +621,7 @@ window.currentLessonData = {
     {
       "at": 291.92,
       "text": "Now, Peter says learning with Readeasy has changed his life. He's literate",
-      "terms": [
-        "literate"
-      ]
+      "terms": []
     },
     {
       "at": 297.6,
@@ -686,8 +666,7 @@ window.currentLessonData = {
       "at": 319.6,
       "text": "we've learnt from this programme, starting with 'illiterate',",
       "terms": [
-        "illiterate",
-        "literate"
+        "illiterate"
       ]
     },
     {
@@ -717,9 +696,7 @@ window.currentLessonData = {
     {
       "at": 337.36,
       "text": "or agreed by you. To cheat someone means to trick",
-      "terms": [
-        "cheat"
-      ]
+      "terms": []
     },
     {
       "at": 341.32,

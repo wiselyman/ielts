@@ -1,17 +1,18 @@
 // ja translations for lesson this-is-britain-school.
 window.lessonLocale = {
-  "summary": "Jamie の英国の学校生活を追う、明るくやさしいレッスンです。IELTS 4 前後の学習者が基本的なリスニングのリズムを作るのに向いています。上学日（school day）、道路を渡る（cross the road）、制服（uniform）、出席確認（registration）、全校集会（assembly）、休み時間（break time）、運動場（playground）、食堂（canteen）などを、子どもの日常場面の中で聞きます。",
+  "summary": "この This is Britain レッスンは IELTS 4 前後向けです。school day や cross のような低すぎる語ではなく、lollipop lady、cross the road、school uniform、registration、assembly、hymn book、tidy up、playground、canteen、packed lunch、crisps など、英国の学校生活で学ぶ価値のある語とコロケーションに絞ります。",
   "vocab": {
-    "school day": "上學日",
-    "lollipop lady": "護送兒童過馬路的女交通員",
-    "cross": "穿過；橫過",
-    "uniform": "校服；制服",
-    "registration": "點名；登記",
-    "assembly": "集會",
-    "tidy up": "收拾整齊",
-    "break time": "課間休息",
-    "playground": "操場；遊樂場",
+    "lollipop lady": "児童横断指導員",
+    "cross the road": "道路を渡る",
+    "school uniform": "制服",
+    "registration": "出席登録",
+    "assembly": "集会",
+    "hymn book": "賛美歌集",
+    "quietly": "静かに",
+    "tidy up": "片付ける",
+    "playground": "校庭；遊び場",
     "canteen": "食堂",
-    "crisps": "薯片"
+    "packed lunch": "弁当",
+    "crisps": "ポテトチップス"
   }
 };

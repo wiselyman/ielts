@@ -9,7 +9,7 @@ window.videoLessons = [
     "level": "4",
     "theme": "daily routine, beginner conversation, everyday life",
     "youtubeId": "bq6GBbh3uhU",
-    "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, focused on daily routine chunks such as transport, work, exercise and evening habits rather than isolated beginner nouns."
+    "summary": "A short BBC Learning English lesson for IELTS Band 4 learners. The vocabulary list now focuses on useful topic words from the video, not isolated beginner words or sentence fragments."
   },
   {
     "id": "this-is-britain-school",
@@ -20,7 +20,7 @@ window.videoLessons = [
     "level": "4",
     "theme": "school day, children, daily routine",
     "youtubeId": "yMUJKH1fFF0",
-    "summary": "A light and friendly school-day video about a child going to school, lessons, break time, lunch and going home."
+    "summary": "A short school-life video for IELTS Band 4 learners, focused on British school vocabulary and useful school collocations rather than isolated beginner words."
   },
   {
     "id": "bbc-easy-likes-dislikes",
@@ -31,7 +31,7 @@ window.videoLessons = [
     "level": "4",
     "theme": "likes and dislikes, food, hobbies",
     "youtubeId": "wUF33157hYI",
-    "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, focused on reusable chunks for preferences, hobbies and simple follow-up responses."
+    "summary": "A short BBC Learning English lesson for IELTS Band 4 learners. The vocabulary list keeps only a small set of useful topic words from the video instead of basic preference sentences."
   },
   {
     "id": "english-panda-supermarket-shopping",
@@ -53,7 +53,7 @@ window.videoLessons = [
     "level": "4.5",
     "theme": "restaurants, ordering food, everyday conversation",
     "youtubeId": "bVRIpmjTSxM",
-    "summary": "A BBC Real Easy English lesson for IELTS Band 4.5 learners, focused on restaurant habits, reasons, occasions and useful restaurant vocabulary."
+    "summary": "A BBC Real Easy English lesson for IELTS Band 4.5 learners, focused on restaurant vocabulary and useful collocations with moderate difficulty."
   },
   {
     "id": "bc-email-formality",
@@ -86,7 +86,7 @@ window.videoLessons = [
     "level": "5.5",
     "theme": "job roles, responsibilities, workplace conversation",
     "youtubeId": "CQDJKdmpxOI",
-    "summary": "A British Council workplace lesson for IELTS Band 5.5 learners, focused on job roles, responsibilities and professional self-description."
+    "summary": "A British Council workplace lesson for IELTS Band 5.5 learners. The list is limited to job-role vocabulary and genuinely useful workplace collocations from the video."
   },
   {
     "id": "bbc-6min-reading",
@@ -97,7 +97,7 @@ window.videoLessons = [
     "level": "6.5",
     "theme": "literacy, education, social mobility",
     "youtubeId": "WunqZ9SF4hU",
-    "summary": "This video is about adult literacy and why learning to read can change a person's daily life. It connects education, work, confidence, commuting, poverty and opportunity. For IELTS General Training, it is useful for topics about lifelong learning, education, employment and social change."
+    "summary": "A BBC 6 Minute English lesson for IELTS Band 6.5 learners, focused on adult literacy, social participation and development-related vocabulary."
   },
   {
     "id": "bbc-adolescence-brain-study",

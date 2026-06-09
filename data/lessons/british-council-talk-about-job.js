@@ -8,115 +8,86 @@ window.currentLessonData = {
   "level": "5.5",
   "theme": "job roles, responsibilities, workplace conversation",
   "youtubeId": "CQDJKdmpxOI",
-  "summary": "A British Council workplace lesson for IELTS Band 5.5 learners, focused on job roles, responsibilities and professional self-description.",
+  "summary": "A British Council workplace lesson for IELTS Band 5.5 learners. The list is limited to job-role vocabulary and genuinely useful workplace collocations from the video.",
   "vocab": [
     {
-      "phonetic": "",
-      "term": "useful language",
-      "pos": "phrase",
-      "zh": "实用表达",
-      "definition": "language that can be used in real situations"
-    },
-    {
-      "phonetic": "",
-      "term": "practise saying",
-      "pos": "phrase",
-      "zh": "练习说出",
-      "definition": "to repeat spoken language to improve"
-    },
-    {
-      "phonetic": "/ˈbɪznəs/",
-      "term": "business",
-      "pos": "noun",
-      "zh": "商业；事务",
-      "definition": "work connected with buying, selling or running organisations"
-    },
-    {
-      "phonetic": "/roʊl/",
       "term": "role",
+      "phonetic": "/roʊl/",
       "pos": "noun",
       "zh": "角色；职责",
       "definition": "the position or function someone has in a situation or organisation"
     },
     {
-      "phonetic": "",
       "term": "head of design",
-      "pos": "phrase",
+      "phonetic": "",
+      "pos": "collocation",
       "zh": "设计主管",
       "definition": "the person responsible for leading design work"
     },
     {
-      "phonetic": "/ˈmænɪdʒ/",
       "term": "manage",
+      "aliases": [
+        "manage artists"
+      ],
+      "phonetic": "/ˈmænɪdʒ/",
       "pos": "verb",
       "zh": "管理",
       "definition": "to be responsible for controlling or organising people or work"
     },
     {
-      "phonetic": "",
       "term": "graphic designer",
-      "pos": "phrase",
+      "aliases": [
+        "graphic designers"
+      ],
+      "phonetic": "",
+      "pos": "collocation",
       "zh": "平面设计师",
       "definition": "a person who creates visual designs"
     },
     {
-      "phonetic": "",
       "term": "content producer",
-      "pos": "phrase",
+      "phonetic": "",
+      "pos": "collocation",
       "zh": "内容制作人",
       "definition": "a person who creates written, audio or video content"
     },
     {
-      "phonetic": "",
       "term": "be responsible for",
       "aliases": [
         "responsible for"
       ],
-      "pos": "phrase",
+      "phonetic": "",
+      "pos": "collocation",
       "zh": "负责",
       "definition": "to have a duty to do or look after something"
     },
     {
-      "phonetic": "",
       "term": "social media",
-      "pos": "phrase",
+      "phonetic": "",
+      "pos": "collocation",
       "zh": "社交媒体",
       "definition": "websites and apps where people create and share content"
     },
     {
-      "phonetic": "/ˈmɑːrkɪtɪŋ/",
       "term": "marketing",
+      "phonetic": "/ˈmɑːrkɪtɪŋ/",
       "pos": "noun",
       "zh": "市场营销",
       "definition": "activities for promoting and selling products or services"
     },
     {
-      "phonetic": "",
-      "term": "breathe deeply",
-      "pos": "phrase",
-      "zh": "深呼吸",
-      "definition": "to take slow deep breaths"
-    },
-    {
-      "phonetic": "/ˈtreɪnɪŋ/",
       "term": "training",
+      "phonetic": "/ˈtreɪnɪŋ/",
       "pos": "noun",
       "zh": "培训",
       "definition": "the process of learning skills for a job or activity"
     },
     {
-      "phonetic": "",
       "term": "do for a living",
-      "pos": "phrase",
+      "phonetic": "",
+      "pos": "collocation",
       "zh": "以……为生",
       "definition": "to do a job as your regular paid work"
-    },
-    {
-      "phonetic": "",
-      "term": "work with",
-      "pos": "phrase",
-      "zh": "与……共事",
-      "definition": "to do a job together with other people"
     }
   ],
   "cues": [
@@ -133,16 +104,12 @@ window.currentLessonData = {
     {
       "at": 34.53,
       "text": "Listen out for useful language for talking about your job.",
-      "terms": [
-        "useful language"
-      ]
+      "terms": []
     },
     {
       "at": 38.7,
       "text": "Then, we'll practise saying the new phrases after this.",
-      "terms": [
-        "practise saying"
-      ]
+      "terms": []
     },
     {
       "at": 63,
@@ -152,9 +119,7 @@ window.currentLessonData = {
     {
       "at": 69.65,
       "text": "Business is harder.",
-      "terms": [
-        "business"
-      ]
+      "terms": []
     },
     {
       "at": 74.85,
@@ -248,9 +213,7 @@ window.currentLessonData = {
     {
       "at": 162.32,
       "text": "Let's all close our eyes, breathe deeply and think about these two important questions.",
-      "terms": [
-        "breathe deeply"
-      ]
+      "terms": []
     },
     {
       "at": 178.98,
@@ -260,9 +223,7 @@ window.currentLessonData = {
     {
       "at": 187.93,
       "text": "And two: Do you like the people you work with?",
-      "terms": [
-        "work with"
-      ]
+      "terms": []
     },
     {
       "at": 210.35,
@@ -345,9 +306,7 @@ window.currentLessonData = {
     {
       "at": 328.76,
       "text": "Do you like the people you work with?",
-      "terms": [
-        "work with"
-      ]
+      "terms": []
     },
     {
       "at": 340.17,

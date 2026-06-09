@@ -8,98 +8,63 @@ window.currentLessonData = {
   "level": "4",
   "theme": "likes and dislikes, food, hobbies",
   "youtubeId": "wUF33157hYI",
-  "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, focused on reusable chunks for preferences, hobbies and simple follow-up responses.",
+  "summary": "A short BBC Learning English lesson for IELTS Band 4 learners. The vocabulary list keeps only a small set of useful topic words from the video instead of basic preference sentences.",
   "vocab": [
     {
-      "phonetic": "",
-      "term": "talk about",
-      "pos": "phrase",
-      "zh": "谈论",
-      "definition": "to discuss a subject"
+      "term": "weather",
+      "phonetic": "/ˈweðər/",
+      "pos": "noun",
+      "zh": "天气",
+      "definition": "the conditions outside, such as rain, wind or temperature"
     },
     {
-      "phonetic": "",
-      "term": "talk about the weather",
-      "pos": "phrase",
-      "zh": "谈论天气",
-      "definition": "to discuss weather conditions"
+      "term": "windy",
+      "phonetic": "/ˈwɪndi/",
+      "pos": "adjective",
+      "zh": "有风的",
+      "definition": "with a lot of wind"
     },
     {
-      "phonetic": "",
-      "term": "don't like",
-      "pos": "phrase",
-      "zh": "不喜欢",
-      "definition": "used to say that something is not enjoyable for you"
+      "term": "nuts",
+      "phonetic": "/nʌts/",
+      "pos": "plural noun",
+      "zh": "坚果",
+      "definition": "dry seeds with a hard shell, often eaten as food"
     },
     {
-      "phonetic": "",
-      "term": "have you got that",
-      "pos": "phrase",
-      "zh": "你记住了吗",
-      "definition": "used to check whether someone has understood or remembered something"
+      "term": "steak",
+      "phonetic": "/steɪk/",
+      "pos": "noun",
+      "zh": "牛排",
+      "definition": "a thick flat piece of meat"
     },
     {
-      "phonetic": "",
-      "term": "learn more",
-      "pos": "phrase",
-      "zh": "学习更多",
-      "definition": "to get more information or knowledge"
+      "term": "jelly",
+      "phonetic": "/ˈdʒeli/",
+      "pos": "noun",
+      "zh": "果冻",
+      "definition": "a soft sweet food that shakes when it moves"
     },
     {
-      "phonetic": "/kənˈtɪnjuː/",
       "term": "continue",
+      "phonetic": "/kənˈtɪnjuː/",
       "pos": "verb",
       "zh": "继续",
       "definition": "to keep doing something"
     },
     {
-      "phonetic": "",
-      "term": "like doing",
-      "pos": "phrase",
-      "zh": "喜欢做某事",
-      "definition": "used before an activity someone enjoys"
-    },
-    {
-      "phonetic": "",
-      "term": "playing video games",
-      "pos": "phrase",
-      "zh": "玩电子游戏",
-      "definition": "the activity of playing electronic games"
-    },
-    {
-      "phonetic": "/ˈhaɪkɪŋ/",
       "term": "hiking",
+      "phonetic": "/ˈhaɪkɪŋ/",
       "pos": "noun",
       "zh": "徒步",
       "definition": "walking in the countryside for pleasure"
     },
     {
-      "phonetic": "",
-      "term": "swimming in the sea",
-      "pos": "phrase",
-      "zh": "在海里游泳",
-      "definition": "swimming in seawater"
-    },
-    {
-      "phonetic": "",
-      "term": "that's right",
-      "pos": "phrase",
-      "zh": "没错",
-      "definition": "used to say that something is correct"
-    },
-    {
-      "phonetic": "",
-      "term": "let us know",
-      "pos": "phrase",
-      "zh": "告诉我们",
-      "definition": "used to ask someone to tell you something"
-    },
-    {
-      "phonetic": "",
-      "term": "in the comments",
-      "pos": "phrase",
-      "zh": "在评论区",
-      "definition": "in the comment area online"
+      "term": "correct",
+      "phonetic": "/kəˈrekt/",
+      "pos": "adjective",
+      "zh": "正确的",
+      "definition": "right or true"
     }
   ],
   "cues": [
@@ -116,9 +81,7 @@ window.currentLessonData = {
     {
       "at": 10,
       "text": "Mmm, let's talk about food today!",
-      "terms": [
-        "talk about"
-      ]
+      "terms": []
     },
     {
       "at": 14.28,
@@ -199,8 +162,7 @@ window.currentLessonData = {
       "at": 54.48,
       "text": "Learn how to talk about the weather in the next video.",
       "terms": [
-        "talk about",
-        "talk about the weather"
+        "weather"
       ]
     },
     {
@@ -211,7 +173,9 @@ window.currentLessonData = {
     {
       "at": 60.92,
       "text": "It's windy and cold.",
-      "terms": []
+      "terms": [
+        "windy"
+      ]
     },
     {
       "at": 63.8,
@@ -226,9 +190,7 @@ window.currentLessonData = {
     {
       "at": 70.48,
       "text": "I don't like rice.",
-      "terms": [
-        "don't like"
-      ]
+      "terms": []
     },
     {
       "at": 73.4,
@@ -239,7 +201,7 @@ window.currentLessonData = {
       "at": 76.64,
       "text": "I don't like nuts.",
       "terms": [
-        "don't like"
+        "nuts"
       ]
     },
     {
@@ -251,7 +213,7 @@ window.currentLessonData = {
       "at": 81.8,
       "text": "I don't like steak.",
       "terms": [
-        "don't like"
+        "steak"
       ]
     },
     {
@@ -263,7 +225,7 @@ window.currentLessonData = {
       "at": 86.84,
       "text": "I don't like jelly.",
       "terms": [
-        "don't like"
+        "jelly"
       ]
     },
     {
@@ -285,22 +247,18 @@ window.currentLessonData = {
       "at": 109.92,
       "text": "I don't like jelly.",
       "terms": [
-        "don't like"
+        "jelly"
       ]
     },
     {
       "at": 112.56,
       "text": "— Great! — Have you got that?",
-      "terms": [
-        "have you got that"
-      ]
+      "terms": []
     },
     {
       "at": 114.8,
       "text": "Learn more English at BBC Learning English dot com.",
-      "terms": [
-        "learn more"
-      ]
+      "terms": []
     },
     {
       "at": 119.36,
@@ -312,9 +270,7 @@ window.currentLessonData = {
     {
       "at": 120.96,
       "text": "What do you like doing, Sian?",
-      "terms": [
-        "like doing"
-      ]
+      "terms": []
     },
     {
       "at": 124.12,
@@ -324,23 +280,17 @@ window.currentLessonData = {
     {
       "at": 126.72,
       "text": "What do you like doing, Buli?",
-      "terms": [
-        "like doing"
-      ]
+      "terms": []
     },
     {
       "at": 128.68,
       "text": "I like playing video games.",
-      "terms": [
-        "playing video games"
-      ]
+      "terms": []
     },
     {
       "at": 131.16,
       "text": "What do you like doing, Tim?",
-      "terms": [
-        "like doing"
-      ]
+      "terms": []
     },
     {
       "at": 133.84,
@@ -352,23 +302,17 @@ window.currentLessonData = {
     {
       "at": 136.56,
       "text": "What do you like doing, Georgie?",
-      "terms": [
-        "like doing"
-      ]
+      "terms": []
     },
     {
       "at": 139.12,
       "text": "I like swimming in the sea.",
-      "terms": [
-        "swimming in the sea"
-      ]
+      "terms": []
     },
     {
       "at": 141.36,
       "text": "What do you like doing",
-      "terms": [
-        "like doing"
-      ]
+      "terms": []
     },
     {
       "at": 149,
@@ -413,9 +357,7 @@ window.currentLessonData = {
     {
       "at": 179.28,
       "text": "That's right!",
-      "terms": [
-        "that's right"
-      ]
+      "terms": []
     },
     {
       "at": 180.56,
@@ -435,14 +377,14 @@ window.currentLessonData = {
     {
       "at": 192.48,
       "text": "Correct! He likes pasta.",
-      "terms": []
+      "terms": [
+        "correct"
+      ]
     },
     {
       "at": 195.36,
       "text": "Hmm... What does Sian like doing?",
-      "terms": [
-        "like doing"
-      ]
+      "terms": []
     },
     {
       "at": 199.32,
@@ -452,45 +394,32 @@ window.currentLessonData = {
     {
       "at": 202.92,
       "text": "What does Buli like doing?",
-      "terms": [
-        "like doing"
-      ]
+      "terms": []
     },
     {
       "at": 206.08,
       "text": "He likes playing video games.",
-      "terms": [
-        "playing video games"
-      ]
+      "terms": []
     },
     {
       "at": 210.44,
       "text": "What does Georgie like doing?",
-      "terms": [
-        "like doing"
-      ]
+      "terms": []
     },
     {
       "at": 218.44,
       "text": "She likes swimming in the sea.",
-      "terms": [
-        "swimming in the sea"
-      ]
+      "terms": []
     },
     {
       "at": 220.8,
       "text": "That's right. She likes swimming in the sea.",
-      "terms": [
-        "swimming in the sea",
-        "that's right"
-      ]
+      "terms": []
     },
     {
       "at": 224.04,
       "text": "What does Tim like doing?",
-      "terms": [
-        "like doing"
-      ]
+      "terms": []
     },
     {
       "at": 231.72,
@@ -503,7 +432,8 @@ window.currentLessonData = {
       "at": 234.36,
       "text": "Correct! He likes hiking.",
       "terms": [
-        "hiking"
+        "hiking",
+        "correct"
       ]
     },
     {
@@ -514,17 +444,12 @@ window.currentLessonData = {
     {
       "at": 240.76,
       "text": "And what do you like doing?",
-      "terms": [
-        "like doing"
-      ]
+      "terms": []
     },
     {
       "at": 243.28,
       "text": "Let us know in the comments.",
-      "terms": [
-        "let us know",
-        "in the comments"
-      ]
+      "terms": []
     },
     {
       "at": 245.92,
