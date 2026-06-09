@@ -7,6 +7,12 @@
 /index.html
   Cache-Control: public, max-age=0, must-revalidate
 
+/robots.txt
+  Cache-Control: public, max-age=0, must-revalidate
+
+/sitemap.xml
+  Cache-Control: public, max-age=0, must-revalidate
+
 /lessons/:lesson
   Cache-Control: public, max-age=0, must-revalidate
 
