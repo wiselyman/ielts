@@ -5,17 +5,20 @@ window.currentLessonData = {
   "title": "How to talk about your job in English",
   "source": "YouTube · British Council",
   "duration": "5:57",
-  "level": "5.5",
+  "level": "5",
   "theme": "job roles, responsibilities, workplace conversation",
   "youtubeId": "CQDJKdmpxOI",
-  "summary": "A British Council workplace lesson for IELTS Band 5.5 learners. The list is limited to job-role vocabulary and genuinely useful workplace collocations from the video.",
+  "summary": "A British Council workplace lesson for IELTS Band 5 learners, focused on describing job roles, design work, content production and workplace responsibilities.",
   "vocab": [
     {
-      "term": "role",
-      "phonetic": "/roʊl/",
-      "pos": "noun",
-      "zh": "角色；职责",
-      "definition": "the position or function someone has in a situation or organisation"
+      "term": "role in the company",
+      "aliases": [
+        "role in the company"
+      ],
+      "phonetic": "",
+      "pos": "collocation",
+      "zh": "公司里的职责；岗位",
+      "definition": "the job or function someone has in a company"
     },
     {
       "term": "head of design",
@@ -81,13 +84,6 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "培训",
       "definition": "the process of learning skills for a job or activity"
-    },
-    {
-      "term": "do for a living",
-      "phonetic": "",
-      "pos": "collocation",
-      "zh": "以……为生",
-      "definition": "to do a job as your regular paid work"
     }
   ],
   "cues": [
@@ -135,7 +131,7 @@ window.currentLessonData = {
       "at": 99.93,
       "text": "You - what's your role in the company?",
       "terms": [
-        "role"
+        "role in the company"
       ]
     },
     {
@@ -246,7 +242,7 @@ window.currentLessonData = {
       "at": 224.91,
       "text": "What's your role in the company?",
       "terms": [
-        "role"
+        "role in the company"
       ]
     },
     {

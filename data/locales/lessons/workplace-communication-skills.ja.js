@@ -1,6 +1,6 @@
 // ja translations for lesson workplace-communication-skills.
 window.lessonLocale = {
-  "summary": "このレッスンは職場での effective communication を扱い、IELTS 5 前後の学習者に向いています。日常会話だけでなく、workplace での listening、clarifying questions、rephrase、open-mindedness、feedback、nonverbal communication を説明します。仕事、チームワーク、コミュニケーションの IELTS トピックに使える表現です。",
+  "summary": "このレッスンは職場での effective communication を扱い、IELTS 5 前後の学習者が仕事・チームワークの話題表現を学ぶのに向いています。active listening、clarifying questions、rephrase、open-mindedness、feedback、nonverbal communication が中心です。",
   "vocab": {
     "effective": "有效的",
     "workplace": "工作場所",

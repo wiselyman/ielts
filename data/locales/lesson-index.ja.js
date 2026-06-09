@@ -1,17 +1,17 @@
 // Lightweight homepage/list translations for ja.
 window.lessonIndexLocale = {
   "summaries": {
-    "this-is-britain-school": "この This is Britain レッスンは IELTS 4 前後向けです。school day や cross のような低すぎる語ではなく、lollipop lady、cross the road、school uniform、registration、assembly、hymn book、tidy up、playground、canteen、packed lunch、crisps など、英国の学校生活で学ぶ価値のある語とコロケーションに絞ります。",
-    "bbc-6min-reading": "この BBC 6 Minute English レッスンは IELTS 6.5 前後向けで、成人の literacy と社会参加がテーマです。daily commute、essential、estimating、illiterate、excluded、day-to-day、literacy、numeracy、impact、embarrassed、signature、fingerprint、swindle、volunteer、one-to-one、take for granted など、6.5 に近い表現へ絞ります。",
+    "this-is-britain-school": "この This is Britain の短い動画では、Jamie の英国の学校生活を通して、IELTS 4 前後の学習者が学校場面の語彙を学びます。lollipop lady、school uniform、registration、assembly、canteen、packed lunch などが中心です。",
+    "bbc-6min-reading": "この BBC 6 Minute English レッスンは、成人の literacy が日常生活・尊厳・社会参加にどう関わるかを扱います。IELTS 6.5 前後の学習者向けで、daily commute、essential skill、illiterate、excluded、literacy、numeracy、swindle、one-to-one lessons などを学べます。",
     "bc-email-formality": "フォーマルなメールとカジュアルなメールの違いを学ぶ短いレッスンです。仕事、就職活動、IELTS General Training Writing に使えます。読者との関係に合わせて formal / informal を選ぶ方法、応募（apply for）で第一印象（first impression）を良くする方法を扱います。",
     "bbc-adolescence-brain-study": "BBC News のインタビューで、脳の発達に関する研究を扱います。IELTS 6.5 前後の学習者が科学ニュースの聞き取りを鍛えるのに向いています。脳の明確な段階（distinct phases）、青春期（adolescent stage）、神経回路の再編（rewire）、非線形変化（nonlinear change）、効率（efficiency）、ライフスパン（lifespan）、メンタルヘルス障害（mental health disorder）などが出てきます。",
     "bbc-ai-deepfakes-politics": "BBC News の動画で、AI 生成のディープフェイク（deepfake）が政治コミュニケーションに与える影響を扱います。IELTS 7 前後の学習者が新しいテクノロジーと社会問題を聞く練習に向いています。AI-powered tools、spread like wildfire、mistrust、malicious fiction、precedent、abuse、authentic、disclose、AI-generated、stakes、undermine trust などが重要です。",
-    "bbc-easy-daily-routine": "このレッスンは IELTS 4 前後の基礎リスニングですが、bus、breakfast、wake up のような単独の初級語や文の断片は語彙に入れません。jogging、podcast、finish work、exercise、directions、cereal、yoghurt、porridge、subscribe など、動画内で比較的学ぶ価値のある語に絞ります。",
-    "bbc-easy-likes-dislikes": "このレッスンは IELTS 4 前後の基礎リスニングですが、like、food、fish、grapes、dancing、swimming や What do you... 型の文は語彙に入れません。weather、windy、nuts、steak、jelly、continue、hiking、correct など、動画内で比較的学ぶ価値のある語に絞ります。",
+    "bbc-easy-daily-routine": "この BBC Learning English の短いレッスンでは、日課、通勤、運動、朝食を題材に IELTS 4 前後の基礎リスニングを練習します。jogging、podcast、finish work、exercise、directions、cereal、yoghurt、porridge、subscribe などを学べます。",
+    "bbc-easy-likes-dislikes": "この BBC Learning English の短いレッスンでは、好み、天気、食べ物、趣味を題材に IELTS 4 前後の基礎リスニングを練習します。weather、windy、nuts、steak、jelly、continue、hiking、correct が中心です。",
     "english-panda-supermarket-shopping": "この English Panda のレッスンは、バーベキューパーティーの買い物をするスーパーでの会話です。IELTS 4.5 前後の学習者に向いています。4 のレッスンより情報量が多く、grocery list、shopping cart、produce section、expiry date、on sale、self-checkout、cashier、reusable bags など、買い物の流れに沿った語彙が出てきます。",
-    "bbc-real-easy-restaurants": "この BBC Real Easy English レッスンは IELTS 4.5 前後向けです。注文文のテンプレートではなく、delicious、atmosphere、serve、eat out、wash up、special occasion、celebration、anniversary、order、spicy、curry、waiter、risotto、recap など、レストラン話題で学ぶ価値のある語と固定表現に絞ります。",
-    "workplace-communication-skills": "このレッスンは職場での effective communication を扱い、IELTS 5 前後の学習者に向いています。日常会話だけでなく、workplace での listening、clarifying questions、rephrase、open-mindedness、feedback、nonverbal communication を説明します。仕事、チームワーク、コミュニケーションの IELTS トピックに使える表現です。",
-    "british-council-talk-about-job": "この British Council レッスンは IELTS 5.5 前後向けです。useful language、practise saying、breathe deeply のような不要な断片を外し、role、head of design、manage、graphic designer、content producer、be responsible for、social media、marketing、training、do for a living など、仕事紹介に転用できる語とコロケーションに絞ります。"
+    "bbc-real-easy-restaurants": "この BBC Real Easy English レッスンは、レストランでの経験、雰囲気、外食、特別な機会を扱います。IELTS 4.5 前後の学習者向けで、delicious、atmosphere、serve、eat out、wash up、special occasion、anniversary、risotto、recap などを学べます。",
+    "workplace-communication-skills": "このレッスンは職場での effective communication を扱い、IELTS 5 前後の学習者が仕事・チームワークの話題表現を学ぶのに向いています。active listening、clarifying questions、rephrase、open-mindedness、feedback、nonverbal communication が中心です。",
+    "british-council-talk-about-job": "この British Council レッスンは IELTS 5 前後の学習者向けで、仕事と職務内容の説明を練習します。role in the company、head of design、manage、graphic designer、content producer、be responsible for、social media、marketing、training が中心です。"
   },
   "themes": {
     "school day": "学校生活",

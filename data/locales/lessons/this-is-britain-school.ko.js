@@ -1,6 +1,6 @@
 // ko translations for lesson this-is-britain-school.
 window.lessonLocale = {
-  "summary": "이 This is Britain 수업은 IELTS 4점 전후 학습자용입니다. school day, cross 같은 너무 쉬운 단어가 아니라 lollipop lady, cross the road, school uniform, registration, assembly, hymn book, tidy up, playground, canteen, packed lunch, crisps 처럼 영국 학교 생활에서 배울 가치가 있는 단어와 collocation 으로 좁혔습니다.",
+  "summary": "이 This is Britain 짧은 영상은 Jamie의 영국 학교생활을 따라가며 IELTS 4점 전후 학습자가 학교 장면 어휘를 익히는 수업입니다. lollipop lady, school uniform, registration, assembly, canteen, packed lunch 등이 중심입니다.",
   "vocab": {
     "lollipop lady": "어린이 교통 지도원",
     "cross the road": "길을 건너다",

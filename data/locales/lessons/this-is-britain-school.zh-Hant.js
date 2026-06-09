@@ -1,6 +1,6 @@
 // zh-Hant translations for lesson this-is-britain-school.
 window.lessonLocale = {
-  "summary": "這節 This is Britain 課程適合雅思 4 分左右學習者，詞表不再收 school day、cross 這類過低詞，而是聚焦英國學校場景裡值得學的詞和搭配，例如 lollipop lady、cross the road、school uniform、registration、assembly、hymn book、tidy up、playground、canteen、packed lunch 和 crisps。",
+  "summary": "這節 This is Britain 短片帶你跟隨 Jamie 體驗英國小學生的一天，適合雅思 4 分左右學習者累積學校生活場景詞彙。課程內容包括交通協管員（lollipop lady）、校服（school uniform）、點名（registration）、集會（assembly）、食堂（canteen）和自帶午餐（packed lunch）等表達。",
   "vocab": {
     "lollipop lady": "交通協管員",
     "cross the road": "過馬路",

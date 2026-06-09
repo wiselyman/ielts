@@ -1,6 +1,6 @@
 // zh-CN translations for lesson bbc-6min-reading.
 window.lessonLocale = {
-  "summary": "这节 BBC 6 Minute English 课程适合雅思 6.5 分左右学习者，主题是成人读写能力和社会参与。词表重点转向更符合 6.5 的表达，例如 daily commute、essential、estimating、illiterate、excluded、day-to-day、literacy、numeracy、impact、embarrassed、signature、fingerprint、swindle、volunteer、one-to-one 和 take for granted。",
+  "summary": "这节 BBC 6 Minute English 课程讨论成人读写能力（adult literacy）如何影响日常生活、尊严和社会参与，适合雅思 6.5 分左右学习者。课程重点包括日常通勤（daily commute）、必不可少的能力（essential skill）、不识字（illiterate）、被排除在外（excluded）、读写能力（literacy）、基本计算能力（numeracy）、诈骗（swindle）和一对一课程（one-to-one lessons）。",
   "vocab": {
     "daily commute": "日常通勤",
     "essential": "必不可少的",

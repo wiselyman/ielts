@@ -1,8 +1,8 @@
 // ja translations for lesson british-council-talk-about-job.
 window.lessonLocale = {
-  "summary": "この British Council レッスンは IELTS 5.5 前後向けです。useful language、practise saying、breathe deeply のような不要な断片を外し、role、head of design、manage、graphic designer、content producer、be responsible for、social media、marketing、training、do for a living など、仕事紹介に転用できる語とコロケーションに絞ります。",
+  "summary": "この British Council レッスンは IELTS 5 前後の学習者向けで、仕事と職務内容の説明を練習します。role in the company、head of design、manage、graphic designer、content producer、be responsible for、social media、marketing、training が中心です。",
   "vocab": {
-    "role": "役割；職務",
+    "role in the company": "会社での役割；職務",
     "head of design": "デザイン責任者",
     "manage": "管理する",
     "graphic designer": "グラフィックデザイナー",
@@ -10,7 +10,6 @@ window.lessonLocale = {
     "be responsible for": "〜を担当する",
     "social media": "ソーシャルメディア",
     "marketing": "マーケティング",
-    "training": "研修",
-    "do for a living": "職業として〜をする"
+    "training": "研修"
   }
 };

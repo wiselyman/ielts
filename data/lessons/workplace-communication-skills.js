@@ -8,7 +8,7 @@ window.currentLessonData = {
   "level": "5",
   "theme": "communication skills, workplace, feedback",
   "youtubeId": "QGHBq5OEsBM",
-  "summary": "A short workplace skills video about listening, friendliness, open-mindedness, feedback and nonverbal communication.",
+  "summary": "A workplace communication lesson for IELTS Band 5 learners, focused on listening, clarity, feedback and professional interaction.",
   "vocab": [
     {
       "term": "effective",

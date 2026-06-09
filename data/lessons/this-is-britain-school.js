@@ -8,7 +8,7 @@ window.currentLessonData = {
   "level": "4",
   "theme": "school day, children, daily routine",
   "youtubeId": "yMUJKH1fFF0",
-  "summary": "A short school-life video for IELTS Band 4 learners, focused on British school vocabulary and useful school collocations rather than isolated beginner words.",
+  "summary": "A short school-life video for IELTS Band 4 learners, focused on British school routines, classroom moments and everyday school vocabulary.",
   "vocab": [
     {
       "term": "lollipop lady",

@@ -8,7 +8,7 @@ window.currentLessonData = {
   "level": "4.5",
   "theme": "restaurants, ordering food, everyday conversation",
   "youtubeId": "bVRIpmjTSxM",
-  "summary": "A BBC Real Easy English lesson for IELTS Band 4.5 learners, focused on restaurant vocabulary and useful collocations with moderate difficulty.",
+  "summary": "A BBC Real Easy English lesson for IELTS Band 4.5 learners, focused on restaurant experiences, atmosphere, occasions and ordering-related vocabulary.",
   "vocab": [
     {
       "term": "delicious",

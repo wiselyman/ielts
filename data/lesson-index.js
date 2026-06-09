@@ -9,7 +9,7 @@ window.videoLessons = [
     "level": "4",
     "theme": "daily routine, beginner conversation, everyday life",
     "youtubeId": "bq6GBbh3uhU",
-    "summary": "A short BBC Learning English lesson for IELTS Band 4 learners. The vocabulary list now focuses on useful topic words from the video, not isolated beginner words or sentence fragments."
+    "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, built around daily routines, transport, exercise and simple listening practice."
   },
   {
     "id": "this-is-britain-school",
@@ -20,7 +20,7 @@ window.videoLessons = [
     "level": "4",
     "theme": "school day, children, daily routine",
     "youtubeId": "yMUJKH1fFF0",
-    "summary": "A short school-life video for IELTS Band 4 learners, focused on British school vocabulary and useful school collocations rather than isolated beginner words."
+    "summary": "A short school-life video for IELTS Band 4 learners, focused on British school routines, classroom moments and everyday school vocabulary."
   },
   {
     "id": "bbc-easy-likes-dislikes",
@@ -31,7 +31,7 @@ window.videoLessons = [
     "level": "4",
     "theme": "likes and dislikes, food, hobbies",
     "youtubeId": "wUF33157hYI",
-    "summary": "A short BBC Learning English lesson for IELTS Band 4 learners. The vocabulary list keeps only a small set of useful topic words from the video instead of basic preference sentences."
+    "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, using preferences, weather and hobbies to practise simple listening and useful topic vocabulary."
   },
   {
     "id": "english-panda-supermarket-shopping",
@@ -53,7 +53,7 @@ window.videoLessons = [
     "level": "4.5",
     "theme": "restaurants, ordering food, everyday conversation",
     "youtubeId": "bVRIpmjTSxM",
-    "summary": "A BBC Real Easy English lesson for IELTS Band 4.5 learners, focused on restaurant vocabulary and useful collocations with moderate difficulty."
+    "summary": "A BBC Real Easy English lesson for IELTS Band 4.5 learners, focused on restaurant experiences, atmosphere, occasions and ordering-related vocabulary."
   },
   {
     "id": "bc-email-formality",
@@ -75,7 +75,7 @@ window.videoLessons = [
     "level": "5",
     "theme": "communication skills, workplace, feedback",
     "youtubeId": "QGHBq5OEsBM",
-    "summary": "A short workplace skills video about listening, friendliness, open-mindedness, feedback and nonverbal communication."
+    "summary": "A workplace communication lesson for IELTS Band 5 learners, focused on listening, clarity, feedback and professional interaction."
   },
   {
     "id": "british-council-talk-about-job",
@@ -83,10 +83,10 @@ window.videoLessons = [
     "title": "How to talk about your job in English",
     "source": "YouTube · British Council",
     "duration": "5:57",
-    "level": "5.5",
+    "level": "5",
     "theme": "job roles, responsibilities, workplace conversation",
     "youtubeId": "CQDJKdmpxOI",
-    "summary": "A British Council workplace lesson for IELTS Band 5.5 learners. The list is limited to job-role vocabulary and genuinely useful workplace collocations from the video."
+    "summary": "A British Council workplace lesson for IELTS Band 5 learners, focused on describing job roles, design work, content production and workplace responsibilities."
   },
   {
     "id": "bbc-6min-reading",

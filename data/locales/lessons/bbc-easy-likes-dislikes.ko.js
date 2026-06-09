@@ -1,6 +1,6 @@
 // ko translations for lesson bbc-easy-likes-dislikes.
 window.lessonLocale = {
-  "summary": "이 수업은 IELTS 4점 전후의 기초 듣기지만 like, food, fish, grapes, dancing, swimming 이나 What do you... 같은 문장은 어휘로 넣지 않습니다. weather, windy, nuts, steak, jelly, continue, hiking, correct 처럼 영상 안에서 상대적으로 배울 가치가 있는 단어만 고릅니다.",
+  "summary": "이 BBC Learning English 짧은 수업은 선호, 날씨, 음식, 취미를 주제로 IELTS 4점 전후의 기초 듣기를 연습합니다. weather, windy, nuts, steak, jelly, continue, hiking, correct 가 중심입니다.",
   "vocab": {
     "weather": "날씨",
     "windy": "바람이 부는",

@@ -8,7 +8,7 @@ window.currentLessonData = {
   "level": "4",
   "theme": "likes and dislikes, food, hobbies",
   "youtubeId": "wUF33157hYI",
-  "summary": "A short BBC Learning English lesson for IELTS Band 4 learners. The vocabulary list keeps only a small set of useful topic words from the video instead of basic preference sentences.",
+  "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, using preferences, weather and hobbies to practise simple listening and useful topic vocabulary.",
   "vocab": [
     {
       "term": "weather",

@@ -1,6 +1,6 @@
 // ja translations for lesson bbc-6min-reading.
 window.lessonLocale = {
-  "summary": "この BBC 6 Minute English レッスンは IELTS 6.5 前後向けで、成人の literacy と社会参加がテーマです。daily commute、essential、estimating、illiterate、excluded、day-to-day、literacy、numeracy、impact、embarrassed、signature、fingerprint、swindle、volunteer、one-to-one、take for granted など、6.5 に近い表現へ絞ります。",
+  "summary": "この BBC 6 Minute English レッスンは、成人の literacy が日常生活・尊厳・社会参加にどう関わるかを扱います。IELTS 6.5 前後の学習者向けで、daily commute、essential skill、illiterate、excluded、literacy、numeracy、swindle、one-to-one lessons などを学べます。",
   "vocab": {
     "daily commute": "日々の通勤",
     "essential": "不可欠な",

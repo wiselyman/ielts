@@ -1,6 +1,6 @@
 // zh-CN translations for lesson workplace-communication-skills.
 window.lessonLocale = {
-  "summary": "这节课程讲职场有效沟通（effective communication），适合雅思 5 分左右学习者。视频不再只是日常场景对话，而是解释工作场所（workplace）里如何倾听（listening）、提出澄清问题（clarifying questions）、复述（rephrase）、保持开放心态（open-mindedness）、给反馈（feedback）以及使用非语言沟通（nonverbal communication）。这些表达可用于 IELTS 工作、团队合作和沟通类话题。",
+  "summary": "这节课程讲职场有效沟通（effective communication），适合雅思 5 分左右学习者积累工作和团队合作话题表达。视频介绍主动倾听（active listening）、澄清问题（clarifying questions）、复述（rephrase）、开放心态（open-mindedness）、反馈（feedback）和非语言沟通（nonverbal communication）。",
   "vocab": {
     "effective": "有效的",
     "workplace": "工作场所",

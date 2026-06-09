@@ -1,6 +1,6 @@
 // ja translations for lesson bbc-easy-daily-routine.
 window.lessonLocale = {
-  "summary": "このレッスンは IELTS 4 前後の基礎リスニングですが、bus、breakfast、wake up のような単独の初級語や文の断片は語彙に入れません。jogging、podcast、finish work、exercise、directions、cereal、yoghurt、porridge、subscribe など、動画内で比較的学ぶ価値のある語に絞ります。",
+  "summary": "この BBC Learning English の短いレッスンでは、日課、通勤、運動、朝食を題材に IELTS 4 前後の基礎リスニングを練習します。jogging、podcast、finish work、exercise、directions、cereal、yoghurt、porridge、subscribe などを学べます。",
   "vocab": {
     "jogging": "ジョギング",
     "podcast": "ポッドキャスト",

@@ -1,6 +1,6 @@
 // ko translations for lesson workplace-communication-skills.
 window.lessonLocale = {
-  "summary": "이 수업은 직장에서의 effective communication 을 다루며 IELTS 5점 전후 학습자에게 적합합니다. 단순한 일상 대화가 아니라 workplace 에서 listening, clarifying questions, rephrase, open-mindedness, feedback, nonverbal communication 을 설명합니다. 일, 팀워크, 의사소통 IELTS 주제에 활용할 수 있는 표현입니다.",
+  "summary": "이 수업은 직장에서의 effective communication 을 다루며 IELTS 5점 전후 학습자가 일과 팀워크 주제 표현을 익히는 데 적합합니다. active listening, clarifying questions, rephrase, open-mindedness, feedback, nonverbal communication 이 중심입니다.",
   "vocab": {
     "effective": "有效的",
     "workplace": "工作場所",

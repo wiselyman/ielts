@@ -1,6 +1,6 @@
 // zh-Hant translations for lesson workplace-communication-skills.
 window.lessonLocale = {
-  "summary": "這節課程講職場有效溝通（effective communication），適合雅思 5 分左右學習者。影片不再只是日常場景對話，而是解釋工作場所（workplace）裡如何傾聽（listening）、提出澄清問題（clarifying questions）、重新表述（rephrase）、保持開放心態（open-mindedness）、給回饋（feedback）以及使用非語言溝通（nonverbal communication）。這些表達可用於 IELTS 工作、團隊合作和溝通類話題。",
+  "summary": "這節課程講職場有效溝通（effective communication），適合雅思 5 分左右學習者累積工作和團隊合作話題表達。影片介紹主動傾聽（active listening）、澄清問題（clarifying questions）、重新表述（rephrase）、開放心態（open-mindedness）、回饋（feedback）和非語言溝通（nonverbal communication）。",
   "vocab": {
     "effective": "有效的",
     "workplace": "工作場所",

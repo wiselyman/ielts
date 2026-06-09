@@ -1,6 +1,6 @@
 // ja translations for lesson bbc-real-easy-restaurants.
 window.lessonLocale = {
-  "summary": "この BBC Real Easy English レッスンは IELTS 4.5 前後向けです。注文文のテンプレートではなく、delicious、atmosphere、serve、eat out、wash up、special occasion、celebration、anniversary、order、spicy、curry、waiter、risotto、recap など、レストラン話題で学ぶ価値のある語と固定表現に絞ります。",
+  "summary": "この BBC Real Easy English レッスンは、レストランでの経験、雰囲気、外食、特別な機会を扱います。IELTS 4.5 前後の学習者向けで、delicious、atmosphere、serve、eat out、wash up、special occasion、anniversary、risotto、recap などを学べます。",
   "vocab": {
     "delicious": "おいしい",
     "atmosphere": "雰囲気",

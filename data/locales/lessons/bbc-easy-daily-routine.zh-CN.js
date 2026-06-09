@@ -1,6 +1,6 @@
 // zh-CN translations for lesson bbc-easy-daily-routine.
 window.lessonLocale = {
-  "summary": "这节课仍是雅思 4 分左右的基础听力，但词表不再收 bus、breakfast、wake up 这类裸基础词，也不收整句碎片。现在只标视频里相对值得学的词和少量搭配，例如 jogging、podcast、finish work、exercise、directions、cereal、yoghurt、porridge 和 subscribe。",
+  "summary": "这节 BBC Learning English 短课围绕日常作息、通勤、运动和早餐话题展开，适合雅思 4 分左右学习者训练基础听力节奏。课程中可以积累 jogging、podcast、finish work、exercise、directions、cereal、yoghurt、porridge 和 subscribe 等常见生活词汇。",
   "vocab": {
     "jogging": "慢跑",
     "podcast": "播客",

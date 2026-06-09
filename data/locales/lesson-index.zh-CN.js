@@ -1,17 +1,17 @@
 // Lightweight homepage/list translations for zh-CN.
 window.lessonIndexLocale = {
   "summaries": {
-    "this-is-britain-school": "这节 This is Britain 课程适合雅思 4 分左右学习者，词表不再收 school day、cross 这类过低词，而是聚焦英国学校场景里值得学的词和搭配，例如 lollipop lady、cross the road、school uniform、registration、assembly、hymn book、tidy up、playground、canteen、packed lunch 和 crisps。",
-    "bbc-6min-reading": "这节 BBC 6 Minute English 课程适合雅思 6.5 分左右学习者，主题是成人读写能力和社会参与。词表重点转向更符合 6.5 的表达，例如 daily commute、essential、estimating、illiterate、excluded、day-to-day、literacy、numeracy、impact、embarrassed、signature、fingerprint、swindle、volunteer、one-to-one 和 take for granted。",
+    "this-is-britain-school": "这节 This is Britain 短片带你跟随 Jamie 体验英国小学生的一天，适合雅思 4 分左右学习者积累学校生活场景词汇。课程内容包括交通协管员（lollipop lady）、校服（school uniform）、点名（registration）、集会（assembly）、食堂（canteen）和自带午餐（packed lunch）等表达。",
+    "bbc-6min-reading": "这节 BBC 6 Minute English 课程讨论成人读写能力（adult literacy）如何影响日常生活、尊严和社会参与，适合雅思 6.5 分左右学习者。课程重点包括日常通勤（daily commute）、必不可少的能力（essential skill）、不识字（illiterate）、被排除在外（excluded）、读写能力（literacy）、基本计算能力（numeracy）、诈骗（swindle）和一对一课程（one-to-one lessons）。",
     "bc-email-formality": "这节课讲正式和非正式邮件的区别，适合工作、求职和 IELTS General Training 写作场景。视频解释如何根据读者关系选择正式（formal）或非正式（informal）语言，以及如何在求职申请（apply for）中留下第一印象（first impression）。重点包括专业表达（professional）、合适的表达（appropriate）、惯例写法（conventional）、俚语（slang）、大写字母（capitals）和常见结尾（Yours sincerely / Yours faithfully）。",
     "bbc-adolescence-brain-study": "这节 BBC News 采访介绍一项关于大脑发育的研究，适合 6.5 分左右学习者训练科学新闻听力。研究认为大脑会经历明显不同的阶段（distinct phases），青春期（adolescent stage）可能持续到 30 多岁，期间大脑会重新连接（rewire）。视频还涉及非线性变化（nonlinear change）、发展过程（progression）、波动（fluctuation）、效率（efficiency）、生命全过程（lifespan）、心理健康疾病（mental health disorder）和易感性（vulnerable），很适合积累学术类解释表达。",
     "bbc-ai-deepfakes-politics": "这节 BBC News 视频讨论人工智能生成的深度伪造（deepfake）如何影响政治传播，适合 7 分左右学习者训练较新的科技与社会议题。视频从明星、政客和选举案例出发，说明 AI 驱动工具（AI-powered tools）如何让虚假内容迅速传播（spread like wildfire），并制造不信任（mistrust）。核心表达包括恶意内容（malicious fiction）、危险先例（precedent）、滥用（abuse）、真实可信（authentic）、披露（disclose）、AI 生成（AI-generated）、利害关系（stakes）和削弱公众信任（undermine trust）。",
-    "bbc-easy-daily-routine": "这节课仍是雅思 4 分左右的基础听力，但词表不再收 bus、breakfast、wake up 这类裸基础词，也不收整句碎片。现在只标视频里相对值得学的词和少量搭配，例如 jogging、podcast、finish work、exercise、directions、cereal、yoghurt、porridge 和 subscribe。",
-    "bbc-easy-likes-dislikes": "这节课仍是雅思 4 分左右的基础听力，但词表不再收 like、food、fish、grapes、dancing、swimming，也不收 What do you... 这类句子。现在只标视频里相对值得学的主题词，例如 weather、windy、nuts、steak、jelly、continue、hiking 和 correct。",
+    "bbc-easy-daily-routine": "这节 BBC Learning English 短课围绕日常作息、通勤、运动和早餐话题展开，适合雅思 4 分左右学习者训练基础听力节奏。课程中可以积累 jogging、podcast、finish work、exercise、directions、cereal、yoghurt、porridge 和 subscribe 等常见生活词汇。",
+    "bbc-easy-likes-dislikes": "这节 BBC Learning English 短课用喜好、天气、食物和爱好话题训练基础听力，适合雅思 4 分左右学习者。课程中的重点词包括 weather、windy、nuts、steak、jelly、continue、hiking 和 correct。",
     "english-panda-supermarket-shopping": "这节 English Panda 课程围绕一次为烧烤聚会采购食物的超市对话，适合雅思 4.5 分左右学习者。它比 4 分课程的信息量更大：说话人要看购物清单（grocery list）、推购物车（shopping cart）、逛农产品区（produce section）、确认保质期（expiry date）、比较特价（on sale）、选择自助结账（self-checkout）或收银员（cashier），也会谈到可重复使用的袋子（reusable bags）。",
-    "bbc-real-easy-restaurants": "这节 BBC Real Easy English 课程适合雅思 4.5 分左右学习者。词表不再收点餐句型模板，而是聚焦餐厅话题里有一定学习价值的词和固定搭配，例如 delicious、atmosphere、serve、eat out、wash up、special occasion、celebration、anniversary、order、spicy、curry、waiter、risotto 和 recap。",
-    "workplace-communication-skills": "这节课程讲职场有效沟通（effective communication），适合雅思 5 分左右学习者。视频不再只是日常场景对话，而是解释工作场所（workplace）里如何倾听（listening）、提出澄清问题（clarifying questions）、复述（rephrase）、保持开放心态（open-mindedness）、给反馈（feedback）以及使用非语言沟通（nonverbal communication）。这些表达可用于 IELTS 工作、团队合作和沟通类话题。",
-    "british-council-talk-about-job": "这节 British Council 课程适合雅思 5.5 分左右学习者。词表删掉了 useful language、practise saying、breathe deeply 这类无效碎片，只保留工作介绍里真正可迁移的词和搭配：role、head of design、manage、graphic designer、content producer、be responsible for、social media、marketing、training 和 do for a living。"
+    "bbc-real-easy-restaurants": "这节 BBC Real Easy English 课程围绕餐厅体验、餐厅氛围、外出就餐和特殊场合展开，适合雅思 4.5 分左右学习者。课程重点包括 delicious、atmosphere、serve、eat out、wash up、special occasion、celebration、anniversary、order、spicy、curry、waiter、risotto 和 recap。",
+    "workplace-communication-skills": "这节课程讲职场有效沟通（effective communication），适合雅思 5 分左右学习者积累工作和团队合作话题表达。视频介绍主动倾听（active listening）、澄清问题（clarifying questions）、复述（rephrase）、开放心态（open-mindedness）、反馈（feedback）和非语言沟通（nonverbal communication）。",
+    "british-council-talk-about-job": "这节 British Council 课程适合雅思 5 分左右学习者练习介绍工作和职责。视频围绕职位角色、设计工作、内容制作、社交媒体和市场营销展开，重点表达包括 role in the company、head of design、manage、graphic designer、content producer、be responsible for、social media、marketing 和 training。"
   },
   "themes": {
     "school day": "上学日",
