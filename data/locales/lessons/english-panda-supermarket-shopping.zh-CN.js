@@ -4,7 +4,6 @@ window.lessonLocale = {
   "vocab": {
     "grocery list": "购物清单",
     "shopping cart": "购物车",
-    "groceries": "食品杂货",
     "produce section": "农产品区",
     "vegetarian": "素食者",
     "vegan": "纯素食者",
@@ -15,7 +14,6 @@ window.lessonLocale = {
     "stale": "不新鲜的",
     "condiments": "调味品",
     "self-checkout": "自助结账",
-    "cashier": "收银员",
     "reusable bags": "可重复使用的购物袋",
     "receipt": "收据"
   }

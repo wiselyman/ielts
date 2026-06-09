@@ -11,70 +11,42 @@ window.currentLessonData = {
   "summary": "A short BBC Learning English conversation lesson about saying what you like, what you do not like, and asking other people about food and hobbies.",
   "vocab": [
     {
-      "term": "like",
-      "phonetic": "/laɪk/",
-      "pos": "verb",
-      "zh": "喜欢",
-      "definition": "to enjoy something or think it is good"
-    },
-    {
-      "term": "don't like",
+      "term": "What do you like",
       "aliases": [
-        "do not like"
+        "What food do you like"
       ],
       "phonetic": "",
       "pos": "phrase",
-      "zh": "不喜欢",
-      "definition": "used to say that you do not enjoy something"
+      "zh": "你喜欢什么？",
+      "definition": "a question asking about things someone enjoys"
     },
     {
-      "term": "pasta",
-      "phonetic": "/ˈpæstə/",
-      "pos": "noun",
-      "zh": "意大利面",
-      "definition": "an Italian food made from flour and water"
+      "term": "I like",
+      "aliases": [
+        "She likes",
+        "He likes"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "我喜欢",
+      "definition": "a simple way to say someone enjoys something"
     },
     {
-      "term": "fish",
-      "phonetic": "/fɪʃ/",
-      "pos": "noun",
-      "zh": "鱼；鱼肉",
-      "definition": "an animal that lives in water, or its meat as food"
+      "term": "I don't like",
+      "aliases": [
+        "don't like"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "我不喜欢",
+      "definition": "a simple way to say someone does not enjoy something"
     },
     {
-      "term": "grapes",
-      "phonetic": "/ɡreɪps/",
-      "pos": "plural noun",
-      "zh": "葡萄",
-      "definition": "small round fruit that grows in groups"
-    },
-    {
-      "term": "nuts",
-      "phonetic": "/nʌts/",
-      "pos": "plural noun",
-      "zh": "坚果",
-      "definition": "dry seeds with a hard shell, often eaten as food"
-    },
-    {
-      "term": "steak",
-      "phonetic": "/steɪk/",
-      "pos": "noun",
-      "zh": "牛排",
-      "definition": "a thick flat piece of meat"
-    },
-    {
-      "term": "jelly",
-      "phonetic": "/ˈdʒeli/",
-      "pos": "noun",
-      "zh": "果冻",
-      "definition": "a soft sweet food that shakes when it moves"
-    },
-    {
-      "term": "dancing",
-      "phonetic": "/ˈdɑːnsɪŋ/",
-      "pos": "noun",
-      "zh": "跳舞",
-      "definition": "moving your body to music"
+      "term": "What do you like doing",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "你喜欢做什么？",
+      "definition": "a question asking about activities someone enjoys"
     },
     {
       "term": "playing video games",
@@ -91,11 +63,35 @@ window.currentLessonData = {
       "definition": "walking a long way, especially in the countryside"
     },
     {
-      "term": "swimming",
-      "phonetic": "/ˈswɪmɪŋ/",
+      "term": "swimming in the sea",
+      "aliases": [
+        "swimming"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "在海里游泳",
+      "definition": "moving through sea water using your body"
+    },
+    {
+      "term": "dancing",
+      "phonetic": "/ˈdænsɪŋ/",
       "pos": "noun",
-      "zh": "游泳",
-      "definition": "moving through water using your body"
+      "zh": "跳舞",
+      "definition": "moving your body to music"
+    },
+    {
+      "term": "pasta",
+      "phonetic": "/ˈpɑːstə/",
+      "pos": "noun",
+      "zh": "意大利面",
+      "definition": "an Italian food made from flour and water"
+    },
+    {
+      "term": "steak",
+      "phonetic": "/steɪk/",
+      "pos": "noun",
+      "zh": "牛排",
+      "definition": "a thick flat piece of meat"
     }
   ],
   "cues": [
@@ -106,9 +102,9 @@ window.currentLessonData = {
     },
     {
       "at": 7.32,
-      "text": "What do you like?",
+      "text": "What do you like",
       "terms": [
-        "like"
+        "What do you like"
       ]
     },
     {
@@ -120,7 +116,7 @@ window.currentLessonData = {
       "at": 14.28,
       "text": "I like pasta.",
       "terms": [
-        "like",
+        "I like",
         "pasta"
       ]
     },
@@ -128,100 +124,90 @@ window.currentLessonData = {
       "at": 17.48,
       "text": "What food do you like, Sian?",
       "terms": [
-        "like"
+        "What do you like"
       ]
     },
     {
       "at": 20.6,
       "text": "I like fish.",
       "terms": [
-        "like",
-        "fish"
+        "I like"
       ]
     },
     {
       "at": 22.88,
       "text": "What food do you like, Buli?",
       "terms": [
-        "like"
+        "What do you like"
       ]
     },
     {
       "at": 24.16,
       "text": "I like pizza.",
       "terms": [
-        "like"
+        "I like"
       ]
     },
     {
       "at": 26.16,
       "text": "What food do you like, Georgie?",
       "terms": [
-        "like"
+        "What do you like"
       ]
     },
     {
       "at": 27.96,
       "text": "I like chocolate and fruit.",
       "terms": [
-        "like"
+        "I like"
       ]
     },
     {
       "at": 30.72,
       "text": "What fruit do you like, Sian?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 33.12,
       "text": "I like apples.",
       "terms": [
-        "like"
+        "I like"
       ]
     },
     {
       "at": 35.24,
       "text": "What fruit do you like, Tim?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 39,
       "text": "I like grapes.",
       "terms": [
-        "like",
-        "grapes"
+        "I like"
       ]
     },
     {
       "at": 41.12,
       "text": "What fruit do you like, Buli?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 44.16,
       "text": "I like bananas.",
       "terms": [
-        "like"
+        "I like"
       ]
     },
     {
       "at": 46.16,
       "text": "What fruit do you like, Georgie?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 48.28,
       "text": "I like oranges.",
       "terms": [
-        "like"
+        "I like"
       ]
     },
     {
@@ -247,89 +233,76 @@ window.currentLessonData = {
     {
       "at": 68.48,
       "text": "What food don't you like, Sian?",
-      "terms": [
-        "don't like"
-      ]
+      "terms": []
     },
     {
       "at": 70.48,
       "text": "I don't like rice.",
       "terms": [
-        "don't like"
+        "I don't like"
       ]
     },
     {
       "at": 73.4,
       "text": "What food don't you like, Georgie?",
-      "terms": [
-        "don't like"
-      ]
+      "terms": []
     },
     {
       "at": 76.64,
       "text": "I don't like nuts.",
       "terms": [
-        "don't like",
-        "nuts"
+        "I don't like"
       ]
     },
     {
       "at": 78.96,
       "text": "What food don't you like, Buli?",
-      "terms": [
-        "don't like"
-      ]
+      "terms": []
     },
     {
       "at": 81.8,
       "text": "I don't like steak.",
       "terms": [
-        "don't like",
+        "I don't like",
         "steak"
       ]
     },
     {
       "at": 83.92,
       "text": "What food don't you like, Tim?",
-      "terms": [
-        "don't like"
-      ]
+      "terms": []
     },
     {
       "at": 86.84,
       "text": "I don't like jelly.",
       "terms": [
-        "don't like",
-        "jelly"
+        "I don't like"
       ]
     },
     {
       "at": 89.6,
       "text": "Hmm. What food do you like?",
       "terms": [
-        "like"
+        "What do you like"
       ]
     },
     {
       "at": 98.8,
       "text": "I like pizza.",
       "terms": [
-        "like"
+        "I like"
       ]
     },
     {
       "at": 101.48,
       "text": "What food don't you like?",
-      "terms": [
-        "don't like"
-      ]
+      "terms": []
     },
     {
       "at": 109.92,
       "text": "I don't like jelly.",
       "terms": [
-        "don't like",
-        "jelly"
+        "I don't like"
       ]
     },
     {
@@ -350,75 +323,67 @@ window.currentLessonData = {
     {
       "at": 120.96,
       "text": "What do you like doing, Sian?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 124.12,
       "text": "I like dancing.",
       "terms": [
-        "like",
+        "I like",
         "dancing"
       ]
     },
     {
       "at": 126.72,
       "text": "What do you like doing, Buli?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 128.68,
       "text": "I like playing video games.",
       "terms": [
-        "like",
+        "I like",
         "playing video games"
       ]
     },
     {
       "at": 131.16,
       "text": "What do you like doing, Tim?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 133.84,
       "text": "I like hiking.",
       "terms": [
-        "like",
+        "I like",
         "hiking"
       ]
     },
     {
       "at": 136.56,
       "text": "What do you like doing, Georgie?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 139.12,
       "text": "I like swimming in the sea.",
       "terms": [
-        "like",
-        "swimming"
+        "I like",
+        "swimming in the sea"
       ]
     },
     {
       "at": 141.36,
-      "text": "What do you like doing?",
+      "text": "What do you like doing",
       "terms": [
-        "like"
+        "What do you like doing"
       ]
     },
     {
       "at": 149,
       "text": "I like singing.",
       "terms": [
-        "like"
+        "I like"
       ]
     },
     {
@@ -429,44 +394,39 @@ window.currentLessonData = {
     {
       "at": 152.6,
       "text": "Hmm... What food does Sian like?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 157.32,
       "text": "She likes fish.",
       "terms": [
-        "like",
-        "fish"
+        "I like"
       ]
     },
     {
       "at": 161.88,
       "text": "What food does Buli like?",
       "terms": [
-        "like"
+        "I like"
       ]
     },
     {
       "at": 164.88,
       "text": "He likes pizza.",
       "terms": [
-        "like"
+        "I like"
       ]
     },
     {
       "at": 168.28,
       "text": "What food does Georgie like?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 176.6,
       "text": "She likes chocolate.",
       "terms": [
-        "like"
+        "I like"
       ]
     },
     {
@@ -478,21 +438,19 @@ window.currentLessonData = {
       "at": 180.56,
       "text": "She likes chocolate.",
       "terms": [
-        "like"
+        "I like"
       ]
     },
     {
       "at": 182.16,
       "text": "What food does Tim like?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 189.84,
       "text": "He likes pasta.",
       "terms": [
-        "like",
+        "I like",
         "pasta"
       ]
     },
@@ -500,22 +458,20 @@ window.currentLessonData = {
       "at": 192.48,
       "text": "Correct! He likes pasta.",
       "terms": [
-        "like",
+        "I like",
         "pasta"
       ]
     },
     {
       "at": 195.36,
       "text": "Hmm... What does Sian like doing?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 199.32,
       "text": "She likes dancing.",
       "terms": [
-        "like",
+        "I like",
         "dancing"
       ]
     },
@@ -523,52 +479,48 @@ window.currentLessonData = {
       "at": 202.92,
       "text": "What does Buli like doing?",
       "terms": [
-        "like"
+        "I like"
       ]
     },
     {
       "at": 206.08,
       "text": "He likes playing video games.",
       "terms": [
-        "like",
+        "I like",
         "playing video games"
       ]
     },
     {
       "at": 210.44,
       "text": "What does Georgie like doing?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 218.44,
       "text": "She likes swimming in the sea.",
       "terms": [
-        "like",
-        "swimming"
+        "I like",
+        "swimming in the sea"
       ]
     },
     {
       "at": 220.8,
       "text": "That's right. She likes swimming in the sea.",
       "terms": [
-        "like",
-        "swimming"
+        "I like",
+        "swimming in the sea"
       ]
     },
     {
       "at": 224.04,
       "text": "What does Tim like doing?",
-      "terms": [
-        "like"
-      ]
+      "terms": []
     },
     {
       "at": 231.72,
       "text": "He likes hiking.",
       "terms": [
-        "like",
+        "I like",
         "hiking"
       ]
     },
@@ -576,7 +528,7 @@ window.currentLessonData = {
       "at": 234.36,
       "text": "Correct! He likes hiking.",
       "terms": [
-        "like",
+        "I like",
         "hiking"
       ]
     },
@@ -584,14 +536,14 @@ window.currentLessonData = {
       "at": 237.24,
       "text": "What food do you like?",
       "terms": [
-        "like"
+        "What do you like"
       ]
     },
     {
       "at": 240.76,
       "text": "And what do you like doing?",
       "terms": [
-        "like"
+        "What do you like doing"
       ]
     },
     {

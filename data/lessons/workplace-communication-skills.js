@@ -18,23 +18,6 @@ window.currentLessonData = {
       "definition": "communication that helps people understand each other clearly"
     },
     {
-      "term": "workplace",
-      "phonetic": "/ˈwɜːrkpleɪs/",
-      "pos": "noun",
-      "zh": "工作场所",
-      "definition": "the place where people work"
-    },
-    {
-      "term": "professional",
-      "aliases": [
-        "professionals"
-      ],
-      "phonetic": "/prəˈfeʃənl/",
-      "pos": "noun",
-      "zh": "专业人士；职场人士",
-      "definition": "a person who does a skilled job"
-    },
-    {
       "term": "lacking",
       "phonetic": "/ˈlækɪŋ/",
       "pos": "adjective",
@@ -119,11 +102,11 @@ window.currentLessonData = {
       "definition": "looking directly at someone while communicating"
     },
     {
-      "term": "participant",
-      "phonetic": "/pɑːrˈtɪsɪpənt/",
-      "pos": "noun",
-      "zh": "参与者",
-      "definition": "a person who takes part in an activity or conversation"
+      "term": "leverage",
+      "phonetic": "/ˈlevərɪdʒ/",
+      "pos": "verb",
+      "zh": "充分利用",
+      "definition": "to use something effectively to get a better result"
     }
   ],
   "cues": [
@@ -131,8 +114,7 @@ window.currentLessonData = {
       "at": 0.88,
       "text": "Effective communication skills in the workplace.",
       "terms": [
-        "effective communication",
-        "workplace"
+        "effective communication"
       ]
     },
     {
@@ -144,7 +126,6 @@ window.currentLessonData = {
       "at": 12,
       "text": "This can leave professionals with no idea what to focus on to improve their skills or where they may be lacking.",
       "terms": [
-        "professional",
         "lacking"
       ]
     },
@@ -198,9 +179,7 @@ window.currentLessonData = {
     {
       "at": 63.12,
       "text": "Being friendly and creating an open environment go a long way in workplace communications.",
-      "terms": [
-        "workplace"
-      ]
+      "terms": []
     },
     {
       "at": 69.36,
@@ -239,9 +218,7 @@ window.currentLessonData = {
     {
       "at": 101.36,
       "text": "Being open-minded is the ability to consider other points of view without staunchly sticking to your own.",
-      "terms": [
-        "point of view"
-      ]
+      "terms": []
     },
     {
       "at": 107.84,
@@ -283,8 +260,7 @@ window.currentLessonData = {
       "at": 141.12,
       "text": "Giving and receiving feedback is a critical skill in every workplace.",
       "terms": [
-        "feedback",
-        "workplace"
+        "feedback"
       ]
     },
     {
@@ -365,7 +341,8 @@ window.currentLessonData = {
       "at": 214.32,
       "text": "By learning how to leverage nonverbal communication properly, we can ensure we're sending the right message.",
       "terms": [
-        "nonverbal communication"
+        "nonverbal communication",
+        "leverage"
       ]
     },
     {
@@ -395,8 +372,7 @@ window.currentLessonData = {
       "at": 245.6,
       "text": "Effective communication often boils down to remembering that you are not the only participant in conversations or communication.",
       "terms": [
-        "effective communication",
-        "participant"
+        "effective communication"
       ]
     },
     {

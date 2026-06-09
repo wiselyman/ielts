@@ -19,17 +19,10 @@ window.currentLessonData = {
     },
     {
       "term": "shopping cart",
-      "phonetic": "/ˈʃɑːpɪŋ kɑːrt/",
-      "pos": "noun",
+      "phonetic": "",
+      "pos": "phrase",
       "zh": "购物车",
-      "definition": "a large metal basket on wheels used in a supermarket"
-    },
-    {
-      "term": "groceries",
-      "phonetic": "/ˈɡroʊsəriz/",
-      "pos": "plural noun",
-      "zh": "食品杂货",
-      "definition": "food and other goods bought regularly for the home"
+      "definition": "a large basket on wheels used in a supermarket"
     },
     {
       "term": "produce section",
@@ -93,28 +86,21 @@ window.currentLessonData = {
     {
       "term": "condiments",
       "phonetic": "/ˈkɑːndɪmənts/",
-      "pos": "plural noun",
+      "pos": "noun",
       "zh": "调味品",
       "definition": "sauces or seasonings added to food"
     },
     {
       "term": "self-checkout",
-      "phonetic": "/ˌself ˈtʃekaʊt/",
-      "pos": "noun",
+      "phonetic": "",
+      "pos": "phrase",
       "zh": "自助结账",
       "definition": "a machine where customers scan and pay for goods themselves"
     },
     {
-      "term": "cashier",
-      "phonetic": "/kæˈʃɪr/",
-      "pos": "noun",
-      "zh": "收银员",
-      "definition": "a person who takes payment in a shop"
-    },
-    {
       "term": "reusable bags",
-      "phonetic": "/ˌriːˈjuːzəbl bæɡz/",
-      "pos": "plural noun",
+      "phonetic": "",
+      "pos": "phrase",
       "zh": "可重复使用的购物袋",
       "definition": "bags that can be used many times instead of being thrown away"
     },
@@ -164,9 +150,7 @@ window.currentLessonData = {
     {
       "at": 25.02,
       "text": "Sure, a basket would be too small for the amount of groceries we need.",
-      "terms": [
-        "groceries"
-      ]
+      "terms": []
     },
     {
       "at": 31.79,
@@ -448,16 +432,12 @@ window.currentLessonData = {
     {
       "at": 211.02,
       "text": "No... we have a lot of groceries.",
-      "terms": [
-        "groceries"
-      ]
+      "terms": []
     },
     {
       "at": 213.93,
       "text": "With this much stuff, I prefer paying at the cashier.",
-      "terms": [
-        "cashier"
-      ]
+      "terms": []
     },
     {
       "at": 217.39,

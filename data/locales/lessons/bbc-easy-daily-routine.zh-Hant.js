@@ -4,15 +4,15 @@ window.lessonLocale = {
   "vocab": {
     "every day": "每天",
     "wake up": "醒來",
-    "breakfast": "早餐",
+    "eat breakfast": "吃早餐",
     "go jogging": "去慢跑",
-    "get the bus": "搭公車",
+    "get the bus to work": "搭公車上班",
+    "drive to work": "開車上班",
     "read a book": "讀書",
     "finish work": "下班；完成工作",
-    "have a shower": "洗淋浴",
+    "have a shower": "洗澡",
     "go to sleep": "去睡覺",
-    "drive to work": "開車去上班",
-    "podcast": "播客",
-    "exercise": "運動；鍛鍊"
+    "listen to a podcast": "聽 Podcast",
+    "do some exercise": "做些運動"
   }
 };

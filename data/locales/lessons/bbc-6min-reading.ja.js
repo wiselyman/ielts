@@ -1,15 +1,20 @@
 // ja translations for lesson bbc-6min-reading.
 window.lessonLocale = {
-  "summary": "読み書き能力（literacy）が大人の生活をどう変えるかを扱うレッスンです。教育、仕事、社会的流動性の IELTS トピックに役立ちます。通勤（commute）、食料雑貨（groceries）、署名（signature）、基本的な計算力（numeracy）、尊厳に関わる内容が出てきます。重要表現は illiterate、cheat、take for granted などです。",
+  "summary": "このレッスンでは、成人の読み書き能力（adult literacy）が生活をどう変えるかを扱います。教育、仕事、社会的流動性の IELTS トピックに役立ちます。バングラデシュと英国の成人学習プロジェクトを通して、illiterate / illiteracy が尊厳、自立、日常の判断にどう影響するかを学びます。重要表現は literacy、numeracy、impact、embarrassed、use my fingerprint as a signature、developing countries、adult learners、one-to-one lessons、take for granted などです。",
   "vocab": {
-    "commute": "通勤",
-    "groceries": "食料雑貨",
+    "adult literacy": "成人の読み書き能力",
     "illiterate": "読み書きができない",
+    "illiteracy": "非識字",
     "literacy": "読み書き能力",
-    "numeracy": "基本的な計算力",
-    "signature": "署名",
+    "International Literacy Day": "国際識字デー",
+    "numeracy": "基礎計算力",
+    "impact": "影響",
+    "embarrassed": "恥ずかしい",
+    "use my fingerprint as a signature": "署名の代わりに指紋を使う",
     "cheat": "だます",
-    "take for granted": "当然のことと思う",
-    "thick": "頭が悪い"
+    "developing countries": "発展途上国",
+    "adult learners": "成人学習者",
+    "one-to-one lessons": "マンツーマン授業",
+    "take for granted": "当然だと思う"
   }
 };

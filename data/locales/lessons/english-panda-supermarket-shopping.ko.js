@@ -4,18 +4,16 @@ window.lessonLocale = {
   "vocab": {
     "grocery list": "장보기 목록",
     "shopping cart": "쇼핑 카트",
-    "groceries": "식료품",
     "produce section": "농산물 코너",
     "vegetarian": "채식주의자",
     "vegan": "비건",
     "pre-packed": "미리 포장된",
-    "ripe": "잘 익은",
+    "ripe": "익은",
     "expiry date": "유통기한",
     "on sale": "할인 판매 중",
     "stale": "신선하지 않은",
-    "condiments": "조미료",
+    "condiments": "양념류",
     "self-checkout": "셀프 계산대",
-    "cashier": "계산원",
     "reusable bags": "재사용 가능한 장바구니",
     "receipt": "영수증"
   }

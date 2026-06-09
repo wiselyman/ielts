@@ -5,13 +5,12 @@ window.lessonLocale = {
     "school day": "上学日",
     "lollipop lady": "护送儿童过马路的女交通员",
     "cross the road": "过马路",
-    "uniform": "校服；制服",
-    "registration": "点名；登记",
+    "school uniform": "校服",
+    "class registration": "课堂点名",
     "assembly": "集会",
     "tidy up": "收拾整齐",
     "break time": "课间休息",
     "playground": "操场；游乐场",
-    "canteen": "食堂",
-    "crisps": "薯片"
+    "canteen": "食堂"
   }
 };

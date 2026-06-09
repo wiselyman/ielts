@@ -11,19 +11,11 @@ window.currentLessonData = {
   "summary": "This video is about adult literacy and why learning to read can change a person's daily life. It connects education, work, confidence, commuting, poverty and opportunity. For IELTS General Training, it is useful for topics about lifelong learning, education, employment and social change.",
   "vocab": [
     {
-      "term": "commute",
-      "phonetic": "/kəˈmjuːt/",
-      "pos": "noun",
-      "zh": "通勤",
-      "definition": "the regular journey between your home and your place of work",
-      "keepAfter": " to work"
-    },
-    {
-      "term": "groceries",
-      "phonetic": "/ˈɡrəʊsəriz/",
-      "pos": "plural noun",
-      "zh": "食品杂货",
-      "definition": "food and other goods that are sold by a grocer or supermarket"
+      "term": "adult literacy",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "成人读写能力",
+      "definition": "the ability of adults to read and write"
     },
     {
       "term": "illiterate",
@@ -33,51 +25,88 @@ window.currentLessonData = {
       "definition": "unable to read or write"
     },
     {
+      "term": "illiteracy",
+      "phonetic": "/ɪˈlɪtərəsi/",
+      "pos": "noun",
+      "zh": "文盲；不识字",
+      "definition": "the condition of being unable to read or write"
+    },
+    {
       "term": "literacy",
       "phonetic": "/ˈlɪtərəsi/",
       "pos": "noun",
       "zh": "读写能力",
-      "definition": "the ability to read and write",
-      "keepAfter": " Day"
+      "definition": "the ability to read and write"
+    },
+    {
+      "term": "International Literacy Day",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "国际扫盲日",
+      "definition": "a UN day that highlights the importance of reading and writing"
     },
     {
       "term": "numeracy",
-      "phonetic": "/ˈnjuːmərəsi/",
+      "phonetic": "/ˈnuːmərəsi/",
       "pos": "noun",
       "zh": "基本计算能力",
       "definition": "the ability to understand and work with numbers"
     },
     {
-      "term": "signature",
-      "phonetic": "/ˈsɪɡnətʃə/",
+      "term": "impact",
+      "phonetic": "/ˈɪmpækt/",
       "pos": "noun",
-      "zh": "签名",
-      "definition": "your name written by yourself, usually to show agreement or identity"
+      "zh": "影响",
+      "definition": "a strong effect on someone or something"
+    },
+    {
+      "term": "embarrassed",
+      "phonetic": "/ɪmˈbærəst/",
+      "pos": "adjective",
+      "zh": "尴尬的；难堪的",
+      "definition": "feeling ashamed or uncomfortable"
+    },
+    {
+      "term": "use my fingerprint as a signature",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "用指纹代替签名",
+      "definition": "to use a fingerprint because you cannot write your name"
     },
     {
       "term": "cheat",
       "phonetic": "/tʃiːt/",
       "pos": "verb",
       "zh": "欺骗",
-      "definition": "to trick someone or behave dishonestly in order to get an advantage"
+      "definition": "to trick someone or behave dishonestly to get an advantage"
+    },
+    {
+      "term": "developing countries",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "发展中国家",
+      "definition": "countries with less industrial and economic development"
+    },
+    {
+      "term": "adult learners",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "成人学习者",
+      "definition": "adults who are learning new skills or subjects"
+    },
+    {
+      "term": "one-to-one lessons",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "一对一课程",
+      "definition": "lessons with one teacher or volunteer and one learner"
     },
     {
       "term": "take for granted",
-      "aliases": [
-        "takes for granted",
-        "take it for granted"
-      ],
-      "phonetic": "/teɪk fə ˈɡrɑːntɪd/",
+      "phonetic": "",
       "pos": "phrase",
       "zh": "想当然",
       "definition": "to believe something is true or will always happen without checking or appreciating it"
-    },
-    {
-      "term": "thick",
-      "phonetic": "/θɪk/",
-      "pos": "adjective",
-      "zh": "笨的",
-      "definition": "an informal and insulting word meaning stupid"
     }
   ],
   "cues": [
@@ -99,9 +128,7 @@ window.currentLessonData = {
     {
       "at": 16.88,
       "text": "it's also a great way to pass the time on my daily commute to work.",
-      "terms": [
-        "commute"
-      ]
+      "terms": []
     },
     {
       "at": 21.48,
@@ -121,9 +148,7 @@ window.currentLessonData = {
     {
       "at": 28.96,
       "text": "whether that is finding out the news by reading a newspaper or buying groceries",
-      "terms": [
-        "groceries"
-      ]
+      "terms": []
     },
     {
       "at": 33.52,
@@ -201,8 +226,8 @@ window.currentLessonData = {
       "at": 77.84,
       "text": "but illiteracy is not a new problem. Since 1967, the UN",
       "terms": [
-        "literacy",
-        "illiterate"
+        "illiteracy",
+        "literacy"
       ]
     },
     {
@@ -216,7 +241,8 @@ window.currentLessonData = {
       "at": 87.92,
       "text": "and write with a day of celebration called International Literacy Day.",
       "terms": [
-        "literacy"
+        "literacy",
+        "International Literacy Day"
       ]
     },
     {
@@ -238,7 +264,8 @@ window.currentLessonData = {
       "at": 103.84,
       "text": "I think International Literacy Day is on the 8th of September.",
       "terms": [
-        "literacy"
+        "literacy",
+        "International Literacy Day"
       ]
     },
     {
@@ -303,7 +330,9 @@ window.currentLessonData = {
     {
       "at": 142.36,
       "text": "one student, Rashida explains the impact",
-      "terms": []
+      "terms": [
+        "impact"
+      ]
     },
     {
       "at": 145.36,
@@ -324,7 +353,8 @@ window.currentLessonData = {
       "at": 156.52,
       "text": "to read and write. My children were embarrassed that I was illiterate.",
       "terms": [
-        "illiterate"
+        "illiterate",
+        "embarrassed"
       ]
     },
     {
@@ -336,8 +366,8 @@ window.currentLessonData = {
       "at": 163.92,
       "text": "I've had to use my fingerprint as a signature as I was illiterate,",
       "terms": [
-        "signature",
-        "illiterate"
+        "illiterate",
+        "use my fingerprint as a signature"
       ]
     },
     {
@@ -365,9 +395,7 @@ window.currentLessonData = {
     {
       "at": 180.76,
       "text": "couldn't write her signature -",
-      "terms": [
-        "signature"
-      ]
+      "terms": []
     },
     {
       "at": 182.84,
@@ -420,7 +448,8 @@ window.currentLessonData = {
       "at": 212.56,
       "text": "But it's not just developing countries that struggle with literacy.",
       "terms": [
-        "literacy"
+        "literacy",
+        "developing countries"
       ]
     },
     {
@@ -441,7 +470,10 @@ window.currentLessonData = {
     {
       "at": 223.32,
       "text": "adult learners with trained volunteers for one-to-one lessons.",
-      "terms": []
+      "terms": [
+        "adult learners",
+        "one-to-one lessons"
+      ]
     },
     {
       "at": 228,
@@ -476,9 +508,7 @@ window.currentLessonData = {
     {
       "at": 248.44,
       "text": "Everyone takes for granted",
-      "terms": [
-        "take for granted"
-      ]
+      "terms": []
     },
     {
       "at": 249.8,
@@ -513,9 +543,7 @@ window.currentLessonData = {
     {
       "at": 264.64,
       "text": "I'm thick, I'm stupid, I'm just one of those people.",
-      "terms": [
-        "thick"
-      ]
+      "terms": []
     },
     {
       "at": 268.24,
@@ -525,16 +553,12 @@ window.currentLessonData = {
     {
       "at": 272.28,
       "text": "Many of us take it for granted that everyone can read and write.",
-      "terms": [
-        "take for granted"
-      ]
+      "terms": []
     },
     {
       "at": 276.6,
       "text": "If you take something for granted,",
-      "terms": [
-        "take for granted"
-      ]
+      "terms": []
     },
     {
       "at": 279.08,
@@ -554,16 +578,12 @@ window.currentLessonData = {
     {
       "at": 287.72,
       "text": "He thought he was thick - stupid and unintelligent.",
-      "terms": [
-        "thick"
-      ]
+      "terms": []
     },
     {
       "at": 291.92,
       "text": "Now, Peter says learning with Readeasy has changed his life. He's literate",
-      "terms": [
-        "literacy"
-      ]
+      "terms": []
     },
     {
       "at": 297.6,
@@ -574,7 +594,8 @@ window.currentLessonData = {
       "at": 301.16,
       "text": "And he always celebrates International Literacy Day.",
       "terms": [
-        "literacy"
+        "literacy",
+        "International Literacy Day"
       ]
     },
     {
@@ -586,7 +607,8 @@ window.currentLessonData = {
       "at": 306.76,
       "text": "Beth. When does the UN's International Literacy Day take place?",
       "terms": [
-        "literacy"
+        "literacy",
+        "International Literacy Day"
       ]
     },
     {
@@ -626,9 +648,7 @@ window.currentLessonData = {
     {
       "at": 330.68,
       "text": "Your signature is your name written in your own handwriting style.",
-      "terms": [
-        "signature"
-      ]
+      "terms": []
     },
     {
       "at": 335.08,
@@ -650,9 +670,7 @@ window.currentLessonData = {
     {
       "at": 345.4,
       "text": "If you take something for granted,",
-      "terms": [
-        "take for granted"
-      ]
+      "terms": []
     },
     {
       "at": 347.32,
@@ -662,9 +680,7 @@ window.currentLessonData = {
     {
       "at": 350.04,
       "text": "And finally, the adjective 'thick' is an informal word for stupid.",
-      "terms": [
-        "thick"
-      ]
+      "terms": []
     },
     {
       "at": 354.4,

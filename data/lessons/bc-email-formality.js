@@ -12,7 +12,7 @@ window.currentLessonData = {
   "vocab": [
     {
       "term": "professional",
-      "phonetic": "/prəˈfeʃənəl/",
+      "phonetic": "/prəˈfeʃənl/",
       "pos": "adjective",
       "zh": "专业的",
       "definition": "showing the skill and careful behaviour expected at work"
@@ -22,56 +22,83 @@ window.currentLessonData = {
       "aliases": [
         "applying for"
       ],
-      "phonetic": "/əˈplaɪ fə/",
-      "pos": "phrasal verb",
+      "phonetic": "",
+      "pos": "phrase",
       "zh": "申请",
       "definition": "to make a formal request for a job, place or opportunity"
     },
     {
       "term": "first impression",
-      "phonetic": "/ˌfɜːst ɪmˈpreʃən/",
-      "pos": "noun phrase",
+      "phonetic": "",
+      "pos": "phrase",
       "zh": "第一印象",
       "definition": "the opinion someone forms when they first see or hear about you"
     },
     {
       "term": "formal",
-      "phonetic": "/ˈfɔːməl/",
+      "phonetic": "/ˈfɔːrml/",
       "pos": "adjective",
       "zh": "正式的",
       "definition": "suitable for serious, polite or official situations"
     },
     {
       "term": "informal",
-      "phonetic": "/ɪnˈfɔːməl/",
+      "phonetic": "/ɪnˈfɔːrml/",
       "pos": "adjective",
       "zh": "非正式的",
       "definition": "relaxed and friendly, not official"
     },
     {
+      "term": "business context",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "商务语境",
+      "definition": "a situation connected with work or business"
+    },
+    {
+      "term": "job application",
+      "aliases": [
+        "job applications"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "求职申请",
+      "definition": "a formal request to be considered for a job"
+    },
+    {
       "term": "appropriate",
-      "phonetic": "/əˈprəʊpriət/",
+      "phonetic": "/əˈproʊpriət/",
       "pos": "adjective",
       "zh": "合适的",
       "definition": "suitable or right for a particular situation"
     },
     {
       "term": "Yours sincerely",
-      "phonetic": "/jɔːz sɪnˈsɪəli/",
+      "phonetic": "",
       "pos": "phrase",
       "zh": "谨启；您诚挚的",
-      "definition": "a formal phrase used at the end of a letter or email when you know the reader"
+      "definition": "a formal phrase used at the end of a letter when you know the reader"
     },
     {
       "term": "Yours faithfully",
-      "phonetic": "/jɔːz ˈfeɪθfəli/",
+      "phonetic": "",
       "pos": "phrase",
       "zh": "谨启；您忠实的",
-      "definition": "a formal phrase used at the end of a letter or email when you do not know the reader"
+      "definition": "a formal phrase used at the end of a letter when you do not know the reader"
+    },
+    {
+      "term": "opening and closing phrases",
+      "aliases": [
+        "opening and closing phrases"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "开头和结尾用语",
+      "definition": "set phrases used to begin and end messages"
     },
     {
       "term": "conventional",
-      "phonetic": "/kənˈvenʃənəl/",
+      "phonetic": "/kənˈvenʃənl/",
       "pos": "adjective",
       "zh": "惯例的",
       "definition": "following the usual or accepted way of doing something"
@@ -84,11 +111,14 @@ window.currentLessonData = {
       "definition": "very informal words or phrases used in speech"
     },
     {
-      "term": "capitals",
-      "phonetic": "/ˈkæpɪtəlz/",
-      "pos": "plural noun",
-      "zh": "大写字母",
-      "definition": "letters written in their large form, such as A, B and C"
+      "term": "all capitals",
+      "aliases": [
+        "capitals"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "全大写字母",
+      "definition": "text written with capital letters only"
     }
   ],
   "cues": [
@@ -131,27 +161,32 @@ window.currentLessonData = {
       "at": 32.55,
       "text": "for example, business emails, job applications, and emails to big companies.",
       "terms": [
-        "apply for"
+        "job application"
       ]
     },
     {
       "at": 41.03,
       "text": "If you know the reader well and it's not a business context, you can use informal language.",
       "terms": [
-        "informal"
+        "formal",
+        "informal",
+        "business context"
       ]
     },
     {
       "at": 48.26,
       "text": "You would probably be informal if you were sending a birthday message to a friend.",
       "terms": [
+        "formal",
         "informal"
       ]
     },
     {
       "at": 55.8,
       "text": "Of course, the formality of the situation may depend on the country or culture you're in.",
-      "terms": []
+      "terms": [
+        "formal"
+      ]
     },
     {
       "at": 63.2,
@@ -177,6 +212,7 @@ window.currentLessonData = {
       "at": 85.06,
       "text": "You should also use an appropriate formal ending phrase, such as 'Yours sincerely'.",
       "terms": [
+        "formal",
         "appropriate",
         "Yours sincerely"
       ]
@@ -192,15 +228,14 @@ window.currentLessonData = {
       "at": 96.42,
       "text": "You can use more casual phrases in an informal email.",
       "terms": [
+        "formal",
         "informal"
       ]
     },
     {
       "at": 100.65,
       "text": "If you're sending a message to a friend or family member, you might begin with a simple 'Hi' or 'Hello'.",
-      "terms": [
-        "informal"
-      ]
+      "terms": []
     },
     {
       "at": 105.28,
@@ -211,6 +246,7 @@ window.currentLessonData = {
       "at": 113.8,
       "text": "It is conventional to use a comma and start a new line after any opening and closing phrases.",
       "terms": [
+        "opening and closing phrases",
         "conventional"
       ]
     },
@@ -226,22 +262,23 @@ window.currentLessonData = {
       "at": 126.73,
       "text": "You should also be careful using slang phrases or emojis, as these are very informal.",
       "terms": [
-        "slang",
-        "informal"
+        "formal",
+        "informal",
+        "slang"
       ]
     },
     {
       "at": 133.98,
       "text": "For example, you should never use a smiley face in a job application.",
       "terms": [
-        "apply for"
+        "job application"
       ]
     },
     {
       "at": 146.05,
       "text": "You should also avoid typing in all capitals, as it looks like you are shouting.",
       "terms": [
-        "capitals"
+        "all capitals"
       ]
     },
     {

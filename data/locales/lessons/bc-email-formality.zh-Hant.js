@@ -7,11 +7,14 @@ window.lessonLocale = {
     "first impression": "第一印象",
     "formal": "正式的",
     "informal": "非正式的",
+    "business context": "商務語境",
+    "job application": "求職申請",
     "appropriate": "合適的",
     "Yours sincerely": "謹啟；您誠摯的",
     "Yours faithfully": "謹啟；您忠實的",
+    "opening and closing phrases": "開頭和結尾用語",
     "conventional": "慣例的",
     "slang": "俚語",
-    "capitals": "大寫字母"
+    "all capitals": "全大寫字母"
   }
 };

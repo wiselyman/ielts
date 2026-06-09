@@ -4,15 +4,15 @@ window.lessonLocale = {
   "vocab": {
     "every day": "매일",
     "wake up": "일어나다",
-    "breakfast": "아침 식사",
+    "eat breakfast": "아침을 먹다",
     "go jogging": "조깅하러 가다",
-    "get the bus": "버스를 타다",
+    "get the bus to work": "버스를 타고 출근하다",
+    "drive to work": "운전해서 출근하다",
     "read a book": "책을 읽다",
-    "finish work": "퇴근하다；일을 마치다",
+    "finish work": "일을 마치다",
     "have a shower": "샤워하다",
     "go to sleep": "잠자리에 들다",
-    "drive to work": "차로 출근하다",
-    "podcast": "팟캐스트",
-    "exercise": "운동"
+    "listen to a podcast": "팟캐스트를 듣다",
+    "do some exercise": "운동을 좀 하다"
   }
 };

@@ -13,7 +13,6 @@ window.currentLessonData = {
     {
       "term": "deepfake",
       "aliases": [
-        "deepfakes",
         "deep fakes",
         "deep fake"
       ],
@@ -23,14 +22,16 @@ window.currentLessonData = {
       "definition": "a fake video, image or audio clip made with artificial intelligence"
     },
     {
-      "term": "AI-powered",
+      "term": "readily available AI-powered tools",
       "aliases": [
-        "AI powered"
+        "readily available AI powered tools",
+        "AI powered tools",
+        "AI-powered tools"
       ],
-      "phonetic": "/ˌeɪ ˈaɪ ˈpaʊəd/",
-      "pos": "adjective",
-      "zh": "由人工智能驱动的",
-      "definition": "using artificial intelligence to work or produce something"
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "容易获得的 AI 驱动工具",
+      "definition": "AI tools that are easy for many people to get and use"
     },
     {
       "term": "spread like wildfire",
@@ -40,11 +41,21 @@ window.currentLessonData = {
       "definition": "to spread very quickly among many people"
     },
     {
-      "term": "mistrust",
-      "phonetic": "/ˌmɪsˈtrʌst/",
-      "pos": "noun",
-      "zh": "不信任",
-      "definition": "a feeling that someone or something cannot be trusted"
+      "term": "sow seeds of mistrust",
+      "aliases": [
+        "sewing seeds of mistrust"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "播下不信任的种子",
+      "definition": "to create early feelings of doubt or distrust"
+    },
+    {
+      "term": "blurring the line",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "模糊界限",
+      "definition": "making it hard to see the difference between two things"
     },
     {
       "term": "malicious",
@@ -54,64 +65,77 @@ window.currentLessonData = {
       "definition": "intended to harm or upset someone"
     },
     {
-      "term": "commonplace",
-      "phonetic": "/ˈkɒmənpleɪs/",
-      "pos": "adjective",
-      "zh": "常见的",
-      "definition": "happening often and no longer unusual"
+      "term": "bad actors",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "恶意行为者",
+      "definition": "people or groups who act in harmful or dishonest ways"
     },
     {
-      "term": "precedent",
-      "phonetic": "/ˈpresɪdənt/",
-      "pos": "noun",
-      "zh": "先例",
-      "definition": "an earlier action or event that may be used as an example later"
-    },
-    {
-      "term": "abuse",
-      "phonetic": "/əˈbjuːs/",
-      "pos": "noun",
-      "zh": "滥用",
-      "definition": "the wrong or harmful use of something"
-    },
-    {
-      "term": "authentic",
-      "phonetic": "/ɔːˈθentɪk/",
-      "pos": "adjective",
-      "zh": "真实可信的",
-      "definition": "real, true or what people claim it is"
-    },
-    {
-      "term": "undermine",
-      "phonetic": "/ˌʌndəˈmaɪn/",
-      "pos": "verb",
-      "zh": "削弱；破坏",
-      "definition": "to make something weaker or less trusted"
-    },
-    {
-      "term": "disclose",
+      "term": "dangerous precedent",
       "aliases": [
+        "precedent"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "危险先例",
+      "definition": "an earlier action that may encourage harmful similar actions later"
+    },
+    {
+      "term": "potential for abuse",
+      "aliases": [
+        "abuse"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "被滥用的可能",
+      "definition": "the possibility that something will be used wrongly or harmfully"
+    },
+    {
+      "term": "convey authentic government",
+      "aliases": [
+        "authentic"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "传达真实政府信息",
+      "definition": "to present a message as real or official government communication"
+    },
+    {
+      "term": "undermine trust",
+      "aliases": [
+        "undermine"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "削弱信任",
+      "definition": "to make trust weaker"
+    },
+    {
+      "term": "disclosed clearly",
+      "aliases": [
+        "disclose",
         "disclosed"
       ],
-      "phonetic": "/dɪsˈkləʊz/",
-      "pos": "verb",
-      "zh": "披露",
-      "definition": "to make information known to the public"
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "清楚披露",
+      "definition": "made known clearly to the public"
     },
     {
       "term": "AI-generated",
-      "aliases": [
-        "AI generated"
-      ],
-      "phonetic": "/ˌeɪ ˈaɪ ˈdʒenəreɪtɪd/",
-      "pos": "adjective",
+      "phonetic": "",
+      "pos": "phrase",
       "zh": "由人工智能生成的",
       "definition": "created by artificial intelligence"
     },
     {
-      "term": "stakes",
-      "phonetic": "/steɪks/",
-      "pos": "plural noun",
+      "term": "the stakes",
+      "aliases": [
+        "stakes"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
       "zh": "风险；利害关系",
       "definition": "the possible risks or important results in a situation"
     }
@@ -190,7 +214,7 @@ window.currentLessonData = {
       "at": 30.84,
       "text": "readily available AI powered tools have",
       "terms": [
-        "AI-powered"
+        "readily available AI-powered tools"
       ]
     },
     {
@@ -204,7 +228,7 @@ window.currentLessonData = {
       "at": 36.2,
       "text": "sewing seeds of mistrust and blurring",
       "terms": [
-        "mistrust"
+        "sow seeds of mistrust"
       ]
     },
     {
@@ -260,8 +284,8 @@ window.currentLessonData = {
       "at": 63.72,
       "text": "commonplace for Bad actors to deep fake",
       "terms": [
-        "commonplace",
-        "deepfake"
+        "deepfake",
+        "bad actors"
       ]
     },
     {
@@ -374,7 +398,7 @@ window.currentLessonData = {
       "at": 115.04,
       "text": "dangerous precedent and to me it's",
       "terms": [
-        "precedent"
+        "dangerous precedent"
       ]
     },
     {
@@ -386,7 +410,7 @@ window.currentLessonData = {
       "at": 120.8,
       "text": "about the potential for abuse of these",
       "terms": [
-        "abuse"
+        "potential for abuse"
       ]
     },
     {
@@ -404,15 +428,13 @@ window.currentLessonData = {
     {
       "at": 128.56,
       "text": "fake technology when you use it to",
-      "terms": [
-        "deepfake"
-      ]
+      "terms": []
     },
     {
       "at": 130.68,
       "text": "convey authentic government",
       "terms": [
-        "authentic"
+        "convey authentic government"
       ]
     },
     {
@@ -450,7 +472,7 @@ window.currentLessonData = {
       "at": 145.92,
       "text": "undermine trust in government and Trust",
       "terms": [
-        "undermine"
+        "undermine trust"
       ]
     },
     {
@@ -476,7 +498,9 @@ window.currentLessonData = {
     {
       "at": 158.2,
       "text": "AI and will use it and not abuse it",
-      "terms": []
+      "terms": [
+        "potential for abuse"
+      ]
     },
     {
       "at": 162.48,
@@ -534,15 +558,13 @@ window.currentLessonData = {
       "at": 186.32,
       "text": "example it wasn't disclosed clearly to",
       "terms": [
-        "disclose"
+        "disclosed clearly"
       ]
     },
     {
       "at": 188.84,
       "text": "the audience that this was AI generated",
-      "terms": [
-        "AI-generated"
-      ]
+      "terms": []
     },
     {
       "at": 191.48,
@@ -602,9 +624,7 @@ window.currentLessonData = {
     {
       "at": 216.6,
       "text": "saw both candidates using AI generated",
-      "terms": [
-        "AI-generated"
-      ]
+      "terms": []
     },
     {
       "at": 218.96,
@@ -644,9 +664,7 @@ window.currentLessonData = {
     {
       "at": 234.52,
       "text": "it will lead to increasing distrust in",
-      "terms": [
-        "mistrust"
-      ]
+      "terms": []
     },
     {
       "at": 237.36,
@@ -667,7 +685,7 @@ window.currentLessonData = {
       "at": 245.32,
       "text": "this year the stakes have never been",
       "terms": [
-        "stakes"
+        "the stakes"
       ]
     },
     {

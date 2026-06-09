@@ -20,7 +20,7 @@ window.currentLessonData = {
     {
       "term": "lollipop lady",
       "phonetic": "",
-      "pos": "noun phrase",
+      "pos": "phrase",
       "zh": "护送儿童过马路的女交通员",
       "definition": "a person who helps children cross the road safely"
     },
@@ -32,17 +32,23 @@ window.currentLessonData = {
       "definition": "to walk from one side of a road to the other side"
     },
     {
-      "term": "uniform",
-      "phonetic": "/ˈjuːnɪfɔːm/",
-      "pos": "noun",
-      "zh": "校服；制服",
-      "definition": "special clothes worn by people in the same school or group"
+      "term": "school uniform",
+      "aliases": [
+        "uniform"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "校服",
+      "definition": "special clothes worn by students at the same school"
     },
     {
-      "term": "registration",
-      "phonetic": "/ˌredʒɪˈstreɪʃən/",
-      "pos": "noun",
-      "zh": "点名；登记",
+      "term": "class registration",
+      "aliases": [
+        "registration"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "课堂点名",
       "definition": "the time when a teacher checks which students are present"
     },
     {
@@ -54,8 +60,8 @@ window.currentLessonData = {
     },
     {
       "term": "tidy up",
-      "phonetic": "/ˌtaɪdi ˈʌp/",
-      "pos": "phrasal verb",
+      "phonetic": "",
+      "pos": "phrase",
       "zh": "收拾整齐",
       "definition": "to put things back in the right place"
     },
@@ -79,13 +85,6 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "食堂",
       "definition": "a place in a school or workplace where people buy and eat food"
-    },
-    {
-      "term": "crisps",
-      "phonetic": "/krɪsps/",
-      "pos": "plural noun",
-      "zh": "薯片",
-      "definition": "thin slices of potato cooked until hard and crisp"
     }
   ],
   "cues": [
@@ -134,7 +133,7 @@ window.currentLessonData = {
       "at": 50.16,
       "text": "This is my school. We wear a school uniform.",
       "terms": [
-        "uniform"
+        "school uniform"
       ]
     },
     {
@@ -146,7 +145,7 @@ window.currentLessonData = {
       "at": 73.68,
       "text": "School starts at 8:50 with class registration.",
       "terms": [
-        "registration"
+        "class registration"
       ]
     },
     {
@@ -274,16 +273,12 @@ window.currentLessonData = {
     {
       "at": 277.52,
       "text": "I've got ham and salad sandwiches, a banana, and a packet of crisps.",
-      "terms": [
-        "crisps"
-      ]
+      "terms": []
     },
     {
       "at": 282.8,
       "text": "Can I have a crisp, please? Of course.",
-      "terms": [
-        "crisps"
-      ]
+      "terms": []
     },
     {
       "at": 288.88,

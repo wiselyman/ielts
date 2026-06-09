@@ -20,16 +20,19 @@ window.currentLessonData = {
     {
       "term": "wake up",
       "phonetic": "",
-      "pos": "phrasal verb",
+      "pos": "phrase",
       "zh": "醒来",
       "definition": "to stop sleeping"
     },
     {
-      "term": "breakfast",
-      "phonetic": "/ˈbrekfəst/",
-      "pos": "noun",
-      "zh": "早餐",
-      "definition": "the first meal of the day"
+      "term": "eat breakfast",
+      "aliases": [
+        "breakfast"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "吃早餐",
+      "definition": "to have the first meal of the day"
     },
     {
       "term": "go jogging",
@@ -39,11 +42,21 @@ window.currentLessonData = {
       "definition": "to run slowly for exercise"
     },
     {
-      "term": "get the bus",
+      "term": "get the bus to work",
+      "aliases": [
+        "get the bus"
+      ],
       "phonetic": "",
       "pos": "phrase",
-      "zh": "乘公交车",
-      "definition": "to travel by bus"
+      "zh": "乘公交车上班",
+      "definition": "to travel to work by bus"
+    },
+    {
+      "term": "drive to work",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "开车上班",
+      "definition": "to travel to work by car"
     },
     {
       "term": "read a book",
@@ -74,25 +87,24 @@ window.currentLessonData = {
       "definition": "to start sleeping"
     },
     {
-      "term": "drive to work",
+      "term": "listen to a podcast",
+      "aliases": [
+        "podcast"
+      ],
       "phonetic": "",
       "pos": "phrase",
-      "zh": "开车去上班",
-      "definition": "to travel to work by car"
+      "zh": "听播客",
+      "definition": "to listen to an online audio programme"
     },
     {
-      "term": "podcast",
-      "phonetic": "/ˈpɒdkɑːst/",
-      "pos": "noun",
-      "zh": "播客",
-      "definition": "an audio programme that you can listen to online"
-    },
-    {
-      "term": "exercise",
-      "phonetic": "/ˈeksəsaɪz/",
-      "pos": "noun",
-      "zh": "运动；锻炼",
-      "definition": "physical activity that keeps you healthy"
+      "term": "do some exercise",
+      "aliases": [
+        "exercise"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "做些运动",
+      "definition": "to do physical activity to stay healthy"
     }
   ],
   "cues": [
@@ -146,7 +158,7 @@ window.currentLessonData = {
       "at": 24.16,
       "text": "I eat breakfast.",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
@@ -160,7 +172,7 @@ window.currentLessonData = {
       "at": 30.84,
       "text": "I get the bus to work.",
       "terms": [
-        "get the bus"
+        "get the bus to work"
       ]
     },
     {
@@ -231,7 +243,7 @@ window.currentLessonData = {
       "at": 69.56,
       "text": "I eat breakfast.",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
@@ -245,7 +257,7 @@ window.currentLessonData = {
       "at": 76.4,
       "text": "I listen to a podcast.",
       "terms": [
-        "podcast"
+        "listen to a podcast"
       ]
     },
     {
@@ -328,7 +340,7 @@ window.currentLessonData = {
       "at": 125.12,
       "text": "I eat breakfast.",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
@@ -406,7 +418,7 @@ window.currentLessonData = {
       "at": 179.6,
       "text": "I eat breakfast.",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
@@ -429,7 +441,7 @@ window.currentLessonData = {
       "text": "After I finish work, I do some exercise.",
       "terms": [
         "finish work",
-        "exercise"
+        "do some exercise"
       ]
     },
     {
@@ -462,7 +474,7 @@ window.currentLessonData = {
       "at": 221.72,
       "text": "I eat breakfast.",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
@@ -486,14 +498,14 @@ window.currentLessonData = {
       "at": 245.28,
       "text": "What do you eat for breakfast, Tim?",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
       "at": 248.36,
       "text": "I eat toast for breakfast.",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
@@ -505,49 +517,49 @@ window.currentLessonData = {
       "at": 254.36,
       "text": "What do you eat for breakfast?",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
       "at": 256.72,
       "text": "I eat cereal for breakfast.",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
       "at": 259.92,
       "text": "What do you eat for breakfast, Sian?",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
       "at": 262,
       "text": "I eat fruit and yoghurt for breakfast.",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
       "at": 265.44,
       "text": "What do you eat for breakfast, Buli?",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
       "at": 267.72,
       "text": "I eat porridge for breakfast.",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {
       "at": 270.76,
       "text": "What do you eat for breakfast?",
       "terms": [
-        "breakfast"
+        "eat breakfast"
       ]
     },
     {

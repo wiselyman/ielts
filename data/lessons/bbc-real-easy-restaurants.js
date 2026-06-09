@@ -11,21 +11,11 @@ window.currentLessonData = {
   "summary": "A BBC Real Easy English conversation about eating out, restaurant atmosphere, special occasions and simple ordering phrases.",
   "vocab": [
     {
-      "term": "delicious",
-      "phonetic": "/dɪˈlɪʃəs/",
-      "pos": "adjective",
-      "zh": "美味的",
-      "definition": "having a very pleasant taste or smell"
-    },
-    {
-      "term": "restaurant",
-      "aliases": [
-        "restaurants"
-      ],
-      "phonetic": "/ˈrestrɑːnt/",
-      "pos": "noun",
-      "zh": "餐厅",
-      "definition": "a place where people pay to sit and eat meals"
+      "term": "eat out",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "外出吃饭",
+      "definition": "to eat a meal in a restaurant rather than at home"
     },
     {
       "term": "atmosphere",
@@ -33,23 +23,6 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "氛围",
       "definition": "the feeling or mood of a place"
-    },
-    {
-      "term": "serve",
-      "aliases": [
-        "serves"
-      ],
-      "phonetic": "/sɜːrv/",
-      "pos": "verb",
-      "zh": "提供；供应",
-      "definition": "to provide food or drink for someone"
-    },
-    {
-      "term": "eat out",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "外出吃饭",
-      "definition": "to eat a meal in a restaurant rather than at home"
     },
     {
       "term": "wash up",
@@ -67,41 +40,41 @@ window.currentLessonData = {
     },
     {
       "term": "celebration",
-      "phonetic": "/ˌseləˈbreɪʃn/",
+      "phonetic": "/ˌselɪˈbreɪʃn/",
       "pos": "noun",
       "zh": "庆祝活动",
       "definition": "a happy event or activity for something special"
     },
     {
-      "term": "order",
+      "term": "What do you usually order",
       "aliases": [
-        "ordering"
+        "usually order"
       ],
-      "phonetic": "/ˈɔːrdər/",
-      "pos": "verb",
-      "zh": "点餐；订购",
-      "definition": "to ask for food or drink in a restaurant"
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "你通常点什么？",
+      "definition": "a useful question for asking about food choices"
     },
     {
-      "term": "spicy",
-      "phonetic": "/ˈspaɪsi/",
-      "pos": "adjective",
-      "zh": "辛辣的",
-      "definition": "having a strong hot flavour"
+      "term": "I'll have",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "我要……",
+      "definition": "a polite way to order food or drink"
     },
     {
-      "term": "curry",
-      "phonetic": "/ˈkɜːri/",
-      "pos": "noun",
-      "zh": "咖喱",
-      "definition": "a dish with meat, fish or vegetables cooked in a spicy sauce"
+      "term": "Can I have",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "我可以要……吗？",
+      "definition": "a polite way to ask for food or drink"
     },
     {
-      "term": "waiter",
-      "phonetic": "/ˈweɪtər/",
-      "pos": "noun",
-      "zh": "男服务员",
-      "definition": "a man whose job is to serve people in a restaurant"
+      "term": "Can I get",
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "我可以点……吗？",
+      "definition": "a casual way to ask for food or drink"
     },
     {
       "term": "ready to order",
@@ -111,18 +84,21 @@ window.currentLessonData = {
       "definition": "prepared to tell the waiter what food you want"
     },
     {
+      "term": "spicy food",
+      "aliases": [
+        "spicy"
+      ],
+      "phonetic": "",
+      "pos": "phrase",
+      "zh": "辛辣食物",
+      "definition": "food with a strong hot flavour"
+    },
+    {
       "term": "risotto",
       "phonetic": "/rɪˈzɑːtoʊ/",
       "pos": "noun",
       "zh": "意大利烩饭",
       "definition": "an Italian rice dish cooked slowly with stock"
-    },
-    {
-      "term": "recap",
-      "phonetic": "/ˈriːkæp/",
-      "pos": "verb",
-      "zh": "回顾；概括",
-      "definition": "to repeat the main points of something"
     }
   ],
   "cues": [
@@ -159,9 +135,7 @@ window.currentLessonData = {
     {
       "at": 27.92,
       "text": "I'm great, thank you, Neil. I just had a delicious lunch.",
-      "terms": [
-        "delicious"
-      ]
+      "terms": []
     },
     {
       "at": 31.84,
@@ -181,9 +155,7 @@ window.currentLessonData = {
     {
       "at": 39.68,
       "text": "Mmm. Well, today's episode is all about restaurants and food.",
-      "terms": [
-        "restaurant"
-      ]
+      "terms": []
     },
     {
       "at": 46.32,
@@ -198,9 +170,7 @@ window.currentLessonData = {
     {
       "at": 51.12,
       "text": "Neil, do you go to restaurants often?",
-      "terms": [
-        "restaurant"
-      ]
+      "terms": []
     },
     {
       "at": 54.32,
@@ -210,9 +180,7 @@ window.currentLessonData = {
     {
       "at": 60,
       "text": "How about you? Do you go to restaurants often?",
-      "terms": [
-        "restaurant"
-      ]
+      "terms": []
     },
     {
       "at": 64,
@@ -222,9 +190,7 @@ window.currentLessonData = {
     {
       "at": 67.92,
       "text": "OK, and when you go to a restaurant, what's your favourite part of eating there?",
-      "terms": [
-        "restaurant"
-      ]
+      "terms": []
     },
     {
       "at": 74.56,
@@ -235,7 +201,6 @@ window.currentLessonData = {
       "at": 80.16,
       "text": "I really love it when a restaurant has a good atmosphere.",
       "terms": [
-        "restaurant",
         "atmosphere"
       ]
     },
@@ -247,17 +212,12 @@ window.currentLessonData = {
     {
       "at": 87.44,
       "text": "What about you? Why do you like eating in a restaurant?",
-      "terms": [
-        "restaurant"
-      ]
+      "terms": []
     },
     {
       "at": 90.56,
       "text": "Well, I like to go to a restaurant that serves food that I don't know how to cook.",
-      "terms": [
-        "restaurant",
-        "serve"
-      ]
+      "terms": []
     },
     {
       "at": 98.88,
@@ -267,9 +227,7 @@ window.currentLessonData = {
     {
       "at": 101.12,
       "text": "So, restaurants with food from countries that I don't know very well",
-      "terms": [
-        "restaurant"
-      ]
+      "terms": []
     },
     {
       "at": 106.48,
@@ -308,8 +266,7 @@ window.currentLessonData = {
       "at": 130.8,
       "text": "Yes and another special occasion could be something like Christmas and we at BBC Learning English are eating out for that special occasion.",
       "terms": [
-        "special occasion",
-        "eat out"
+        "special occasion"
       ]
     },
     {
@@ -323,70 +280,59 @@ window.currentLessonData = {
       "at": 143.76,
       "text": "Yes, every year we have a Christmas party and we usually eat out in a restaurant.",
       "terms": [
-        "eat out",
-        "restaurant"
+        "eat out"
       ]
     },
     {
       "at": 149.92,
-      "text": "So, Neil, you said you like eating out in lots of different types of restaurants. What do you usually order?",
+      "text": "So, Neil, you said you like eating out in lots of different types of restaurants. What do you usually order",
       "terms": [
-        "eat out",
-        "restaurant",
-        "order"
+        "What do you usually order"
       ]
     },
     {
       "at": 157.6,
       "text": "Well, I really like spicy food like Indian curries and I like fish. So I like to get fish curry.",
       "terms": [
-        "spicy",
-        "curry"
+        "spicy food"
       ]
     },
     {
       "at": 165.76,
       "text": "Mmm that sounds delicious! And we have a special way of ordering don't we?",
-      "terms": [
-        "delicious",
-        "order"
-      ]
+      "terms": []
     },
     {
       "at": 170.72,
       "text": "What are some phrases we can use to order things in restaurants?",
-      "terms": [
-        "order",
-        "restaurant"
-      ]
+      "terms": []
     },
     {
       "at": 174.8,
       "text": "Yeah, so we can say: I'll have the fish curry.",
       "terms": [
-        "curry"
+        "I'll have"
       ]
     },
     {
       "at": 180.24,
       "text": "I'll have the fish curry, please.",
       "terms": [
-        "curry"
+        "I'll have"
       ]
     },
     {
       "at": 182.56,
       "text": "Yes, and you can also say, Can I have the fish curry, please?, as well.",
       "terms": [
-        "curry"
+        "Can I have"
       ]
     },
     {
       "at": 188.32,
       "text": "OK, Georgie, what do you usually order in a restaurant?",
       "terms": [
-        "order",
-        "restaurant"
+        "What do you usually order"
       ]
     },
     {
@@ -399,17 +345,13 @@ window.currentLessonData = {
     {
       "at": 199.04,
       "text": "OK, so let's say we are in a restaurant now. I'm the waiter.",
-      "terms": [
-        "restaurant",
-        "waiter"
-      ]
+      "terms": []
     },
     {
       "at": 203.44,
       "text": "I say to you: Are you ready to order?",
       "terms": [
-        "ready to order",
-        "order"
+        "ready to order"
       ]
     },
     {
@@ -426,6 +368,7 @@ window.currentLessonData = {
       "at": 211.76,
       "text": "Can I get the risotto, please?",
       "terms": [
+        "Can I get",
         "risotto"
       ]
     },
@@ -438,6 +381,7 @@ window.currentLessonData = {
       "at": 215.92,
       "text": "So we can also say, Can I get the risotto?",
       "terms": [
+        "Can I get",
         "risotto"
       ]
     },
@@ -445,6 +389,7 @@ window.currentLessonData = {
       "at": 219.44,
       "text": "as well as can I have the risotto. And notice that we say the risotto, not a risotto.",
       "terms": [
+        "Can I have",
         "risotto"
       ]
     },
@@ -456,16 +401,13 @@ window.currentLessonData = {
     {
       "at": 233.36,
       "text": "Let's recap the language we learned during the conversation.",
-      "terms": [
-        "recap"
-      ]
+      "terms": []
     },
     {
       "at": 238,
       "text": "We had eat out which means eat a meal at a restaurant rather than at home.",
       "terms": [
-        "eat out",
-        "restaurant"
+        "eat out"
       ]
     },
     {
@@ -478,15 +420,13 @@ window.currentLessonData = {
     {
       "at": 249.68,
       "text": "And we learned that when we order in a restaurant, we usually say:",
-      "terms": [
-        "order",
-        "restaurant"
-      ]
+      "terms": []
     },
     {
       "at": 254.64,
       "text": "I'll have the something: fish, chicken, risotto.",
       "terms": [
+        "I'll have",
         "risotto"
       ]
     },
@@ -494,14 +434,13 @@ window.currentLessonData = {
       "at": 260.88,
       "text": "Or, Can I get the..., and what you want to order.",
       "terms": [
-        "order"
+        "Can I get"
       ]
     },
     {
       "at": 264.24,
       "text": "So, for example, when I eat at my favourite restaurant, I always get the risotto.",
       "terms": [
-        "restaurant",
         "risotto"
       ]
     },
@@ -513,9 +452,7 @@ window.currentLessonData = {
     {
       "at": 275.44,
       "text": "If you like restaurants, you could try our drama series The White Elephant all about a busy restaurant kitchen.",
-      "terms": [
-        "restaurant"
-      ]
+      "terms": []
     },
     {
       "at": 287.65,

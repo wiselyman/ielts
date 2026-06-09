@@ -4,19 +4,17 @@ window.lessonLocale = {
   "vocab": {
     "grocery list": "買い物リスト",
     "shopping cart": "ショッピングカート",
-    "groceries": "食料品・日用品",
     "produce section": "青果売り場",
     "vegetarian": "ベジタリアン",
-    "vegan": "ヴィーガン",
+    "vegan": "ビーガン",
     "pre-packed": "包装済みの",
     "ripe": "熟した",
     "expiry date": "消費期限",
-    "on sale": "セール中の",
+    "on sale": "セール中",
     "stale": "新鮮でない",
     "condiments": "調味料",
     "self-checkout": "セルフレジ",
-    "cashier": "レジ係",
-    "reusable bags": "再利用できる買い物袋",
+    "reusable bags": "再利用できる袋",
     "receipt": "レシート"
   }
 };
