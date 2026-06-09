@@ -1,21 +1,21 @@
 // ja translations for lesson british-council-talk-about-job.
 window.lessonLocale = {
-  "summary": "この British Council のレッスンでは、自分の仕事を英語で説明する表現を学びます。IELTS 5.5 前後の学習者に向いています。単に I have a job と言うのではなく、role、company、be responsible for、manage、content producer、social media、marketing などを使って、職務や担当を具体的に話す練習ができます。仕事、職業、チーム、自分紹介の IELTS トピックに役立ちます。",
+  "summary": "この British Council レッスンは IELTS 5.5 前後向けで、仕事の役割・責任・職業上の自己紹介に焦点を当てます。useful language、role、head of design、manage、graphic designer、content producer、be responsible for、social media、marketing、training、do for a living が中心です。",
   "vocab": {
-    "role": "役割・職務",
-    "design": "デザイン",
+    "useful language": "実用表現",
+    "practise saying": "言う練習をする",
+    "business": "ビジネス；業務",
+    "role": "役割；職務",
+    "head of design": "デザイン責任者",
     "manage": "管理する",
-    "artist": "アーティスト",
     "graphic designer": "グラフィックデザイナー",
-    "content": "内容・コンテンツ",
-    "producer": "制作者",
-    "responsible": "責任がある",
+    "content producer": "コンテンツ制作者",
+    "be responsible for": "〜を担当する",
     "social media": "ソーシャルメディア",
     "marketing": "マーケティング",
+    "breathe deeply": "深呼吸する",
     "training": "研修",
-    "be responsible for": "担当している",
-    "work with": "一緒に働く",
-    "the best part": "一番よいところ",
-    "practise": "練習する"
+    "do for a living": "職業として〜をする",
+    "work with": "〜と一緒に働く"
   }
 };

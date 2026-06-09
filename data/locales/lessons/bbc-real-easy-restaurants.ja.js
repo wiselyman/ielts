@@ -1,20 +1,23 @@
 // ja translations for lesson bbc-real-easy-restaurants.
 window.lessonLocale = {
-  "summary": "この BBC Real Easy English のレッスンは、レストランと注文の会話です。IELTS 4.5 前後の学習者に向いています。レストランに行く頻度、atmosphere、eat out、special occasion、celebration を話し、I'll have... / Can I have... / Can I get... という注文表現も練習します。4 のレッスンより理由説明と自然な会話のつながりが増えますが、語彙とスピードはまだやさしいです。",
+  "summary": "この BBC Real Easy English レッスンは IELTS 4.5 前後向けです。not that often、once a month、favourite part、atmosphere、eat out、special occasion、celebration、order、recap など、転用しやすいレストラン関連表現を扱います。",
   "vocab": {
-    "delicious": "美味的",
-    "atmosphere": "氣氛",
-    "serve": "提供；供應",
-    "eat out": "外出吃飯",
-    "wash up": "洗餐具",
-    "occasion": "場合",
-    "celebration": "慶祝活動",
-    "order": "點餐；訂購",
-    "spicy": "辛辣的",
-    "curry": "咖哩",
-    "waiter": "男服務員",
-    "risotto": "義大利燉飯",
-    "I'll have": "我要……",
-    "Can I get": "我可以點……嗎"
+    "text version": "文字版",
+    "read along": "聞きながら読む",
+    "not that often": "それほど頻繁ではない",
+    "once a month": "月に一度",
+    "favourite part": "一番好きな部分",
+    "atmosphere": "雰囲気",
+    "spending time with": "〜と時間を過ごす",
+    "serve": "提供する",
+    "eat out": "外食する",
+    "wash up": "食器を洗う",
+    "special occasion": "特別な機会",
+    "celebration": "お祝い",
+    "order": "注文する",
+    "spicy": "辛い",
+    "curry": "カレー",
+    "waiter": "ウェイター",
+    "recap": "要点を振り返る"
   }
 };

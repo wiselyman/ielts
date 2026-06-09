@@ -1,21 +1,21 @@
 // ko translations for lesson british-council-talk-about-job.
 window.lessonLocale = {
-  "summary": "이 British Council 수업은 자신의 일을 영어로 설명하는 방법을 다루며 IELTS 5.5점 전후 학습자에게 적합합니다. 단순히 I have a job 이라고 말하는 것이 아니라 role, company, be responsible for, manage, content producer, social media, marketing 등을 사용해 직무와 책임을 더 구체적으로 말하는 연습을 합니다. 일, 직업, 팀워크, 자기소개 IELTS 주제에 활용하기 좋습니다.",
+  "summary": "이 British Council 수업은 IELTS 5.5점 전후 학습자용이며 직무 역할, 책임, 직업적 자기소개에 초점을 둡니다. useful language, role, head of design, manage, graphic designer, content producer, be responsible for, social media, marketing, training, do for a living 이 핵심입니다.",
   "vocab": {
-    "role": "역할; 직무",
-    "design": "디자인",
+    "useful language": "유용한 표현",
+    "practise saying": "말하는 연습을 하다",
+    "business": "비즈니스；업무",
+    "role": "역할；직무",
+    "head of design": "디자인 책임자",
     "manage": "관리하다",
-    "artist": "예술가",
     "graphic designer": "그래픽 디자이너",
-    "content": "콘텐츠",
-    "producer": "제작자",
-    "responsible": "책임이 있는",
+    "content producer": "콘텐츠 제작자",
+    "be responsible for": "~을 담당하다",
     "social media": "소셜 미디어",
     "marketing": "마케팅",
-    "training": "교육; 훈련",
-    "be responsible for": "책임지다",
-    "work with": "함께 일하다",
-    "the best part": "가장 좋은 부분",
-    "practise": "연습하다"
+    "breathe deeply": "깊게 숨 쉬다",
+    "training": "교육；훈련",
+    "do for a living": "직업으로 ~을 하다",
+    "work with": "~와 함께 일하다"
   }
 };

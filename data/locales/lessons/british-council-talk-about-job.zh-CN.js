@@ -1,21 +1,21 @@
 // zh-CN translations for lesson british-council-talk-about-job.
 window.lessonLocale = {
-  "summary": "这节 British Council 课程讲如何用英语介绍自己的工作，适合雅思 5.5 分左右学习者。视频不只是简单说 I have a job，而是练习职位角色（role）、公司（company）、职责（be responsible for）、管理（manage）、内容制作（content producer）、社交媒体（social media）和市场营销（marketing）等表达。它适合 IELTS 工作、职业、团队和自我介绍类话题，也能帮你把“我的工作是什么”说得更具体。",
+  "summary": "这节 British Council 课程适合雅思 5.5 分左右学习者，重点是介绍工作职责和职业身份。核心表达包括 useful language、role、head of design、manage、graphic designer、content producer、be responsible for、social media、marketing、training 和 do for a living。",
   "vocab": {
-    "role": "角色；职位",
-    "design": "设计",
+    "useful language": "实用表达",
+    "practise saying": "练习说出",
+    "business": "商业；事务",
+    "role": "角色；职责",
+    "head of design": "设计主管",
     "manage": "管理",
-    "artist": "艺术家",
     "graphic designer": "平面设计师",
-    "content": "内容",
-    "producer": "制作人",
-    "responsible": "负责的",
+    "content producer": "内容制作人",
+    "be responsible for": "负责",
     "social media": "社交媒体",
     "marketing": "市场营销",
+    "breathe deeply": "深呼吸",
     "training": "培训",
-    "be responsible for": "负责",
-    "work with": "与……共事",
-    "the best part": "最好的部分",
-    "practise": "练习"
+    "do for a living": "以……为生",
+    "work with": "与……共事"
   }
 };

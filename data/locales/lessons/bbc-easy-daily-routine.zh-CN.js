@@ -1,17 +1,21 @@
 // zh-CN translations for lesson bbc-easy-daily-routine.
 window.lessonLocale = {
-  "summary": "这节 BBC Learning English 课程用非常短的句子练习日常作息（daily routine），适合雅思 4 分左右学习者。视频反复出现每天（every day）、醒来（wake up）、吃早餐（breakfast）、乘公交车（get the bus）、读书（read a book）、洗淋浴（have a shower）、睡觉（go to sleep）等高频生活表达，适合建立基础听力节奏。",
+  "summary": "这节 BBC Learning English 课程适合雅思 4 分左右学习者。学习重点不是孤立基础词，而是围绕日常作息（daily routine）整理可迁移的表达块，例如 every day、get the bus、finish work、listen to a podcast、do some exercise 和 in the comments。",
   "vocab": {
-    "routine": "日常安排",
+    "every day": "每天",
     "wake up": "醒来",
-    "breakfast": "早餐",
-    "jogging": "慢跑",
-    "bus": "公交车",
-    "work": "工作",
-    "podcast": "播客",
-    "shower": "淋浴",
-    "exercise": "运动；锻炼",
-    "go to sleep": "去睡觉",
-    "What do you do every day": "你每天做什么"
+    "go jogging": "去慢跑",
+    "get the bus": "乘公交车",
+    "read a book": "读书",
+    "finish work": "下班；完成工作",
+    "swim in the sea": "在海里游泳",
+    "have a shower": "洗淋浴",
+    "drive to work": "开车上班",
+    "listen to a podcast": "听播客",
+    "go to the park": "去公园",
+    "play video games": "玩电子游戏",
+    "do some exercise": "做些运动",
+    "write your answer": "写下你的回答",
+    "in the comments": "在评论区"
   }
 };

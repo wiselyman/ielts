@@ -1,19 +1,19 @@
 // zh-CN translations for lesson bbc-easy-likes-dislikes.
 window.lessonLocale = {
-  "summary": "这节 BBC Learning English 课程用轻松的食物和爱好话题练习喜欢和不喜欢（likes and dislikes），适合雅思 4 分左右学习者。视频反复出现我喜欢（I like）、我不喜欢（I don’t like）、她喜欢（She likes）、他喜欢（He likes）等基础但很重要的表达，也包含食物（food）、水果（fruit）、跳舞（dancing）、徒步（hiking）、游泳（swimming）等生活词汇。",
+  "summary": "这节 BBC Learning English 课程适合雅思 4 分左右学习者。学习重点不是孤立基础词，而是可复用表达块，例如 talk about、don’t like、like doing、playing video games、that’s right、let us know 和 in the comments。",
   "vocab": {
-    "like": "喜欢",
+    "talk about": "谈论",
+    "talk about the weather": "谈论天气",
     "don't like": "不喜欢",
-    "food": "食物",
-    "pasta": "意大利面",
-    "fish": "鱼；鱼肉",
-    "grapes": "葡萄",
-    "nuts": "坚果",
-    "steak": "牛排",
-    "jelly": "果冻",
-    "dancing": "跳舞",
+    "have you got that": "你记住了吗",
+    "learn more": "学习更多",
+    "continue": "继续",
+    "like doing": "喜欢做某事",
+    "playing video games": "玩电子游戏",
     "hiking": "徒步",
-    "swimming": "游泳",
-    "What do you like doing": "你喜欢做什么"
+    "swimming in the sea": "在海里游泳",
+    "that's right": "没错",
+    "let us know": "告诉我们",
+    "in the comments": "在评论区"
   }
 };

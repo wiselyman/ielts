@@ -1,17 +1,21 @@
 // ja translations for lesson bbc-easy-daily-routine.
 window.lessonLocale = {
-  "summary": "この BBC Learning English のレッスンでは、とても短い文で日常生活（daily routine）を練習します。IELTS 4 前後の学習者に向いています。every day、wake up、breakfast、get the bus、read a book、have a shower、go to sleep など、生活でよく使う表現が何度も出てくるので、基礎リスニングのリズムを作れます。",
+  "summary": "この BBC Learning English レッスンは IELTS 4 前後向けです。単独の初級語ではなく、daily routine に使える every day、get the bus、finish work、listen to a podcast、do some exercise、in the comments などの表現のかたまりを学びます。",
   "vocab": {
-    "routine": "日常安排",
-    "wake up": "醒來",
-    "breakfast": "早餐",
-    "jogging": "慢跑",
-    "bus": "公車",
-    "work": "工作",
-    "podcast": "Podcast",
-    "shower": "淋浴",
-    "exercise": "運動；鍛鍊",
-    "go to sleep": "去睡覺",
-    "What do you do every day": "你每天做什麼"
+    "every day": "毎日",
+    "wake up": "目が覚める",
+    "go jogging": "ジョギングに行く",
+    "get the bus": "バスに乗る",
+    "read a book": "本を読む",
+    "finish work": "仕事を終える",
+    "swim in the sea": "海で泳ぐ",
+    "have a shower": "シャワーを浴びる",
+    "drive to work": "車で出勤する",
+    "listen to a podcast": "ポッドキャストを聞く",
+    "go to the park": "公園に行く",
+    "play video games": "ゲームをする",
+    "do some exercise": "運動をする",
+    "write your answer": "答えを書く",
+    "in the comments": "コメント欄で"
   }
 };

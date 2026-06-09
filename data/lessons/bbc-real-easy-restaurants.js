@@ -8,114 +8,126 @@ window.currentLessonData = {
   "level": "4.5",
   "theme": "restaurants, ordering food, everyday conversation",
   "youtubeId": "bVRIpmjTSxM",
-  "summary": "A BBC Real Easy English conversation about eating out, restaurant atmosphere, special occasions and simple ordering phrases.",
+  "summary": "A BBC Real Easy English lesson for IELTS Band 4.5 learners, focused on restaurant habits, reasons, occasions and useful restaurant vocabulary without treating ordering templates as vocabulary.",
   "vocab": [
     {
-      "term": "delicious",
-      "phonetic": "/dɪˈlɪʃəs/",
-      "pos": "adjective",
-      "zh": "美味的",
-      "definition": "having a very pleasant taste or smell"
+      "phonetic": "",
+      "term": "text version",
+      "pos": "phrase",
+      "zh": "文字版本",
+      "definition": "a written form of spoken or recorded content"
     },
     {
-      "term": "atmosphere",
+      "phonetic": "",
+      "term": "read along",
+      "pos": "phrasal verb",
+      "zh": "跟读；边听边读",
+      "definition": "to read a text while listening to it"
+    },
+    {
+      "phonetic": "",
+      "term": "not that often",
+      "pos": "phrase",
+      "zh": "不算经常",
+      "definition": "not very frequently"
+    },
+    {
+      "phonetic": "",
+      "term": "once a month",
+      "pos": "phrase",
+      "zh": "每月一次",
+      "definition": "one time each month"
+    },
+    {
+      "phonetic": "",
+      "term": "favourite part",
+      "pos": "phrase",
+      "zh": "最喜欢的部分",
+      "definition": "the part someone likes most"
+    },
+    {
       "phonetic": "/ˈætməsfɪr/",
+      "term": "atmosphere",
       "pos": "noun",
       "zh": "氛围",
       "definition": "the feeling or mood of a place"
     },
     {
-      "term": "serve",
-      "aliases": [
-        "serves"
-      ],
+      "phonetic": "",
+      "term": "spending time with",
+      "pos": "phrase",
+      "zh": "和……共度时间",
+      "definition": "being with someone for a period of time"
+    },
+    {
       "phonetic": "/sɜːrv/",
+      "term": "serve",
       "pos": "verb",
-      "zh": "提供；供应",
+      "zh": "供应；端上",
       "definition": "to provide food or drink for someone"
     },
     {
+      "phonetic": "",
       "term": "eat out",
-      "phonetic": "",
-      "pos": "phrase",
+      "pos": "phrasal verb",
       "zh": "外出吃饭",
-      "definition": "to eat a meal in a restaurant rather than at home"
+      "definition": "to eat a meal away from home, usually in a restaurant"
     },
     {
-      "term": "wash up",
       "phonetic": "",
-      "pos": "phrase",
+      "term": "wash up",
+      "pos": "phrasal verb",
       "zh": "洗餐具",
-      "definition": "to clean plates and cups after a meal"
+      "definition": "to clean plates, cups and cooking tools after a meal"
     },
     {
-      "term": "occasion",
-      "aliases": [
-        "special occasion"
-      ],
-      "phonetic": "/əˈkeɪʒn/",
-      "pos": "noun",
-      "zh": "场合",
+      "phonetic": "",
+      "term": "special occasion",
+      "pos": "phrase",
+      "zh": "特殊场合",
       "definition": "an important event or time"
     },
     {
+      "phonetic": "/ˌseləˈbreɪʃn/",
       "term": "celebration",
-      "phonetic": "/ˌselɪˈbreɪʃn/",
       "pos": "noun",
       "zh": "庆祝活动",
-      "definition": "a happy event or activity for something special"
+      "definition": "an event or activity for showing happiness about something"
     },
     {
-      "term": "order",
-      "aliases": [
-        "ready to order"
-      ],
       "phonetic": "/ˈɔːrdər/",
+      "term": "order",
       "pos": "verb",
       "zh": "点餐；订购",
       "definition": "to ask for food or drink in a restaurant"
     },
     {
-      "term": "spicy",
       "phonetic": "/ˈspaɪsi/",
+      "term": "spicy",
       "pos": "adjective",
       "zh": "辛辣的",
-      "definition": "having a strong hot flavour"
+      "definition": "having a strong hot taste"
     },
     {
-      "term": "curry",
       "phonetic": "/ˈkɜːri/",
+      "term": "curry",
       "pos": "noun",
       "zh": "咖喱",
-      "definition": "a dish cooked in a spicy sauce"
+      "definition": "a dish with a spicy sauce"
     },
     {
-      "term": "waiter",
       "phonetic": "/ˈweɪtər/",
+      "term": "waiter",
       "pos": "noun",
-      "zh": "男服务员",
-      "definition": "a man whose job is to serve people in a restaurant"
+      "zh": "服务员",
+      "definition": "a person who serves customers in a restaurant"
     },
     {
-      "term": "risotto",
-      "phonetic": "/rɪˈzɑːtoʊ/",
-      "pos": "noun",
-      "zh": "意大利烩饭",
-      "definition": "an Italian rice dish cooked slowly with stock"
-    },
-    {
-      "term": "I'll have",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "我要……",
-      "definition": "a polite way to order food or drink"
-    },
-    {
-      "term": "Can I get",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "我可以点……吗",
-      "definition": "a casual way to ask for food or drink"
+      "phonetic": "/ˈriːkæp/",
+      "term": "recap",
+      "pos": "verb",
+      "zh": "概括回顾",
+      "definition": "to repeat the main points of something"
     }
   ],
   "cues": [
@@ -142,7 +154,10 @@ window.currentLessonData = {
     {
       "at": 11.76,
       "text": "Don't forget to go to our website to find a text version of this episode to read along: BBC Learning English dot com.",
-      "terms": []
+      "terms": [
+        "text version",
+        "read along"
+      ]
     },
     {
       "at": 26.08,
@@ -152,9 +167,7 @@ window.currentLessonData = {
     {
       "at": 27.92,
       "text": "I'm great, thank you, Neil. I just had a delicious lunch.",
-      "terms": [
-        "delicious"
-      ]
+      "terms": []
     },
     {
       "at": 31.84,
@@ -194,7 +207,9 @@ window.currentLessonData = {
     {
       "at": 54.32,
       "text": "Not that often. Maybe when I meet some friends.",
-      "terms": []
+      "terms": [
+        "not that often"
+      ]
     },
     {
       "at": 60,
@@ -204,12 +219,16 @@ window.currentLessonData = {
     {
       "at": 64,
       "text": "No, I don't go often. Probably once a month.",
-      "terms": []
+      "terms": [
+        "once a month"
+      ]
     },
     {
       "at": 67.92,
       "text": "OK, and when you go to a restaurant, what's your favourite part of eating there?",
-      "terms": []
+      "terms": [
+        "favourite part"
+      ]
     },
     {
       "at": 74.56,
@@ -226,7 +245,9 @@ window.currentLessonData = {
     {
       "at": 85.36,
       "text": "I love spending time with friends.",
-      "terms": []
+      "terms": [
+        "spending time with"
+      ]
     },
     {
       "at": 87.44,
@@ -279,7 +300,7 @@ window.currentLessonData = {
       "text": "It's also nice to eat out for a special occasion. So, like a birthday or a celebration.",
       "terms": [
         "eat out",
-        "occasion",
+        "special occasion",
         "celebration"
       ]
     },
@@ -287,7 +308,7 @@ window.currentLessonData = {
       "at": 130.8,
       "text": "Yes and another special occasion could be something like Christmas and we at BBC Learning English are eating out for that special occasion.",
       "terms": [
-        "occasion"
+        "special occasion"
       ]
     },
     {
@@ -323,7 +344,6 @@ window.currentLessonData = {
       "at": 165.76,
       "text": "Mmm that sounds delicious! And we have a special way of ordering don't we?",
       "terms": [
-        "delicious",
         "order"
       ]
     },
@@ -338,16 +358,14 @@ window.currentLessonData = {
       "at": 174.8,
       "text": "Yeah, so we can say: I'll have the fish curry.",
       "terms": [
-        "curry",
-        "I'll have"
+        "curry"
       ]
     },
     {
       "at": 180.24,
       "text": "I'll have the fish curry, please.",
       "terms": [
-        "curry",
-        "I'll have"
+        "curry"
       ]
     },
     {
@@ -367,9 +385,7 @@ window.currentLessonData = {
     {
       "at": 193.68,
       "text": "I also usually get the fish. Or a risotto.",
-      "terms": [
-        "risotto"
-      ]
+      "terms": []
     },
     {
       "at": 199.04,
@@ -398,10 +414,7 @@ window.currentLessonData = {
     {
       "at": 211.76,
       "text": "Can I get the risotto, please?",
-      "terms": [
-        "risotto",
-        "Can I get"
-      ]
+      "terms": []
     },
     {
       "at": 214.64,
@@ -411,17 +424,12 @@ window.currentLessonData = {
     {
       "at": 215.92,
       "text": "So we can also say, Can I get the risotto?",
-      "terms": [
-        "risotto",
-        "Can I get"
-      ]
+      "terms": []
     },
     {
       "at": 219.44,
       "text": "as well as can I have the risotto. And notice that we say the risotto, not a risotto.",
-      "terms": [
-        "risotto"
-      ]
+      "terms": []
     },
     {
       "at": 226.4,
@@ -431,7 +439,9 @@ window.currentLessonData = {
     {
       "at": 233.36,
       "text": "Let's recap the language we learned during the conversation.",
-      "terms": []
+      "terms": [
+        "recap"
+      ]
     },
     {
       "at": 238,
@@ -444,7 +454,7 @@ window.currentLessonData = {
       "at": 244.4,
       "text": "Special occasion: a birthday, anniversary, or other reason to celebrate.",
       "terms": [
-        "occasion"
+        "special occasion"
       ]
     },
     {
@@ -457,25 +467,19 @@ window.currentLessonData = {
     {
       "at": 254.64,
       "text": "I'll have the something: fish, chicken, risotto.",
-      "terms": [
-        "risotto",
-        "I'll have"
-      ]
+      "terms": []
     },
     {
       "at": 260.88,
       "text": "Or, Can I get the..., and what you want to order.",
       "terms": [
-        "order",
-        "Can I get"
+        "order"
       ]
     },
     {
       "at": 264.24,
       "text": "So, for example, when I eat at my favourite restaurant, I always get the risotto.",
-      "terms": [
-        "risotto"
-      ]
+      "terms": []
     },
     {
       "at": 272.48,

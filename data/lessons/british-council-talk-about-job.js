@@ -8,133 +8,115 @@ window.currentLessonData = {
   "level": "5.5",
   "theme": "job roles, responsibilities, workplace conversation",
   "youtubeId": "CQDJKdmpxOI",
-  "summary": "A British Council workplace conversation lesson about explaining your role, responsibilities and feelings about your job.",
+  "summary": "A British Council workplace lesson for IELTS Band 5.5 learners, focused on job roles, responsibilities and professional self-description.",
   "vocab": [
     {
-      "term": "role",
+      "phonetic": "",
+      "term": "useful language",
+      "pos": "phrase",
+      "zh": "实用表达",
+      "definition": "language that can be used in real situations"
+    },
+    {
+      "phonetic": "",
+      "term": "practise saying",
+      "pos": "phrase",
+      "zh": "练习说出",
+      "definition": "to repeat spoken language to improve"
+    },
+    {
+      "phonetic": "/ˈbɪznəs/",
+      "term": "business",
+      "pos": "noun",
+      "zh": "商业；事务",
+      "definition": "work connected with buying, selling or running organisations"
+    },
+    {
       "phonetic": "/roʊl/",
+      "term": "role",
       "pos": "noun",
-      "zh": "角色；职位",
-      "definition": "the position or purpose someone has in a company or situation"
+      "zh": "角色；职责",
+      "definition": "the position or function someone has in a situation or organisation"
     },
     {
-      "term": "design",
-      "aliases": [
-        "head of design"
-      ],
-      "phonetic": "/dɪˈzaɪn/",
-      "pos": "noun",
-      "zh": "设计",
-      "definition": "the work of planning how something looks or functions"
+      "phonetic": "",
+      "term": "head of design",
+      "pos": "phrase",
+      "zh": "设计主管",
+      "definition": "the person responsible for leading design work"
     },
     {
-      "term": "manage",
       "phonetic": "/ˈmænɪdʒ/",
+      "term": "manage",
       "pos": "verb",
       "zh": "管理",
-      "definition": "to organize or be responsible for people or work"
+      "definition": "to be responsible for controlling or organising people or work"
     },
     {
-      "term": "artist",
-      "aliases": [
-        "artists"
-      ],
-      "phonetic": "/ˈɑːrtɪst/",
-      "pos": "noun",
-      "zh": "艺术家",
-      "definition": "a person who creates art"
-    },
-    {
+      "phonetic": "",
       "term": "graphic designer",
-      "aliases": [
-        "graphic designers"
-      ],
-      "phonetic": "/ˈɡræfɪk dɪˈzaɪnər/",
-      "pos": "noun",
+      "pos": "phrase",
       "zh": "平面设计师",
       "definition": "a person who creates visual designs"
     },
     {
-      "term": "content",
-      "aliases": [
-        "content producer"
-      ],
-      "phonetic": "/ˈkɑːntent/",
-      "pos": "noun",
-      "zh": "内容",
-      "definition": "written, audio or video material"
-    },
-    {
-      "term": "producer",
-      "aliases": [
-        "content producer"
-      ],
-      "phonetic": "/prəˈduːsər/",
-      "pos": "noun",
-      "zh": "制作人",
-      "definition": "a person who creates or organizes media work"
-    },
-    {
-      "term": "responsible",
-      "phonetic": "/rɪˈspɑːnsəbl/",
-      "pos": "adjective",
-      "zh": "负责的",
-      "definition": "having a duty to do or look after something"
-    },
-    {
-      "term": "social media",
       "phonetic": "",
+      "term": "content producer",
       "pos": "phrase",
-      "zh": "社交媒体",
-      "definition": "websites and apps where people create and share content"
+      "zh": "内容制作人",
+      "definition": "a person who creates written, audio or video content"
     },
     {
-      "term": "marketing",
-      "phonetic": "/ˈmɑːrkɪtɪŋ/",
-      "pos": "noun",
-      "zh": "市场营销",
-      "definition": "activities for promoting and selling products or services"
-    },
-    {
-      "term": "training",
-      "phonetic": "/ˈtreɪnɪŋ/",
-      "pos": "noun",
-      "zh": "培训",
-      "definition": "the process of learning skills for a job or activity"
-    },
-    {
-      "term": "practise",
-      "aliases": [
-        "practise saying"
-      ],
-      "phonetic": "/ˈpræktɪs/",
-      "pos": "verb",
-      "zh": "练习",
-      "definition": "to do an activity repeatedly to improve"
-    },
-    {
+      "phonetic": "",
       "term": "be responsible for",
       "aliases": [
         "responsible for"
       ],
-      "phonetic": "",
       "pos": "phrase",
       "zh": "负责",
       "definition": "to have a duty to do or look after something"
     },
     {
-      "term": "work with",
       "phonetic": "",
+      "term": "social media",
+      "pos": "phrase",
+      "zh": "社交媒体",
+      "definition": "websites and apps where people create and share content"
+    },
+    {
+      "phonetic": "/ˈmɑːrkɪtɪŋ/",
+      "term": "marketing",
+      "pos": "noun",
+      "zh": "市场营销",
+      "definition": "activities for promoting and selling products or services"
+    },
+    {
+      "phonetic": "",
+      "term": "breathe deeply",
+      "pos": "phrase",
+      "zh": "深呼吸",
+      "definition": "to take slow deep breaths"
+    },
+    {
+      "phonetic": "/ˈtreɪnɪŋ/",
+      "term": "training",
+      "pos": "noun",
+      "zh": "培训",
+      "definition": "the process of learning skills for a job or activity"
+    },
+    {
+      "phonetic": "",
+      "term": "do for a living",
+      "pos": "phrase",
+      "zh": "以……为生",
+      "definition": "to do a job as your regular paid work"
+    },
+    {
+      "phonetic": "",
+      "term": "work with",
       "pos": "phrase",
       "zh": "与……共事",
       "definition": "to do a job together with other people"
-    },
-    {
-      "term": "the best part",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "最好的部分",
-      "definition": "the most enjoyable or useful part of something"
     }
   ],
   "cues": [
@@ -151,13 +133,15 @@ window.currentLessonData = {
     {
       "at": 34.53,
       "text": "Listen out for useful language for talking about your job.",
-      "terms": []
+      "terms": [
+        "useful language"
+      ]
     },
     {
       "at": 38.7,
       "text": "Then, we'll practise saying the new phrases after this.",
       "terms": [
-        "practise"
+        "practise saying"
       ]
     },
     {
@@ -168,7 +152,9 @@ window.currentLessonData = {
     {
       "at": 69.65,
       "text": "Business is harder.",
-      "terms": []
+      "terms": [
+        "business"
+      ]
     },
     {
       "at": 74.85,
@@ -191,16 +177,14 @@ window.currentLessonData = {
       "at": 103.84,
       "text": "I'm the head of design.",
       "terms": [
-        "design"
+        "head of design"
       ]
     },
     {
       "at": 106.5,
       "text": "I manage artists and graphic designers.",
       "terms": [
-        "design",
         "manage",
-        "artist",
         "graphic designer"
       ]
     },
@@ -213,8 +197,7 @@ window.currentLessonData = {
       "at": 115.23,
       "text": "I'm a content producer.",
       "terms": [
-        "content",
-        "producer"
+        "content producer"
       ]
     },
     {
@@ -226,7 +209,6 @@ window.currentLessonData = {
       "at": 118.77,
       "text": "It means I'm responsible for writing.",
       "terms": [
-        "responsible",
         "be responsible for"
       ]
     },
@@ -266,14 +248,14 @@ window.currentLessonData = {
     {
       "at": 162.32,
       "text": "Let's all close our eyes, breathe deeply and think about these two important questions.",
-      "terms": []
+      "terms": [
+        "breathe deeply"
+      ]
     },
     {
       "at": 178.98,
       "text": "One: What's the best part of your job?",
-      "terms": [
-        "the best part"
-      ]
+      "terms": []
     },
     {
       "at": 187.93,
@@ -310,16 +292,14 @@ window.currentLessonData = {
       "at": 236.85,
       "text": "I'm the head of design.",
       "terms": [
-        "design"
+        "head of design"
       ]
     },
     {
       "at": 248.13,
       "text": "I manage artists and graphic designers.",
       "terms": [
-        "design",
         "manage",
-        "artist",
         "graphic designer"
       ]
     },
@@ -332,15 +312,13 @@ window.currentLessonData = {
       "at": 272.47,
       "text": "I'm a content producer.",
       "terms": [
-        "content",
-        "producer"
+        "content producer"
       ]
     },
     {
       "at": 280.92,
       "text": "I'm responsible for writing.",
       "terms": [
-        "responsible",
         "be responsible for"
       ]
     },
@@ -362,9 +340,7 @@ window.currentLessonData = {
     {
       "at": 317.48,
       "text": "What's the best part of your job?",
-      "terms": [
-        "the best part"
-      ]
+      "terms": []
     },
     {
       "at": 328.76,

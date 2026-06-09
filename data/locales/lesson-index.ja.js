@@ -6,12 +6,12 @@ window.lessonIndexLocale = {
     "bc-email-formality": "フォーマルなメールとカジュアルなメールの違いを学ぶ短いレッスンです。仕事、就職活動、IELTS General Training Writing に使えます。読者との関係に合わせて formal / informal を選ぶ方法、応募（apply for）で第一印象（first impression）を良くする方法を扱います。",
     "bbc-adolescence-brain-study": "BBC News のインタビューで、脳の発達に関する研究を扱います。IELTS 6.5 前後の学習者が科学ニュースの聞き取りを鍛えるのに向いています。脳の明確な段階（distinct phases）、青春期（adolescent stage）、神経回路の再編（rewire）、非線形変化（nonlinear change）、効率（efficiency）、ライフスパン（lifespan）、メンタルヘルス障害（mental health disorder）などが出てきます。",
     "bbc-ai-deepfakes-politics": "BBC News の動画で、AI 生成のディープフェイク（deepfake）が政治コミュニケーションに与える影響を扱います。IELTS 7 前後の学習者が新しいテクノロジーと社会問題を聞く練習に向いています。AI-powered tools、spread like wildfire、mistrust、malicious fiction、precedent、abuse、authentic、disclose、AI-generated、stakes、undermine trust などが重要です。",
-    "bbc-easy-daily-routine": "この BBC Learning English のレッスンでは、とても短い文で日常生活（daily routine）を練習します。IELTS 4 前後の学習者に向いています。every day、wake up、breakfast、get the bus、read a book、have a shower、go to sleep など、生活でよく使う表現が何度も出てくるので、基礎リスニングのリズムを作れます。",
-    "bbc-easy-likes-dislikes": "この BBC Learning English のレッスンでは、食べ物と趣味を使って likes and dislikes を練習します。IELTS 4 前後の学習者に向いています。I like、I don’t like、She likes、He likes など、基本だけれど大切な表現が何度も出てきます。food、fruit、dancing、hiking、swimming などの生活語彙も学べます。",
+    "bbc-easy-daily-routine": "この BBC Learning English レッスンは IELTS 4 前後向けです。単独の初級語ではなく、daily routine に使える every day、get the bus、finish work、listen to a podcast、do some exercise、in the comments などの表現のかたまりを学びます。",
+    "bbc-easy-likes-dislikes": "この BBC Learning English レッスンは IELTS 4 前後向けです。単独の基礎語ではなく、talk about、don’t like、like doing、playing video games、that’s right、let us know、in the comments など、使い回せる表現のかたまりを学びます。",
     "english-panda-supermarket-shopping": "この English Panda のレッスンは、バーベキューパーティーの買い物をするスーパーでの会話です。IELTS 4.5 前後の学習者に向いています。4 のレッスンより情報量が多く、grocery list、shopping cart、produce section、expiry date、on sale、self-checkout、cashier、reusable bags など、買い物の流れに沿った語彙が出てきます。",
-    "bbc-real-easy-restaurants": "この BBC Real Easy English のレッスンは、レストランと注文の会話です。IELTS 4.5 前後の学習者に向いています。レストランに行く頻度、atmosphere、eat out、special occasion、celebration を話し、I'll have... / Can I have... / Can I get... という注文表現も練習します。4 のレッスンより理由説明と自然な会話のつながりが増えますが、語彙とスピードはまだやさしいです。",
+    "bbc-real-easy-restaurants": "この BBC Real Easy English レッスンは IELTS 4.5 前後向けです。not that often、once a month、favourite part、atmosphere、eat out、special occasion、celebration、order、recap など、転用しやすいレストラン関連表現を扱います。",
     "workplace-communication-skills": "このレッスンは職場での effective communication を扱い、IELTS 5 前後の学習者に向いています。日常会話だけでなく、workplace での listening、clarifying questions、rephrase、open-mindedness、feedback、nonverbal communication を説明します。仕事、チームワーク、コミュニケーションの IELTS トピックに使える表現です。",
-    "british-council-talk-about-job": "この British Council のレッスンでは、自分の仕事を英語で説明する表現を学びます。IELTS 5.5 前後の学習者に向いています。単に I have a job と言うのではなく、role、company、be responsible for、manage、content producer、social media、marketing などを使って、職務や担当を具体的に話す練習ができます。仕事、職業、チーム、自分紹介の IELTS トピックに役立ちます。"
+    "british-council-talk-about-job": "この British Council レッスンは IELTS 5.5 前後向けで、仕事の役割・責任・職業上の自己紹介に焦点を当てます。useful language、role、head of design、manage、graphic designer、content producer、be responsible for、social media、marketing、training、do for a living が中心です。"
   },
   "themes": {
     "school day": "学校生活",
