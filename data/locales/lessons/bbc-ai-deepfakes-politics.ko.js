@@ -1,6 +1,6 @@
 // ko translations for lesson bbc-ai-deepfakes-politics.
 window.lessonLocale = {
-  "summary": "BBC News 영상으로 AI 생성 딥페이크（deepfake）가 정치 커뮤니케이션에 미치는 영향을 다룹니다. IELTS 7점 전후 학습자가 최신 기술과 사회 이슈를 듣는 연습에 적합합니다. AI-powered tools, spread like wildfire, mistrust, malicious fiction, precedent, abuse, authentic, disclose, AI-generated, stakes, undermine trust 등이 핵심입니다.",
+  "summary": "BBC News 영상으로 AI 생성 딥페이크（deepfake）가 정치 커뮤니케이션에 미치는 영향을 다룹니다. IELTS 7점 전후 학습자가 최신 기술과 사회 이슈를 듣는 연습에 적합합니다. 핵심은 AI 기반 도구（AI-powered tools）, 순식간에 퍼지다（spread like wildfire）, 불신（mistrust）, 악의적인 허구（malicious fiction）, 선례（precedent）, 남용（abuse）, 진짜 같은（authentic）, 공개하다（disclose）, 이해관계（stakes）, 신뢰를 약화하다（undermine trust）입니다。",
   "vocab": {
     "deepfake": "딥페이크",
     "dodgy": "수상한; 믿기 어려운",

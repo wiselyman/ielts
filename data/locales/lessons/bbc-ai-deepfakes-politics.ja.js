@@ -1,6 +1,6 @@
 // ja translations for lesson bbc-ai-deepfakes-politics.
 window.lessonLocale = {
-  "summary": "BBC News の動画で、AI 生成のディープフェイク（deepfake）が政治コミュニケーションに与える影響を扱います。IELTS 7 前後の学習者が新しいテクノロジーと社会問題を聞く練習に向いています。AI-powered tools、spread like wildfire、mistrust、malicious fiction、precedent、abuse、authentic、disclose、AI-generated、stakes、undermine trust などが重要です。",
+  "summary": "BBC News の動画で、AI 生成のディープフェイク（deepfake）が政治コミュニケーションに与える影響を扱います。IELTS 7 前後の学習者が新しいテクノロジーと社会問題を聞く練習に向いています。重点は、AI 駆動のツール（AI-powered tools）、急速に広まること（spread like wildfire）、不信感（mistrust）、悪意ある虚構（malicious fiction）、前例（precedent）、悪用（abuse）、本物らしさ（authentic）、公表すること（disclose）、利害関係（stakes）、信頼を損なうこと（undermine trust）です。",
   "vocab": {
     "deepfake": "ディープフェイク",
     "dodgy": "怪しい",

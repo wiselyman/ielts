@@ -8,7 +8,7 @@ window.currentLessonData = {
   "level": "4",
   "theme": "daily routine, beginner conversation, everyday life",
   "youtubeId": "bq6GBbh3uhU",
-  "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, built around daily routines, transport, exercise and simple listening practice.",
+  "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, built around daily routines, transport, exercise and breakfast habits.",
   "vocab": [
     {
       "term": "jogging",

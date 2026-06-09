@@ -1,6 +1,6 @@
 // ko translations for lesson bc-email-formality.
 window.lessonLocale = {
-  "summary": "격식 있는 이메일과 비격식 이메일의 차이를 배우는 짧은 수업입니다. 직장, 구직, IELTS General Training Writing 에 활용할 수 있습니다. 독자와의 관계에 따라 formal / informal 을 고르는 방법, 지원（apply for）에서 좋은 첫인상（first impression）을 남기는 방법을 다룹니다.",
+  "summary": "격식 있는 이메일과 비격식 이메일의 차이를 배우는 짧은 수업입니다. 직장, 구직, IELTS General Training Writing 에 활용할 수 있습니다. 독자와의 관계에 따라 격식 있는 표현（formal）과 비격식 표현（informal）을 고르는 방법, 지원하다（apply for）를 통해 좋은 첫인상（first impression）을 남기는 방법을 다룹니다。",
   "vocab": {
     "professional": "專業的",
     "apply": "申請",

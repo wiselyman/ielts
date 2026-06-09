@@ -1,6 +1,6 @@
 // zh-Hant translations for lesson bbc-real-easy-restaurants.
 window.lessonLocale = {
-  "summary": "這節 BBC Real Easy English 課程圍繞餐廳體驗、餐廳氛圍、外出用餐和特殊場合展開，適合雅思 4.5 分左右學習者。課程重點包括 delicious、atmosphere、serve、eat out、wash up、special occasion、celebration、anniversary、order、spicy、curry、waiter、risotto 和 recap。",
+  "summary": "這節 BBC Real Easy English 課程圍繞餐廳體驗、餐廳氛圍、外出用餐和特殊場合展開，適合雅思 4.5 分左右學習者。課程重點包括美味的（delicious）、氛圍（atmosphere）、供應或端上（serve）、外出吃飯（eat out）、洗餐具（wash up）、特殊場合（special occasion）、慶祝活動（celebration）、週年紀念日（anniversary）、點餐（order）、辛辣的（spicy）、咖哩（curry）、服務員（waiter）、義式燉飯（risotto）和概括回顧（recap）。",
   "vocab": {
     "delicious": "美味的",
     "atmosphere": "氛圍",

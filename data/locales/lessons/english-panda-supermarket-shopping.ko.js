@@ -1,6 +1,6 @@
 // ko translations for lesson english-panda-supermarket-shopping.
 window.lessonLocale = {
-  "summary": "이 English Panda 수업은 바비큐 파티 음식을 사기 위해 슈퍼마켓에서 대화하는 내용입니다. IELTS 4.5점 전후 학습자에게 적합합니다. 4점 수업보다 정보량이 많고 grocery list, shopping cart, produce section, expiry date, on sale, self-checkout, cashier, reusable bags 같은 쇼핑 흐름의 어휘가 나옵니다.",
+  "summary": "이 English Panda 수업은 바비큐 파티 음식을 사기 위해 슈퍼마켓에서 대화하는 내용입니다. IELTS 4.5점 전후 학습자에게 적합합니다. 쇼핑 흐름에 따라 장보기 목록（grocery list）, 쇼핑 카트（shopping cart）, 농산물 코너（produce section）, 유통기한（expiry date）, 할인 판매（on sale）, 셀프 계산대（self-checkout）, 계산원（cashier）, 재사용 가능한 봉투（reusable bags） 등을 익힙니다。",
   "vocab": {
     "grocery": "食品雜貨",
     "shopping cart": "購物車",

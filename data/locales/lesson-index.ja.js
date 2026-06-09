@@ -1,17 +1,17 @@
 // Lightweight homepage/list translations for ja.
 window.lessonIndexLocale = {
   "summaries": {
-    "this-is-britain-school": "この This is Britain の短い動画では、Jamie の英国の学校生活を通して、IELTS 4 前後の学習者が学校場面の語彙を学びます。lollipop lady、school uniform、registration、assembly、canteen、packed lunch などが中心です。",
-    "bbc-6min-reading": "この BBC 6 Minute English レッスンは、成人の literacy が日常生活・尊厳・社会参加にどう関わるかを扱います。IELTS 6.5 前後の学習者向けで、daily commute、essential skill、illiterate、excluded、literacy、numeracy、swindle、one-to-one lessons などを学べます。",
-    "bc-email-formality": "フォーマルなメールとカジュアルなメールの違いを学ぶ短いレッスンです。仕事、就職活動、IELTS General Training Writing に使えます。読者との関係に合わせて formal / informal を選ぶ方法、応募（apply for）で第一印象（first impression）を良くする方法を扱います。",
+    "this-is-britain-school": "この This is Britain の短い動画では、Jamie の英国の学校生活を通して、IELTS 4 前後の学習者が学校場面の語彙を学びます。重点は、児童横断指導員（lollipop lady）、制服（school uniform）、出席登録（registration）、集会（assembly）、食堂（canteen）、弁当（packed lunch）です。",
+    "bbc-6min-reading": "この BBC 6 Minute English レッスンは、成人の読み書き能力（literacy）が日常生活・尊厳・社会参加にどう関わるかを扱います。IELTS 6.5 前後の学習者向けで、日々の通勤（daily commute）、不可欠な能力（essential skill）、読み書きができない状態（illiterate）、排除された状態（excluded）、数的能力（numeracy）、だますこと（swindle）、一対一の授業（one-to-one lessons）などを学べます。",
+    "bc-email-formality": "フォーマルなメールとカジュアルなメールの違いを学ぶ短いレッスンです。仕事、就職活動、IELTS General Training Writing に使えます。読者との関係に合わせて正式な表現（formal）とくだけた表現（informal）を選ぶ方法、応募すること（apply for）で第一印象（first impression）を良くする方法を扱います。",
     "bbc-adolescence-brain-study": "BBC News のインタビューで、脳の発達に関する研究を扱います。IELTS 6.5 前後の学習者が科学ニュースの聞き取りを鍛えるのに向いています。脳の明確な段階（distinct phases）、青春期（adolescent stage）、神経回路の再編（rewire）、非線形変化（nonlinear change）、効率（efficiency）、ライフスパン（lifespan）、メンタルヘルス障害（mental health disorder）などが出てきます。",
-    "bbc-ai-deepfakes-politics": "BBC News の動画で、AI 生成のディープフェイク（deepfake）が政治コミュニケーションに与える影響を扱います。IELTS 7 前後の学習者が新しいテクノロジーと社会問題を聞く練習に向いています。AI-powered tools、spread like wildfire、mistrust、malicious fiction、precedent、abuse、authentic、disclose、AI-generated、stakes、undermine trust などが重要です。",
-    "bbc-easy-daily-routine": "この BBC Learning English の短いレッスンでは、日課、通勤、運動、朝食を題材に IELTS 4 前後の基礎リスニングを練習します。jogging、podcast、finish work、exercise、directions、cereal、yoghurt、porridge、subscribe などを学べます。",
-    "bbc-easy-likes-dislikes": "この BBC Learning English の短いレッスンでは、好み、天気、食べ物、趣味を題材に IELTS 4 前後の基礎リスニングを練習します。weather、windy、nuts、steak、jelly、continue、hiking、correct が中心です。",
-    "english-panda-supermarket-shopping": "この English Panda のレッスンは、バーベキューパーティーの買い物をするスーパーでの会話です。IELTS 4.5 前後の学習者に向いています。4 のレッスンより情報量が多く、grocery list、shopping cart、produce section、expiry date、on sale、self-checkout、cashier、reusable bags など、買い物の流れに沿った語彙が出てきます。",
-    "bbc-real-easy-restaurants": "この BBC Real Easy English レッスンは、レストランでの経験、雰囲気、外食、特別な機会を扱います。IELTS 4.5 前後の学習者向けで、delicious、atmosphere、serve、eat out、wash up、special occasion、anniversary、risotto、recap などを学べます。",
-    "workplace-communication-skills": "このレッスンは職場での effective communication を扱い、IELTS 5 前後の学習者が仕事・チームワークの話題表現を学ぶのに向いています。active listening、clarifying questions、rephrase、open-mindedness、feedback、nonverbal communication が中心です。",
-    "british-council-talk-about-job": "この British Council レッスンは IELTS 5 前後の学習者向けで、仕事と職務内容の説明を練習します。role in the company、head of design、manage、graphic designer、content producer、be responsible for、social media、marketing、training が中心です。"
+    "bbc-ai-deepfakes-politics": "BBC News の動画で、AI 生成のディープフェイク（deepfake）が政治コミュニケーションに与える影響を扱います。IELTS 7 前後の学習者が新しいテクノロジーと社会問題を聞く練習に向いています。重点は、AI 駆動のツール（AI-powered tools）、急速に広まること（spread like wildfire）、不信感（mistrust）、悪意ある虚構（malicious fiction）、前例（precedent）、悪用（abuse）、本物らしさ（authentic）、公表すること（disclose）、利害関係（stakes）、信頼を損なうこと（undermine trust）です。",
+    "bbc-easy-daily-routine": "この BBC Learning English の短いレッスンでは、日課、通勤、運動、朝食を題材に IELTS 4 前後の基礎リスニングを練習します。重点は、ジョギング（jogging）、ポッドキャスト（podcast）、仕事を終えること（finish work）、運動（exercise）、道順（directions）、シリアル（cereal）、ヨーグルト（yoghurt）、ポリッジ（porridge）、登録すること（subscribe）です。",
+    "bbc-easy-likes-dislikes": "この BBC Learning English の短いレッスンでは、好み、天気、食べ物、趣味を題材に IELTS 4 前後の基礎リスニングを練習します。重点は、天気（weather）、風が強い（windy）、ナッツ（nuts）、ステーキ（steak）、ゼリー（jelly）、続ける（continue）、ハイキング（hiking）、正しい（correct）です。",
+    "english-panda-supermarket-shopping": "この English Panda のレッスンは、バーベキューパーティーの買い物をするスーパーでの会話です。IELTS 4.5 前後の学習者に向いています。買い物の流れに沿って、買い物リスト（grocery list）、ショッピングカート（shopping cart）、青果売り場（produce section）、消費期限（expiry date）、特売（on sale）、セルフレジ（self-checkout）、レジ係（cashier）、再利用できる袋（reusable bags）などを学べます。",
+    "bbc-real-easy-restaurants": "この BBC Real Easy English レッスンは、レストランでの経験、雰囲気、外食、特別な機会を扱います。重点は、おいしい（delicious）、雰囲気（atmosphere）、提供する（serve）、外食する（eat out）、食器を洗う（wash up）、特別な機会（special occasion）、お祝い（celebration）、記念日（anniversary）、注文する（order）、辛い（spicy）、カレー（curry）、ウェイター（waiter）、リゾット（risotto）、要点を振り返る（recap）です。",
+    "workplace-communication-skills": "このレッスンは職場での効果的なコミュニケーション（effective communication）を扱い、IELTS 5 前後の学習者が仕事・チームワークの話題表現を学ぶのに向いています。重点は、積極的傾聴（active listening）、確認の質問（clarifying questions）、言い換え（rephrase）、柔軟な考え方（open-mindedness）、フィードバック（feedback）、非言語コミュニケーション（nonverbal communication）です。",
+    "british-council-talk-about-job": "この British Council レッスンは、仕事の役割、デザイン業務、コンテンツ制作を扱い、IELTS 4.5 前後の学習者が自分の仕事を説明する練習に向いています。重点は、会社での役割（role in the company）、デザイン責任者（head of design）、管理する（manage）、グラフィックデザイナー（graphic designer）、コンテンツ制作者（content producer）、〜を担当する（be responsible for）、ソーシャルメディア（social media）、マーケティング（marketing）、研修（training）です。"
   },
   "themes": {
     "school day": "学校生活",

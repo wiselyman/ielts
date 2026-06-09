@@ -9,7 +9,7 @@ window.videoLessons = [
     "level": "4",
     "theme": "daily routine, beginner conversation, everyday life",
     "youtubeId": "bq6GBbh3uhU",
-    "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, built around daily routines, transport, exercise and simple listening practice."
+    "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, built around daily routines, transport, exercise and breakfast habits."
   },
   {
     "id": "this-is-britain-school",
@@ -31,7 +31,7 @@ window.videoLessons = [
     "level": "4",
     "theme": "likes and dislikes, food, hobbies",
     "youtubeId": "wUF33157hYI",
-    "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, using preferences, weather and hobbies to practise simple listening and useful topic vocabulary."
+    "summary": "A short BBC Learning English lesson for IELTS Band 4 learners, using preferences, weather and hobbies to practise simple listening."
   },
   {
     "id": "english-panda-supermarket-shopping",
@@ -83,10 +83,10 @@ window.videoLessons = [
     "title": "How to talk about your job in English",
     "source": "YouTube · British Council",
     "duration": "5:57",
-    "level": "5",
+    "level": "4.5",
     "theme": "job roles, responsibilities, workplace conversation",
     "youtubeId": "CQDJKdmpxOI",
-    "summary": "A British Council workplace lesson for IELTS Band 5 learners, focused on describing job roles, design work, content production and workplace responsibilities."
+    "summary": "A British Council workplace lesson for IELTS Band 4.5 learners, focused on describing job roles and everyday workplace responsibilities."
   },
   {
     "id": "bbc-6min-reading",

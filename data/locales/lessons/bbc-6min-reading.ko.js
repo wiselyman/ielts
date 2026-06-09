@@ -1,6 +1,6 @@
 // ko translations for lesson bbc-6min-reading.
 window.lessonLocale = {
-  "summary": "이 BBC 6 Minute English 수업은 성인의 literacy 가 일상생활, 존엄성, 사회 참여에 어떤 영향을 주는지 다룹니다. IELTS 6.5점 전후 학습자에게 적합하며 daily commute, essential skill, illiterate, excluded, literacy, numeracy, swindle, one-to-one lessons 등을 익힙니다.",
+  "summary": "이 BBC 6 Minute English 수업은 성인의 문해력（literacy）이 일상생활, 존엄성, 사회 참여에 어떤 영향을 주는지 다룹니다. IELTS 6.5점 전후 학습자에게 적합하며 일상 통근（daily commute）, 필수적인 능력（essential skill）, 문맹 상태（illiterate）, 배제된 상태（excluded）, 수리력（numeracy）, 사기 치다（swindle）, 일대일 수업（one-to-one lessons） 등을 익힙니다。",
   "vocab": {
     "daily commute": "일상 통근",
     "essential": "필수적인",

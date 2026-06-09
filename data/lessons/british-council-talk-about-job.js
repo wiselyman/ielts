@@ -5,10 +5,10 @@ window.currentLessonData = {
   "title": "How to talk about your job in English",
   "source": "YouTube · British Council",
   "duration": "5:57",
-  "level": "5",
+  "level": "4.5",
   "theme": "job roles, responsibilities, workplace conversation",
   "youtubeId": "CQDJKdmpxOI",
-  "summary": "A British Council workplace lesson for IELTS Band 5 learners, focused on describing job roles, design work, content production and workplace responsibilities.",
+  "summary": "A British Council workplace lesson for IELTS Band 4.5 learners, focused on describing job roles and everyday workplace responsibilities.",
   "vocab": [
     {
       "term": "role in the company",

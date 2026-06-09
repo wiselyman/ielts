@@ -1,6 +1,6 @@
 // ja translations for lesson english-panda-supermarket-shopping.
 window.lessonLocale = {
-  "summary": "この English Panda のレッスンは、バーベキューパーティーの買い物をするスーパーでの会話です。IELTS 4.5 前後の学習者に向いています。4 のレッスンより情報量が多く、grocery list、shopping cart、produce section、expiry date、on sale、self-checkout、cashier、reusable bags など、買い物の流れに沿った語彙が出てきます。",
+  "summary": "この English Panda のレッスンは、バーベキューパーティーの買い物をするスーパーでの会話です。IELTS 4.5 前後の学習者に向いています。買い物の流れに沿って、買い物リスト（grocery list）、ショッピングカート（shopping cart）、青果売り場（produce section）、消費期限（expiry date）、特売（on sale）、セルフレジ（self-checkout）、レジ係（cashier）、再利用できる袋（reusable bags）などを学べます。",
   "vocab": {
     "grocery": "食品雜貨",
     "shopping cart": "購物車",
