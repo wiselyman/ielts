@@ -56,6 +56,17 @@ window.videoLessons = [
     "summary": "A BBC Real Easy English lesson for IELTS Band 4.5 learners, focused on restaurant experiences, atmosphere, occasions and ordering-related vocabulary."
   },
   {
+    "id": "british-council-talk-about-job",
+    "path": "british-council-talk-about-job.html",
+    "title": "How to talk about your job in English",
+    "source": "YouTube · British Council",
+    "duration": "5:57",
+    "level": "4.5",
+    "theme": "job roles, responsibilities, workplace conversation",
+    "youtubeId": "CQDJKdmpxOI",
+    "summary": "A British Council workplace lesson for IELTS Band 4.5 learners, focused on describing job roles and everyday workplace responsibilities."
+  },
+  {
     "id": "bc-email-formality",
     "path": "british-council-email.html",
     "title": "Formal and informal emails",
@@ -78,15 +89,15 @@ window.videoLessons = [
     "summary": "A workplace communication lesson for IELTS Band 5 learners, focused on listening, clarity, feedback and professional interaction."
   },
   {
-    "id": "british-council-talk-about-job",
-    "path": "british-council-talk-about-job.html",
-    "title": "How to talk about your job in English",
-    "source": "YouTube · British Council",
-    "duration": "5:57",
-    "level": "4.5",
-    "theme": "job roles, responsibilities, workplace conversation",
-    "youtubeId": "CQDJKdmpxOI",
-    "summary": "A British Council workplace lesson for IELTS Band 4.5 learners, focused on describing job roles and everyday workplace responsibilities."
+    "id": "ted-ed-procrastination",
+    "path": "ted-ed-procrastination.html",
+    "title": "Why you procrastinate even when it feels bad",
+    "source": "YouTube · TED-Ed",
+    "duration": "5:45",
+    "level": "5.5",
+    "theme": "procrastination, study habits, emotional regulation",
+    "youtubeId": "FWTNMzK9vG4",
+    "summary": "A TED-Ed psychology lesson for IELTS Band 5.5 learners, focused on procrastination, emotional regulation, stress and study habits."
   },
   {
     "id": "bbc-6min-reading",

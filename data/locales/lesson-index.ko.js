@@ -11,6 +11,7 @@ window.lessonIndexLocale = {
     "english-panda-supermarket-shopping": "이 English Panda 수업은 바비큐 파티 음식을 사기 위해 슈퍼마켓에서 대화하는 내용입니다. IELTS 4.5점 전후 학습자에게 적합합니다. 쇼핑 흐름에 따라 장보기 목록（grocery list）, 쇼핑 카트（shopping cart）, 농산물 코너（produce section）, 유통기한（expiry date）, 할인 판매（on sale）, 셀프 계산대（self-checkout）, 계산원（cashier）, 재사용 가능한 봉투（reusable bags） 등을 익힙니다。",
     "bbc-real-easy-restaurants": "이 BBC Real Easy English 수업은 식당 경험, 분위기, 외식, 특별한 날을 다룹니다. 핵심은 맛있는（delicious）, 분위기（atmosphere）, 제공하다（serve）, 외식하다（eat out）, 설거지하다（wash up）, 특별한 날（special occasion）, 축하 행사（celebration）, 기념일（anniversary）, 주문하다（order）, 매운（spicy）, 카레（curry）, 웨이터（waiter）, 리소토（risotto）, 요약해 되짚다（recap）입니다。",
     "workplace-communication-skills": "이 수업은 직장에서의 효과적인 의사소통（effective communication）을 다루며 IELTS 5점 전후 학습자가 일과 팀워크 주제 표현을 익히는 데 적합합니다. 핵심은 적극적 경청（active listening）, 명확히 하는 질문（clarifying questions）, 다시 표현하기（rephrase）, 열린 태도（open-mindedness）, 피드백（feedback）, 비언어적 의사소통（nonverbal communication）입니다。",
+    "ted-ed-procrastination": "이 TED-Ed 짧은 영상은 해롭다는 것을 알면서도 왜 일을 미루는지 설명합니다. IELTS 5.5점 전후 학습자가 학습 습관, 심리적 스트레스, 자기 관리 주제를 듣는 연습에 적합합니다. 핵심은 미루기（procrastination）, 일을 뒤로 미루다（put off）, 마음잡고 시작하다（buckle down）, 시간 관리（time management）, 부정적 결과（negative consequences）, 비합리적인（irrational）, 감정을 조절하다（regulate emotions）, 두려움（dread）, 자기 불안（insecurity）, 인식이나 관점（perception）, 영향을 받기 쉬운（susceptible）, 자존감（self-esteem）, 오해（misconception）, 기대에 부응하다（live up to）, 장기적으로는（in the long run）, 강화하다（reinforce）, 기르다（cultivate）, 자신에게 친절한 태도（self-compassion）입니다.",
     "british-council-talk-about-job": "이 British Council 수업은 직무 역할, 디자인 업무, 콘텐츠 제작을 다루며 IELTS 4.5점 전후 학습자가 자신의 일을 설명하는 연습에 적합합니다. 핵심은 회사에서의 역할（role in the company）, 디자인 책임자（head of design）, 관리하다（manage）, 그래픽 디자이너（graphic designer）, 콘텐츠 제작자（content producer）, ~을 담당하다（be responsible for）, 소셜 미디어（social media）, 마케팅（marketing）, 교육（training）입니다。"
   },
   "themes": {
@@ -44,6 +45,9 @@ window.lessonIndexLocale = {
     "feedback": "피드백",
     "job roles": "직무 역할",
     "responsibilities": "책임",
-    "workplace conversation": "직장 대화"
+    "workplace conversation": "직장 대화",
+    "procrastination": "미루기",
+    "study habits": "학습 습관",
+    "emotional regulation": "감정 조절"
   }
 };
