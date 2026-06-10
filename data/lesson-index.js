@@ -94,10 +94,10 @@ window.videoLessons = [
     "title": "Why you procrastinate even when it feels bad",
     "source": "YouTube · TED-Ed",
     "duration": "5:45",
-    "level": "5.5",
+    "level": "6",
     "theme": "procrastination, study habits, emotional regulation",
     "youtubeId": "FWTNMzK9vG4",
-    "summary": "A TED-Ed psychology lesson for IELTS Band 5.5 learners, focused on procrastination, emotional regulation, stress and study habits."
+    "summary": "A TED-Ed psychology lesson for IELTS Band 6 learners, focused on procrastination, emotional regulation, stress and study habits."
   },
   {
     "id": "bbc-6min-reading",
