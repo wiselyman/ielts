@@ -19,20 +19,6 @@ window.currentLessonData = {
       "definition": "the act of delaying something you should do"
     },
     {
-      "term": "buckle down",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "专心开始干活",
-      "definition": "to start working seriously"
-    },
-    {
-      "term": "irrational",
-      "phonetic": "/ɪˈræʃənl/",
-      "pos": "adjective",
-      "zh": "非理性的",
-      "definition": "not based on clear or sensible thinking"
-    },
-    {
       "term": "amygdala",
       "phonetic": "/əˈmɪɡdələ/",
       "pos": "noun",
@@ -91,62 +77,11 @@ window.currentLessonData = {
       "definition": "the front part of the brain involved in planning and self-control"
     },
     {
-      "term": "impulse",
-      "aliases": ["impulses"],
-      "phonetic": "/ˈɪmpʌls/",
-      "pos": "noun",
-      "zh": "冲动",
-      "definition": "a sudden strong wish to do something"
-    },
-    {
-      "term": "fight, flight, or freeze response",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "战斗、逃跑或僵住反应",
-      "definition": "the body’s automatic reaction to danger or stress"
-    },
-    {
-      "term": "evoke",
-      "aliases": ["evoke negative feelings"],
-      "phonetic": "/ɪˈvoʊk/",
-      "pos": "verb",
-      "zh": "唤起；引发",
-      "definition": "to bring a feeling or memory into someone’s mind"
-    },
-    {
-      "term": "dread",
-      "phonetic": "/dred/",
-      "pos": "noun",
-      "zh": "畏惧；恐惧",
-      "definition": "a strong fear or worry about something that may happen"
-    },
-    {
-      "term": "incompetence",
-      "phonetic": "/ɪnˈkɑːmpɪtəns/",
-      "pos": "noun",
-      "zh": "无能感；能力不足",
-      "definition": "a lack of the ability or skill needed to do something well"
-    },
-    {
-      "term": "perception",
-      "phonetic": "/pərˈsepʃən/",
-      "pos": "noun",
-      "zh": "感知；看法",
-      "definition": "the way you understand or think about something"
-    },
-    {
       "term": "susceptible",
       "phonetic": "/səˈseptəbl/",
       "pos": "adjective",
       "zh": "易受影响的",
       "definition": "easily affected by something"
-    },
-    {
-      "term": "self-esteem",
-      "phonetic": "/ˌself ɪˈstiːm/",
-      "pos": "noun",
-      "zh": "自尊；自信",
-      "definition": "how much confidence and respect you have for yourself"
     },
     {
       "term": "misconception",
@@ -163,36 +98,12 @@ window.currentLessonData = {
       "definition": "a lack of interest, energy or concern"
     },
     {
-      "term": "live up to",
-      "aliases": ["won’t live up to", "won't live up to"],
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "达到；不辜负",
-      "definition": "to be as good as someone expects"
-    },
-    {
       "term": "ailment",
       "aliases": ["ailments", "physical ailments"],
       "phonetic": "/ˈeɪlmənt/",
       "pos": "noun",
       "zh": "疾病；小病",
       "definition": "an illness, usually not very serious"
-    },
-    {
-      "term": "short-circuit",
-      "aliases": ["short-circuit this stress response"],
-      "phonetic": "/ˌʃɔːrt ˈsɜːrkɪt/",
-      "pos": "verb",
-      "zh": "绕过；中断",
-      "definition": "to stop a normal process before it continues"
-    },
-    {
-      "term": "underlying concern",
-      "aliases": ["underlying concerns"],
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "深层担忧",
-      "definition": "a deeper worry behind a problem or reaction"
     },
     {
       "term": "self-compassion",
@@ -213,7 +124,7 @@ window.currentLessonData = {
   "cues": [
     {"at": 7.67, "text": "It’s 5 p.m. and you’ve just realized that report you’ve been putting off", "terms": []},
     {"at": 12.759, "text": "is due tomorrow.", "terms": []},
-    {"at": 14.719, "text": "It’s time to buckle down, open your computer...", "terms": ["buckle down"]},
+    {"at": 14.719, "text": "It’s time to buckle down, open your computer...", "terms": []},
     {"at": 17.597, "text": "and check your phone.", "terms": []},
     {"at": 20.016, "text": "Maybe catch up on your favorite YouTube channel?", "terms": []},
     {"at": 22.977, "text": "Actually, you should probably make dinner first.", "terms": []},
@@ -228,7 +139,7 @@ window.currentLessonData = {
     {"at": 59.388, "text": "and which ones can wait.", "terms": []},
     {"at": 61.057, "text": "Procrastination is when we avoid a task we said we would do, for no good reason,", "terms": ["procrastination"]},
     {"at": 66.729, "text": "despite expecting our behavior to bring negative consequences.", "terms": []},
-    {"at": 70.65, "text": "Obviously, it’s irrational to do something you expect to harm you.", "terms": ["irrational"]},
+    {"at": 70.65, "text": "Obviously, it’s irrational to do something you expect to harm you.", "terms": []},
     {"at": 75.238, "text": "But ironically, procrastination is the result of our bodies trying to protect us,", "terms": ["procrastination"]},
     {"at": 81.869, "text": "specifically by avoiding a task we see as threatening.", "terms": []},
     {"at": 86.999, "text": "When you realize you need to write that report,", "terms": []},
@@ -236,18 +147,18 @@ window.currentLessonData = {
     {"at": 93.798, "text": "Your amygdala, a set of neurons involved in emotional processing", "terms": ["amygdala", "neuron", "emotional processing"]},
     {"at": 97.885, "text": "and threat identification,", "terms": ["threat identification"]},
     {"at": 99.637, "text": "releases hormones including adrenaline that kick off a fear response.", "terms": ["hormone", "adrenaline"]},
-    {"at": 105.309, "text": "This stress-induced panic can overpower the impulses from your prefrontal cortex,", "terms": ["stress-induced", "impulse", "prefrontal cortex"]},
+    {"at": 105.309, "text": "This stress-induced panic can overpower the impulses from your prefrontal cortex,", "terms": ["stress-induced", "prefrontal cortex"]},
     {"at": 110.773, "text": "which typically help you think long term and regulate your emotions.", "terms": []},
-    {"at": 115.069, "text": "And it’s in the midst of this fight, flight, or freeze response", "terms": ["fight, flight, or freeze response"]},
+    {"at": 115.069, "text": "And it’s in the midst of this fight, flight, or freeze response", "terms": []},
     {"at": 119.198, "text": "that you decide to handle the threat", "terms": []},
     {"at": 121.117, "text": "by avoiding it in favor of some less stressful task.", "terms": []},
     {"at": 125.329, "text": "This response might seem extreme—", "terms": []},
     {"at": 128.124, "text": "after all, it’s just a deadline, not a bear attack.", "terms": []},
-    {"at": 131.335, "text": "But we’re most likely to procrastinate tasks that evoke negative feelings,", "terms": ["procrastination", "evoke"]},
-    {"at": 136.257, "text": "such as dread, incompetence, and insecurity.", "terms": ["dread", "incompetence"]},
+    {"at": 131.335, "text": "But we’re most likely to procrastinate tasks that evoke negative feelings,", "terms": ["procrastination"]},
+    {"at": 136.257, "text": "such as dread, incompetence, and insecurity.", "terms": []},
     {"at": 140.136, "text": "Studies of procrastinating university students have found participants", "terms": ["procrastination"]},
     {"at": 144.473, "text": "were more likely to put off tasks they perceived as stressful or challenging.", "terms": []},
-    {"at": 149.478, "text": "And the perception of how difficult the task is", "terms": ["perception"]},
+    {"at": 149.478, "text": "And the perception of how difficult the task is", "terms": []},
     {"at": 152.356, "text": "increases while you’re putting it off.", "terms": []},
     {"at": 155.776, "text": "In one experiment, students were given reminders to study throughout the day.", "terms": []},
     {"at": 161.115, "text": "While they were studying, most reported that it wasn’t so bad.", "terms": []},
@@ -257,7 +168,7 @@ window.currentLessonData = {
     {"at": 175.004, "text": "Because procrastination is motivated by our negative feelings,", "terms": ["procrastination"]},
     {"at": 178.799, "text": "some individuals are more susceptible to it than others.", "terms": ["susceptible"]},
     {"at": 182.762, "text": "People who have difficulty regulating their emotions", "terms": []},
-    {"at": 185.473, "text": "and those who struggle with low self-esteem", "terms": ["self-esteem"]},
+    {"at": 185.473, "text": "and those who struggle with low self-esteem", "terms": []},
     {"at": 188.017, "text": "are much more likely to procrastinate,", "terms": ["procrastination"]},
     {"at": 190.686, "text": "regardless of how good they are at time management.", "terms": []},
     {"at": 194.148, "text": "However, it's a common misconception that all procrastinators are lazy.", "terms": ["procrastination", "misconception"]},
@@ -267,7 +178,7 @@ window.currentLessonData = {
     {"at": 213.876, "text": "In fact, many people procrastinate because they care too much.", "terms": ["procrastination"]},
     {"at": 219.298, "text": "Procrastinators often report a high fear of failure,", "terms": ["procrastination"]},
     {"at": 223.052, "text": "putting things off because they’re afraid their work", "terms": []},
-    {"at": 225.846, "text": "won’t live up to their high standards.", "terms": ["live up to"]},
+    {"at": 225.846, "text": "won’t live up to their high standards.", "terms": []},
     {"at": 228.808, "text": "Whatever the reason for procrastination, the results are often the same.", "terms": ["procrastination"]},
     {"at": 233.813, "text": "Frequent procrastinators are likely to suffer from anxiety and depression,", "terms": ["procrastination"]},
     {"at": 238.484, "text": "ongoing feelings of shame,", "terms": []},
@@ -281,11 +192,11 @@ window.currentLessonData = {
     {"at": 271.183, "text": "But today, many researchers feel the exact opposite.", "terms": []},
     {"at": 275.479, "text": "Being too hard on yourself can layer additional bad emotions onto a task,", "terms": []},
     {"at": 280.192, "text": "making the threat even more intense.", "terms": []},
-    {"at": 283.404, "text": "To short-circuit this stress response,", "terms": ["short-circuit"]},
+    {"at": 283.404, "text": "To short-circuit this stress response,", "terms": []},
     {"at": 285.698, "text": "we need to address and reduce these negative emotions.", "terms": []},
     {"at": 290.619, "text": "Some simple strategies include breaking a task into smaller elements", "terms": []},
     {"at": 295.249, "text": "or journaling about why it's stressing you out", "terms": []},
-    {"at": 297.835, "text": "and addressing those underlying concerns.", "terms": ["underlying concern"]},
+    {"at": 297.835, "text": "and addressing those underlying concerns.", "terms": []},
     {"at": 301.464, "text": "Try removing nearby distractions that make it easy to impulsively procrastinate.", "terms": ["procrastination"]},
     {"at": 307.136, "text": "And more than anything, it helps to cultivate an attitude of self-compassion,", "terms": ["self-compassion"]},
     {"at": 312.099, "text": "forgiving yourself, and making a plan to do better next time.", "terms": []},
