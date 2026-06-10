@@ -97,7 +97,7 @@ window.videoLessons = [
     "level": "6",
     "theme": "procrastination, study habits, emotional regulation",
     "youtubeId": "FWTNMzK9vG4",
-    "summary": "A TED-Ed psychology lesson for IELTS Band 6 learners, focused on procrastination, emotional regulation, stress and study habits."
+    "summary": "A TED-Ed psychology lesson for IELTS Band 6 learners, with vocabulary around procrastination, brain stress responses, dread, perception and self-compassion."
   },
   {
     "id": "bbc-6min-reading",

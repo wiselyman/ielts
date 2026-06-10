@@ -8,7 +8,7 @@ window.currentLessonData = {
   "level": "6",
   "theme": "procrastination, study habits, emotional regulation",
   "youtubeId": "FWTNMzK9vG4",
-  "summary": "A TED-Ed psychology lesson for IELTS Band 6 learners, focused on procrastination, emotional regulation, stress and study habits.",
+  "summary": "A TED-Ed psychology lesson for IELTS Band 6 learners, with vocabulary around procrastination, brain stress responses, dread, perception and self-compassion.",
   "vocab": [
     {
       "term": "procrastination",
@@ -32,20 +32,6 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "神经元",
       "definition": "a nerve cell that carries information in the brain or body"
-    },
-    {
-      "term": "emotional processing",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "情绪处理",
-      "definition": "the way the brain understands and deals with emotions"
-    },
-    {
-      "term": "threat identification",
-      "phonetic": "",
-      "pos": "phrase",
-      "zh": "威胁识别",
-      "definition": "the process of recognizing something as dangerous or worrying"
     },
     {
       "term": "hormone",
@@ -75,6 +61,20 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "前额叶皮层",
       "definition": "the front part of the brain involved in planning and self-control"
+    },
+    {
+      "term": "dread",
+      "phonetic": "/dred/",
+      "pos": "noun",
+      "zh": "恐惧；畏惧",
+      "definition": "a strong feeling of fear or worry about something that may happen"
+    },
+    {
+      "term": "perception",
+      "phonetic": "/pərˈsepʃən/",
+      "pos": "noun",
+      "zh": "看法；感知",
+      "definition": "the way you think about or understand something"
     },
     {
       "term": "susceptible",
@@ -144,8 +144,8 @@ window.currentLessonData = {
     {"at": 81.869, "text": "specifically by avoiding a task we see as threatening.", "terms": []},
     {"at": 86.999, "text": "When you realize you need to write that report,", "terms": []},
     {"at": 89.585, "text": "your brain responds like it would to any incoming threat.", "terms": []},
-    {"at": 93.798, "text": "Your amygdala, a set of neurons involved in emotional processing", "terms": ["amygdala", "neuron", "emotional processing"]},
-    {"at": 97.885, "text": "and threat identification,", "terms": ["threat identification"]},
+    {"at": 93.798, "text": "Your amygdala, a set of neurons involved in emotional processing", "terms": ["amygdala", "neuron"]},
+    {"at": 97.885, "text": "and threat identification,", "terms": []},
     {"at": 99.637, "text": "releases hormones including adrenaline that kick off a fear response.", "terms": ["hormone", "adrenaline"]},
     {"at": 105.309, "text": "This stress-induced panic can overpower the impulses from your prefrontal cortex,", "terms": ["stress-induced", "prefrontal cortex"]},
     {"at": 110.773, "text": "which typically help you think long term and regulate your emotions.", "terms": []},
@@ -155,10 +155,10 @@ window.currentLessonData = {
     {"at": 125.329, "text": "This response might seem extreme—", "terms": []},
     {"at": 128.124, "text": "after all, it’s just a deadline, not a bear attack.", "terms": []},
     {"at": 131.335, "text": "But we’re most likely to procrastinate tasks that evoke negative feelings,", "terms": ["procrastination"]},
-    {"at": 136.257, "text": "such as dread, incompetence, and insecurity.", "terms": []},
+    {"at": 136.257, "text": "such as dread, incompetence, and insecurity.", "terms": ["dread"]},
     {"at": 140.136, "text": "Studies of procrastinating university students have found participants", "terms": ["procrastination"]},
     {"at": 144.473, "text": "were more likely to put off tasks they perceived as stressful or challenging.", "terms": []},
-    {"at": 149.478, "text": "And the perception of how difficult the task is", "terms": []},
+    {"at": 149.478, "text": "And the perception of how difficult the task is", "terms": ["perception"]},
     {"at": 152.356, "text": "increases while you’re putting it off.", "terms": []},
     {"at": 155.776, "text": "In one experiment, students were given reminders to study throughout the day.", "terms": []},
     {"at": 161.115, "text": "While they were studying, most reported that it wasn’t so bad.", "terms": []},

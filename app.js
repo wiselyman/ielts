@@ -2,6 +2,7 @@ const videoLessons = window.videoLessons || [];
 const lessonSummaries = window.lessonSummaries || {};
 const currentLessonData = window.currentLessonData || null;
 const i18n = window.i18n;
+const drawerPageSize = 8;
 
 const state = {
   lessonIndex: initialLessonIndex(),
@@ -10,6 +11,8 @@ const state = {
   lastVideoTime: 0,
   lastWallTime: 0,
   lastPlayerState: 0,
+  drawerLevel: "all",
+  drawerPage: 1,
 };
 
 const $ = (selector) => document.querySelector(selector);
@@ -67,6 +70,7 @@ function toast(message) {
 }
 
 function openCourseDrawer() {
+  renderLessonList();
   $("#course-overlay").hidden = false;
   $("#course-drawer").hidden = false;
 }
@@ -205,7 +209,13 @@ function renderSubtitleText(cue) {
 }
 
 function renderLessonList() {
-  $("#lesson-list").innerHTML = lessonOrder()
+  const lessons = lessonOrder().filter(({ lesson }) => state.drawerLevel === "all" || lesson.level === state.drawerLevel);
+  const pageCount = Math.max(1, Math.ceil(lessons.length / drawerPageSize));
+  state.drawerPage = Math.min(state.drawerPage, pageCount);
+  const start = (state.drawerPage - 1) * drawerPageSize;
+  const visibleLessons = lessons.slice(start, start + drawerPageSize);
+
+  $("#lesson-list").innerHTML = visibleLessons
     .map(({ lesson, index }) => {
       return `
         <button class="lesson-card ${index === state.lessonIndex ? "active" : ""}" data-lesson-index="${index}" data-level="${lesson.level}" type="button">
@@ -216,6 +226,40 @@ function renderLessonList() {
       `;
     })
     .join("");
+
+  const emptyState = $("#drawer-empty");
+  if (emptyState) emptyState.hidden = lessons.length > 0;
+  renderDrawerPagination(pageCount, lessons.length);
+}
+
+function ensureDrawerPagination() {
+  let pagination = $("#course-pagination");
+  if (pagination) return pagination;
+  pagination = document.createElement("nav");
+  pagination.id = "course-pagination";
+  pagination.className = "pagination drawer-pagination";
+  pagination.setAttribute("aria-label", "课程分页");
+  $("#drawer-empty")?.insertAdjacentElement("afterend", pagination);
+  return pagination;
+}
+
+function renderDrawerPagination(pageCount, totalCount) {
+  const pagination = ensureDrawerPagination();
+  if (!pagination) return;
+  if (pageCount <= 1) {
+    pagination.innerHTML = totalCount ? `<span class="pagination-count">${escapeHtml(i18n?.t("courseCount", { count: totalCount }) || `共 ${totalCount} 节课`)}</span>` : "";
+    return;
+  }
+  const buttons = Array.from({ length: pageCount }, (_, index) => {
+    const page = index + 1;
+    return `<button class="page-button ${page === state.drawerPage ? "active" : ""}" data-drawer-page="${page}" type="button">${page}</button>`;
+  }).join("");
+  pagination.innerHTML = `
+    <button class="page-button" data-drawer-page="${Math.max(1, state.drawerPage - 1)}" ${state.drawerPage === 1 ? "disabled" : ""} type="button">${escapeHtml(i18n?.t("previous") || "上一页")}</button>
+    ${buttons}
+    <button class="page-button" data-drawer-page="${Math.min(pageCount, state.drawerPage + 1)}" ${state.drawerPage === pageCount ? "disabled" : ""} type="button">${escapeHtml(i18n?.t("next") || "下一页")}</button>
+    <span class="pagination-count">${escapeHtml(i18n?.t("courseCount", { count: totalCount }) || `共 ${totalCount} 节课`)}</span>
+  `;
 }
 
 function ensureSummaryPanel() {
@@ -434,13 +478,19 @@ document.addEventListener("click", (event) => {
     const level = difficultyChip.dataset.filterLevel;
     const filter = difficultyChip.closest(".difficulty-filter");
     filter?.querySelectorAll(".difficulty-chip").forEach((chip) => chip.classList.toggle("active", chip === difficultyChip));
-    const scope = difficultyChip.closest(".course-drawer") || document;
-    scope.querySelectorAll(".lesson-card, .home-course-card").forEach((card) => {
-      card.hidden = level !== "all" && card.dataset.level !== level;
-    });
-    const visibleCount = [...scope.querySelectorAll(".lesson-card, .home-course-card")].filter((card) => !card.hidden).length;
-    const emptyState = scope.querySelector(".empty-state");
-    if (emptyState) emptyState.hidden = visibleCount > 0;
+    if (difficultyChip.closest(".course-drawer")) {
+      state.drawerLevel = level;
+      state.drawerPage = 1;
+      renderLessonList();
+    }
+    return;
+  }
+
+  const drawerPageButton = event.target.closest("[data-drawer-page]");
+  if (drawerPageButton) {
+    state.drawerPage = Number(drawerPageButton.dataset.drawerPage);
+    renderLessonList();
+    $("#lesson-list")?.scrollIntoView({ behavior: "smooth", block: "start" });
     return;
   }
 
