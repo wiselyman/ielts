@@ -89,6 +89,17 @@ window.videoLessons = [
     "summary": "A workplace communication lesson for IELTS Band 5 learners, focused on listening, clarity, feedback and professional interaction."
   },
   {
+    "id": "bbc-plastic-enzymes",
+    "path": "bbc-plastic-enzymes.html",
+    "title": "Plastic waste: eaten by enzymes",
+    "source": "YouTube · BBC Learning English",
+    "duration": "6:22",
+    "level": "5.5",
+    "theme": "plastic waste, recycling, environment",
+    "youtubeId": "bRzP7hwIGWE",
+    "summary": "A BBC 6 Minute English lesson for IELTS Band 5.5 learners, focused on plastic waste, chemical recycling and enzyme-based environmental technology."
+  },
+  {
     "id": "ted-ed-procrastination",
     "path": "ted-ed-procrastination.html",
     "title": "Why you procrastinate even when it feels bad",

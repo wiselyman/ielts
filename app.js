@@ -123,7 +123,7 @@ function termForms(term) {
 }
 
 function isPhraseItem(item) {
-  return /\bphrase\b/i.test(item.pos || "");
+  return /\b(phrase|collocation)\b/i.test(item.pos || "");
 }
 
 function vocabMeta(item) {
