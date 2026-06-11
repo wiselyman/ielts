@@ -12,6 +12,7 @@ window.lessonIndexLocale = {
     "bbc-real-easy-restaurants": "这节 BBC Real Easy English 课程围绕餐厅体验、餐厅氛围、外出就餐和特殊场合展开，适合雅思 4.5 分左右学习者。课程重点包括美味的（delicious）、氛围（atmosphere）、供应或端上（serve）、外出吃饭（eat out）、洗餐具（wash up）、特殊场合（special occasion）、庆祝活动（celebration）、周年纪念日（anniversary）、点餐（order）、辛辣的（spicy）、咖喱（curry）、服务员（waiter）、意式烩饭（risotto）和概括回顾（recap）。",
     "workplace-communication-skills": "这节课程讲职场有效沟通（effective communication），适合雅思 5 分左右学习者积累工作和团队合作话题表达。视频介绍主动倾听（active listening）、澄清问题（clarifying questions）、复述（rephrase）、开放心态（open-mindedness）、反馈（feedback）和非语言沟通（nonverbal communication）。",
     "bbc-plastic-enzymes": "这节 BBC 6 Minute English 课程讨论科学家如何用酶处理塑料垃圾，适合雅思 5.5 分左右学习者训练环保与基础科技话题。课程重点包括微粒（microparticles）、化学回收（chemical recycling）、开创性的（groundbreaking）、焚烧（incinerate）、垃圾填埋（landfill）、重新塑形（remould）、易碎的（brittle）、降级回收（downcycling）、酶（enzyme）、化学键（chemical bonds）、微生物（microorganism）、堆肥（compost）、角质酶（cutinase）和尼龙（nylon）。",
+    "bbc-immune-system": "这节 BBC 6 Minute English 课程讨论人们是否真的能增强免疫系统，适合雅思 5.5 分左右学习者训练健康与生活方式话题。课程重点包括鼻塞或轻微感冒症状（snuffles）、一切顺利的（tickety-boo）、鼻塞流涕（sniffles）、补充剂（supplement）、紫锥菊（echinacea）、姜黄（turmeric）、盐水的（saline）、皮质醇（cortisol）、削弱（dampens）和热情的（enthusiastic）。",
     "ted-ed-procrastination": "这节 TED-Ed 短片解释为什么人明知拖延有害却仍会拖延，适合雅思 6 分左右学习者训练心理压力、学习习惯和自我管理话题。课程重点包括拖延症（procrastination）、杏仁核（amygdala）、神经元（neuron）、激素（hormone）、肾上腺素（adrenaline）、压力诱发的（stress-induced）、前额叶皮层（prefrontal cortex）、畏惧（dread）、看法或感知（perception）、易受影响的（susceptible）、误解（misconception）、冷漠（apathy）、身体不适（ailment）、善待自己（self-compassion）和使循环延续（perpetuate）。",
     "british-council-talk-about-job": "这节 British Council 课程围绕工作岗位、设计职责和内容制作展开，适合雅思 4.5 分左右学习者练习介绍自己的工作。课程重点包括公司里的职责（role in the company）、设计主管（head of design）、管理（manage）、平面设计师（graphic designer）、内容制作人（content producer）、负责（be responsible for）、社交媒体（social media）、市场营销（marketing）和培训（training）。"
   },
@@ -50,6 +51,9 @@ window.lessonIndexLocale = {
     "plastic waste": "塑料垃圾",
     "recycling": "回收",
     "environment": "环境",
+    "immune system": "免疫系统",
+    "health": "健康",
+    "winter illness": "冬季疾病",
     "procrastination": "拖延",
     "study habits": "学习习惯",
     "emotional regulation": "情绪调节"

@@ -100,6 +100,17 @@ window.videoLessons = [
     "summary": "A BBC 6 Minute English lesson for IELTS Band 5.5 learners, focused on plastic waste, chemical recycling and enzyme-based environmental technology."
   },
   {
+    "id": "bbc-immune-system",
+    "path": "bbc-immune-system.html",
+    "title": "Can we boost the immune system?",
+    "source": "YouTube · BBC Learning English",
+    "duration": "6:14",
+    "level": "5.5",
+    "theme": "immune system, health, winter illness",
+    "youtubeId": "9hus12iCyL8",
+    "summary": "A BBC 6 Minute English lesson for IELTS Band 5.5 learners, focused on the immune system, winter illnesses and health products."
+  },
+  {
     "id": "ted-ed-procrastination",
     "path": "ted-ed-procrastination.html",
     "title": "Why you procrastinate even when it feels bad",
