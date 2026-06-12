@@ -14,6 +14,7 @@ window.lessonIndexLocale = {
     "bbc-plastic-enzymes": "이 BBC 6 Minute English 수업은 과학자들이 효소를 이용해 플라스틱 폐기물을 처리하는 방법을 다룹니다. IELTS 5.5점 전후 학습자가 환경과 기초 과학기술 주제 듣기를 훈련하기에 적합합니다. 핵심은 미세 입자（microparticles）, 화학적 재활용（chemical recycling）, 획기적인（groundbreaking）, 소각하다（incinerate）, 매립（landfill）, 다시 성형하다（remould）, 부서지기 쉬운（brittle）, 다운사이클링（downcycling）, 효소（enzyme）, 화학 결합（chemical bonds）, 미생물（microorganism）, 퇴비（compost）, 큐티나아제（cutinase）, 나일론（nylon）입니다.",
     "bbc-immune-system": "이 BBC 6 Minute English 수업은 면역 체계를 실제로 강화할 수 있는지 다룹니다. IELTS 5.5점 전후 학습자가 건강과 생활 습관 주제를 듣는 연습에 적합합니다. 핵심은 코막힘이나 가벼운 감기 증상（snuffles）, 순조로운（tickety-boo）, 훌쩍거림（sniffles）, 보충제（supplement）, 에키네시아（echinacea）, 강황（turmeric）, 식염수의（saline）, 코르티솔（cortisol）, 약화시키다（dampens）, 열정적인（enthusiastic）입니다.",
     "ted-ed-procrastination": "이 TED-Ed 짧은 영상은 해롭다는 것을 알면서도 왜 일을 미루는지 설명합니다. IELTS 6점 전후 학습자가 심리적 스트레스, 학습 습관, 자기 관리 주제를 듣는 연습에 적합합니다. 핵심은 미루기（procrastination）, 편도체（amygdala）, 뉴런（neuron）, 호르몬（hormone）, 아드레날린（adrenaline）, 스트레스가 유발한（stress-induced）, 전전두엽 피질（prefrontal cortex）, 두려움（dread）, 인식이나 관점（perception）, 영향을 받기 쉬운（susceptible）, 오해（misconception）, 무관심（apathy）, 신체적 질환（ailment）, 자신에게 친절한 태도（self-compassion）, 계속되게 하다（perpetuate）입니다.",
+    "bbc-cancer-vaccine": "이 BBC 6 Minute English 수업은 암 백신과 면역 치료를 다룹니다. IELTS 6점 전후 학습자가 의학과 과학기술 주제를 듣는 연습에 적합합니다. 핵심은 백신（vaccine）, 양성의（benign）, 암성의（cancerous）, 악성의（malignant）, 소아마비（polio）, 천연두（smallpox）, 종양학（oncology）, 화학요법（chemotherapy）, 이상（aberration）, 돌파구（breakthrough）, 장악하다（hijack）입니다.",
     "british-council-talk-about-job": "이 British Council 수업은 직무 역할, 디자인 업무, 콘텐츠 제작을 다루며 IELTS 4.5점 전후 학습자가 자신의 일을 설명하는 연습에 적합합니다. 핵심은 회사에서의 역할（role in the company）, 디자인 책임자（head of design）, 관리하다（manage）, 그래픽 디자이너（graphic designer）, 콘텐츠 제작자（content producer）, ~을 담당하다（be responsible for）, 소셜 미디어（social media）, 마케팅（marketing）, 교육（training）입니다。"
   },
   "themes": {
@@ -56,6 +57,9 @@ window.lessonIndexLocale = {
     "winter illness": "겨울철 질환",
     "procrastination": "미루기",
     "study habits": "학습 습관",
-    "emotional regulation": "감정 조절"
+    "emotional regulation": "감정 조절",
+    "cancer vaccines": "암 백신",
+    "immune therapy": "면역 치료",
+    "medical science": "의학 과학"
   }
 };

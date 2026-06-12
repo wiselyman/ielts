@@ -122,6 +122,17 @@ window.videoLessons = [
     "summary": "A TED-Ed psychology lesson for IELTS Band 6 learners, with vocabulary around procrastination, brain stress responses, dread, perception and self-compassion."
   },
   {
+    "id": "bbc-cancer-vaccine",
+    "path": "bbc-cancer-vaccine.html",
+    "title": "A vaccine for cancer",
+    "source": "YouTube · BBC Learning English",
+    "duration": "6:17",
+    "level": "6",
+    "theme": "cancer vaccines, immune therapy, medical science",
+    "youtubeId": "RN6HGltVp2A",
+    "summary": "A BBC 6 Minute English lesson for IELTS Band 6 learners, focused on cancer vaccines, immune therapy and medical breakthroughs."
+  },
+  {
     "id": "bbc-6min-reading",
     "path": "bbc-6min-reading.html",
     "title": "How learning to read changes lives",
