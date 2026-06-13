@@ -111,6 +111,17 @@ window.videoLessons = [
     "summary": "A BBC 6 Minute English lesson for IELTS Band 5.5 learners, focused on the immune system, winter illnesses and health products."
   },
   {
+    "id": "bbc-rage-bait",
+    "path": "bbc-rage-bait.html",
+    "title": "Rage bait: How online anger makes money",
+    "source": "YouTube · BBC Learning English",
+    "duration": "6:14",
+    "level": "5.5",
+    "theme": "social media, online anger, digital media",
+    "youtubeId": "JaGXfJBx0BM",
+    "summary": "A BBC 6 Minute English lesson for IELTS Band 5.5 learners, focused on rage bait, online outrage and social media engagement."
+  },
+  {
     "id": "ted-ed-procrastination",
     "path": "ted-ed-procrastination.html",
     "title": "Why you procrastinate even when it feels bad",

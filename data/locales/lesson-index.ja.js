@@ -13,6 +13,7 @@ window.lessonIndexLocale = {
     "workplace-communication-skills": "このレッスンは職場での効果的なコミュニケーション（effective communication）を扱い、IELTS 5 前後の学習者が仕事・チームワークの話題表現を学ぶのに向いています。重点は、積極的傾聴（active listening）、確認の質問（clarifying questions）、言い換え（rephrase）、柔軟な考え方（open-mindedness）、フィードバック（feedback）、非言語コミュニケーション（nonverbal communication）です。",
     "bbc-plastic-enzymes": "この BBC 6 Minute English レッスンは、科学者が酵素を使ってプラスチックごみを処理する方法を扱います。IELTS 5.5 前後の学習者が環境問題と基礎的な科学技術の話題を聞く練習に向いています。重点は、微粒子（microparticles）、化学リサイクル（chemical recycling）、画期的な（groundbreaking）、焼却する（incinerate）、埋立処分（landfill）、再成形する（remould）、もろい（brittle）、ダウンサイクル（downcycling）、酵素（enzyme）、化学結合（chemical bonds）、微生物（microorganism）、堆肥（compost）、クチナーゼ（cutinase）、ナイロン（nylon）です。",
     "bbc-immune-system": "この BBC 6 Minute English レッスンは、免疫システムを本当に強化できるのかを扱います。IELTS 5.5 前後の学習者が健康と生活習慣の話題を聞く練習に向いています。重点は、鼻づまりや軽い風邪症状（snuffles）、順調な（tickety-boo）、鼻ぐずぐず（sniffles）、サプリメント（supplement）、エキナセア（echinacea）、ターメリック（turmeric）、食塩水の（saline）、コルチゾール（cortisol）、弱める（dampens）、熱心な（enthusiastic）です。",
+    "bbc-rage-bait": "この BBC 6 Minute English レッスンは、ソーシャルメディアが怒りを利用して反応を集める仕組みを扱います。IELTS 5.5 前後の学習者がデジタルメディアの話題を聞く練習に向いています。重点は、怒りを誘う投稿（rage bait）、憤り（outrage）、挑発的な（provocative）、煽る（incite）、偏りや偏見（bias）です。",
     "ted-ed-procrastination": "この TED-Ed の短い動画は、よくないと分かっていても先延ばししてしまう理由を説明します。IELTS 6 前後の学習者が、心理的ストレス、学習習慣、自己管理について聞く練習に向いています。重点は、先延ばし（procrastination）、扁桃体（amygdala）、神経細胞（neuron）、ホルモン（hormone）、アドレナリン（adrenaline）、ストレスによって引き起こされる（stress-induced）、前頭前皮質（prefrontal cortex）、恐れ（dread）、認識や捉え方（perception）、影響を受けやすい（susceptible）、誤解（misconception）、無関心（apathy）、身体的不調（ailment）、自分に優しくする姿勢（self-compassion）、続かせること（perpetuate）です。",
     "bbc-cancer-vaccine": "この BBC 6 Minute English レッスンは、がんワクチンと免疫療法を扱います。IELTS 6 前後の学習者が医学と科学技術の話題を聞く練習に向いています。重点は、ワクチン（vaccine）、良性の（benign）、がん性の（cancerous）、悪性の（malignant）、ポリオ（polio）、天然痘（smallpox）、腫瘍学（oncology）、化学療法（chemotherapy）、異常（aberration）、突破口（breakthrough）、乗っ取る（hijack）です。",
     "british-council-talk-about-job": "この British Council レッスンは、仕事の役割、デザイン業務、コンテンツ制作を扱い、IELTS 4.5 前後の学習者が自分の仕事を説明する練習に向いています。重点は、会社での役割（role in the company）、デザイン責任者（head of design）、管理する（manage）、グラフィックデザイナー（graphic designer）、コンテンツ制作者（content producer）、〜を担当する（be responsible for）、ソーシャルメディア（social media）、マーケティング（marketing）、研修（training）です。"
@@ -55,6 +56,9 @@ window.lessonIndexLocale = {
     "immune system": "免疫システム",
     "health": "健康",
     "winter illness": "冬の病気",
+    "social media": "ソーシャルメディア",
+    "online anger": "オンライン上の怒り",
+    "digital media": "デジタルメディア",
     "procrastination": "先延ばし",
     "study habits": "学習習慣",
     "emotional regulation": "感情調整",
