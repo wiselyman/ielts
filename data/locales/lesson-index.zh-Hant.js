@@ -14,6 +14,7 @@ window.lessonIndexLocale = {
     "bbc-plastic-enzymes": "這節 BBC 6 Minute English 課程討論科學家如何用酶處理塑膠垃圾，適合雅思 5.5 分左右學習者訓練環保與基礎科技話題。課程重點包括微粒（microparticles）、化學回收（chemical recycling）、開創性的（groundbreaking）、焚燒（incinerate）、垃圾掩埋（landfill）、重新塑形（remould）、易碎的（brittle）、降級回收（downcycling）、酶（enzyme）、化學鍵（chemical bonds）、微生物（microorganism）、堆肥（compost）、角質酶（cutinase）和尼龍（nylon）。",
     "bbc-immune-system": "這節 BBC 6 Minute English 課程討論人們是否真的能增強免疫系統，適合雅思 5.5 分左右學習者訓練健康與生活方式話題。課程重點包括鼻塞或輕微感冒症狀（snuffles）、一切順利的（tickety-boo）、鼻塞流涕（sniffles）、補充劑（supplement）、紫錐菊（echinacea）、薑黃（turmeric）、鹽水的（saline）、皮質醇（cortisol）、削弱（dampens）和熱情的（enthusiastic）。",
     "bbc-rage-bait": "這節 BBC 6 Minute English 課程討論社交媒體如何利用憤怒吸引互動，適合雅思 5.5 分左右學習者訓練數位媒體話題。課程重點包括怒氣誘餌（rage bait）、憤怒或義憤（outrage）、挑釁性的（provocative）、煽動或激起（incite）和偏見或偏向（bias）。",
+    "bbc-addictive-platforms": "這節 BBC Learning English from the News 課程討論 Meta 和 YouTube 被認定對成癮性平台負有責任，適合雅思 5.5 分左右學習者訓練社交媒體和法律新聞話題。課程重點包括比喻性的（metaphorical）、負有法律責任的（liable）、具有里程碑意義的（landmark）和訴訟（lawsuit）。",
     "ted-ed-procrastination": "這節 TED-Ed 短片解釋為什麼人明知拖延有害卻仍會拖延，適合雅思 6 分左右學習者訓練心理壓力、學習習慣和自我管理話題。課程重點包括拖延症（procrastination）、杏仁核（amygdala）、神經元（neuron）、激素（hormone）、腎上腺素（adrenaline）、壓力誘發的（stress-induced）、前額葉皮質（prefrontal cortex）、畏懼（dread）、看法或感知（perception）、易受影響的（susceptible）、誤解（misconception）、冷漠（apathy）、身體不適（ailment）、善待自己（self-compassion）和使循環延續（perpetuate）。",
     "bbc-cancer-vaccine": "這節 BBC 6 Minute English 課程討論癌症疫苗和免疫治療，適合雅思 6 分左右學習者訓練醫學科技話題。課程重點包括疫苗（vaccine）、良性的（benign）、癌性的（cancerous）、惡性的（malignant）、小兒麻痺症（polio）、天花（smallpox）、腫瘤學（oncology）、化療（chemotherapy）、異常（aberration）、突破（breakthrough）和劫持或操控（hijack）。",
     "british-council-talk-about-job": "這節 British Council 課程圍繞工作崗位、設計職責和內容製作展開，適合雅思 4.5 分左右學習者練習介紹自己的工作。課程重點包括公司裡的職責（role in the company）、設計主管（head of design）、管理（manage）、平面設計師（graphic designer）、內容製作人（content producer）、負責（be responsible for）、社交媒體（social media）、市場行銷（marketing）和培訓（training）。"
@@ -59,6 +60,8 @@ window.lessonIndexLocale = {
     "social media": "社群媒體",
     "online anger": "線上憤怒",
     "digital media": "數位媒體",
+    "legal responsibility": "法律責任",
+    "platform addiction": "平台成癮",
     "procrastination": "拖延",
     "study habits": "學習習慣",
     "emotional regulation": "情緒調節",

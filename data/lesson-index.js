@@ -122,6 +122,17 @@ window.videoLessons = [
     "summary": "A BBC 6 Minute English lesson for IELTS Band 5.5 learners, focused on rage bait, online outrage and social media engagement."
   },
   {
+    "id": "bbc-addictive-platforms",
+    "path": "bbc-addictive-platforms.html",
+    "title": "US Court: Meta and YouTube built addictive platforms",
+    "source": "YouTube · BBC Learning English",
+    "duration": "7:34",
+    "level": "5.5",
+    "theme": "social media, legal responsibility, platform addiction",
+    "youtubeId": "_djA-tsumcw",
+    "summary": "A BBC Learning English from the News lesson for IELTS Band 5.5 learners, focused on social media addiction, legal responsibility and platform design."
+  },
+  {
     "id": "ted-ed-procrastination",
     "path": "ted-ed-procrastination.html",
     "title": "Why you procrastinate even when it feels bad",
