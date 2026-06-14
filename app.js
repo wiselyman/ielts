@@ -477,8 +477,17 @@ function scrollVocabCardIntoView(card, behavior) {
   }
   const cardRect = card.getBoundingClientRect();
   const containerRect = container.getBoundingClientRect();
-  const top = cardRect.top - containerRect.top + container.scrollTop - container.clientHeight / 2 + cardRect.height / 2;
-  container.scrollTo({ top: Math.max(0, top), behavior });
+  const { top: visibleTop, bottom: visibleBottom } = vocabVisibleBounds(container);
+  const visibleHeight = Math.max(0, visibleBottom - visibleTop);
+  const maxScrollTop = Math.max(0, container.scrollHeight - container.clientHeight);
+  const cardTopInContent = cardRect.top - containerRect.top + container.scrollTop;
+  const visibleTopInContainer = visibleTop - containerRect.top;
+  const visibleCenterInContainer = (visibleTop + visibleBottom) / 2 - containerRect.top;
+  const targetTop =
+    visibleHeight > cardRect.height + 24
+      ? cardTopInContent + cardRect.height / 2 - visibleCenterInContainer
+      : cardTopInContent - visibleTopInContainer;
+  container.scrollTo({ top: Math.min(maxScrollTop, Math.max(0, targetTop)), behavior });
 }
 
 function vocabScrollContainer() {
