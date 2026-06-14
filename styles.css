@@ -825,8 +825,9 @@ h2 {
 
   .study-column {
     position: static;
-    max-height: none;
-    overflow: visible;
+    max-height: min(46vh, 420px);
+    overflow: auto;
+    overscroll-behavior: contain;
   }
 
   .big-subtitle {
