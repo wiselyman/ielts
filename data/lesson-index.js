@@ -155,6 +155,17 @@ window.videoLessons = [
     "summary": "A BBC 6 Minute English lesson for IELTS Band 6 learners, focused on cancer vaccines, immune therapy and medical breakthroughs."
   },
   {
+    "id": "ted-ed-all-nighter",
+    "path": "ted-ed-all-nighter.html",
+    "title": "What staying up all night does to your brain",
+    "source": "YouTube · TED-Ed",
+    "duration": "5:37",
+    "level": "6.5",
+    "theme": "sleep deprivation, brain science, study habits",
+    "youtubeId": "idrbwnWLJ7w",
+    "summary": "A TED-Ed lesson for IELTS Band 6.5 learners, focused on sleep deprivation, circadian rhythms and brain systems involved in memory and emotion."
+  },
+  {
     "id": "bbc-6min-reading",
     "path": "bbc-6min-reading.html",
     "title": "How learning to read changes lives",

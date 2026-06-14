@@ -22,6 +22,8 @@ const i18nData = {
       playPronunciation: "播放 {term} 的发音",
       jumpTo: "跳到 {time}",
       youtubeLoading: "YouTube player is loading...",
+      coreVocabulary: "核心词汇",
+      extendedVocabulary: "扩展词汇",
     },
   },
   "zh-Hant": {
@@ -47,6 +49,8 @@ const i18nData = {
       playPronunciation: "播放 {term} 的發音",
       jumpTo: "跳到 {time}",
       youtubeLoading: "YouTube player is loading...",
+      coreVocabulary: "核心詞彙",
+      extendedVocabulary: "擴展詞彙",
     },
   },
   ja: {
@@ -72,6 +76,8 @@ const i18nData = {
       playPronunciation: "{term} の発音を再生",
       jumpTo: "{time} へ移動",
       youtubeLoading: "YouTube player is loading...",
+      coreVocabulary: "重要語彙",
+      extendedVocabulary: "発展語彙",
     },
   },
   ko: {
@@ -97,6 +103,8 @@ const i18nData = {
       playPronunciation: "{term} 발음 재생",
       jumpTo: "{time}로 이동",
       youtubeLoading: "YouTube player is loading...",
+      coreVocabulary: "핵심 어휘",
+      extendedVocabulary: "확장 어휘",
     },
   },
 };

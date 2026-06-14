@@ -17,6 +17,7 @@ window.lessonIndexLocale = {
     "bbc-addictive-platforms": "这节 BBC Learning English from the News 课程讨论 Meta 和 YouTube 被认定对成瘾性平台负有责任，适合雅思 5.5 分左右学习者训练社交媒体和法律新闻话题。课程重点包括比喻性的（metaphorical）、负有法律责任的（liable）、具有里程碑意义的（landmark）和诉讼（lawsuit）。",
     "ted-ed-procrastination": "这节 TED-Ed 短片解释为什么人明知拖延有害却仍会拖延，适合雅思 6 分左右学习者训练心理压力、学习习惯和自我管理话题。课程重点包括拖延症（procrastination）、杏仁核（amygdala）、神经元（neuron）、激素（hormone）、肾上腺素（adrenaline）、压力诱发的（stress-induced）、前额叶皮层（prefrontal cortex）、畏惧（dread）、看法或感知（perception）、易受影响的（susceptible）、误解（misconception）、冷漠（apathy）、身体不适（ailment）、善待自己（self-compassion）和使循环延续（perpetuate）。",
     "bbc-cancer-vaccine": "这节 BBC 6 Minute English 课程讨论癌症疫苗和免疫治疗，适合雅思 6 分左右学习者训练医学科技话题。课程重点包括疫苗（vaccine）、良性的（benign）、癌性的（cancerous）、恶性的（malignant）、小儿麻痹症（polio）、天花（smallpox）、肿瘤学（oncology）、化疗（chemotherapy）、异常（aberration）、突破（breakthrough）和劫持或操控（hijack）。",
+    "ted-ed-all-nighter": "这节 TED-Ed 课程讲解熬夜如何影响大脑，适合雅思 6.5 分左右学习者训练睡眠、记忆和神经科学话题。课程重点包括昼夜节律（circadian rhythm）、周期性的（cyclical）、逐渐减少的（dwindling）、视交叉上核（suprachiasmatic nucleus）、松果体（pineal gland）、褪黑素（melatonin）、下丘脑（hypothalamus）、腺苷（adenosine）、海马体（hippocampus）、新皮层（neocortex）、睡眠剥夺（sleep deprivation）、多巴胺（dopamine）、杏仁核（amygdala）、前额叶皮层（prefrontal cortex）和失控的（haywire）。",
     "british-council-talk-about-job": "这节 British Council 课程围绕工作岗位、设计职责和内容制作展开，适合雅思 4.5 分左右学习者练习介绍自己的工作。课程重点包括公司里的职责（role in the company）、设计主管（head of design）、管理（manage）、平面设计师（graphic designer）、内容制作人（content producer）、负责（be responsible for）、社交媒体（social media）、市场营销（marketing）和培训（training）。"
   },
   "themes": {
@@ -67,6 +68,8 @@ window.lessonIndexLocale = {
     "emotional regulation": "情绪调节",
     "cancer vaccines": "癌症疫苗",
     "immune therapy": "免疫治疗",
-    "medical science": "医学科学"
+    "medical science": "医学科学",
+    "sleep deprivation": "睡眠剥夺",
+    "brain science": "脑科学"
   }
 };

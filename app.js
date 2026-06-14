@@ -278,30 +278,66 @@ function renderVideoSummary() {
   panel.innerHTML = `<p>${escapeHtml(i18n?.localizeSummary(currentLesson()) || lessonSummaries[currentLesson().id] || currentLesson().summary)}</p>`;
 }
 
+function renderVocabCard(item) {
+  const cue = firstCueForTerm(item.term);
+  const seekTime = cue ? cue.at : "";
+  return `
+    <div class="vocab-card" data-term="${item.term.toLowerCase()}" data-seek-time="${seekTime}" role="button" tabindex="0">
+      <span class="vocab-main">
+        <strong>${item.term}</strong>
+        <button class="sound-button" data-speak-term="${item.term}" type="button" aria-label="${escapeHtml(i18n?.t("playPronunciation", { term: item.term }) || `播放 ${item.term} 的发音`)}">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 9v6h4l5 4V5L8 9H4z"></path>
+            <path d="M16 8.5a5 5 0 0 1 0 7"></path>
+            <path d="M18.5 6a8 8 0 0 1 0 12"></path>
+          </svg>
+        </button>
+        ${vocabMeta(item)}
+      </span>
+      <span>${escapeHtml(vocabMeaning(item))}</span>
+      <small>${item.definition}</small>
+    </div>
+  `;
+}
+
+function renderVocabSection(title, items, options = {}) {
+  if (!items.length) return "";
+  const cards = items.map(renderVocabCard).join("");
+  if (options.collapsible) {
+    return `
+      <details id="extended-vocab-details" class="vocab-accordion">
+        <summary>
+          <span>${escapeHtml(title)}</span>
+          <small>${items.length}</small>
+        </summary>
+        <div class="vocab-list vocab-list-inner">${cards}</div>
+      </details>
+    `;
+  }
+  return `
+    <section class="vocab-section">
+      <div class="vocab-section-title">
+        <span>${escapeHtml(title)}</span>
+        <small>${items.length}</small>
+      </div>
+      ${cards}
+    </section>
+  `;
+}
+
 function renderVocab() {
-  $("#vocab-list").innerHTML = currentLesson()
-    .vocab?.map((item) => {
-      const cue = firstCueForTerm(item.term);
-      const seekTime = cue ? cue.at : "";
-      return `
-        <div class="vocab-card" data-term="${item.term.toLowerCase()}" data-seek-time="${seekTime}" role="button" tabindex="0">
-          <span class="vocab-main">
-            <strong>${item.term}</strong>
-            <button class="sound-button" data-speak-term="${item.term}" type="button" aria-label="${escapeHtml(i18n?.t("playPronunciation", { term: item.term }) || `播放 ${item.term} 的发音`)}">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 9v6h4l5 4V5L8 9H4z"></path>
-                <path d="M16 8.5a5 5 0 0 1 0 7"></path>
-                <path d="M18.5 6a8 8 0 0 1 0 12"></path>
-              </svg>
-            </button>
-            ${vocabMeta(item)}
-          </span>
-          <span>${escapeHtml(vocabMeaning(item))}</span>
-          <small>${item.definition}</small>
-        </div>
-      `;
-    })
-    .join("") || "";
+  const vocab = currentLesson().vocab || [];
+  const hasGroups = vocab.some((item) => item.group);
+  if (!hasGroups) {
+    $("#vocab-list").innerHTML = vocab.map(renderVocabCard).join("");
+    return;
+  }
+  const core = vocab.filter((item) => item.group !== "extended");
+  const extended = vocab.filter((item) => item.group === "extended");
+  $("#vocab-list").innerHTML = [
+    renderVocabSection(i18n?.t("coreVocabulary") || "核心词汇", core),
+    renderVocabSection(i18n?.t("extendedVocabulary") || "扩展词汇", extended, { collapsible: true }),
+  ].join("");
 }
 
 function createOrLoadPlayer() {
@@ -373,6 +409,11 @@ function renderSubtitle() {
   $("#subtitle-time").textContent = formatTime(seconds);
   $("#big-subtitle").innerHTML = renderSubtitleText(cue);
   $("#subtitle-vocab").innerHTML = "";
+  const extendedDetails = $("#extended-vocab-details");
+  if (extendedDetails && !extendedDetails.open) {
+    const activeExtended = $$("#extended-vocab-details .vocab-card").some((card) => cueHasTerm(cue, card.dataset.term));
+    if (activeExtended) extendedDetails.open = true;
+  }
   $$(".vocab-card").forEach((card) => {
     card.classList.toggle("active-word", cueHasTerm(cue, card.dataset.term));
   });
