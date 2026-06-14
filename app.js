@@ -12,6 +12,7 @@ const state = {
   lastWallTime: 0,
   lastPlayerState: 0,
   lastAutoScrollKey: "",
+  pendingAutoScrollKey: "",
   drawerLevel: "all",
   drawerPage: 1,
 };
@@ -329,6 +330,7 @@ function renderVocabSection(title, items, options = {}) {
 function renderVocab() {
   const vocab = currentLesson().vocab || [];
   state.lastAutoScrollKey = "";
+  state.pendingAutoScrollKey = "";
   const hasGroups = vocab.some((item) => item.group);
   if (!hasGroups) {
     $("#vocab-list").innerHTML = vocab.map(renderVocabCard).join("");
@@ -427,20 +429,61 @@ function renderSubtitle() {
 function scrollActiveVocabIntoView(cue, activeCards) {
   if (!activeCards.length) {
     state.lastAutoScrollKey = "";
+    state.pendingAutoScrollKey = "";
     return;
   }
   const scrollKey = `${cue.at}:${activeCards.map((card) => card.dataset.term).join("|")}`;
-  if (state.lastAutoScrollKey === scrollKey) return;
-  state.lastAutoScrollKey = scrollKey;
-
+  if (state.lastAutoScrollKey === scrollKey || state.pendingAutoScrollKey === scrollKey) return;
   const card = activeCards[0];
+  if (isVocabCardVisible(card)) {
+    state.lastAutoScrollKey = scrollKey;
+    return;
+  }
+  state.pendingAutoScrollKey = scrollKey;
+  scheduleVocabCardScroll(card, scrollKey);
+}
+
+function scheduleVocabCardScroll(card, scrollKey) {
+  requestAnimationFrame(() => {
+    if (state.pendingAutoScrollKey !== scrollKey) return;
+    if (!document.contains(card)) {
+      if (state.pendingAutoScrollKey === scrollKey) state.pendingAutoScrollKey = "";
+      return;
+    }
+    scrollVocabCardIntoView(card, "smooth");
+    requestAnimationFrame(() => {
+      if (state.pendingAutoScrollKey !== scrollKey) return;
+      if (document.contains(card) && !isVocabCardVisible(card)) scrollVocabCardIntoView(card, "auto");
+      if (state.pendingAutoScrollKey === scrollKey) state.pendingAutoScrollKey = "";
+      state.lastAutoScrollKey = scrollKey;
+    });
+  });
+}
+
+function isVocabCardVisible(card) {
   const container = $(".study-column");
   const cardRect = card.getBoundingClientRect();
   const containerRect = container?.getBoundingClientRect();
   const top = containerRect ? containerRect.top + 10 : 0;
   const bottom = containerRect ? containerRect.bottom - 10 : window.innerHeight;
-  if (cardRect.top >= top && cardRect.bottom <= bottom) return;
-  card.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
+  return cardRect.top >= top && cardRect.bottom <= bottom;
+}
+
+function scrollVocabCardIntoView(card, behavior) {
+  const container = $(".study-column");
+  if (!container) {
+    card.scrollIntoView({ behavior, block: "center", inline: "nearest" });
+    return;
+  }
+  const canScrollInside = container.scrollHeight > container.clientHeight;
+  if (!canScrollInside) {
+    card.scrollIntoView({ behavior, block: "center", inline: "nearest" });
+    return;
+  }
+  const cardRect = card.getBoundingClientRect();
+  const containerRect = container.getBoundingClientRect();
+  const top = cardRect.top - containerRect.top + container.scrollTop - container.clientHeight / 2 + cardRect.height / 2;
+  container.scrollTo({ top: Math.max(0, top), behavior });
 }
 
 function syncVideoClock(forcedTime) {
