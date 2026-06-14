@@ -11,6 +11,7 @@ const state = {
   lastVideoTime: 0,
   lastWallTime: 0,
   lastPlayerState: 0,
+  lastAutoScrollKey: "",
   drawerLevel: "all",
   drawerPage: 1,
 };
@@ -327,6 +328,7 @@ function renderVocabSection(title, items, options = {}) {
 
 function renderVocab() {
   const vocab = currentLesson().vocab || [];
+  state.lastAutoScrollKey = "";
   const hasGroups = vocab.some((item) => item.group);
   if (!hasGroups) {
     $("#vocab-list").innerHTML = vocab.map(renderVocabCard).join("");
@@ -409,14 +411,36 @@ function renderSubtitle() {
   $("#subtitle-time").textContent = formatTime(seconds);
   $("#big-subtitle").innerHTML = renderSubtitleText(cue);
   $("#subtitle-vocab").innerHTML = "";
+  const activeCards = $$(".vocab-card").filter((card) => cueHasTerm(cue, card.dataset.term));
   const extendedDetails = $("#extended-vocab-details");
   if (extendedDetails && !extendedDetails.open) {
-    const activeExtended = $$("#extended-vocab-details .vocab-card").some((card) => cueHasTerm(cue, card.dataset.term));
+    const activeExtended = activeCards.some((card) => card.closest("#extended-vocab-details"));
     if (activeExtended) extendedDetails.open = true;
   }
+  const activeCardSet = new Set(activeCards);
   $$(".vocab-card").forEach((card) => {
-    card.classList.toggle("active-word", cueHasTerm(cue, card.dataset.term));
+    card.classList.toggle("active-word", activeCardSet.has(card));
   });
+  scrollActiveVocabIntoView(cue, activeCards);
+}
+
+function scrollActiveVocabIntoView(cue, activeCards) {
+  if (!activeCards.length) {
+    state.lastAutoScrollKey = "";
+    return;
+  }
+  const scrollKey = `${cue.at}:${activeCards.map((card) => card.dataset.term).join("|")}`;
+  if (state.lastAutoScrollKey === scrollKey) return;
+  state.lastAutoScrollKey = scrollKey;
+
+  const card = activeCards[0];
+  const container = $(".study-column");
+  const cardRect = card.getBoundingClientRect();
+  const containerRect = container?.getBoundingClientRect();
+  const top = containerRect ? containerRect.top + 10 : 0;
+  const bottom = containerRect ? containerRect.bottom - 10 : window.innerHeight;
+  if (cardRect.top >= top && cardRect.bottom <= bottom) return;
+  card.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
 }
 
 function syncVideoClock(forcedTime) {

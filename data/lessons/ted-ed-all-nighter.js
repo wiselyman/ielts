@@ -44,7 +44,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "视交叉上核",
       "definition": "a brain area that acts as the body's main internal clock",
-      "group": "core"
+      "group": "extended"
     },
     {
       "term": "pineal gland",
@@ -52,7 +52,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "松果体",
       "definition": "a small brain gland that produces melatonin",
-      "group": "core"
+      "group": "extended"
     },
     {
       "term": "melatonin",
@@ -60,7 +60,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "褪黑素",
       "definition": "a hormone that helps regulate sleep",
-      "group": "core"
+      "group": "extended"
     },
     {
       "term": "hypothalamus",
@@ -68,7 +68,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "下丘脑",
       "definition": "a brain region that helps control body temperature, sleep and hormones",
-      "group": "core"
+      "group": "extended"
     },
     {
       "term": "adenosine",
@@ -76,7 +76,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "腺苷",
       "definition": "a chemical that builds up in the brain and increases sleep pressure",
-      "group": "core"
+      "group": "extended"
     },
     {
       "term": "receptor",
@@ -87,7 +87,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "受体",
       "definition": "a cell structure that receives signals from chemicals",
-      "group": "core"
+      "group": "extended"
     },
     {
       "term": "hippocampus",
@@ -95,7 +95,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "海马体",
       "definition": "a brain area important for forming memories",
-      "group": "core"
+      "group": "extended"
     },
     {
       "term": "neocortex",
@@ -103,7 +103,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "新皮层",
       "definition": "the outer part of the brain involved in higher thinking and long-term memory",
-      "group": "core"
+      "group": "extended"
     },
     {
       "term": "sleep deprivation",
@@ -119,7 +119,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "多巴胺",
       "definition": "a brain chemical linked to reward, motivation and mood",
-      "group": "core"
+      "group": "extended"
     },
     {
       "term": "amygdala",
@@ -127,7 +127,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "杏仁核",
       "definition": "a brain area involved in processing emotions",
-      "group": "core"
+      "group": "extended"
     },
     {
       "term": "prefrontal cortex",
@@ -135,7 +135,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "前额叶皮层",
       "definition": "the front part of the brain involved in self-control and decision-making",
-      "group": "core"
+      "group": "extended"
     },
     {
       "term": "haywire",
@@ -154,7 +154,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "激素",
       "definition": "a chemical messenger made by the body",
-      "group": "extended"
+      "group": "core"
     },
     {
       "term": "neuron",
@@ -181,7 +181,7 @@ window.currentLessonData = {
       "pos": "adjective",
       "zh": "紧张不安的；发抖的",
       "definition": "nervous and unable to stay still",
-      "group": "extended"
+      "group": "core"
     },
     {
       "term": "euphoria",
@@ -189,7 +189,7 @@ window.currentLessonData = {
       "pos": "noun",
       "zh": "欣快感",
       "definition": "a very strong feeling of happiness or excitement",
-      "group": "extended"
+      "group": "core"
     },
     {
       "term": "regurgitate",
@@ -197,7 +197,7 @@ window.currentLessonData = {
       "pos": "verb",
       "zh": "机械复述；照搬背出",
       "definition": "to repeat information without really understanding it",
-      "group": "extended"
+      "group": "core"
     },
     {
       "term": "irritable",
@@ -205,7 +205,7 @@ window.currentLessonData = {
       "pos": "adjective",
       "zh": "易怒的",
       "definition": "easily annoyed",
-      "group": "extended"
+      "group": "core"
     }
   ],
   "cues": [
