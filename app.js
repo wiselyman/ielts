@@ -433,9 +433,11 @@ function scrollActiveVocabIntoView(cue, activeCards) {
     return;
   }
   const scrollKey = `${cue.at}:${activeCards.map((card) => card.dataset.term).join("|")}`;
-  if (state.lastAutoScrollKey === scrollKey || state.pendingAutoScrollKey === scrollKey) return;
-  const card = activeCards[0];
-  if (isVocabCardVisible(card)) {
+  const card = activeCards.find((item) => !isVocabCardVisible(item)) || activeCards[0];
+  const isVisible = isVocabCardVisible(card);
+  if (state.lastAutoScrollKey === scrollKey && isVisible) return;
+  if (state.pendingAutoScrollKey === scrollKey) return;
+  if (isVisible) {
     state.lastAutoScrollKey = scrollKey;
     return;
   }
@@ -450,12 +452,12 @@ function scheduleVocabCardScroll(card, scrollKey) {
       if (state.pendingAutoScrollKey === scrollKey) state.pendingAutoScrollKey = "";
       return;
     }
-    scrollVocabCardIntoView(card, "smooth");
+    scrollVocabCardIntoView(card, "auto");
     requestAnimationFrame(() => {
       if (state.pendingAutoScrollKey !== scrollKey) return;
       if (document.contains(card) && !isVocabCardVisible(card)) scrollVocabCardIntoView(card, "auto");
       if (state.pendingAutoScrollKey === scrollKey) state.pendingAutoScrollKey = "";
-      state.lastAutoScrollKey = scrollKey;
+      state.lastAutoScrollKey = document.contains(card) && isVocabCardVisible(card) ? scrollKey : "";
     });
   });
 }
