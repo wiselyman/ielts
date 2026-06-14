@@ -463,22 +463,15 @@ function scheduleVocabCardScroll(card, scrollKey) {
 }
 
 function isVocabCardVisible(card) {
-  const container = $(".study-column");
+  const container = vocabScrollContainer();
   const cardRect = card.getBoundingClientRect();
-  const containerRect = container?.getBoundingClientRect();
-  const top = containerRect ? containerRect.top + 10 : 0;
-  const bottom = containerRect ? containerRect.bottom - 10 : window.innerHeight;
+  const { top, bottom } = vocabVisibleBounds(container);
   return cardRect.top >= top && cardRect.bottom <= bottom;
 }
 
 function scrollVocabCardIntoView(card, behavior) {
-  const container = $(".study-column");
+  const container = vocabScrollContainer();
   if (!container) {
-    card.scrollIntoView({ behavior, block: "center", inline: "nearest" });
-    return;
-  }
-  const canScrollInside = container.scrollHeight > container.clientHeight;
-  if (!canScrollInside) {
     card.scrollIntoView({ behavior, block: "center", inline: "nearest" });
     return;
   }
@@ -486,6 +479,29 @@ function scrollVocabCardIntoView(card, behavior) {
   const containerRect = container.getBoundingClientRect();
   const top = cardRect.top - containerRect.top + container.scrollTop - container.clientHeight / 2 + cardRect.height / 2;
   container.scrollTo({ top: Math.max(0, top), behavior });
+}
+
+function vocabScrollContainer() {
+  const container = $(".study-column");
+  if (!container) return null;
+  const style = window.getComputedStyle(container);
+  const canScrollInside = /(auto|scroll)/.test(style.overflowY) && container.scrollHeight > container.clientHeight + 1;
+  return canScrollInside ? container : null;
+}
+
+function vocabVisibleBounds(container) {
+  const margin = 16;
+  if (!container) {
+    return {
+      top: margin,
+      bottom: window.innerHeight - margin,
+    };
+  }
+  const rect = container.getBoundingClientRect();
+  return {
+    top: Math.max(rect.top, 0) + margin,
+    bottom: Math.min(rect.bottom, window.innerHeight) - margin,
+  };
 }
 
 function syncVideoClock(forcedTime) {
