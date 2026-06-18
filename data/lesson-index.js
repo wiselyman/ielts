@@ -155,6 +155,17 @@ window.videoLessons = [
     "summary": "A BBC 6 Minute English lesson for IELTS Band 6 learners, focused on cancer vaccines, immune therapy and medical breakthroughs."
   },
   {
+    "id": "ted-ed-earth-2050",
+    "path": "ted-ed-earth-2050.html",
+    "title": "What Earth in 2050 could look like",
+    "source": "YouTube · TED-Ed",
+    "duration": "5:00",
+    "level": "6",
+    "theme": "climate change, future society, environmental risk",
+    "youtubeId": "2njn71TqkjA",
+    "summary": "A TED-Ed climate lesson for IELTS Band 6 learners, focused on future climate projections, public health risks, sea-level rise and resource scarcity."
+  },
+  {
     "id": "ted-ed-all-nighter",
     "path": "ted-ed-all-nighter.html",
     "title": "What staying up all night does to your brain",

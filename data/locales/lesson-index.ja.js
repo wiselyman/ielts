@@ -17,6 +17,7 @@ window.lessonIndexLocale = {
     "bbc-addictive-platforms": "この BBC Learning English from the News レッスンは、Meta と YouTube が中毒性のあるプラットフォームについて責任を問われた裁判を扱います。IELTS 5.5 前後の学習者がソーシャルメディアと法律ニュースの話題を聞く練習に向いています。重点は、比喩的な（metaphorical）、法的責任がある（liable）、画期的な（landmark）、訴訟（lawsuit）です。",
     "ted-ed-procrastination": "この TED-Ed の短い動画は、よくないと分かっていても先延ばししてしまう理由を説明します。IELTS 6 前後の学習者が、心理的ストレス、学習習慣、自己管理について聞く練習に向いています。重点は、先延ばし（procrastination）、扁桃体（amygdala）、神経細胞（neuron）、ホルモン（hormone）、アドレナリン（adrenaline）、ストレスによって引き起こされる（stress-induced）、前頭前皮質（prefrontal cortex）、恐れ（dread）、認識や捉え方（perception）、影響を受けやすい（susceptible）、誤解（misconception）、無関心（apathy）、身体的不調（ailment）、自分に優しくする姿勢（self-compassion）、続かせること（perpetuate）です。",
     "bbc-cancer-vaccine": "この BBC 6 Minute English レッスンは、がんワクチンと免疫療法を扱います。IELTS 6 前後の学習者が医学と科学技術の話題を聞く練習に向いています。重点は、ワクチン（vaccine）、良性の（benign）、がん性の（cancerous）、悪性の（malignant）、ポリオ（polio）、天然痘（smallpox）、腫瘍学（oncology）、化学療法（chemotherapy）、異常（aberration）、突破口（breakthrough）、乗っ取る（hijack）です。",
+    "ted-ed-earth-2050": "この TED-Ed の短い動画は、未来の気候シナリオを通して、IELTS 6 前後の学習者が環境と社会の話題を聞く練習をするためのレッスンです。重点は、壊滅的な影響（devastating effects）、排出削減の誓約（emissions pledges）、温暖化を阻むこと（thwart warming）、暗い未来（bleak future）、停電（blackout）、干ばつ（drought）、不安定な天候（erratic weather）、呼吸器疾患（respiratory disease）、水没すること（submerge）、インフラの崩壊（crumble infrastructure）、裕福な都市（affluent cities）、資源不足（scarcity）、本当の変化を実行すること（enact real change）です。",
     "ted-ed-all-nighter": "この TED-Ed レッスンは、徹夜が脳に与える影響を説明します。IELTS 6.5 前後の学習者が、睡眠、記憶、神経科学の話題を聞く練習に向いています。重点は、概日リズム（circadian rhythm）、周期的な（cyclical）、減少していく（dwindling）、視交叉上核（suprachiasmatic nucleus）、松果体（pineal gland）、メラトニン（melatonin）、視床下部（hypothalamus）、アデノシン（adenosine）、海馬（hippocampus）、新皮質（neocortex）、睡眠不足（sleep deprivation）、ドーパミン（dopamine）、扁桃体（amygdala）、前頭前皮質（prefrontal cortex）、正常に働かない（haywire）です。",
     "british-council-talk-about-job": "この British Council レッスンは、仕事の役割、デザイン業務、コンテンツ制作を扱い、IELTS 4.5 前後の学習者が自分の仕事を説明する練習に向いています。重点は、会社での役割（role in the company）、デザイン責任者（head of design）、管理する（manage）、グラフィックデザイナー（graphic designer）、コンテンツ制作者（content producer）、〜を担当する（be responsible for）、ソーシャルメディア（social media）、マーケティング（marketing）、研修（training）です。"
   },
@@ -69,6 +70,9 @@ window.lessonIndexLocale = {
     "cancer vaccines": "がんワクチン",
     "immune therapy": "免疫療法",
     "medical science": "医学科学",
+    "climate change": "気候変動",
+    "future society": "未来社会",
+    "environmental risk": "環境リスク",
     "sleep deprivation": "睡眠不足",
     "brain science": "脳科学"
   }
