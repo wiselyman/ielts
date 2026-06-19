@@ -20,6 +20,18 @@ function thumbnailUrl(lesson) {
   return `https://i.ytimg.com/vi/${lesson.youtubeId}/hqdefault.jpg`;
 }
 
+function publicLessonPath(lesson) {
+  return String(lesson.path || "").replace(/\.html$/, "");
+}
+
+function isLocalHost() {
+  return ["localhost", "127.0.0.1", "::1", ""].includes(window.location.hostname);
+}
+
+function lessonHref(lesson) {
+  return isLocalHost() ? lesson.path : publicLessonPath(lesson);
+}
+
 function courseDescription(lesson) {
   return i18n?.localizeSummary(lesson) || homeSummaries[lesson.id] || lesson.summary || "";
 }
@@ -49,7 +61,7 @@ function renderHomeCourses() {
   grid.innerHTML = visibleLessons
     .map(({ lesson }) => {
       return `
-        <a class="home-course-card" data-level="${lesson.level}" href="./lessons/${lesson.path}">
+        <a class="home-course-card" data-level="${lesson.level}" href="./lessons/${lessonHref(lesson)}">
           <span class="course-thumb">
             <img src="${thumbnailUrl(lesson)}" alt="${escapeHtml(lesson.title)}" loading="lazy" />
             <span class="course-level">${escapeHtml(i18n?.t("ieltsBand", { level: lesson.level }) || `雅思 ${lesson.level} 分`)}</span>

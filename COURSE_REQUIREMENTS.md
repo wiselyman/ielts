@@ -235,6 +235,9 @@ window.currentLessonData = {
 
 - 首页标题必须有“雅思视频实验室”，不能只有“视频课程库”。
 - 每个课程页面必须有 title、description、canonical、Open Graph title/description/image。
+- 课程页初始 HTML 里的 `#lesson-title` 必须写入真实标题，不能只依赖 JS 运行后填充。
+- 线上 Cloudflare Pages 会把 `/lessons/<lesson-id>.html` 308 到 `/lessons/<lesson-id>`；公开 SEO URL 必须统一使用无 `.html` 版本。
+- 课程 HTML 文件仍然保留 `.html` 文件名，但 canonical、Open Graph URL、首页链接、课程抽屉跳转和 sitemap 都必须指向无 `.html` 的公开 URL。
 - 每次新增课程必须更新 `sitemap.xml`，线上地址是 `https://ielts.wisely.top/sitemap.xml`。
 - 站点使用 Cloudflare Pages + GitHub 部署。
 - 网站统计使用 Cloudflare Web Analytics，不使用 Google Analytics，除非用户明确要求。

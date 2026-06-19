@@ -26,11 +26,13 @@ const urlEntry = ({ loc, changefreq, priority }) => `  <url>
     <priority>${priority}</priority>
   </url>`;
 
+const publicLessonPath = (lesson) => String(lesson.path || "").replace(/\.html$/, "");
+
 const urls = [
   urlEntry({ loc: `${SITE_URL}/`, changefreq: "daily", priority: "1.0" }),
   ...lessons.map((lesson) =>
     urlEntry({
-      loc: `${SITE_URL}/lessons/${lesson.path}`,
+      loc: `${SITE_URL}/lessons/${publicLessonPath(lesson)}`,
       changefreq: "weekly",
       priority: "0.8",
     }),

@@ -49,7 +49,7 @@ function lessonCues() {
 
 function initialLessonIndex() {
   const fileName = window.location.pathname.split("/").pop();
-  const fromPath = videoLessons.findIndex((lesson) => lesson.path === fileName);
+  const fromPath = videoLessons.findIndex((lesson) => lesson.path === fileName || publicLessonPath(lesson) === fileName);
   if (fromPath >= 0) return fromPath;
   const courseId = new URLSearchParams(window.location.search).get("course");
   const fromUrl = videoLessons.findIndex((lesson) => lesson.id === courseId);
@@ -59,9 +59,21 @@ function initialLessonIndex() {
   return Number(localStorage.getItem("lessonIndex") || 0);
 }
 
+function publicLessonPath(lesson) {
+  return String(lesson.path || "").replace(/\.html$/, "");
+}
+
+function isLocalHost() {
+  return ["localhost", "127.0.0.1", "::1", ""].includes(window.location.hostname);
+}
+
+function lessonNavigationPath(lesson) {
+  return isLocalHost() ? lesson.path : publicLessonPath(lesson);
+}
+
 function updateCourseUrl() {
   if (!window.DEFAULT_COURSE) return;
-  window.history.replaceState({}, "", currentLesson().path);
+  window.history.replaceState({}, "", lessonNavigationPath(currentLesson()));
 }
 
 function toast(message) {
@@ -590,7 +602,7 @@ function renderLocalizedLesson() {
 }
 
 function playNextLesson() {
-  window.location.href = `${videoLessons[nextLessonIndex()].path}?autoplay=1`;
+  window.location.href = `${lessonNavigationPath(videoLessons[nextLessonIndex()])}?autoplay=1`;
 }
 
 function seekBy(delta) {
@@ -662,7 +674,7 @@ document.addEventListener("click", (event) => {
   if (lessonCard) {
     const nextIndex = Number(lessonCard.dataset.lessonIndex);
     if (nextIndex === state.lessonIndex) return;
-    window.location.href = videoLessons[nextIndex].path;
+    window.location.href = lessonNavigationPath(videoLessons[nextIndex]);
     return;
   }
 
