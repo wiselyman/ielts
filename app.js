@@ -503,11 +503,7 @@ function scrollVocabCardIntoView(card, behavior) {
 }
 
 function vocabScrollContainer() {
-  const container = $(".study-column");
-  if (!container) return null;
-  const style = window.getComputedStyle(container);
-  const canScrollInside = /(auto|scroll)/.test(style.overflowY) && container.scrollHeight > container.clientHeight + 1;
-  return canScrollInside ? container : null;
+  return $(".study-column .panel") || $(".study-column");
 }
 
 function vocabVisibleBounds(container) {

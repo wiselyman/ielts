@@ -230,6 +230,7 @@ h2 {
 .home-course-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  grid-auto-rows: 1fr;
   gap: 14px;
   align-items: stretch;
 }
@@ -780,9 +781,13 @@ h2 {
 .study-column {
   position: sticky;
   top: 16px;
+  padding-right: 2px;
+}
+
+.study-column .panel {
   max-height: calc(100vh - 32px);
   overflow: auto;
-  padding-right: 2px;
+  overscroll-behavior: contain;
 }
 
 .toast {
@@ -825,6 +830,10 @@ h2 {
 
   .study-column {
     position: static;
+    padding-right: 0;
+  }
+
+  .study-column .panel {
     max-height: min(46vh, 420px);
     overflow: auto;
     overscroll-behavior: contain;

@@ -18,6 +18,7 @@ window.lessonIndexLocale = {
     "ted-ed-procrastination": "這節 TED-Ed 短片解釋為什麼人明知拖延有害卻仍會拖延，適合雅思 6 分左右學習者訓練心理壓力、學習習慣和自我管理話題。課程重點包括拖延症（procrastination）、杏仁核（amygdala）、神經元（neuron）、激素（hormone）、腎上腺素（adrenaline）、壓力誘發的（stress-induced）、前額葉皮質（prefrontal cortex）、畏懼（dread）、看法或感知（perception）、易受影響的（susceptible）、誤解（misconception）、冷漠（apathy）、身體不適（ailment）、善待自己（self-compassion）和使循環延續（perpetuate）。",
     "bbc-cancer-vaccine": "這節 BBC 6 Minute English 課程討論癌症疫苗和免疫治療，適合雅思 6 分左右學習者訓練醫學科技話題。課程重點包括疫苗（vaccine）、良性的（benign）、癌性的（cancerous）、惡性的（malignant）、小兒麻痺症（polio）、天花（smallpox）、腫瘤學（oncology）、化療（chemotherapy）、異常（aberration）、突破（breakthrough）和劫持或操控（hijack）。",
     "ted-ed-earth-2050": "這節 TED-Ed 短片用未來氣候情境訓練雅思 6 分左右的環境與社會話題聽力。課程重點包括毀滅性影響（devastating effects）、排放承諾（emissions pledges）、阻止升溫（thwart warming）、暗淡未來（bleak future）、停電（blackout）、乾旱（drought）、不穩定天氣（erratic weather）、呼吸系統疾病（respiratory disease）、被淹沒（submerge）、基礎設施崩塌（crumble infrastructure）、富裕城市（affluent cities）、資源短缺（scarcity）和實施真正改變（enact real change）。",
+    "ted-ed-dishwasher-rinse": "這節 TED-Ed 短片解釋洗碗機的運作方式，適合雅思 6 分左右學習者訓練生活科技和基礎化學話題。課程重點包括奢華晚宴（lavish dinner parties）、複雜裝置（contraption）、沖洗（rinse）、噴嘴（nozzle）、濁度感測器（turbidity sensor）、洗滌劑（detergent）、表面活性劑（surfactant）、食物殘留物（food residue）、消毒（disinfect）、生物降解（biodegrade）、污垢（grime）、變形（warp）、變鈍（dull）和暫時緩解（reprieve）。",
     "ted-ed-all-nighter": "這節 TED-Ed 課程講解熬夜如何影響大腦，適合雅思 6.5 分左右學習者訓練睡眠、記憶和神經科學話題。課程重點包括晝夜節律（circadian rhythm）、週期性的（cyclical）、逐漸減少的（dwindling）、視交叉上核（suprachiasmatic nucleus）、松果體（pineal gland）、褪黑素（melatonin）、下丘腦（hypothalamus）、腺苷（adenosine）、海馬體（hippocampus）、新皮質（neocortex）、睡眠剝奪（sleep deprivation）、多巴胺（dopamine）、杏仁核（amygdala）、前額葉皮質（prefrontal cortex）和失控的（haywire）。",
     "british-council-talk-about-job": "這節 British Council 課程圍繞工作崗位、設計職責和內容製作展開，適合雅思 4.5 分左右學習者練習介紹自己的工作。課程重點包括公司裡的職責（role in the company）、設計主管（head of design）、管理（manage）、平面設計師（graphic designer）、內容製作人（content producer）、負責（be responsible for）、社交媒體（social media）、市場行銷（marketing）和培訓（training）。"
   },
@@ -73,6 +74,9 @@ window.lessonIndexLocale = {
     "climate change": "氣候變化",
     "future society": "未來社會",
     "environmental risk": "環境風險",
+    "household science": "生活科學",
+    "dishwasher": "洗碗機",
+    "cleaning technology": "清潔技術",
     "sleep deprivation": "睡眠剝奪",
     "brain science": "腦科學"
   }

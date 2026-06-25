@@ -166,6 +166,17 @@ window.videoLessons = [
     "summary": "A TED-Ed climate lesson for IELTS Band 6 learners, focused on future climate projections, public health risks, sea-level rise and resource scarcity."
   },
   {
+    "id": "ted-ed-dishwasher-rinse",
+    "path": "ted-ed-dishwasher-rinse.html",
+    "title": "Should you rinse your dishes before placing them in the dishwasher?",
+    "source": "YouTube · TED-Ed",
+    "duration": "5:05",
+    "level": "6",
+    "theme": "household science, dishwasher, cleaning technology",
+    "youtubeId": "FBpBUwlDId0",
+    "summary": "A TED-Ed household-science lesson for IELTS Band 6 learners, focused on how dishwashers work, detergent chemistry and practical cleaning choices."
+  },
+  {
     "id": "ted-ed-all-nighter",
     "path": "ted-ed-all-nighter.html",
     "title": "What staying up all night does to your brain",

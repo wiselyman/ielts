@@ -18,6 +18,7 @@ window.lessonIndexLocale = {
     "ted-ed-procrastination": "이 TED-Ed 짧은 영상은 해롭다는 것을 알면서도 왜 일을 미루는지 설명합니다. IELTS 6점 전후 학습자가 심리적 스트레스, 학습 습관, 자기 관리 주제를 듣는 연습에 적합합니다. 핵심은 미루기（procrastination）, 편도체（amygdala）, 뉴런（neuron）, 호르몬（hormone）, 아드레날린（adrenaline）, 스트레스가 유발한（stress-induced）, 전전두엽 피질（prefrontal cortex）, 두려움（dread）, 인식이나 관점（perception）, 영향을 받기 쉬운（susceptible）, 오해（misconception）, 무관심（apathy）, 신체적 질환（ailment）, 자신에게 친절한 태도（self-compassion）, 계속되게 하다（perpetuate）입니다.",
     "bbc-cancer-vaccine": "이 BBC 6 Minute English 수업은 암 백신과 면역 치료를 다룹니다. IELTS 6점 전후 학습자가 의학과 과학기술 주제를 듣는 연습에 적합합니다. 핵심은 백신（vaccine）, 양성의（benign）, 암성의（cancerous）, 악성의（malignant）, 소아마비（polio）, 천연두（smallpox）, 종양학（oncology）, 화학요법（chemotherapy）, 이상（aberration）, 돌파구（breakthrough）, 장악하다（hijack）입니다.",
     "ted-ed-earth-2050": "이 TED-Ed 짧은 영상은 미래 기후 시나리오를 통해 IELTS 6점 전후 학습자가 환경과 사회 주제 듣기를 훈련하는 수업입니다. 핵심은 파괴적인 영향（devastating effects）, 배출 약속（emissions pledges）, 온난화를 막다（thwart warming）, 암울한 미래（bleak future）, 정전（blackout）, 가뭄（drought）, 불규칙한 날씨（erratic weather）, 호흡기 질환（respiratory disease）, 물에 잠기다（submerge）, 기반 시설 붕괴（crumble infrastructure）, 부유한 도시（affluent cities）, 자원 부족（scarcity）, 실제 변화를 시행하다（enact real change）입니다.",
+    "ted-ed-dishwasher-rinse": "이 TED-Ed 짧은 영상은 식기세척기가 어떻게 작동하는지 설명합니다. IELTS 6점 전후 학습자가 생활 과학과 기초 화학 주제를 듣는 연습에 적합합니다. 핵심은 호화로운 만찬（lavish dinner parties）, 복잡한 장치（contraption）, 헹굼（rinse）, 노즐（nozzle）, 탁도 센서（turbidity sensor）, 세제（detergent）, 계면활성제（surfactant）, 음식 잔여물（food residue）, 소독하다（disinfect）, 생분해되다（biodegrade）, 찌든 때（grime）, 휘다（warp）, 무뎌지다（dull）, 잠시의 구제（reprieve）입니다.",
     "ted-ed-all-nighter": "이 TED-Ed 수업은 밤을 새우는 일이 뇌에 어떤 영향을 주는지 설명합니다. IELTS 6.5점 전후 학습자가 수면, 기억, 신경과학 주제를 듣는 연습에 적합합니다. 핵심은 생체 리듬（circadian rhythm）, 주기적인（cyclical）, 점점 줄어드는（dwindling）, 시교차상핵（suprachiasmatic nucleus）, 송과선（pineal gland）, 멜라토닌（melatonin）, 시상하부（hypothalamus）, 아데노신（adenosine）, 해마（hippocampus）, 신피질（neocortex）, 수면 박탈（sleep deprivation）, 도파민（dopamine）, 편도체（amygdala）, 전전두엽 피질（prefrontal cortex）, 제대로 작동하지 않는（haywire）입니다.",
     "british-council-talk-about-job": "이 British Council 수업은 직무 역할, 디자인 업무, 콘텐츠 제작을 다루며 IELTS 4.5점 전후 학습자가 자신의 일을 설명하는 연습에 적합합니다. 핵심은 회사에서의 역할（role in the company）, 디자인 책임자（head of design）, 관리하다（manage）, 그래픽 디자이너（graphic designer）, 콘텐츠 제작자（content producer）, ~을 담당하다（be responsible for）, 소셜 미디어（social media）, 마케팅（marketing）, 교육（training）입니다。"
   },
@@ -73,6 +74,9 @@ window.lessonIndexLocale = {
     "climate change": "기후 변화",
     "future society": "미래 사회",
     "environmental risk": "환경 위험",
+    "household science": "생활 과학",
+    "dishwasher": "식기세척기",
+    "cleaning technology": "세척 기술",
     "sleep deprivation": "수면 박탈",
     "brain science": "뇌과학"
   }
